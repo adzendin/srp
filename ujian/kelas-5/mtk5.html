@@ -4,64 +4,141 @@
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f3f6fb;color:#17233b}
 .top{background:#0b3a7a;color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:5px solid #f2b705}
-.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px} .top h1{margin:8px 0 4px;font-size:26px} .top p{margin:0;opacity:.9}
+.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px}.top h1{margin:8px 0 4px;font-size:26px}.top p{margin:0;opacity:.9}
 .wrap{max-width:760px;margin:18px auto;padding:0 14px 40px}
 .card{background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(11,58,122,.08);padding:20px}
 .badge{display:inline-block;background:#eaf1ff;color:#0b3a7a;padding:6px 10px;border-radius:99px;font-weight:700;font-size:12px}
-.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0} .meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center} .meta b{display:block;font-size:18px}
-.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden} .bar i{display:block;height:100%;background:#0b3a7a;width:0%}
-.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0} .opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px} .opt:hover{border-color:#0b3a7a} .opt.sel{border-color:#0b3a7a;background:#eaf1ff}
-.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer} .primary{background:#0b3a7a;color:#fff} .ghost{background:#eef2f7} .row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
-table{width:100%;border-collapse:collapse;font-size:14px} th,td{border-bottom:1px solid #eef2f7;padding:10px;text-align:left;vertical-align:top} .ok{color:#0a7a3a;font-weight:800} .no{color:#c0392b;font-weight:800}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center}.meta b{display:block;font-size:18px}
+.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#0b3a7a;width:0%}
+.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0}.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px}.opt:hover{border-color:#0b3a7a}.opt.sel{border-color:#0b3a7a;background:#eaf1ff}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.primary{background:#0b3a7a;color:#fff}.ghost{background:#eef2f7}.row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ok{color:#0a7a3a;font-weight:800}.no{color:#c0392b;font-weight:800}
 .exp{background:#f8fafc;border-left:4px solid #f2b705;padding:10px 12px;border-radius:8px;margin-top:6px}
-@media(max-width:520px){.top h1{font-size:21px} .q{font-size:17px}}
-
-@media print{body{background:#fff}.top{ -webkit-print-color-adjust:exact; print-color-adjust:exact} .no-print{display:none!important} .card{box-shadow:none} #start,#quiz{display:none!important} #hasil{display:block!important}}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:99;padding:16px}
 .modal .box{background:#fff;border-radius:16px;padding:22px;max-width:420px;width:100%;text-align:center}
+@media print{body{background:#fff}.top{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.card{box-shadow:none}#start,#quiz{display:none!important}#hasil{display:block!important}}
+@media(max-width:520px){.top h1{font-size:21px}.q{font-size:17px}}
 </style></head><body>
-<div class="top"><small>Surabaya Rumah Pahlawan • Ujian Mandiri Terpadu</small><h1>Matematika Kelas 5 — Reguler</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
+<div class="top"><small>Surabaya Rumah Pahlawan &bull; Ujian Mandiri Terpadu</small><h1>Matematika Kelas 5 &mdash; Reguler</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
 <div class="wrap">
 <div id="start" class="card">
-<span class="badge">KELAS 5 • MTK • REGULER • BIRU PAHLAWAN</span>
+<span class="badge">KELAS 5 &bull; MTK &bull; REGULER &bull; BIRU PAHLAWAN</span>
 <h2 style="margin:12px 0 6px">Selamat Datang, Pejuang Kelas 5!</h2>
 <p style="line-height:1.6;color:#4a5a75">Ujian ini mengukur pemahaman Matematika Kelas 5. Soal diambil acak dari Bank Soal. Kerjakan dengan jujur, Guru akan mengamati hasilmu.</p>
 <div class="meta"><div>Bank Soal<b>50 Soal</b></div><div>Diujikan<b>20 Soal Acak</b></div><div>Waktu<b>40 Menit</b></div><div>Nilai Max<b>100</b></div></div>
 <p style="font-size:14px;color:#4a5a75;line-height:1.6"><b>Cara mengerjakan:</b> Pilih 1 jawaban A-D. Bisa pindah soal dengan tombol Sebelumnya / Berikutnya. Klik Selesai jika sudah yakin. Setelah selesai akan muncul Nilai, Predikat, dan Pembahasan.</p>
 <label style="display:block;margin:14px 0 6px;font-weight:700">Nama Siswa (opsional)</label>
 <input id="nama" placeholder="Contoh: Ahmad - SDN Pahlawan" style="width:100%;padding:13px;border:2px solid #e2e8f0;border-radius:12px;font-size:16px">
-<button class="btn primary" style="width:100%;margin-top:16px;font-size:17px" onclick="mulai()">Mulai Ujian →</button>
-<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP • Guru sebagai Pengamat • Siswa sebagai Pejuang</p>
+<button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
+<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP &bull; Guru sebagai Pengamat &bull; Siswa sebagai Pejuang</p>
 </div>
-
 <div id="quiz" class="card" style="display:none">
 <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
 <div class="bar" style="margin:12px 0"><i id="progBar"></i></div>
 <div class="q" id="qText"></div><div id="opts"></div>
-<div class="row"><button class="btn ghost" onclick="prev()">← Sebelumnya</button><button class="btn primary" onclick="next()">Berikutnya →</button></div>
-<button class="btn" style="width:100%;margin-top:12px;background:#f2b705" onclick="mintaSelesai()">Selesai & Lihat Hasil</button>
+<div class="row"><button type="button" class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button type="button" class="btn primary" id="btnNext">Berikutnya &rarr;</button></div>
+<button type="button" class="btn" id="btnSelesai" style="width:100%;margin-top:12px;background:#f2b705">Selesai &amp; Lihat Hasil</button>
+<p id="debug" style="font-size:11px;color:#999;text-align:center"></p>
 </div>
-
 <div id="hasil" class="card" style="display:none">
 <h2 id="hasilJudul" style="margin:0"></h2><p id="hasilNama" style="color:#5a6b88"></p>
 <div style="text-align:center;background:#eaf1ff;border-radius:14px;padding:20px;margin:14px 0"><div style="font-size:52px;font-weight:900;color:#0b3a7a" id="skor">0</div><div id="predikat" style="font-weight:800"></div><div id="ringkasan" style="margin-top:6px;color:#4a5a75"></div></div>
-<div id="review"></div>
 <div style="background:#f3f6fb;border-radius:12px;padding:14px;margin-top:14px;font-size:14px;line-height:1.7" id="jamInfo"></div>
 <div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
-<button class="btn" style="flex:1;background:#25D366;color:#fff" onclick="kirimWA()">📲 Kirim Ringkas ke WhatsApp Guru / Wali</button>
-<button class="btn" style="flex:1;background:#0b3a7a;color:#fff" onclick="window.print()">🖨️ Cetak PDF - Semua Jawaban + Pembahasan</button>
+<button type="button" class="btn" id="btnWA" style="flex:1;background:#25D366;color:#fff">Kirim Ringkas ke WhatsApp Guru / Wali</button>
+<button type="button" class="btn" id="btnPrint" style="flex:1;background:#0b3a7a;color:#fff">Cetak PDF - Semua Jawaban + Pembahasan</button>
 </div>
-<button class="btn primary no-print" style="width:100%;margin-top:12px" onclick="location.reload()">Ulangi Ujian (Soal Baru Diacak)</button>
-<a href="../index.html" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">← Kembali ke Pilih Kelas</a>
+<div id="review"></div>
+<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="location.reload()">Ulangi Ujian (Soal Baru Diacak)</button>
+<a href="../index.html" class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
 </div>
 </div>
+<div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button type="button" class="btn ghost" id="btnBatal" style="flex:1">Belum, Cek Lagi</button><button type="button" class="btn primary" id="btnYaSelesai" style="flex:1">Ya, Selesai</button></div></div></div>
 <script>
-const BANK=[{"q": "Bilangan 75.432 dibaca ...", "o": ["Tujuh puluh lima ribu empat ratus tiga puluh dua", "Tujuh puluh lima ribu empat ratus dua puluh tiga", "Tujuh lima ribu empat ratus tiga puluh dua", "Tujuh puluh lima empat ratus tiga puluh dua"], "a": 0, "e": "75.432 = 75 ribu + 432. Jadi dibaca tujuh puluh lima ribu empat ratus tiga puluh dua."}, {"q": "Nilai tempat angka 7 pada bilangan 47.258 adalah ...", "o": ["Ribuan", "Puluhan ribu", "Ratusan", "Puluhan"], "a": 0, "e": "Pada 47.258, angka 7 menempati ribuan, nilainya 7.000."}, {"q": "45.000 + 12.750 = ...", "o": ["57.750", "58.750", "57.500", "56.750"], "a": 0, "e": "45.000 + 12.750 = 57.750."}, {"q": "100.000 - 23.450 = ...", "o": ["76.550", "76.450", "77.550", "76.500"], "a": 0, "e": "100.000 - 23.450 = 76.550."}, {"q": "Hasil dari 125 x 8 adalah ...", "o": ["1.000", "1.025", "960", "1.100"], "a": 0, "e": "125 x 8 = 1.000. Ingat 100x8=800 dan 25x8=200."}, {"q": "1.200 : 15 = ...", "o": ["80", "75", "85", "90"], "a": 0, "e": "15 x 80 = 1.200, jadi 1.200 : 15 = 80."}, {"q": "KPK dari 6 dan 8 adalah ...", "o": ["24", "16", "48", "12"], "a": 0, "e": "Kelipatan 6: 6,12,18,24. Kelipatan 8: 8,16,24. KPK-nya 24."}, {"q": "FPB dari 12 dan 18 adalah ...", "o": ["6", "3", "9", "12"], "a": 0, "e": "Faktor 12: 1,2,3,4,6,12. Faktor 18: 1,2,3,6,9,18. Terbesar yang sama adalah 6."}, {"q": "Pecahan 3/4 jika diubah ke desimal adalah ...", "o": ["0,75", "0,34", "0,43", "0,7"], "a": 0, "e": "3 : 4 = 0,75."}, {"q": "Bentuk persen dari 1/2 adalah ...", "o": ["50%", "25%", "5%", "15%"], "a": 0, "e": "1/2 = 50/100 = 50%."}, {"q": "2 1/2 + 1 1/4 = ...", "o": ["3 3/4", "3 1/4", "4 3/4", "3 2/4"], "a": 0, "e": "2 1/2 = 2 2/4. 2 2/4 + 1 1/4 = 3 3/4."}, {"q": "0,5 + 0,25 = ...", "o": ["0,75", "0,30", "0,55", "0,80"], "a": 0, "e": "0,5 = 0,50. 0,50 + 0,25 = 0,75."}, {"q": "75% dari 200 adalah ...", "o": ["150", "125", "175", "100"], "a": 0, "e": "75/100 x 200 = 150."}, {"q": "Keliling persegi dengan sisi 12 cm adalah ...", "o": ["48 cm", "144 cm", "36 cm", "24 cm"], "a": 0, "e": "Keliling persegi = 4 x sisi = 4 x 12 = 48 cm."}, {"q": "Luas persegi panjang dengan panjang 15 cm dan lebar 8 cm adalah ...", "o": ["120 cm²", "46 cm²", "23 cm²", "110 cm²"], "a": 0, "e": "Luas = panjang x lebar = 15 x 8 = 120 cm²."}, {"q": "Luas segitiga dengan alas 10 cm dan tinggi 6 cm adalah ...", "o": ["30 cm²", "60 cm²", "16 cm²", "32 cm²"], "a": 0, "e": "Luas segitiga = 1/2 x alas x tinggi = 1/2 x 10 x 6 = 30 cm²."}, {"q": "Keliling segitiga dengan sisi 7 cm, 8 cm, dan 9 cm adalah ...", "o": ["24 cm", "21 cm", "25 cm", "22 cm"], "a": 0, "e": "Keliling = 7 + 8 + 9 = 24 cm."}, {"q": "Volume kubus dengan rusuk 5 cm adalah ...", "o": ["125 cm³", "25 cm³", "75 cm³", "100 cm³"], "a": 0, "e": "Volume kubus = sisi x sisi x sisi = 5 x 5 x 5 = 125 cm³."}, {"q": "Volume balok dengan panjang 10 cm, lebar 4 cm, tinggi 5 cm adalah ...", "o": ["200 cm³", "100 cm³", "190 cm³", "150 cm³"], "a": 0, "e": "Volume balok = p x l x t = 10 x 4 x 5 = 200 cm³."}, {"q": "Sebuah kubus memiliki volume 64 cm³. Panjang rusuknya adalah ...", "o": ["4 cm", "6 cm", "8 cm", "3 cm"], "a": 0, "e": "4 x 4 x 4 = 64, jadi rusuknya 4 cm."}, {"q": "Urutan bilangan dari yang terkecil: 45.200, 45.020, 45.002 adalah ...", "o": ["45.002, 45.020, 45.200", "45.200, 45.020, 45.002", "45.020, 45.002, 45.200", "45.002, 45.200, 45.020"], "a": 0, "e": "Bandingkan dari ribuan. 45.002 paling kecil, lalu 45.020, lalu 45.200."}, {"q": "Bilangan yang 5.000 lebih besar dari 23.500 adalah ...", "o": ["28.500", "18.500", "23.000", "29.500"], "a": 0, "e": "23.500 + 5.000 = 28.500."}, {"q": "Hasil dari 2.500 : 25 + 15 adalah ...", "o": ["115", "100", "125", "110"], "a": 0, "e": "Bagi dulu: 2.500:25=100. Lalu 100+15=115."}, {"q": "Ibu membeli 3 lusin pensil. Jumlah pensil Ibu adalah ...", "o": ["36 buah", "24 buah", "30 buah", "48 buah"], "a": 0, "e": "1 lusin = 12. 3 lusin = 3 x 12 = 36."}, {"q": "Jarak rumah ke sekolah 2 km. Jika diubah ke meter adalah ...", "o": ["2.000 m", "200 m", "20 m", "2.500 m"], "a": 0, "e": "1 km = 1.000 m. Jadi 2 km = 2.000 m."}, {"q": "Berat sebuah semangka 2,5 kg. Jika diubah ke gram adalah ...", "o": ["2.500 gram", "250 gram", "25 gram", "2.050 gram"], "a": 0, "e": "1 kg = 1.000 gram. 2,5 kg = 2.500 gram."}, {"q": "Pecahan yang senilai dengan 2/3 adalah ...", "o": ["4/6", "2/6", "3/2", "1/3"], "a": 0, "e": "2/3 dikali 2/2 = 4/6. Pembilang dan penyebut dikali bilangan yang sama."}, {"q": "1/4 + 2/4 = ...", "o": ["3/4", "3/8", "1/2", "2/4"], "a": 0, "e": "Penyebut sama, tinggal tambah pembilang: 1+2=3, jadi 3/4."}, {"q": "5/6 - 1/6 = ...", "o": ["4/6", "4/12", "5/6", "2/3"], "a": 0, "e": "5/6 - 1/6 = 4/6. Bisa disederhanakan jadi 2/3, tapi 4/6 tetap benar."}, {"q": "Pecahan campuran dari 7/3 adalah ...", "o": ["2 1/3", "2 2/3", "1 2/3", "3 1/3"], "a": 0, "e": "7 : 3 = 2 sisa 1, jadi 2 1/3."}, {"q": "Diagram batang menunjukkan penjualan Senin 20, Selasa 30, Rabu 25. Total 3 hari adalah ...", "o": ["75", "70", "65", "80"], "a": 0, "e": "20 + 30 + 25 = 75."}, {"q": "Nilai rata-rata dari 60, 80, dan 100 adalah ...", "o": ["80", "70", "90", "75"], "a": 0, "e": "Jumlah 240 dibagi 3 = 80."}, {"q": "Suhu awal 25°C, turun 8°C. Suhu sekarang adalah ...", "o": ["17°C", "33°C", "20°C", "15°C"], "a": 0, "e": "25 - 8 = 17°C."}, {"q": "Sebuah lapangan berbentuk persegi panjang panjang 20 m lebar 10 m. Kelilingnya adalah ...", "o": ["60 m", "200 m", "40 m", "30 m"], "a": 0, "e": "Keliling = 2 x (p+l) = 2 x 30 = 60 m."}, {"q": "Luas persegi 81 cm². Panjang sisinya adalah ...", "o": ["9 cm", "8 cm", "7 cm", "10 cm"], "a": 0, "e": "9 x 9 = 81, jadi sisinya 9 cm."}, {"q": "Sebuah balok memiliki volume 120 cm³. Jika panjang 10 cm dan lebar 4 cm, tingginya adalah ...", "o": ["3 cm", "4 cm", "5 cm", "6 cm"], "a": 0, "e": "120 : (10 x 4) = 120 : 40 = 3 cm."}, {"q": "KPK dari 12 dan 15 adalah ...", "o": ["60", "30", "45", "90"], "a": 0, "e": "Kelipatan 12: 12,24,36,48,60. Kelipatan 15: 15,30,45,60. KPK 60."}, {"q": "FPB dari 20 dan 30 adalah ...", "o": ["10", "5", "15", "20"], "a": 0, "e": "Faktor terbesar yang sama dari 20 dan 30 adalah 10."}, {"q": "Lampu A menyala tiap 4 menit, lampu B tiap 6 menit. Kapan menyala bersama lagi? ...", "o": ["12 menit lagi", "10 menit lagi", "24 menit lagi", "8 menit lagi"], "a": 0, "e": "Ini soal KPK dari 4 dan 6 = 12."}, {"q": "Ayah membagi 48 permen kepada 4 anak sama banyak. Tiap anak dapat ...", "o": ["12 permen", "16 permen", "10 permen", "14 permen"], "a": 0, "e": "48 : 4 = 12."}, {"q": "Harga 5 buku Rp25.000. Harga 1 buku adalah ...", "o": ["Rp5.000", "Rp4.000", "Rp6.000", "Rp5.500"], "a": 0, "e": "25.000 : 5 = 5.000."}, {"q": "Jika 1 jam = 60 menit, maka 3 jam = ...", "o": ["180 menit", "120 menit", "150 menit", "200 menit"], "a": 0, "e": "3 x 60 = 180 menit."}, {"q": "Bilangan 0,8 lebih besar dari ...", "o": ["0,75", "0,85", "0,9", "0,95"], "a": 0, "e": "0,8 = 0,80. 0,80 lebih besar dari 0,75."}, {"q": "Pecahan desimal dari 3/10 adalah ...", "o": ["0,3", "0,03", "3,0", "0,33"], "a": 0, "e": "3/10 = 0,3."}, {"q": "Sebuah segitiga memiliki alas 12 cm dan luas 36 cm². Tingginya adalah ...", "o": ["6 cm", "4 cm", "8 cm", "12 cm"], "a": 0, "e": "Luas = 1/2 x alas x tinggi. 36 = 1/2 x 12 x t. Jadi t = 6 cm."}, {"q": "Data nilai: 70, 80, 80, 90, 100. Nilai yang paling sering muncul adalah ...", "o": ["80", "70", "90", "100"], "a": 0, "e": "80 muncul 2 kali, paling sering. Ini disebut modus."}, {"q": "Sebuah toko menjual 15 kotak pensil, tiap kotak isi 12. Total pensil adalah ...", "o": ["180", "150", "120", "170"], "a": 0, "e": "15 x 12 = 180."}, {"q": "Hasil dari 15 x 12 - 50 adalah ...", "o": ["130", "120", "140", "150"], "a": 0, "e": "Kali dulu: 15x12=180. Lalu 180-50=130."}, {"q": "Budi memiliki uang Rp50.000. Ia membeli mainan Rp27.500. Sisa uang Budi adalah ...", "o": ["Rp22.500", "Rp23.500", "Rp22.000", "Rp27.500"], "a": 0, "e": "50.000 - 27.500 = 22.500."}, {"q": "Pecahan 5/8 lebih kecil dari ...", "o": ["3/4", "1/2", "1/4", "1/8"], "a": 0, "e": "5/8 = 0,625. 3/4 = 0,75. Jadi 5/8 lebih kecil dari 3/4."}];
-let soal=[], idx=0, jawab=Array(20).fill(null), sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
-function acak(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function mulai(){ soal=acak([...BANK]).slice(0,20); document.getElementById('start').style.display='none'; document.getElementById('quiz').style.display='block'; tampil(); timerInt=setInterval(()=>{sisa--; let m=Math.floor(sisa/60), s=sisa%60; document.getElementById('timer').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0'); if(sisa<=0){clearInterval(timerInt); selesai()}},1000)}
-function tampil(){ document.getElementById('progText').textContent='Soal '+(idx+1)+' dari 20'; document.getElementById('progBar').style.width=((idx+1)/20*100)+'%'; document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q; let c=document.getElementById('opts'); c.innerHTML=''; let huruf=['A','B','C','D']; soal[idx].o.forEach((o,i)=>{let b=document.createElement('button'); b.className='opt'+(jawab[idx]===i?' sel':''); b.innerHTML='<b>'+huruf[i]+'.</b> '+o; b.onclick=()=>{jawab[idx]=i; tampil()}; c.appendChild(b)})}
-function next(){ if(idx<19) idx++; tampil() } function prev(){ if(idx>0) idx--; tampil() }
-function selesai(){ if(timerInt) clearInterval(timerInt); let benar=soal.filter((s,i)=>jawab[i]===s.a).length; let nilai=Math.round(benar/20*100); let pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi'; benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred; document.getElementById('jamInfo').innerHTML='<b>⏰ Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp; | &nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp; | &nbsp; <b>Durasi:</b> '+Math.round((jamAkhir-jamMulai)/1000/60)+' menit'; document.getElementById('quiz').style.display='none'; let h=document.getElementById('hasil'); h.style.display='block'; let nama=document.getElementById('nama').value||'Pejuang Kelas 5'; document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama; document.getElementById('hasilNama').textContent='Matematika Kelas 5 • Reguler • '+new Date().toLocaleDateString('id-ID'); document.getElementById('skor').textContent=nilai; document.getElementById('predikat').textContent=pred; document.getElementById('ringkasan').textContent='Benar '+benar+' dari 20 soal • Salah '+(20-benar)+' soal'; let huruf=['A','B','C','D']; let rev=document.getElementById('review'); rev.innerHTML='<h3>Pembahasan</h3>'; soal.forEach((s,i)=>{ let ok=jawab[i]===s.a; rev.innerHTML+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(i+1)+'. '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'✓ Benar':'✗ Kurang Tepat')+'</span> • Jawaban kamu: '+(jawab[i]==null?'Tidak dijawab':huruf[jawab[i]]+'. '+s.o[jawab[i]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>'}); window.scrollTo(0,0)}
-</script><div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button class="btn ghost" style="flex:1" onclick="tutupModal()">Belum, Cek Lagi</button><button class="btn primary" style="flex:1" onclick="konfirmSelesai()">Ya, Selesai</button></div></div></div>
-</body></html>
+var BANK = [{"q": "Bilangan 75.432 dibaca ...", "o": ["Tujuh puluh lima ribu empat ratus tiga puluh dua", "Tujuh puluh lima ribu empat ratus dua puluh tiga", "Tujuh lima ribu empat ratus tiga puluh dua", "Tujuh puluh lima empat ratus tiga puluh dua"], "a": 0, "e": "75.432 = 75 ribu + 432. Jadi dibaca tujuh puluh lima ribu empat ratus tiga puluh dua."}, {"q": "Nilai tempat angka 7 pada bilangan 47.258 adalah ...", "o": ["Ribuan", "Puluhan ribu", "Ratusan", "Puluhan"], "a": 0, "e": "Pada 47.258, angka 7 menempati ribuan, nilainya 7.000."}, {"q": "45.000 + 12.750 = ...", "o": ["57.750", "58.750", "57.500", "56.750"], "a": 0, "e": "45.000 + 12.750 = 57.750."}, {"q": "100.000 - 23.450 = ...", "o": ["76.550", "76.450", "77.550", "76.500"], "a": 0, "e": "100.000 - 23.450 = 76.550."}, {"q": "Hasil dari 125 x 8 adalah ...", "o": ["1.000", "1.025", "960", "1.100"], "a": 0, "e": "125 x 8 = 1.000. Ingat 100x8=800 dan 25x8=200."}, {"q": "1.200 : 15 = ...", "o": ["80", "75", "85", "90"], "a": 0, "e": "15 x 80 = 1.200, jadi 1.200 : 15 = 80."}, {"q": "KPK dari 6 dan 8 adalah ...", "o": ["24", "16", "48", "12"], "a": 0, "e": "Kelipatan 6: 6,12,18,24. Kelipatan 8: 8,16,24. KPK-nya 24."}, {"q": "FPB dari 12 dan 18 adalah ...", "o": ["6", "3", "9", "12"], "a": 0, "e": "Faktor 12: 1,2,3,4,6,12. Faktor 18: 1,2,3,6,9,18. Terbesar yang sama adalah 6."}, {"q": "Pecahan 3/4 jika diubah ke desimal adalah ...", "o": ["0,75", "0,34", "0,43", "0,7"], "a": 0, "e": "3 : 4 = 0,75."}, {"q": "Bentuk persen dari 1/2 adalah ...", "o": ["50%", "25%", "5%", "15%"], "a": 0, "e": "1/2 = 50/100 = 50%."}, {"q": "2 1/2 + 1 1/4 = ...", "o": ["3 3/4", "3 1/4", "4 3/4", "3 2/4"], "a": 0, "e": "2 1/2 = 2 2/4. 2 2/4 + 1 1/4 = 3 3/4."}, {"q": "0,5 + 0,25 = ...", "o": ["0,75", "0,30", "0,55", "0,80"], "a": 0, "e": "0,5 = 0,50. 0,50 + 0,25 = 0,75."}, {"q": "75% dari 200 adalah ...", "o": ["150", "125", "175", "100"], "a": 0, "e": "75/100 x 200 = 150."}, {"q": "Keliling persegi dengan sisi 12 cm adalah ...", "o": ["48 cm", "144 cm", "36 cm", "24 cm"], "a": 0, "e": "Keliling persegi = 4 x sisi = 4 x 12 = 48 cm."}, {"q": "Luas persegi panjang dengan panjang 15 cm dan lebar 8 cm adalah ...", "o": ["120 cm²", "46 cm²", "23 cm²", "110 cm²"], "a": 0, "e": "Luas = panjang x lebar = 15 x 8 = 120 cm²."}, {"q": "Luas segitiga dengan alas 10 cm dan tinggi 6 cm adalah ...", "o": ["30 cm²", "60 cm²", "16 cm²", "32 cm²"], "a": 0, "e": "Luas segitiga = 1/2 x alas x tinggi = 1/2 x 10 x 6 = 30 cm²."}, {"q": "Keliling segitiga dengan sisi 7 cm, 8 cm, dan 9 cm adalah ...", "o": ["24 cm", "21 cm", "25 cm", "22 cm"], "a": 0, "e": "Keliling = 7 + 8 + 9 = 24 cm."}, {"q": "Volume kubus dengan rusuk 5 cm adalah ...", "o": ["125 cm³", "25 cm³", "75 cm³", "100 cm³"], "a": 0, "e": "Volume kubus = sisi x sisi x sisi = 5 x 5 x 5 = 125 cm³."}, {"q": "Volume balok dengan panjang 10 cm, lebar 4 cm, tinggi 5 cm adalah ...", "o": ["200 cm³", "100 cm³", "190 cm³", "150 cm³"], "a": 0, "e": "Volume balok = p x l x t = 10 x 4 x 5 = 200 cm³."}, {"q": "Sebuah kubus memiliki volume 64 cm³. Panjang rusuknya adalah ...", "o": ["4 cm", "6 cm", "8 cm", "3 cm"], "a": 0, "e": "4 x 4 x 4 = 64, jadi rusuknya 4 cm."}, {"q": "Urutan bilangan dari yang terkecil: 45.200, 45.020, 45.002 adalah ...", "o": ["45.002, 45.020, 45.200", "45.200, 45.020, 45.002", "45.020, 45.002, 45.200", "45.002, 45.200, 45.020"], "a": 0, "e": "Bandingkan dari ribuan. 45.002 paling kecil, lalu 45.020, lalu 45.200."}, {"q": "Bilangan yang 5.000 lebih besar dari 23.500 adalah ...", "o": ["28.500", "18.500", "23.000", "29.500"], "a": 0, "e": "23.500 + 5.000 = 28.500."}, {"q": "Hasil dari 2.500 : 25 + 15 adalah ...", "o": ["115", "100", "125", "110"], "a": 0, "e": "Bagi dulu: 2.500:25=100. Lalu 100+15=115."}, {"q": "Ibu membeli 3 lusin pensil. Jumlah pensil Ibu adalah ...", "o": ["36 buah", "24 buah", "30 buah", "48 buah"], "a": 0, "e": "1 lusin = 12. 3 lusin = 3 x 12 = 36."}, {"q": "Jarak rumah ke sekolah 2 km. Jika diubah ke meter adalah ...", "o": ["2.000 m", "200 m", "20 m", "2.500 m"], "a": 0, "e": "1 km = 1.000 m. Jadi 2 km = 2.000 m."}, {"q": "Berat sebuah semangka 2,5 kg. Jika diubah ke gram adalah ...", "o": ["2.500 gram", "250 gram", "25 gram", "2.050 gram"], "a": 0, "e": "1 kg = 1.000 gram. 2,5 kg = 2.500 gram."}, {"q": "Pecahan yang senilai dengan 2/3 adalah ...", "o": ["4/6", "2/6", "3/2", "1/3"], "a": 0, "e": "2/3 dikali 2/2 = 4/6. Pembilang dan penyebut dikali bilangan yang sama."}, {"q": "1/4 + 2/4 = ...", "o": ["3/4", "3/8", "1/2", "2/4"], "a": 0, "e": "Penyebut sama, tinggal tambah pembilang: 1+2=3, jadi 3/4."}, {"q": "5/6 - 1/6 = ...", "o": ["4/6", "4/12", "5/6", "2/3"], "a": 0, "e": "5/6 - 1/6 = 4/6. Bisa disederhanakan jadi 2/3, tapi 4/6 tetap benar."}, {"q": "Pecahan campuran dari 7/3 adalah ...", "o": ["2 1/3", "2 2/3", "1 2/3", "3 1/3"], "a": 0, "e": "7 : 3 = 2 sisa 1, jadi 2 1/3."}, {"q": "Diagram batang menunjukkan penjualan Senin 20, Selasa 30, Rabu 25. Total 3 hari adalah ...", "o": ["75", "70", "65", "80"], "a": 0, "e": "20 + 30 + 25 = 75."}, {"q": "Nilai rata-rata dari 60, 80, dan 100 adalah ...", "o": ["80", "70", "90", "75"], "a": 0, "e": "Jumlah 240 dibagi 3 = 80."}, {"q": "Suhu awal 25°C, turun 8°C. Suhu sekarang adalah ...", "o": ["17°C", "33°C", "20°C", "15°C"], "a": 0, "e": "25 - 8 = 17°C."}, {"q": "Sebuah lapangan berbentuk persegi panjang panjang 20 m lebar 10 m. Kelilingnya adalah ...", "o": ["60 m", "200 m", "40 m", "30 m"], "a": 0, "e": "Keliling = 2 x (p+l) = 2 x 30 = 60 m."}, {"q": "Luas persegi 81 cm². Panjang sisinya adalah ...", "o": ["9 cm", "8 cm", "7 cm", "10 cm"], "a": 0, "e": "9 x 9 = 81, jadi sisinya 9 cm."}, {"q": "Sebuah balok memiliki volume 120 cm³. Jika panjang 10 cm dan lebar 4 cm, tingginya adalah ...", "o": ["3 cm", "4 cm", "5 cm", "6 cm"], "a": 0, "e": "120 : (10 x 4) = 120 : 40 = 3 cm."}, {"q": "KPK dari 12 dan 15 adalah ...", "o": ["60", "30", "45", "90"], "a": 0, "e": "Kelipatan 12: 12,24,36,48,60. Kelipatan 15: 15,30,45,60. KPK 60."}, {"q": "FPB dari 20 dan 30 adalah ...", "o": ["10", "5", "15", "20"], "a": 0, "e": "Faktor terbesar yang sama dari 20 dan 30 adalah 10."}, {"q": "Lampu A menyala tiap 4 menit, lampu B tiap 6 menit. Kapan menyala bersama lagi? ...", "o": ["12 menit lagi", "10 menit lagi", "24 menit lagi", "8 menit lagi"], "a": 0, "e": "Ini soal KPK dari 4 dan 6 = 12."}, {"q": "Ayah membagi 48 permen kepada 4 anak sama banyak. Tiap anak dapat ...", "o": ["12 permen", "16 permen", "10 permen", "14 permen"], "a": 0, "e": "48 : 4 = 12."}, {"q": "Harga 5 buku Rp25.000. Harga 1 buku adalah ...", "o": ["Rp5.000", "Rp4.000", "Rp6.000", "Rp5.500"], "a": 0, "e": "25.000 : 5 = 5.000."}, {"q": "Jika 1 jam = 60 menit, maka 3 jam = ...", "o": ["180 menit", "120 menit", "150 menit", "200 menit"], "a": 0, "e": "3 x 60 = 180 menit."}, {"q": "Bilangan 0,8 lebih besar dari ...", "o": ["0,75", "0,85", "0,9", "0,95"], "a": 0, "e": "0,8 = 0,80. 0,80 lebih besar dari 0,75."}, {"q": "Pecahan desimal dari 3/10 adalah ...", "o": ["0,3", "0,03", "3,0", "0,33"], "a": 0, "e": "3/10 = 0,3."}, {"q": "Sebuah segitiga memiliki alas 12 cm dan luas 36 cm². Tingginya adalah ...", "o": ["6 cm", "4 cm", "8 cm", "12 cm"], "a": 0, "e": "Luas = 1/2 x alas x tinggi. 36 = 1/2 x 12 x t. Jadi t = 6 cm."}, {"q": "Data nilai: 70, 80, 80, 90, 100. Nilai yang paling sering muncul adalah ...", "o": ["80", "70", "90", "100"], "a": 0, "e": "80 muncul 2 kali, paling sering. Ini disebut modus."}, {"q": "Sebuah toko menjual 15 kotak pensil, tiap kotak isi 12. Total pensil adalah ...", "o": ["180", "150", "120", "170"], "a": 0, "e": "15 x 12 = 180."}, {"q": "Hasil dari 15 x 12 - 50 adalah ...", "o": ["130", "120", "140", "150"], "a": 0, "e": "Kali dulu: 15x12=180. Lalu 180-50=130."}, {"q": "Budi memiliki uang Rp50.000. Ia membeli mainan Rp27.500. Sisa uang Budi adalah ...", "o": ["Rp22.500", "Rp23.500", "Rp22.000", "Rp27.500"], "a": 0, "e": "50.000 - 27.500 = 22.500."}, {"q": "Pecahan 5/8 lebih kecil dari ...", "o": ["3/4", "1/2", "1/4", "1/8"], "a": 0, "e": "5/8 = 0,625. 3/4 = 0,75. Jadi 5/8 lebih kecil dari 3/4."}];
+var soal=[], idx=0, jawab=[], sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
+function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+function mulai(){
+  jamMulai=new Date();
+  soal=acak(BANK.slice()).slice(0,20);
+  jawab=[]; for(var i=0;i<20;i++) jawab.push(null);
+  idx=0; sisa=40*60;
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--;
+    var m=Math.floor(sisa/60), s=sisa%60;
+    document.getElementById('timer').textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+}
+function tampil(){
+  document.getElementById('progText').textContent='Soal '+(idx+1)+' dari 20';
+  document.getElementById('progBar').style.width=((idx+1)/20*100)+'%';
+  document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q;
+  var c=document.getElementById('opts'); c.innerHTML='';
+  var huruf=['A','B','C','D'];
+  for(var i=0;i<4;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.type='button';
+      b.className='opt'+(jawab[idx]===i?' sel':'');
+      b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i];
+      b.onclick=function(){jawab[idx]=i; tampil();};
+      c.appendChild(b);
+    })(i);
+  }
+}
+function mintaSelesai(){
+  var dijawab=0; for(var i=0;i<jawab.length;i++) if(jawab[i]!==null) dijawab++;
+  var msg='Kamu baru menjawab <b>'+dijawab+' dari 20 soal</b>.<br>';
+  msg+=(dijawab<20)?('Masih ada '+(20-dijawab)+' soal yang belum dijawab. Yakin mau selesai?'):('Semua soal sudah dijawab. Lanjut lihat hasil?');
+  document.getElementById('modalInfo').innerHTML=msg;
+  document.getElementById('modalSelesai').style.display='flex';
+}
+function tutupModal(){document.getElementById('modalSelesai').style.display='none';}
+function selesai(){
+  if(timerInt) clearInterval(timerInt);
+  tutupModal();
+  jamAkhir=new Date();
+  var benar=0; for(var i=0;i<soal.length;i++) if(jawab[i]===soal[i].a) benar++;
+  var nilai=Math.round(benar/20*100);
+  var pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi';
+  benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred;
+  document.getElementById('quiz').style.display='none';
+  var h=document.getElementById('hasil'); h.style.display='block';
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+  document.getElementById('hasilNama').textContent='Matematika Kelas 5 - Reguler - '+new Date().toLocaleDateString('id-ID');
+  document.getElementById('skor').textContent=nilai;
+  document.getElementById('predikat').textContent=pred;
+  document.getElementById('ringkasan').textContent='Benar '+benar+' dari 20 soal - Salah '+(20-benar)+' soal';
+  document.getElementById('jamInfo').innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit';
+  var huruf=['A','B','C','D'];
+  var rev=document.getElementById('review');
+  var out='<h3>Pembahasan</h3>';
+  for(var k=0;k<soal.length;k++){
+    var s=soal[k]; var ok=jawab[k]===s.a;
+    out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';
+  }
+  rev.innerHTML=out;
+  window.scrollTo(0,0);
+}
+function kirimWA(){
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  var lines=['HASIL UJIAN SRP','Nama: '+nama,'Ujian: Matematika Kelas 5 - Reguler','Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 20 soal','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'------------------------','SURABAYA RUMAH PAHLAWAN','APLIKASI UJIAN MANDIRI TERPADU'];
+  window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank');
+}
+document.getElementById('btnMulai').onclick=mulai;
+document.getElementById('btnNext').onclick=function(){if(idx<19) idx++; tampil();};
+document.getElementById('btnPrev').onclick=function(){if(idx>0) idx--; tampil();};
+document.getElementById('btnSelesai').onclick=mintaSelesai;
+document.getElementById('btnBatal').onclick=tutupModal;
+document.getElementById('btnYaSelesai').onclick=selesai;
+document.getElementById('btnWA').onclick=kirimWA;
+document.getElementById('btnPrint').onclick=function(){window.print();};
+document.getElementById('modalSelesai').onclick=function(e){if(e.target===this) tutupModal();};
+</script></body></html>
