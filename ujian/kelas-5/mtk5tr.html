@@ -32,8 +32,14 @@
 <button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
 <p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP &bull; Guru sebagai Pengamat &bull; Siswa sebagai Pejuang</p>
 </div>
+
+<div id="resumeBox" class="card" style="display:none;border:2px solid #f2b705">
+<h3 style="margin:0 0 8px">Lanjut Ujian Terakhir?</h3>
+<p id="resumeText" style="line-height:1.6;color:#4a5a75"></p>
+<div class="row"><button class="btn ghost" type="button" onclick="mulaiBaru()">Mulai Baru (Hapus yang Lama)</button><button class="btn primary" type="button" onclick="lanjutUjian()">Ya, Lanjut →</button></div>
+</div>
 <div id="quiz" class="card" style="display:none">
-<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
+<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="saveInfo" style="font-size:11px;color:#0a7a3a;font-weight:700">● Tersimpan otomatis</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
 <div class="bar" style="margin:12px 0"><i id="progBar"></i></div>
 <div class="q" id="qText"></div><div id="opts"></div>
 <div class="row"><button type="button" class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button type="button" class="btn primary" id="btnNext">Berikutnya &rarr;</button></div>
@@ -49,7 +55,7 @@
 <button type="button" class="btn" id="btnPrint" style="flex:1;background:#0b3a7a;color:#fff">Cetak PDF - Semua Jawaban + Pembahasan</button>
 </div>
 <div id="review"></div>
-<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="location.reload()">Ulangi Ujian (Soal Baru Diacak)</button>
+<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="ulangiUjian()">Ulangi Ujian (Soal Baru Diacak)</button>
 <a href="../index.html" class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
 </div>
 </div>
@@ -59,6 +65,134 @@ var BANK=[{"q": "Hasil dari 34.250 + 18.675 adalah ....", "o": ["52.925", "52.82
 var soal=[], idx=0, jawab=[], sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
 function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
 function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+
+// === AUTO-SAVE SRP (Anti-Hilang Kalau Ke-Refresh) ===
+var SAVE_KEY='SRP_MTK5_TR';
+var savedData=null;
+function getBankIdx(qtxt){ for(var i=0;i<BANK.length;i++) if(BANK[i].q===qtxt) return i; return -1; }
+function saveState(){
+  try{
+    if(!soal || soal.length===0) return;
+    var data={bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', sudahSelesai: false};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+    var el=document.getElementById('saveInfo'); if(el) el.textContent='● Tersimpan otomatis - '+(jawab.filter(function(x){return x!==null}).length)+'/'+soal.length+' terjawab';
+  }catch(e){}
+}
+
+function saveHasil(){
+  try{
+    var data={sudahSelesai:true, bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), jamAkhir: jamAkhir?jamAkhir.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', benar: benarAkhir, nilai: nilaiAkhir, predikat: predikatAkhir};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+  }catch(e){}
+}
+function restoreHasil(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return false;
+    var d=JSON.parse(raw); if(!d || !d.sudahSelesai) return false;
+    // Rebuild soal + jawab dari simpanan
+    jamMulai=new Date(d.jamMulai); jamAkhir=new Date(d.jamAkhir);
+    soal=d.bankIdx.map(function(i){return BANK[i];});
+    jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+    benarAkhir=d.benar; nilaiAkhir=d.nilai; predikatAkhir=d.predikat;
+    // Tampilkan hasil persis seperti selesai() tapi tanpa hitung ulang
+    document.getElementById('start').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    var h=document.getElementById('hasil'); h.style.display='block';
+    var nama=d.nama||'Pejuang Kelas 5';
+    document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+    // Tentukan label ujian dari judul halaman (Reguler / Transisi) - ambil dari h1 atau badge
+    var lbl = document.title.indexOf('Transisi')!==-1 ? 'Matematika Kelas 5 - Transisi' : 'Matematika Kelas 5 - Reguler';
+    // Kalau ada hasilNama, pakai lbl + tanggal dari jamAkhir
+    document.getElementById('hasilNama').textContent=lbl+' - '+new Date(d.jamAkhir).toLocaleDateString('id-ID');
+    document.getElementById('skor').textContent=d.nilai;
+    document.getElementById('predikat').textContent=d.predikat;
+    // Ringkasan: bedakan Reguler vs Transisi dari nilai per soal - cek apakah ada elemen pecah tangga
+    var ring=document.getElementById('ringkasan');
+    if(ring) {
+      // Jika file Transisi punya pecah tangga, ringkasan sudah diisi di selesai(), kita isi generik yang aman
+      // Cek apakah selesai() Transisi menulis ringkasan dengan Mudah/Sedang/Sulit - kita tulis ulang dari data soal
+      var isTr = document.title.indexOf('Transisi')!==-1;
+      if(isTr){
+        var mB=0,mT=0,sB=0,sT=0,hB=0,hT=0;
+        for(var i=0;i<soal.length;i++){ var lv=soal[i].lv; var ok=jawab[i]===soal[i].a; if(lv==='M'){mT++; if(ok) mB++;} else if(lv==='S'){sT++; if(ok) sB++;} else if(lv==='H'){hT++; if(ok) hB++;} }
+        var mP=mB*4, sP=sB*5, hP=hB*6;
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Mudah '+mB+'/'+mT+' ('+mP+' poin) - Sedang '+sB+'/'+sT+' ('+sP+' poin) - Sulit '+hB+'/'+hT+' ('+hP+' poin)';
+      } else {
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Salah '+(soal.length-d.benar)+' soal - Nilai '+d.nilai+' / 100 (1 soal = 5 poin)';
+      }
+    }
+    var jamEl=document.getElementById('jamInfo'); if(jamEl) jamEl.innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit';
+    var huruf=['A','B','C','D'];
+    var rev=document.getElementById('review');
+    var out='<h3>Pembahasan</h3>';
+    for(var k=0;k<soal.length;k++){ var s=soal[k]; var ok2=jawab[k]===s.a; out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+(s.cog||'')+'] '+s.q+'</b><br><span class="'+(ok2?'ok':'no')+'">'+(ok2?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>'; }
+    rev.innerHTML=out;
+    return true;
+  }catch(e){ return false; }
+}
+function cekHasilTersimpan(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.sudahSelesai) return;
+    // Kalau sudah selesai, langsung tampilkan hasil, jangan tampilkan kotak resume
+    if(restoreHasil()){ var rb=document.getElementById('resumeBox'); if(rb) rb.style.display='none'; }
+  }catch(e){}
+}
+
+function ulangiUjian(){ clearState(); location.reload(); }
+function clearState(){ try{ localStorage.removeItem(SAVE_KEY); }catch(e){} }
+function cekResume(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.bankIdx || d.sudahSelesai) return;
+    savedData=d;
+    var terjawab=d.jawab.filter(function(x){return x!==null}).length;
+    var mm=Math.floor(d.sisa/60), ss=d.sisa%60;
+    document.getElementById('resumeText').innerHTML='Kamu tadi sudah mengerjakan <b>'+terjawab+' dari '+d.bankIdx.length+' soal</b>, sisa waktu <b>'+('0'+mm).slice(-2)+':'+('0'+ss).slice(-2)+'</b>.<br>Kalau pilih <b>Lanjut</b>, jawabanmu balik lagi, timer lanjut. Kalau pilih <b>Mulai Baru</b>, yang lama dihapus.';
+    document.getElementById('resumeBox').style.display='block';
+    // Isi nama kalau ada
+    if(d.nama && document.getElementById('nama')) document.getElementById('nama').value=d.nama;
+  }catch(e){}
+}
+function mulaiBaru(){
+  clearState(); savedData=null;
+  document.getElementById('resumeBox').style.display='none';
+  mulai();
+}
+function lanjutUjian(){
+  if(!savedData) return;
+  var d=savedData;
+  jamMulai=new Date(d.jamMulai);
+  soal=d.bankIdx.map(function(i){return BANK[i];});
+  jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+  document.getElementById('resumeBox').style.display='none';
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil(); saveState();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--; saveState(); saveState();
+    var m=Math.floor(sisa/60), s=sisa%60;
+    var te=document.getElementById('timer'); if(te) te.textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+  saveState();
+}
+window.addEventListener('beforeunload', function(e){
+  // TAHAN di 2 tempat: pas lagi ngerjain (quiz) DAN pas udah selesai (hasil)
+  // Tujuannya sama: biar gak kepencet refresh, hasil gak ilang pas mau WA / Print / baca pembahasan
+  var qz=document.getElementById('quiz');
+  var hasilEl=document.getElementById('hasil');
+  var lagiUjian = qz && qz.style.display!=='none' && soal && soal.length>0;
+  var sudahHasil = hasilEl && hasilEl.style.display!=='none';
+  if(lagiUjian || sudahHasil){
+    try{ if(lagiUjian) saveState(); else if(typeof saveHasil==='function') saveHasil(); }catch(err){}
+    e.preventDefault(); e.returnValue='Ujian masih berjalan.';
+    return e.returnValue;
+  }
+});
+document.addEventListener('DOMContentLoaded', function(){ cekHasilTersimpan(); cekResume(); });
+
 function mulai(){
   jamMulai=new Date();
   var bM=BANK.filter(function(s){return s.lv==='M'}); var bS=BANK.filter(function(s){return s.lv==='S'}); var bH=BANK.filter(function(s){return s.lv==='H'});
@@ -88,7 +222,7 @@ function tampil(){
       b.type='button';
       b.className='opt'+(jawab[idx]===i?' sel':'');
       b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i];
-      b.onclick=function(){jawab[idx]=i; tampil();};
+      b.onclick=function(){jawab[idx]=i; tampil(); saveState();};
       c.appendChild(b);
     })(i);
   }
@@ -137,6 +271,7 @@ function selesai(){
     out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+labelLv[k]+' - '+poinSoal[k]+' poin] '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';
   }
   rev.innerHTML=out;
+  saveHasil();
   window.scrollTo(0,0);
 }
 function kirimWA(){
