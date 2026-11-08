@@ -139,7 +139,8 @@ function cekHasilTersimpan(){
   }catch(e){}
 }
 
-function ulangiUjian(){ clearState(); location.reload(); }
+function ulangiUjian(){ allowLeave=true; clearState(); location.reload(); }
+function kembaliKeBeranda(){ allowLeave=true; clearState(); window.location.href='../index.html'; }
 function clearState(){ try{ localStorage.removeItem(SAVE_KEY); }catch(e){} }
 function cekResume(){
   try{
