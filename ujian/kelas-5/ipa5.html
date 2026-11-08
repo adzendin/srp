@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IPA Kelas 5 - Reguler | SRP Ujian Mandiri Terpadu</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f3f6fb;color:#17233b}
+.top{background:#0b3a7a;color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:5px solid #f2b705}
+.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px}.top h1{margin:8px 0 4px;font-size:26px}.top p{margin:0;opacity:.9}
+.wrap{max-width:760px;margin:18px auto;padding:0 14px 40px}
+.card{background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(11,58,122,.08);padding:20px}
+.badge{display:inline-block;background:#eaf1ff;color:#0b3a7a;padding:6px 10px;border-radius:99px;font-weight:700;font-size:12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center}.meta b{display:block;font-size:18px}
+.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#0b3a7a;width:0%}
+.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0}.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px}.opt:hover{border-color:#0b3a7a}.opt.sel{border-color:#0b3a7a;background:#eaf1ff}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.primary{background:#0b3a7a;color:#fff}.ghost{background:#eef2f7}.row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ok{color:#0a7a3a;font-weight:800}.no{color:#c0392b;font-weight:800}
+.exp{background:#f8fafc;border-left:4px solid #f2b705;padding:10px 12px;border-radius:8px;margin-top:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:99;padding:16px}
+.modal .box{background:#fff;border-radius:16px;padding:22px;max-width:420px;width:100%;text-align:center}
+@media print{body{background:#fff}.top{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.card{box-shadow:none}#start,#quiz{display:none!important}#hasil{display:block!important}}
+@media(max-width:520px){.top h1{font-size:21px}.q{font-size:17px}}
+</style></head><body>
+<div class="top"><small>Surabaya Rumah Pahlawan &bull; Ujian Mandiri Terpadu</small><h1>IPA Kelas 5 &mdash; Reguler</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
+<div class="wrap">
+<div id="start" class="card">
+<span class="badge">KELAS 5 &bull; IPA &bull; REGULER &bull; BIRU PAHLAWAN</span>
+<h2 style="margin:12px 0 6px">Selamat Datang, Pejuang Kelas 5!</h2>
+<p style="line-height:1.6;color:#4a5a75">Ujian ini mengukur pemahaman IPA Kelas 5. Soal diambil acak dari Bank Soal, mencakup C1 sampai C6. Soal diambil acak dari Bank Soal. Kerjakan dengan jujur, Guru akan mengamati hasilmu.</p>
+<div class="meta"><div>Bank Soal<b>50 Soal</b></div><div>Diujikan<b>20 Soal</b></div><div>Waktu<b>40 Menit</b></div><div>Nilai Max<b>100</b></div></div><p style="font-size:13px;color:#4a5a75;line-height:1.6;margin:0">Diujikan: <b>20 Soal Acak, 1 Soal = 5 Poin</b> = 100 poin.<br>Level Kognitif: C1 8 + C2 10 + C3 12 + C4 10 + C5 7 + C6 3 = 50 Soal (C1-C2 LOTS, C3-C4 MOTS, C5-C6 HOTS) — Taksonomi Bloom Revisi.<p style="font-size:14px;color:#4a5a75;line-height:1.6"><b>Cara mengerjakan:</b> Pilih 1 jawaban A-D. Bisa pindah soal dengan tombol Sebelumnya / Berikutnya. Klik Selesai jika sudah yakin. Setelah selesai akan muncul Nilai, Predikat, dan Pembahasan.</p>
+<label style="display:block;margin:14px 0 6px;font-weight:700">Nama Siswa (opsional)</label>
+<input id="nama" placeholder="Contoh: Ahmad - SDN Pahlawan" style="width:100%;padding:13px;border:2px solid #e2e8f0;border-radius:12px;font-size:16px">
+<button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
+<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP &bull; Guru sebagai Pengamat &bull; Siswa sebagai Pejuang</p>
+</div>
+
+<div id="resumeBox" class="card" style="display:none;border:2px solid #f2b705">
+<h3 style="margin:0 0 8px">Lanjut Ujian Terakhir?</h3>
+<p id="resumeText" style="line-height:1.6;color:#4a5a75"></p>
+<div class="row"><button class="btn ghost" type="button" onclick="mulaiBaru()">Mulai Baru (Hapus yang Lama)</button><button class="btn primary" type="button" onclick="lanjutUjian()">Ya, Lanjut →</button></div>
+</div>
+<div id="quiz" class="card" style="display:none">
+<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="saveInfo" style="font-size:11px;color:#0a7a3a;font-weight:700">● Tersimpan otomatis</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
+<div class="bar" style="margin:12px 0"><i id="progBar"></i></div>
+<div class="q" id="qText"></div><div id="opts"></div>
+<div class="row"><button type="button" class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button type="button" class="btn primary" id="btnNext">Berikutnya &rarr;</button></div>
+<button type="button" class="btn" id="btnSelesai" style="width:100%;margin-top:12px;background:#f2b705">Selesai &amp; Lihat Hasil</button>
+<p id="debug" style="font-size:11px;color:#999;text-align:center"></p>
+</div>
+<div id="hasil" class="card" style="display:none">
+<h2 id="hasilJudul" style="margin:0"></h2><p id="hasilNama" style="color:#5a6b88"></p>
+<div style="text-align:center;background:#eaf1ff;border-radius:14px;padding:20px;margin:14px 0"><div style="font-size:52px;font-weight:900;color:#0b3a7a" id="skor">0</div><div id="predikat" style="font-weight:800"></div><div id="ringkasan" style="margin-top:6px;color:#4a5a75"></div></div>
+<div style="background:#f3f6fb;border-radius:12px;padding:14px;margin-top:14px;font-size:14px;line-height:1.7" id="jamInfo"></div>
+<div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+<button type="button" class="btn" id="btnWA" style="flex:1;background:#25D366;color:#fff">Kirim Ringkas ke WhatsApp Guru / Wali</button>
+<button type="button" class="btn" id="btnPrint" style="flex:1;background:#0b3a7a;color:#fff">Cetak PDF - Semua Jawaban + Pembahasan</button>
+</div>
+<div id="review"></div>
+<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="ulangiUjian()">Ulangi Ujian (Soal Baru Diacak)</button>
+<a href="javascript:void(0)" onclick="kembaliKeBeranda()"  class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
+</div>
+</div>
+<div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button type="button" class="btn ghost" id="btnBatal" style="flex:1">Belum, Cek Lagi</button><button type="button" class="btn primary" id="btnYaSelesai" style="flex:1">Ya, Selesai</button></div></div></div>
+<script>
+var BANK=[{"q": "Organ tubuh yang berfungsi untuk memompa darah ke seluruh tubuh adalah ....", "o": ["Paru-paru", "Lambung", "Hati", "Jantung"], "a": 3, "e": "Jantung itu seperti pompa. Dia yang mendorong darah biar sampai ke seluruh tubuh. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Bagian tumbuhan yang berfungsi menyerap air dari tanah adalah ....", "o": ["Bunga", "Daun", "Batang", "Akar"], "a": 3, "e": "Coba ingat, akar itu yang di bawah tanah, tugasnya menyerap air dan mineral. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Sumber energi utama bagi kehidupan di Bumi adalah ....", "o": ["Listrik", "Api", "Bulan", "Matahari"], "a": 3, "e": "Tanpa matahari, tumbuhan tidak bisa fotosintesis, makanya matahari sumber utama. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Bagian mata yang berfungsi untuk melihat cahaya adalah ....", "o": ["Lidah", "Retina", "Telinga", "Hidung"], "a": 1, "e": "Retina itu layar di belakang mata, dia yang menangkap cahaya. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Hewan yang mengalami metamorfosis sempurna, dari ulat menjadi kupu-kupu, disebut ....", "o": ["Ikan", "Kupu-kupu", "Ayam", "Kucing"], "a": 1, "e": "Kupu-kupu itu contoh metamorfosis sempurna: telur, ulat, kepompong, kupu-kupu. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Planet yang paling dekat dengan matahari adalah ....", "o": ["Venus", "Merkurius", "Bumi", "Mars"], "a": 1, "e": "Urutan dari matahari: Merkurius dulu, baru Venus, Bumi, Mars. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Wujud zat yang bentuknya tetap dan volumenya tetap adalah ....", "o": ["Padat", "Cair", "Gas", "Uap"], "a": 0, "e": "Benda padat itu bentuknya tidak berubah-ubah, contohnya batu dan kayu. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Alat yang digunakan untuk mengukur suhu adalah ....", "o": ["Termometer", "Penggaris", "Timbangan", "Stopwatch"], "a": 0, "e": "Kalau mau tahu suhu, pakainya termometer, bukan penggaris. (Level: C1 Mengingat)", "cog": "C1"}, {"q": "Mengapa kita harus menggosok gigi setelah makan?", "o": ["Agar lidah menjadi merah", "Agar sisa makanan tidak merusak gigi", "Agar mulut menjadi kering", "Agar gigi menjadi panjang"], "a": 1, "e": "Sisa makanan itu bisa jadi asam, asam itu yang bikin gigi bolong. Makanya harus dibersihkan. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Jika tumbuhan tidak mendapat cahaya matahari, yang akan terjadi adalah ....", "o": ["Tumbuhan tidak bisa fotosintesis dan layu", "Daun menjadi lebih hijau", "Tumbuhan tumbuh lebih cepat", "Bunga mekar lebih banyak"], "a": 0, "e": "Fotosintesis butuh cahaya. Tanpa cahaya, tumbuhan tidak bisa bikin makanan sendiri. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Bunyi dapat merambat melalui ....", "o": ["Cahaya saja", "Hanya melalui udara", "Benda padat, cair, dan gas", "Ruang hampa saja"], "a": 2, "e": "Bunyi itu getaran, dia bisa lewat padat, cair, gas. Coba ketuk meja, bunyinya sampai lewat meja. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Mengapa bayangan terbentuk ketika ada benda yang menghalangi cahaya?", "o": ["Karena benda menjadi transparan", "Karena cahaya berhenti bergetar", "Karena cahaya tidak dapat menembus benda gelap", "Karena cahaya berubah menjadi bunyi"], "a": 2, "e": "Cahaya itu jalan lurus. Kalau dihalangi benda gelap, di belakangnya jadi gelap, itu bayangan. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Air yang dipanaskan akan berubah menjadi ....", "o": ["Embun", "Uap air", "Salju", "Es"], "a": 1, "e": "Panaskan air, dia menguap jadi uap air. Itu contoh perubahan wujud cair ke gas. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Mengapa kita merasa panas saat berada di bawah terik matahari?", "o": ["Karena tubuh menerima energi panas dari matahari", "Karena udara menjadi beku", "Karena bumi berhenti berputar", "Karena matahari mendekati bumi"], "a": 0, "e": "Matahari mengirim energi panas. Kulit kita menerima energi itu, makanya terasa panas. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Rantai makanan yang benar adalah ....", "o": ["Katak - padi - ular - belalang", "Ular - katak - belalang - padi", "Padi - belalang - katak - ular", "Belalang - padi - ular - katak"], "a": 2, "e": "Rantai makanan mulai dari produsen (padi), baru konsumen. Belalang makan padi, katak makan belalang. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Fungsi daun bagi tumbuhan adalah ....", "o": ["Menyimpan cadangan makanan utama", "Tempat fotosintesis", "Menopang tumbuhan", "Menyerap air dari tanah"], "a": 1, "e": "Daun itu dapurnya tumbuhan, di situ fotosintesis terjadi. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Jika kita menghembuskan napas ke kaca, kaca menjadi buram. Hal ini menunjukkan bahwa napas mengandung ....", "o": ["Debu", "Cahaya", "Uap air", "Oksigen murni"], "a": 2, "e": "Napas yang kita hembuskan itu hangat dan mengandung uap air, makanya kaca jadi buram. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Mengapa magnet dapat menarik paku besi?", "o": ["Karena paku memiliki listrik", "Karena magnet mengeluarkan cahaya", "Karena paku terbuat dari kayu", "Karena paku terbuat dari bahan magnetik"], "a": 3, "e": "Tidak semua benda ditarik magnet. Hanya bahan magnetik seperti besi yang ditarik. (Level: C2 Memahami)", "cog": "C2"}, {"q": "Siti menyiram tanaman setiap sore dan meletakkannya di tempat terang. Tindakan Siti bertujuan agar ....", "o": ["Tanaman cepat layu", "Tanah menjadi kering", "Tanaman dapat tumbuh dengan baik", "Daun menjadi kuning"], "a": 2, "e": "Tanaman butuh air dan cahaya. Siti sudah memberi dua-duanya, jadi tanamannya bisa tumbuh baik. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Sebuah lampu senter dinyalakan di ruangan gelap. Cahaya senter akan ....", "o": ["Berbelok-belok seperti ular", "Merambat lurus dan menerangi benda di depannya", "Kembali ke senter", "Berhenti di udara"], "a": 1, "e": "Coba senter di kamar gelap, cahayanya lurus, tidak belok-belok. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Andi menempelkan dua magnet dengan kutub yang sama. Yang terjadi adalah ....", "o": ["Kedua magnet saling tolak-menolak", "Kedua magnet saling tarik-menarik", "Magnet menjadi tidak bermagnet", "Magnet berubah menjadi besi"], "a": 0, "e": "Ingat aturannya: kutub senama tolak-menolak, kutub berlawanan tarik-menarik. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Ibu menjemur pakaian basah di bawah sinar matahari. Pakaian menjadi kering karena ....", "o": ["Pakaian menyerap matahari", "Air membeku menjadi es", "Air menguap akibat panas matahari", "Air berubah menjadi tanah"], "a": 2, "e": "Panas matahari bikin air di pakaian menguap, makanya kering. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Seorang anak mengukur suhu air dengan termometer dan menunjukkan angka 80°C. Suhu air tersebut tergolong ....", "o": ["Dingin", "Sejuk", "Panas", "Beku"], "a": 2, "e": "80°C itu sudah dekat mendidih, jadi tergolong panas, bukan sejuk. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Di kebun, banyak kupu-kupu yang hinggap di bunga. Peran kupu-kupu bagi bunga adalah ....", "o": ["Menghalangi fotosintesis", "Memakan akar bunga", "Merusak kelopak bunga", "Membantu penyerbukan"], "a": 3, "e": "Kupu-kupu membawa serbuk sari dari satu bunga ke bunga lain, itu membantu penyerbukan. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Budi ingin menghemat listrik di rumah. Tindakan yang tepat adalah ....", "o": ["Menyalakan semua lampu sepanjang hari", "Membiarkan TV menyala walau tidak ditonton", "Mematikan lampu saat tidak digunakan", "Menggunakan lampu yang watt-nya besar"], "a": 2, "e": "Hemat itu matikan yang tidak dipakai. Itu paling sederhana dan paling berefek. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Sebuah benda diletakkan di depan cermin datar. Bayangan yang terbentuk akan ....", "o": ["Sama besar dan tegak seperti bendanya", "Tidak terlihat sama sekali", "Lebih kecil dan terbalik", "Lebih besar dan berwarna"], "a": 0, "e": "Cermin datar itu jujur, bayangannya sama besar dan tegak. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Siswa kelas 5 melakukan percobaan: dua gelas berisi air, satu di tempat terang, satu di tempat gelap, masing-masing diberi tanaman. Setelah 3 hari, tanaman di tempat terang lebih segar. Kesimpulan percobaan ini adalah ....", "o": ["Tempat gelap lebih baik untuk tanaman", "Air tidak berpengaruh pada tanaman", "Cahaya mempengaruhi pertumbuhan tanaman", "Tanaman tidak butuh cahaya"], "a": 2, "e": "Bedanya cuma cahaya, hasilnya beda. Jadi cahaya yang berpengaruh. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Sebuah kipas angin dinyalakan. Energi listrik berubah menjadi energi ....", "o": ["Panas saja", "Cahaya saja", "Bunyi saja", "Gerak"], "a": 3, "e": "Kipas itu bergerak, jadi listrik berubah jadi gerak. Bunyinya cuma ikut-ikutan. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Air di sungai mengalir dari tempat tinggi ke tempat rendah. Hal ini menunjukkan bahwa air ....", "o": ["Mengalir mengikuti gravitasi", "Tidak dapat mengalir", "Berhenti di tengah jalan", "Mengalir ke atas"], "a": 0, "e": "Air itu selalu cari tempat rendah, karena ditarik gravitasi. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Seorang petani menanam padi dan memberi pupuk secara teratur. Pupuk berfungsi untuk ....", "o": ["Membuat tanah menjadi keras", "Membuat padi menjadi kering", "Menghalangi air masuk ke tanah", "Memberi nutrisi agar padi tumbuh subur"], "a": 3, "e": "Pupuk itu makanannya tanaman, biar tumbuh subur. (Level: C3 Menerapkan)", "cog": "C3"}, {"q": "Perhatikan data: Tanaman A di tempat terang tumbuh 10 cm, Tanaman B di tempat gelap tumbuh 4 cm. Perbedaan ini menunjukkan bahwa ....", "o": ["Tanaman B disiram lebih banyak", "Tanaman A lebih tua dari B", "Cahaya mempengaruhi pertumbuhan tinggi tanaman", "Tempat gelap lebih subur"], "a": 2, "e": "Data-nya beda tinggi. Satu-satunya beda perlakuan adalah cahaya, jadi cahaya yang berpengaruh. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Di sebuah kolam, jumlah ikan berkurang setelah banyak sampah plastik dibuang ke kolam. Hubungan antara sampah dan ikan adalah ....", "o": ["Sampah menjadi makanan ikan", "Sampah mencemari air sehingga ikan sulit hidup", "Sampah tidak berpengaruh pada ikan", "Sampah membuat air lebih jernih"], "a": 1, "e": "Sampah plastik bikin air kotor, oksigen berkurang, ikan jadi sulit hidup. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Jika bumi tidak berotasi, yang akan terjadi adalah ....", "o": ["Bulan tidak akan terlihat", "Tidak ada pergantian siang dan malam", "Matahari tidak akan terbit selamanya", "Tidak ada pergantian musim"], "a": 1, "e": "Siang-malam itu akibat rotasi. Kalau tidak rotasi, satu sisi terus siang, sisi lain terus malam. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Seorang siswa mengamati dua magnet: Magnet P menarik paku, Magnet Q tidak menarik paku. Kesimpulan yang tepat adalah ....", "o": ["Magnet P masih bermagnet, Magnet Q sudah hilang kemagnetannya", "Magnet Q lebih kuat dari P", "Magnet P terbuat dari plastik", "Paku yang digunakan berbeda jenis"], "a": 0, "e": "Satu menarik, satu tidak. Berarti yang satu masih bermagnet, yang satu sudah hilang. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Grafik menunjukkan penggunaan listrik di rumah Ani naik pada bulan Desember. Penyebab yang paling mungkin adalah ....", "o": ["Ani tidak menggunakan listrik", "Ani mematikan semua peralatan", "Ani pindah rumah", "Ani menyalakan lampu hias dan peralatan lebih banyak saat liburan"], "a": 3, "e": "Grafik naik, berarti pemakaian naik. Liburan Desember itu sering lampu hias dan kumpul-kumpul, pemakaian naik. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Di hutan, harimau berkurang karena diburu. Jika harimau terus berkurang, yang akan terjadi pada rusa adalah ....", "o": ["Rusa akan berubah menjadi harimau", "Jumlah rusa menurun karena tidak ada makanan", "Jumlah rusa meningkat karena pemangsanya berkurang", "Jumlah rusa tetap karena tidak ada hubungan"], "a": 2, "e": "Harimau makan rusa. Kalau harimau hilang, rusa tidak ada yang makan, jadi bertambah. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Dua gelas berisi air yang sama, satu ditutup rapat, satu dibiarkan terbuka. Setelah 2 hari, air di gelas terbuka berkurang. Hal ini terjadi karena ....", "o": ["Air diserap gelas", "Air mengendap di dasar gelas", "Air berubah menjadi es", "Air menguap ke udara"], "a": 3, "e": "Gelas terbuka itu airnya bisa menguap ke udara, yang tertutup tidak bisa. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Siswa membunyikan garpu tala di dekat gelas berisi air. Permukaan air bergetar. Hal ini menunjukkan bahwa ....", "o": ["Garpu tala tidak bergetar", "Bunyi adalah getaran yang dapat merambat melalui udara dan menggetarkan benda", "Bunyi hanya dapat didengar, tidak dapat dilihat", "Air menghasilkan bunyi sendiri"], "a": 1, "e": "Bunyi itu getaran. Getarannya sampai ke air, air ikut bergetar. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Jika semua tumbuhan di bumi hilang, yang akan terjadi pada manusia adalah ....", "o": ["Manusia kekurangan oksigen dan makanan", "Manusia tidak perlu bernapas", "Manusia akan lebih sehat", "Manusia tidak akan terpengaruh"], "a": 0, "e": "Tumbuhan itu yang bikin oksigen dan yang jadi dasar rantai makanan. Kalau hilang, manusia kena imbasnya. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Seorang anak menaruh sendok besi di gelas berisi air panas. Setelah beberapa saat, sendok terasa panas. Peristiwa ini menunjukkan bahwa ....", "o": ["Air menjadi dingin karena sendok", "Besi tidak dapat menghantarkan panas", "Panas dapat berpindah melalui benda padat", "Sendok menghasilkan panas sendiri"], "a": 2, "e": "Panas dari air pindah ke sendok lewat besi. Itu namanya konduksi. (Level: C4 Menganalisis)", "cog": "C4"}, {"q": "Dani berkata: 'Semua benda yang mengkilap pasti magnet.' Pendapat Dani ....", "o": ["Kurang tepat, karena tidak semua benda mengkilap terbuat dari bahan magnetik", "Benar, karena semua benda mengkilap pasti magnet", "Benar, karena mengkilap berarti bermagnet", "Kurang tepat, karena magnet tidak mengkilap"], "a": 0, "e": "Coba cek: kaca mengkilap, tapi tidak ditarik magnet. Jadi pendapat Dani kurang tepat. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Rani berkata: 'Tumbuhan tidak perlu air, cukup cahaya saja.' Pendapat Rani ....", "o": ["Kurang tepat, karena tumbuhan hanya butuh tanah", "Benar, karena cahaya sudah cukup", "Benar, karena air merusak tumbuhan", "Kurang tepat, karena tumbuhan butuh air dan cahaya untuk fotosintesis"], "a": 3, "e": "Fotosintesis butuh air dan cahaya. Kalau cuma cahaya, tumbuhan tetap layu. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Dua siswa berdebat: Ali bilang bumi mengelilingi matahari, Budi bilang matahari mengelilingi bumi. Pendapat yang benar adalah ....", "o": ["Budi, karena matahari yang mengelilingi bumi", "Ali, karena bumi yang mengelilingi matahari (revolusi)", "Keduanya salah", "Keduanya benar"], "a": 1, "e": "Yang benar Ali. Bumi yang revolusi mengelilingi matahari, bukan sebaliknya. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Seorang teman mengklaim: 'Membuang sampah ke sungai tidak masalah, karena sungai mengalir.' Klaim ini ....", "o": ["Benar, karena sungai akan membersihkan sendiri", "Benar, karena sampah akan hilang sendiri", "Kurang tepat, karena sampah mencemari sungai dan merusak ekosistem", "Kurang tepat, karena sungai tidak mengalir"], "a": 2, "e": "Sungai mengalir tapi sampahnya tidak hilang, dia mencemari dan merusak ekosistem. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Siswa A: 'Energi tidak akan pernah habis.' Siswa B: 'Energi dapat habis jika digunakan terus tanpa dihemat.' Pendapat yang lebih tepat adalah ....", "o": ["Siswa B, karena energi yang tidak terbarukan dapat habis", "Siswa A, karena energi tidak pernah habis", "Keduanya benar", "Keduanya salah"], "a": 0, "e": "Energi terbarukan bisa diperbarui, tapi energi tak terbarukan seperti minyak bumi bisa habis. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Tono berkata: 'Semua hewan yang bisa terbang adalah burung.' Pendapat Tono ....", "o": ["Benar, karena hanya burung yang bisa terbang", "Benar, karena kelelawar adalah burung", "Kurang tepat, karena burung tidak bisa terbang", "Kurang tepat, karena kelelawar dan kupu-kupu juga bisa terbang tapi bukan burung"], "a": 3, "e": "Kelelawar bisa terbang tapi dia mamalia, kupu-kupu bisa terbang tapi dia serangga. Jadi Tono kurang tepat. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Dua cara menghemat air: Cara 1 mematikan keran saat menggosok gigi, Cara 2 membiarkan keran mengalir. Cara yang lebih baik adalah ....", "o": ["Keduanya sama baik", "Cara 1, karena air tidak terbuang percuma", "Keduanya sama buruk", "Cara 2, karena air tetap mengalir"], "a": 1, "e": "Cara 1 itu hemat, air tidak terbuang. Cara 2 itu boros. (Level: C5 Mengevaluasi)", "cog": "C5"}, {"q": "Kamu ingin membuat percobaan untuk membuktikan bahwa cahaya mempengaruhi pertumbuhan tanaman. Langkah yang paling tepat adalah ....", "o": ["Menanam banyak tanaman di tempat terang saja", "Menanam satu tanaman di tempat gelap saja", "Menanam dua tanaman yang sama, satu di tempat terang, satu di tempat gelap, lalu bandingkan", "Tidak menanam apa-apa"], "a": 2, "e": "Biar bisa dibandingkan, harus ada dua: yang terang dan yang gelap, tanamannya sama, perawatannya sama. (Level: C6 Mencipta)", "cog": "C6"}, {"q": "Kamu diminta membuat alat sederhana untuk menunjukkan bahwa bunyi adalah getaran. Alat yang bisa kamu buat adalah ....", "o": ["Gendang dari kaleng dan plastik yang digetarkan", "Termometer", "Cermin datar", "Magnet"], "a": 0, "e": "Gendang itu kalau dipukul, plastiknya bergetar dan bunyi. Itu menunjukkan bunyi adalah getaran. (Level: C6 Mencipta)", "cog": "C6"}, {"q": "Sekolahmu ingin mengurangi sampah plastik. Strategi yang paling tepat untuk dibuat adalah ....", "o": ["Membuat bank sampah dan mengajak siswa membawa botol minum sendiri", "Tidak melakukan apa-apa", "Membakar semua sampah di halaman", "Membuang semua sampah ke sungai"], "a": 0, "e": "Bank sampah itu strategi, bukan cuma buang. Botol minum sendiri itu mengurangi plastik dari awal. (Level: C6 Mencipta)", "cog": "C6"}];
+var soal=[], idx=0, jawab=[], sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
+function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+
+// === AUTO-SAVE SRP (Anti-Hilang Kalau Ke-Refresh) ===
+var SAVE_KEY='SRP_IPA5_REG';
+var savedData=null;
+var allowLeave=false;
+function getBankIdx(qtxt){ for(var i=0;i<BANK.length;i++) if(BANK[i].q===qtxt) return i; return -1; }
+function saveState(){
+  try{
+    if(!soal || soal.length===0) return;
+    var data={bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', sudahSelesai: false};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+    var el=document.getElementById('saveInfo'); if(el) el.textContent='● Tersimpan otomatis - '+(jawab.filter(function(x){return x!==null}).length)+'/'+soal.length+' terjawab';
+  }catch(e){}
+}
+
+function saveHasil(){
+  try{
+    var data={sudahSelesai:true, bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), jamAkhir: jamAkhir?jamAkhir.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', benar: benarAkhir, nilai: nilaiAkhir, predikat: predikatAkhir};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+  }catch(e){}
+}
+function restoreHasil(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return false;
+    var d=JSON.parse(raw); if(!d || !d.sudahSelesai) return false;
+    // Rebuild soal + jawab dari simpanan
+    jamMulai=new Date(d.jamMulai); jamAkhir=new Date(d.jamAkhir);
+    soal=d.bankIdx.map(function(i){return BANK[i];});
+    jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+    benarAkhir=d.benar; nilaiAkhir=d.nilai; predikatAkhir=d.predikat;
+    // Tampilkan hasil persis seperti selesai() tapi tanpa hitung ulang
+    document.getElementById('start').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    var h=document.getElementById('hasil'); h.style.display='block';
+    var nama=d.nama||'Pejuang Kelas 5';
+    document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+    // Tentukan label ujian dari judul halaman (Reguler / Transisi) - ambil dari h1 atau badge
+    var lbl = document.title.indexOf('Transisi')!==-1 ? 'IPA Kelas 5 - Reguler' : 'IPA Kelas 5 - Reguler';
+    // Kalau ada hasilNama, pakai lbl + tanggal dari jamAkhir
+    document.getElementById('hasilNama').textContent=lbl+' - '+new Date(d.jamAkhir).toLocaleDateString('id-ID');
+    document.getElementById('skor').textContent=d.nilai;
+    document.getElementById('predikat').textContent=d.predikat;
+    // Ringkasan: bedakan Reguler vs Transisi dari nilai per soal - cek apakah ada elemen pecah tangga
+    var ring=document.getElementById('ringkasan');
+    if(ring) {
+      // Jika file Transisi punya pecah tangga, ringkasan sudah diisi di selesai(), kita isi generik yang aman
+      // Cek apakah selesai() Transisi menulis ringkasan dengan Mudah/Sedang/Sulit - kita tulis ulang dari data soal
+      var isTr = document.title.indexOf('Transisi')!==-1;
+      if(isTr){
+        var mB=0,mT=0,sB=0,sT=0,hB=0,hT=0;
+        for(var i=0;i<soal.length;i++){ var lv=soal[i].lv; var ok=jawab[i]===soal[i].a; if(lv==='M'){mT++; if(ok) mB++;} else if(lv==='S'){sT++; if(ok) sB++;} else if(lv==='H'){hT++; if(ok) hB++;} }
+        var mP=mB*4, sP=sB*5, hP=hB*6;
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Mudah '+mB+'/'+mT+' ('+mP+' poin) - Sedang '+sB+'/'+sT+' ('+sP+' poin) - Sulit '+hB+'/'+hT+' ('+hP+' poin)';
+      } else {
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Salah '+(soal.length-d.benar)+' soal - Nilai '+d.nilai+' / 100 (1 soal = 5 poin)';
+      }
+    }
+    var jamEl=document.getElementById('jamInfo'); if(jamEl) jamEl.innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit';
+    var huruf=['A','B','C','D'];
+    var rev=document.getElementById('review');
+    var out='<h3>Pembahasan</h3>';
+    for(var k=0;k<soal.length;k++){ var s=soal[k]; var ok2=jawab[k]===s.a; out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+(s.cog||'')+'] '+s.q+'</b><br><span class="'+(ok2?'ok':'no')+'">'+(ok2?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>'; }
+    rev.innerHTML=out;
+    return true;
+  }catch(e){ return false; }
+}
+function cekHasilTersimpan(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.sudahSelesai) return;
+    // Kalau sudah selesai, langsung tampilkan hasil, jangan tampilkan kotak resume
+    if(restoreHasil()){ var rb=document.getElementById('resumeBox'); if(rb) rb.style.display='none'; }
+  }catch(e){}
+}
+
+function ulangiUjian(){ allowLeave=true; clearState(); location.reload(); }
+function kembaliKeBeranda(){ allowLeave=true; clearState(); window.location.href='../index.html'; }
+function clearState(){ try{ localStorage.removeItem(SAVE_KEY); }catch(e){} }
+function cekResume(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.bankIdx || d.sudahSelesai) return;
+    savedData=d;
+    var terjawab=d.jawab.filter(function(x){return x!==null}).length;
+    var mm=Math.floor(d.sisa/60), ss=d.sisa%60;
+    document.getElementById('resumeText').innerHTML='Kamu tadi sudah mengerjakan <b>'+terjawab+' dari '+d.bankIdx.length+' soal</b>, sisa waktu <b>'+('0'+mm).slice(-2)+':'+('0'+ss).slice(-2)+'</b>.<br>Kalau pilih <b>Lanjut</b>, jawabanmu balik lagi, timer lanjut. Kalau pilih <b>Mulai Baru</b>, yang lama dihapus.';
+    document.getElementById('resumeBox').style.display='block';
+    // Isi nama kalau ada
+    if(d.nama && document.getElementById('nama')) document.getElementById('nama').value=d.nama;
+  }catch(e){}
+}
+function mulaiBaru(){
+  clearState(); savedData=null;
+  document.getElementById('resumeBox').style.display='none';
+  mulai();
+}
+function lanjutUjian(){
+  if(!savedData) return;
+  var d=savedData;
+  jamMulai=new Date(d.jamMulai);
+  soal=d.bankIdx.map(function(i){return BANK[i];});
+  jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+  document.getElementById('resumeBox').style.display='none';
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil(); saveState();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--; saveState(); saveState();
+    var m=Math.floor(sisa/60), s=sisa%60;
+    var te=document.getElementById('timer'); if(te) te.textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+  saveState();
+}
+window.addEventListener('beforeunload', function(e){
+  if(allowLeave) return;
+  // TAHAN di 2 tempat: pas lagi ngerjain (quiz) DAN pas udah selesai (hasil)
+  // Tujuannya sama: biar gak kepencet refresh, hasil gak ilang pas mau WA / Print / baca pembahasan
+  var qz=document.getElementById('quiz');
+  var hasilEl=document.getElementById('hasil');
+  var lagiUjian = qz && qz.style.display!=='none' && soal && soal.length>0;
+  var sudahHasil = hasilEl && hasilEl.style.display!=='none';
+  if(lagiUjian || sudahHasil){
+    try{ if(lagiUjian) saveState(); else if(typeof saveHasil==='function') saveHasil(); }catch(err){}
+    e.preventDefault(); e.returnValue='Ujian masih berjalan.';
+    return e.returnValue;
+  }
+});
+document.addEventListener('DOMContentLoaded', function(){ cekHasilTersimpan(); cekResume(); });
+
+function mulai(){
+  jamMulai=new Date();
+  soal=acak(BANK.slice()).slice(0,20);
+  jawab=[]; for(var i=0;i<20;i++) jawab.push(null);
+  idx=0; sisa=40*60;
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil(); saveState();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--; saveState();
+    var m=Math.floor(sisa/60), s=sisa%60;
+    document.getElementById('timer').textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+}
+function tampil(){
+  document.getElementById('progText').textContent='Soal '+(idx+1)+' dari 20';
+  document.getElementById('progBar').style.width=((idx+1)/20*100)+'%';
+  document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q;
+  var c=document.getElementById('opts'); c.innerHTML='';
+  var huruf=['A','B','C','D'];
+  for(var i=0;i<4;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.type='button';
+      b.className='opt'+(jawab[idx]===i?' sel':'');
+      b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i];
+      b.onclick=function(){jawab[idx]=i; tampil(); saveState();};
+      c.appendChild(b);
+    })(i);
+  }
+}
+function mintaSelesai(){
+  var dijawab=0; for(var i=0;i<jawab.length;i++) if(jawab[i]!==null) dijawab++;
+  var msg='Kamu baru menjawab <b>'+dijawab+' dari 20 soal</b>.<br>';
+  msg+=(dijawab<20)?('Masih ada '+(20-dijawab)+' soal yang belum dijawab. Yakin mau selesai?'):('Semua soal sudah dijawab. Lanjut lihat hasil?');
+  document.getElementById('modalInfo').innerHTML=msg;
+  document.getElementById('modalSelesai').style.display='flex';
+}
+function tutupModal(){document.getElementById('modalSelesai').style.display='none';}
+function selesai(){
+  if(timerInt) clearInterval(timerInt);
+  tutupModal();
+  jamAkhir=new Date();
+  var benar=0; for(var i=0;i<soal.length;i++) if(jawab[i]===soal[i].a) benar++;
+  var nilai=Math.round(benar/20*100);
+  var pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi';
+  benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred;
+  document.getElementById('quiz').style.display='none';
+  var h=document.getElementById('hasil'); h.style.display='block';
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+  document.getElementById('hasilNama').textContent='IPA Kelas 5 - Reguler - '+new Date().toLocaleDateString('id-ID');
+  document.getElementById('skor').textContent=nilai;
+  document.getElementById('predikat').textContent=pred;
+  document.getElementById('ringkasan').textContent='Benar '+benar+' dari 20 soal - Salah '+(20-benar)+' soal - Nilai '+nilai+' / 100 (1 soal = 5 poin)';
+  document.getElementById('jamInfo').innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit';
+  var huruf=['A','B','C','D'];
+  var rev=document.getElementById('review');
+  var out='<h3>Pembahasan</h3>';
+  for(var k=0;k<soal.length;k++){
+    var s=soal[k]; var ok=jawab[k]===s.a;
+    out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+s.cog+'] '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';
+  }
+  rev.innerHTML=out;
+  saveHasil();
+  window.scrollTo(0,0);
+}
+function kirimWA(){
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  var lines=['HASIL UJIAN SRP','Nama: '+nama,'Ujian: IPA Kelas 5 - Reguler','Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 20 soal (1 soal = 5 poin)','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'------------------------','SURABAYA RUMAH PAHLAWAN','APLIKASI UJIAN MANDIRI TERPADU'];
+  window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank');
+}
+document.getElementById('btnMulai').onclick=mulai;
+document.getElementById('btnNext').onclick=function(){if(idx<19) idx++; tampil();};
+document.getElementById('btnPrev').onclick=function(){if(idx>0) idx--; tampil();};
+document.getElementById('btnSelesai').onclick=mintaSelesai;
+document.getElementById('btnBatal').onclick=tutupModal;
+document.getElementById('btnYaSelesai').onclick=selesai;
+document.getElementById('btnWA').onclick=kirimWA;
+document.getElementById('btnPrint').onclick=function(){window.print();};
+document.getElementById('modalSelesai').onclick=function(e){if(e.target===this) tutupModal();};
+</script></body></html>
