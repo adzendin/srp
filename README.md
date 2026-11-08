@@ -36,7 +36,7 @@ Kumpulan utilitas praktis berbentuk aplikasi seluler (APK) dan modul web untuk m
 ---
 
 ## 💡 Filosofi @surabayarp
-Nama **Surabaya** dimaknai secara filosofis dari akar kata:
+Nama **Surabayarp** dimaknai secara filosofis dari akar kata:
 * **SU** — Kebaikan
 * **RA** — Orah (Tidak)
 * **BAYAR** — Ya bayar (Kebaikan itu gratis, bayarannya adalah menjadi pahlawan bagi sesama)
