@@ -9,8 +9,13 @@ Platform ekosistem pendidikan mandiri berbasis web (*open-access*) untuk menyedi
 ## 🎯 Tentang Proyek
 Surabaya Rumah Pahlawan (SRP) dikembangkan secara mandiri sebagai inisiatif terbuka untuk mendukung proses belajar dan evaluasi belajar secara objektif. Proyek ini berfokus pada penyediaan instrumen uji yang praktis dan dapat diakses langsung via peramban seluler maupun desktop secara fleksibel.
 
+## 📝 Type Ujian
+* **Reguler** — Soal sesuai kelas.
+* **Transisi** — Soal untuk naik kelas, penyesuaian, mendahului. Level: Mudah, Sedang, Sulit.
+* **Transenden** — Soal puncak nalar murni, studi kasus tak terduga.
+
 ## 🚀 Roadmap & Pengembangan
-Selain menyediakan modul latihan reguler dan transisi, ekosistem ini tengah merancang level **Advance**—sebuah standar ujian berbasis studi kasus dan penalaran kritis tingkat tinggi (C5-C6) untuk mengasah nalar analitis pelajar, mahasiswa, hingga persiapan seleksi profesional agar siap menghadapi tantangan zaman.
+Selain menyediakan modul latihan reguler dan transisi, ekosistem ini telah menghadirkan level **Transenden** — sebuah standar ujian berbasis studi kasus dan penalaran kritis tingkat tinggi untuk mengasah nalar analitis pelajar, mahasiswa, hingga persiapan seleksi profesional agar siap menghadapi tantangan zaman.
 
 ---
 *Inisiatif mandiri untuk pendidikan yang lebih interaktif dan mudah diakses.*
