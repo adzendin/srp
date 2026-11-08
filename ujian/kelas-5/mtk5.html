@@ -55,7 +55,7 @@
 </div>
 <div id="review"></div>
 <button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="ulangiUjian()">Ulangi Ujian (Soal Baru Diacak)</button>
-<a href="../index.html" class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
+<a href="javascript:void(0)" onclick="kembaliKeBeranda()"  class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
 </div>
 </div>
 <div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button type="button" class="btn ghost" id="btnBatal" style="flex:1">Belum, Cek Lagi</button><button type="button" class="btn primary" id="btnYaSelesai" style="flex:1">Ya, Selesai</button></div></div></div>
@@ -68,6 +68,7 @@ function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2
 // === AUTO-SAVE SRP (Anti-Hilang Kalau Ke-Refresh) ===
 var SAVE_KEY='SRP_MTK5_REG';
 var savedData=null;
+var allowLeave=false;
 function getBankIdx(qtxt){ for(var i=0;i<BANK.length;i++) if(BANK[i].q===qtxt) return i; return -1; }
 function saveState(){
   try{
@@ -178,6 +179,7 @@ function lanjutUjian(){
   saveState();
 }
 window.addEventListener('beforeunload', function(e){
+  if(allowLeave) return;
   // TAHAN di 2 tempat: pas lagi ngerjain (quiz) DAN pas udah selesai (hasil)
   // Tujuannya sama: biar gak kepencet refresh, hasil gak ilang pas mau WA / Print / baca pembahasan
   var qz=document.getElementById('quiz');
