@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MTK Kelas 5 - Transisi | SRP Ujian Mandiri Terpadu</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f3f6fb;color:#17233b}
+.top{background:#0b3a7a;color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:5px solid #f2b705}
+.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px}.top h1{margin:8px 0 4px;font-size:26px}.top p{margin:0;opacity:.9}
+.wrap{max-width:760px;margin:18px auto;padding:0 14px 40px}
+.card{background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(11,58,122,.08);padding:20px}
+.badge{display:inline-block;background:#eaf1ff;color:#0b3a7a;padding:6px 10px;border-radius:99px;font-weight:700;font-size:12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center}.meta b{display:block;font-size:18px}
+.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#0b3a7a;width:0%}
+.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0}.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px}.opt:hover{border-color:#0b3a7a}.opt.sel{border-color:#0b3a7a;background:#eaf1ff}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.primary{background:#0b3a7a;color:#fff}.ghost{background:#eef2f7}.row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ok{color:#0a7a3a;font-weight:800}.no{color:#c0392b;font-weight:800}
+.exp{background:#f8fafc;border-left:4px solid #f2b705;padding:10px 12px;border-radius:8px;margin-top:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:99;padding:16px}
+.modal .box{background:#fff;border-radius:16px;padding:22px;max-width:420px;width:100%;text-align:center}
+@media print{body{background:#fff}.top{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.card{box-shadow:none}#start,#quiz{display:none!important}#hasil{display:block!important}}
+@media(max-width:520px){.top h1{font-size:21px}.q{font-size:17px}}
+</style></head><body>
+<div class="top"><small>Surabaya Rumah Pahlawan &bull; Ujian Mandiri Terpadu</small><h1>Matematika Kelas 5 &mdash; Transisi</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
+<div class="wrap">
+<div id="start" class="card">
+<span class="badge">KELAS 5 &bull; MTK &bull; TRANSISI &bull; BIRU PAHLAWAN</span>
+<h2 style="margin:12px 0 6px">Selamat Datang, Pejuang Kelas 5!</h2>
+<p style="line-height:1.6;color:#4a5a75">Ujian ini mengukur kesiapan naik ke Kelas 6. Terdiri dari 3 tangga: Mudah (Kelas 5 Pertengahan), Sedang (Kelas 5 Akhir), Sulit (Kelas 6 Awal). Soal diambil acak dari Bank Soal. Kerjakan dengan jujur, Guru akan mengamati hasilmu.</p>
+<div class="meta"><div>Bank Soal<b>50 Soal</b></div><div>Diujikan<b>20 Soal</b></div><div>Waktu<b>40 Menit</b></div><div>Nilai Max<b>100</b></div></div><p style="font-size:13px;color:#4a5a75;line-height:1.6;margin:0">Diujikan: <b>6 Mudah (4 poin) + 8 Sedang (5 poin) + 6 Sulit (6 poin)</b> = 24 + 40 + 36 = 100 poin.<br>Level Kognitif: Mudah = C1-C2 (LOTS), Sedang = C3-C4 (MOTS), Sulit = C5-C6 (HOTS) — Taksonomi Bloom Revisi.</p>
+<p style="font-size:14px;color:#4a5a75;line-height:1.6"><b>Cara mengerjakan:</b> Pilih 1 jawaban A-D. Bisa pindah soal dengan tombol Sebelumnya / Berikutnya. Klik Selesai jika sudah yakin. Setelah selesai akan muncul Nilai, Predikat, dan Pembahasan.</p>
+<label style="display:block;margin:14px 0 6px;font-weight:700">Nama Siswa (opsional)</label>
+<input id="nama" placeholder="Contoh: Ahmad - SDN Pahlawan" style="width:100%;padding:13px;border:2px solid #e2e8f0;border-radius:12px;font-size:16px">
+<button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
+<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP &bull; Guru sebagai Pengamat &bull; Siswa sebagai Pejuang</p>
+</div>
+<div id="quiz" class="card" style="display:none">
+<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
+<div class="bar" style="margin:12px 0"><i id="progBar"></i></div>
+<div class="q" id="qText"></div><div id="opts"></div>
+<div class="row"><button type="button" class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button type="button" class="btn primary" id="btnNext">Berikutnya &rarr;</button></div>
+<button type="button" class="btn" id="btnSelesai" style="width:100%;margin-top:12px;background:#f2b705">Selesai &amp; Lihat Hasil</button>
+<p id="debug" style="font-size:11px;color:#999;text-align:center"></p>
+</div>
+<div id="hasil" class="card" style="display:none">
+<h2 id="hasilJudul" style="margin:0"></h2><p id="hasilNama" style="color:#5a6b88"></p>
+<div style="text-align:center;background:#eaf1ff;border-radius:14px;padding:20px;margin:14px 0"><div style="font-size:52px;font-weight:900;color:#0b3a7a" id="skor">0</div><div id="predikat" style="font-weight:800"></div><div id="ringkasan" style="margin-top:6px;color:#4a5a75"></div></div>
+<div style="background:#f3f6fb;border-radius:12px;padding:14px;margin-top:14px;font-size:14px;line-height:1.7" id="jamInfo"></div>
+<div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+<button type="button" class="btn" id="btnWA" style="flex:1;background:#25D366;color:#fff">Kirim Ringkas ke WhatsApp Guru / Wali</button>
+<button type="button" class="btn" id="btnPrint" style="flex:1;background:#0b3a7a;color:#fff">Cetak PDF - Semua Jawaban + Pembahasan</button>
+</div>
+<div id="review"></div>
+<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="location.reload()">Ulangi Ujian (Soal Baru Diacak)</button>
+<a href="../index.html" class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
+</div>
+</div>
+<div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button type="button" class="btn ghost" id="btnBatal" style="flex:1">Belum, Cek Lagi</button><button type="button" class="btn primary" id="btnYaSelesai" style="flex:1">Ya, Selesai</button></div></div></div>
+<script>
+var BANK=[{"q": "Hasil dari 34.250 + 18.675 adalah ....", "o": ["52.925", "52.825", "51.925", "53.925"], "a": 0, "e": "Coba susun ke bawah biar rapi, satuan ketemu satuan, puluhan ketemu puluhan. 34.250 + 18.675 kalau disusun rapi ketemunya 52.925. Maka yang benar adalah A. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "Selisih dari 75.000 dan 28.450 adalah ....", "o": ["46.450", "46.650", "47.550", "46.550"], "a": 3, "e": "Selisih itu artinya yang besar dikurangi yang kecil. 75.000 dikurangi 28.450, pelan-pelan ya, ketemunya 46.550. Jadi jawabannya D. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "Nilai tempat angka 6 pada bilangan 468.250 adalah ....", "o": ["Ratus ribuan", "Ribuan", "Ratusan", "Puluh ribuan"], "a": 3, "e": "Coba hitung dari kanan, satu-satu: satuan, puluhan, ratusan, ribuan, baru puluh ribuan. Nah angka 6 di 468.250 itu ada di puluh ribuan, nilainya 60.000. Karena itu, pilihan yang tepat D. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "Bilangan 63.480 dibulatkan ke ribuan terdekat menjadi ....", "o": ["63.400", "63.000", "64.000", "63.500"], "a": 1, "e": "Perhatikan angka di belakangnya, 480 itu. Kalau di bawah 500, kita bulatkan ke bawah. Jadi 63.480 jadi 63.000. Jawabannya B. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "Hasil dari 2.345 × 12 adalah ....", "o": ["27.140", "28.140", "28.040", "28.240"], "a": 1, "e": "Jangan langsung dikali besar-besar, pecah dulu. 2.345 × 12 itu sama dengan 2.345 × 10 ditambah 2.345 × 2. 23.450 + 4.690 = 28.140. Jadi yang benar B. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "Hasil dari 12.750 ÷ 25 adalah ....", "o": ["501", "520", "510", "500"], "a": 2, "e": "Coba dibalik, 25 dikali berapa biar jadi 12.750? Kalau kita coba 510, 25 × 510 = 12.750, pas. Jadi 12.750 ÷ 25 = 510. Jawabannya C. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "KPK dari 12 dan 18 adalah ....", "o": ["54", "36", "72", "108"], "a": 1, "e": "Kuncinya di pohon faktor. 12 itu 2² × 3, 18 itu 2 × 3². Untuk KPK, ambil yang pangkatnya paling besar: 2² × 3² = 36. Maka jawabannya B. (Level: C1 Mengingat)", "lv": "M", "cog": "C1"}, {"q": "FPB dari 24 dan 36 adalah ....", "o": ["6", "18", "12", "24"], "a": 2, "e": "Coba cari yang sama-sama punya. 24 itu 2³ × 3, 36 itu 2² × 3². Yang sama diambil pangkat paling kecil: 2² × 3 = 12. Itu FPB-nya. Jadi pilihan yang tepat C. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Hasil dari 3/5 + 1/5 adalah ....", "o": ["4/5", "4/10", "3/10", "2/5"], "a": 0, "e": "Enaknya soal ini penyebutnya udah sama, jadi gak usah disamain lagi. Tinggal atasnya yang dijumlah: 3 + 1 = 4, penyebutnya tetap 5. Hasilnya 4/5. Jawabannya A. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Hasil dari 5/6 − 1/6 adalah ....", "o": ["5/6", "1/2", "4/6", "2/3"], "a": 2, "e": "Sama kayak tadi, penyebutnya udah sama, 6. Jadi 5 − 1 = 4, hasilnya 4/6, bisa disederhanakan jadi 2/3. Yang benar C. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Bentuk persen dari 3/4 adalah ....", "o": ["34%", "43%", "25%", "75%"], "a": 3, "e": "Bayangkan satu kue dipotong 4, kamu ambil 3 potong. Itu 75 dari 100 potong. Jadi 3/4 itu 75%. Jawabannya D. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Hasil dari 0,65 + 0,35 adalah ....", "o": ["1,1", "0,100", "1", "0,9"], "a": 2, "e": "Sejajarkan komanya dulu, jangan sampai miring. 0,65 + 0,35 = 1,00. Jadi pas 1. Maka jawabannya C. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Keliling persegi dengan sisi 125 cm adalah ....", "o": ["625 cm", "375 cm", "500 cm", "250 cm"], "a": 2, "e": "Keliling itu muterin pinggirnya. Persegi sisinya ada 4, semuanya sama. 125 × 4 = 500 cm. Jadi yang tepat C. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Luas persegi panjang dengan panjang 125 cm dan lebar 40 cm adalah ....", "o": ["5.000 cm", "5.000 cm²", "1.650 cm²", "3.300 cm²"], "a": 1, "e": "Luas itu isi di dalamnya, panjang kali lebar. 125 × 40 = 5.000 cm². Jangan lupa pakai cm² ya, bukan cm. Jawabannya B. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Sudut yang besarnya tepat 90° disebut sudut ....", "o": ["Tumpul", "Siku-siku", "Lancip", "Lurus"], "a": 1, "e": "Coba buat sudutnya pakai siku penggaris. Kalau pas 90°, itu namanya siku-siku. Kalau kurang dari 90° lancip, lebih dari 90° tumpul. Jadi yang 90° ini siku-siku. Jawabannya B. (Level: C2 Memahami)", "lv": "M", "cog": "C2"}, {"q": "Ibu membeli 3 kardus, tiap kardus berisi 1.250 kue. Jumlah kue seluruhnya adalah ....", "o": ["3.750 kardus", "3.750 kue", "3.250 kue", "4.250 kue"], "a": 1, "e": "Kata 'tiap kardus berisi' itu tanda kali. 1 kardus 1.250 kue, kalau 3 kardus berarti 3 × 1.250 = 3.750 kue. Jadi jawabannya B. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Sebuah gudang menampung 25.000 kg beras. Sudah terjual 13.750 kg. Sisa beras adalah ....", "o": ["11.750 kg", "11.250 kg", "10.250 kg", "12.250 kg"], "a": 1, "e": "Gudang awalnya 25.000 kg, yang keluar 13.750 kg. Sisa itu awal dikurangi yang keluar: 25.000 − 13.750 = 11.250 kg. Maka yang benar B. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Hasil dari 2 1/2 + 1 3/4 adalah ....", "o": ["3 3/4", "4 1/4", "3 1/4", "4 3/4"], "a": 1, "e": "Samain dulu penyebutnya biar enak. 2 1/2 itu sama dengan 2 2/4. Terus 2 2/4 + 1 3/4 = 3 5/4. 5/4 itu 1 1/4, jadi totalnya 4 1/4. Jawabannya B. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Hasil dari 3/4 × 20 adalah ....", "o": ["10", "12", "15", "16"], "a": 2, "e": "3/4 × 20 itu artinya 3 dari 4 bagian dari 20. Caranya 3 × 20 dulu = 60, baru dibagi 4 = 15. Jadi yang tepat C. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Hasil dari 2,5 × 12 adalah ....", "o": ["30", "28", "25", "32"], "a": 0, "e": "2,5 itu bisa kita anggap 25/10. Jadi 2,5 × 12 = 25 × 12 dibagi 10 = 300 ÷ 10 = 30. Jawabannya A. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Sebuah balok volumenya 1.200 cm³, panjang 20 cm, lebar 10 cm. Tingginya adalah ....", "o": ["5 cm", "12 cm", "6 cm", "10 cm"], "a": 2, "e": "Volume balok itu panjang × lebar × tinggi. Kita udah tahu volumenya 1.200, panjang 20, lebar 10. Berarti tinggi = 1.200 ÷ (20 × 10) = 1.200 ÷ 200 = 6 cm. Maka jawabannya C. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Volume kubus dengan rusuk 12 cm adalah ....", "o": ["144 cm³", "1.728 cm³", "864 cm³", "1.728 cm²"], "a": 1, "e": "Kubus itu rusuknya sama semua. Jadi volumenya rusuk × rusuk × rusuk. 12 × 12 × 12 = 1.728 cm³. Jawabannya B. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Luas segitiga dengan alas 24 cm dan tinggi 16 cm adalah ....", "o": ["40 cm²", "96 cm²", "384 cm²", "192 cm²"], "a": 3, "e": "Segitiga itu setengahnya persegi panjang. Jadi luasnya setengah × alas × tinggi. 1/2 × 24 × 16 = 192 cm². Jadi yang benar D. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Keliling persegi panjang dengan panjang 150 cm dan lebar 70 cm adalah ....", "o": ["300 cm", "440 cm", "220 cm", "10.500 cm"], "a": 1, "e": "Keliling itu muterin. Persegi panjang panjangnya 150, lebarnya 70. Jumlahkan dulu 150 + 70 = 220, baru dikali 2 = 440 cm. Jawabannya B. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "Data penjualan: Senin 125, Selasa 175, Rabu 150. Rata-rata 3 hari adalah ....", "o": ["150", "155", "145", "140"], "a": 0, "e": "Rata-rata itu totalnya dibagi banyak harinya. Totalnya 125 + 175 + 150 = 450. Dibagi 3 hari = 150. Maka jawabannya A. (Level: C3 Menerapkan)", "lv": "S", "cog": "C3"}, {"q": "KPK dari 15 dan 20 adalah ....", "o": ["120", "40", "30", "60"], "a": 3, "e": "Coba bongkar dulu. 15 = 3 × 5, 20 = 2² × 5. Untuk KPK, ambil semua faktor dengan pangkat terbesar: 2² × 3 × 5 = 60. Jadi yang tepat D. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "FPB dari 48 dan 60 adalah ....", "o": ["48", "12", "6", "24"], "a": 1, "e": "Cari yang sama-sama dimiliki 48 dan 60. 48 = 2⁴ × 3, 60 = 2² × 3 × 5. Yang sama ambil pangkat kecil: 2² × 3 = 12. Itu FPB-nya. Jawabannya B. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Lampu A menyala tiap 12 menit, lampu B tiap 18 menit. Keduanya menyala bersama tiap ....", "o": ["54 menit", "30 menit", "24 menit", "36 menit"], "a": 3, "e": "Soal 'menyala bersama lagi' itu soal KPK, bukan soal tambah. Lampu A 12 menit, lampu B 18 menit, kapan bareng lagi? KPK dari 12 dan 18 = 36 menit. Maka jawabannya D. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Ayah memiliki 48 permen dan 60 cokelat, dibagi ke kantong sama rata tanpa sisa. Kantong terbanyak yang bisa dibuat adalah ....", "o": ["12 kantong", "24 kantong", "48 kantong", "6 kantong"], "a": 0, "e": "Kalimat 'dibagi sama rata tanpa sisa dan terbanyak' itu tanda FPB. Permen 48, cokelat 60, FPB-nya 12. Jadi bisa buat 12 kantong. Jawabannya A. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Hasil dari 25.000 − 7.250 + 1.500 adalah ....", "o": ["17.250", "19.250", "19.750", "18.250"], "a": 1, "e": "Kerjakan dari kiri, jangan loncat. 25.000 − 7.250 = 17.750, lalu ditambah 1.500 = 19.250. Jadi yang benar B. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Sebuah taman berbentuk persegi panjang, panjang 40 m, lebar 25 m. Luasnya adalah ....", "o": ["1.000 m", "1.000 m²", "130 m²", "65 m²"], "a": 1, "e": "Taman itu persegi panjang, panjang 40 m, lebar 25 m. Luasnya panjang × lebar = 40 × 25 = 1.000 m². Maka jawabannya B. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Hasil dari 75% dari 200 adalah ....", "o": ["75", "100", "150", "125"], "a": 2, "e": "75% dari 200 itu 75 per 100 dari 200. Hitungnya 75 × 200 ÷ 100 = 150. Jadi jawabannya C. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Diagram batang: Januari 200, Februari 250, Maret 300. Total 3 bulan adalah ....", "o": ["750", "700", "650", "800"], "a": 0, "e": "Total itu dijumlah semua, jangan dirata-rata. 200 + 250 + 300 = 750. Jadi yang tepat A. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Hasil dari 1.500 ÷ 15 + 250 adalah ....", "o": ["350", "450", "250", "300"], "a": 0, "e": "Dahulukan bagi dulu sebelum tambah. 1.500 ÷ 15 = 100, baru + 250 = 350. Kalau tambah dulu, pasti salah. Jawabannya A. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Sebuah kotak berisi 2.400 pensil, dibagi ke 12 kelas sama rata. Tiap kelas dapat ....", "o": ["300 pensil", "120 pensil", "240 pensil", "200 pensil"], "a": 3, "e": "'Dibagi sama rata' itu tanda bagi. 2.400 pensil untuk 12 kelas, tiap kelas dapat 2.400 ÷ 12 = 200 pensil. Maka jawabannya D. (Level: C4 Menganalisis)", "lv": "S", "cog": "C4"}, {"q": "Bentuk penjabaran dari 12² adalah ....", "o": ["12 + 2", "12 × 2", "12 + 12", "12 × 12"], "a": 3, "e": "Nah, ini yang sering kejebak. 12² itu bukan 12 × 2 lho. Artinya 12-nya ada dua kali, dikaliin. Jadi 12 × 12. Maka yang benar adalah D. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Bilangan yang terletak 5 langkah di kiri 0 pada garis bilangan adalah ....", "o": ["5", "-10", "-5", "-1"], "a": 2, "e": "Bayangkan garis bilangan, 0 di tengah. Ke kiri itu negatif, ke kanan positif. Jalan 5 langkah ke kiri dari 0, sampai di -5. Jadi jawabannya C. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Hasil dari -12 + 20 adalah ....", "o": ["8", "-32", "32", "-8"], "a": 0, "e": "Anggap aja utang. Utang 12, dibayar 20, masih sisa 8 buat kita. Jadi -12 + 20 = 8. Maka yang tepat A. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Hasil dari 15 − 28 adalah ....", "o": ["13", "-43", "-13", "43"], "a": 2, "e": "15 − 28, yang dikurangi lebih kecil dari pengurangnya, jadi hasilnya pasti negatif. Selisihnya 28 − 15 = 13, jadi hasilnya -13. Jawabannya C. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Keliling lingkaran dengan jari-jari 14 cm adalah .... (phi = 22/7)", "o": ["154 cm", "44 cm", "616 cm²", "88 cm"], "a": 3, "e": "Keliling lingkaran itu 2 × phi × jari-jari. Jari-jarinya 14, phi-nya 22/7. 2 × 22/7 × 14 = 88 cm. Jadi yang benar D. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Dua pernyataan tentang lingkaran: (1) Keliling = 2 × phi × r, (2) Luas = phi × r × r. Jika jari-jari 14 cm dan phi = 22/7, pernyataan yang benar tentang hasil hitungnya adalah ....", "o": ["Keliling 88 cm dan Luas 616 cm², keduanya benar", "Keliling 44 cm dan Luas 616 cm²", "Keliling 88 cm dan Luas 308 cm²", "Keliling 616 cm dan Luas 88 cm²"], "a": 0, "e": "Coba cek satu-satu. Kelilingnya 2 × 22/7 × 14 = 88 cm, bener. Luasnya 22/7 × 14 × 14 = 616 cm², bener juga. Jadi dua-duanya benar. Jawabannya A. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Hasil dari 25 + 15 × 4 adalah ....", "o": ["85", "100", "160", "65"], "a": 0, "e": "Jangan langsung tambah dari kiri. Kali dulu baru tambah. 15 × 4 = 60, baru 25 + 60 = 85. Kalau tambah dulu, pasti meleset. Maka jawabannya A. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Hasil dari (48 − 18) × 5 + 25 adalah ....", "o": ["200", "150", "175", "125"], "a": 2, "e": "Kurung itu didahulukan, kayak antrean paling depan. 48 − 18 = 30, lalu 30 × 5 = 150, lalu + 25 = 175. Jadi yang tepat C. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Suhu awal -5°C, naik 12°C. Suhu sekarang adalah ....", "o": ["17°C", "7°C", "-17°C", "-7°C"], "a": 1, "e": "Suhu naik itu artinya tambah. Dari -5 naik 12, berarti -5 + 12 = 7°C. Jadi jawabannya B. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Bilangan bulat yang lebih besar dari -4 adalah ....", "o": ["-8", "-2", "-5", "-6"], "a": 1, "e": "Di garis bilangan, makin ke kanan makin besar. -2 itu di kanan -4, jadi -2 lebih besar dari -4. Maka jawabannya B. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Andi ingin membuat kubus dari kertas dengan rusuk 12 cm. Ia hanya punya cara menghitung volume dengan 12 × 12 × 12. Cara baru yang paling tepat untuk memeriksa apakah volumenya benar adalah ....", "o": ["Hitung 12² dulu (144), lalu × 12 = 1.728", "Hitung 12 + 12 + 12 = 36", "Hitung 12 × 3 = 36", "Hitung 12 × 12 = 144 saja"], "a": 0, "e": "Coba bikin cara baru. 12³ itu bisa kita pecah jadi 12² dulu, baru dikali 12 lagi. 12² = 144, 144 × 12 = 1.728 cm³. Itu cara ngeceknya. Jadi strategi yang tepat A. (Level: C6 Mencipta)", "lv": "H", "cog": "C6"}, {"q": "Suhu pagi -5°C, siang naik 12°C, sore turun 4°C. Strategi paling tepat untuk mencari suhu sore adalah ....", "o": ["(-5 + 12) − 4 = 3°C", "-5 + 12 + 4 = 11°C", "-5 − 12 − 4 = -21°C", "12 − 5 + 4 = 11°C"], "a": 0, "e": "Urutkan dulu ceritanya: pagi -5, siang naik 12 jadi 7, sore turun 4 jadi 3. Jadi rumusnya (-5 + 12) − 4 = 3°C. Itu strategi paling rapi. Jawabannya A. (Level: C6 Mencipta)", "lv": "H", "cog": "C6"}, {"q": "Untuk mencari 500 ÷ (10 − 5) × 4, langkah pertama yang paling tepat adalah ....", "o": ["Kerjakan kurung dulu: 10 − 5 = 5", "Kerjakan 500 ÷ 10 dulu", "Kerjakan 5 × 4 dulu", "Kerjakan 500 − 10 dulu"], "a": 0, "e": "Langkah pertama yang paling aman itu kerjakan yang di dalam kurung dulu. 10 − 5 = 5. Baru yang lain ngikutin. Jadi langkah pertamanya A. (Level: C6 Mencipta)", "lv": "H", "cog": "C6"}, {"q": "Budi mengklaim 200 − 40 × 3 + 15 = 495 karena ia kerjakan dari kiri. Penilaian yang tepat terhadap cara Budi adalah ....", "o": ["Salah, karena perkalian harus didahulukan, hasil benar 95", "Benar, karena operasi dari kiri", "Salah, karena harus tambah dulu", "Benar, karena 200 − 40 = 160"], "a": 0, "e": "Coba cek cara Budi. Dia kerjain dari kiri terus, padahal kali harus didahulukan. Yang benar 40 × 3 = 120 dulu, baru 200 − 120 + 15 = 95. Jadi cara Budi salah. Penilaian yang tepat A. (Level: C5 Mengevaluasi)", "lv": "H", "cog": "C5"}, {"q": "Manakah strategi yang paling tepat untuk menyelesaikan -6 × 7 + 20?", "o": ["Hitung -6 × 7 = -42, lalu + 20 = -22", "Hitung 6 × 7 = 42 saja", "Hitung -6 + 20 dulu", "Hitung 7 + 20 dulu"], "a": 0, "e": "Rancang dulu urutannya: kali dulu, baru tambah. -6 × 7 = -42, lalu -42 + 20 = -22. Kalau dibalik, hasilnya beda. Jadi strategi yang paling tepat A. (Level: C6 Mencipta)", "lv": "H", "cog": "C6"}];
+var soal=[], idx=0, jawab=[], sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
+function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+function mulai(){
+  jamMulai=new Date();
+  var bM=BANK.filter(function(s){return s.lv==='M'}); var bS=BANK.filter(function(s){return s.lv==='S'}); var bH=BANK.filter(function(s){return s.lv==='H'});
+  soal=acak(bM.slice()).slice(0,6).concat(acak(bS.slice()).slice(0,8)).concat(acak(bH.slice()).slice(0,6));
+  jawab=[]; for(var i=0;i<20;i++) jawab.push(null);
+  idx=0; sisa=40*60;
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--;
+    var m=Math.floor(sisa/60), s=sisa%60;
+    document.getElementById('timer').textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+}
+function tampil(){
+  document.getElementById('progText').textContent='Soal '+(idx+1)+' dari 20';
+  document.getElementById('progBar').style.width=((idx+1)/20*100)+'%';
+  document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q;
+  var c=document.getElementById('opts'); c.innerHTML='';
+  var huruf=['A','B','C','D'];
+  for(var i=0;i<4;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.type='button';
+      b.className='opt'+(jawab[idx]===i?' sel':'');
+      b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i];
+      b.onclick=function(){jawab[idx]=i; tampil();};
+      c.appendChild(b);
+    })(i);
+  }
+}
+function mintaSelesai(){
+  var dijawab=0; for(var i=0;i<jawab.length;i++) if(jawab[i]!==null) dijawab++;
+  var msg='Kamu baru menjawab <b>'+dijawab+' dari 20 soal</b>.<br>';
+  msg+=(dijawab<20)?('Masih ada '+(20-dijawab)+' soal yang belum dijawab. Yakin mau selesai?'):('Semua soal sudah dijawab. Lanjut lihat hasil?');
+  document.getElementById('modalInfo').innerHTML=msg;
+  document.getElementById('modalSelesai').style.display='flex';
+}
+function tutupModal(){document.getElementById('modalSelesai').style.display='none';}
+function selesai(){
+  if(timerInt) clearInterval(timerInt);
+  tutupModal();
+  jamAkhir=new Date();
+  var poinM=0, poinS=0, poinH=0, benarM=0, benarS=0, benarH=0, benar=0;
+  var poinSoal=[4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6];
+  for(var i=0;i<soal.length;i++){
+    if(jawab[i]===soal[i].a){
+      benar++;
+      if(i<6){benarM++; poinM+=4;}
+      else if(i<14){benarS++; poinS+=5;}
+      else{benarH++; poinH+=6;}
+    }
+  }
+  var nilai=poinM+poinS+poinH;
+  var pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi';
+  benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred;
+  window.__poinM=poinM; window.__poinS=poinS; window.__poinH=poinH; window.__benarM=benarM; window.__benarS=benarS; window.__benarH=benarH;
+  document.getElementById('quiz').style.display='none';
+  var h=document.getElementById('hasil'); h.style.display='block';
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+  document.getElementById('hasilNama').textContent='Matematika Kelas 5 - Transisi - '+new Date().toLocaleDateString('id-ID');
+  document.getElementById('skor').textContent=nilai;
+  document.getElementById('predikat').textContent=pred;
+  document.getElementById('ringkasan').textContent='Benar '+benar+' dari 20 soal - Poin '+nilai+' / 100 | Mudah '+benarM+'/6 ('+poinM+' poin) - Sedang '+benarS+'/8 ('+poinS+' poin) - Sulit '+benarH+'/6 ('+poinH+' poin)';
+  document.getElementById('jamInfo').innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit<br><b>Mudah (Kelas 5 Pertengahan):</b> '+benarM+' dari 6 benar, '+poinM+' / 24 poin &nbsp;|&nbsp; <b>Sedang (Kelas 5 Akhir):</b> '+benarS+' dari 8 benar, '+poinS+' / 40 poin &nbsp;|&nbsp; <b>Sulit (Kelas 6 Awal):</b> '+benarH+' dari 6 benar, '+poinH+' / 36 poin';
+  var huruf=['A','B','C','D'];
+  var rev=document.getElementById('review');
+  var out='<h3>Pembahasan</h3>';
+  var labelLv=[]; for(var ii=0;ii<soal.length;ii++){ labelLv.push((ii<6?'Mudah':ii<14?'Sedang':'Sulit')+' - '+soal[ii].cog); }
+  for(var k=0;k<soal.length;k++){
+    var s=soal[k]; var ok=jawab[k]===s.a;
+    out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+labelLv[k]+' - '+poinSoal[k]+' poin] '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';
+  }
+  rev.innerHTML=out;
+  window.scrollTo(0,0);
+}
+function kirimWA(){
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  var lines=['HASIL UJIAN SRP','Nama: '+nama,'Ujian: Matematika Kelas 5 - Transisi','Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 20 soal','Mudah: '+window.__benarM+'/6 ('+window.__poinM+' poin)','Sedang: '+window.__benarS+'/8 ('+window.__poinS+' poin)','Sulit: '+window.__benarH+'/6 ('+window.__poinH+' poin)','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'------------------------','SURABAYA RUMAH PAHLAWAN','APLIKASI UJIAN MANDIRI TERPADU'];
+  window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank');
+}
+document.getElementById('btnMulai').onclick=mulai;
+document.getElementById('btnNext').onclick=function(){if(idx<19) idx++; tampil();};
+document.getElementById('btnPrev').onclick=function(){if(idx>0) idx--; tampil();};
+document.getElementById('btnSelesai').onclick=mintaSelesai;
+document.getElementById('btnBatal').onclick=tutupModal;
+document.getElementById('btnYaSelesai').onclick=selesai;
+document.getElementById('btnWA').onclick=kirimWA;
+document.getElementById('btnPrint').onclick=function(){window.print();};
+document.getElementById('modalSelesai').onclick=function(e){if(e.target===this) tutupModal();};
+</script></body></html>
