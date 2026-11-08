@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IPS Kelas 5 - Transisi | SRP Ujian Mandiri Terpadu</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f3f6fb;color:#17233b}
+.top{background:#0b3a7a;color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:5px solid #f2b705}
+.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px}.top h1{margin:8px 0 4px;font-size:26px}.top p{margin:0;opacity:.9}
+.wrap{max-width:760px;margin:18px auto;padding:0 14px 40px}
+.card{background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(11,58,122,.08);padding:20px}
+.badge{display:inline-block;background:#eaf1ff;color:#0b3a7a;padding:6px 10px;border-radius:99px;font-weight:700;font-size:12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center}.meta b{display:block;font-size:18px}
+.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#0b3a7a;width:0%}
+.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0}.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px}.opt:hover{border-color:#0b3a7a}.opt.sel{border-color:#0b3a7a;background:#eaf1ff}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.primary{background:#0b3a7a;color:#fff}.ghost{background:#eef2f7}.row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ok{color:#0a7a3a;font-weight:800}.no{color:#c0392b;font-weight:800}
+.exp{background:#f8fafc;border-left:4px solid #f2b705;padding:10px 12px;border-radius:8px;margin-top:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:99;padding:16px}
+.modal .box{background:#fff;border-radius:16px;padding:22px;max-width:420px;width:100%;text-align:center}
+@media print{body{background:#fff}.top{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.card{box-shadow:none}#start,#quiz{display:none!important}#hasil{display:block!important}}
+@media(max-width:520px){.top h1{font-size:21px}.q{font-size:17px}}
+</style></head><body>
+<div class="top"><small>Surabaya Rumah Pahlawan &bull; Ujian Mandiri Terpadu</small><h1>IPS Kelas 5 &mdash; Transisi</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
+<div class="wrap">
+<div id="start" class="card">
+<span class="badge">KELAS 5 &bull; IPS &bull; TRANSISI &bull; BIRU PAHLAWAN</span>
+<h2 style="margin:12px 0 6px">Selamat Datang, Pejuang Kelas 5!</h2>
+<p style="line-height:1.6;color:#4a5a75">Ujian ini mengukur kesiapan naik ke Kelas 6. Terdiri dari 3 tangga: Mudah (Kelas 5 Pertengahan), Sedang (Kelas 5 Akhir), Sulit (Kelas 6 Awal). Soal diambil acak dari Bank Soal. Kerjakan dengan jujur, Guru akan mengamati hasilmu.</p>
+<div class="meta"><div>Bank Soal<b>50 Soal</b></div><div>Diujikan<b>20 Soal</b></div><div>Waktu<b>40 Menit</b></div><div>Nilai Max<b>100</b></div></div><p style="font-size:13px;color:#4a5a75;line-height:1.6;margin:0">Diujikan: <b>6 Mudah (4 poin) + 8 Sedang (5 poin) + 6 Sulit (6 poin)</b> = 24 + 40 + 36 = 100 poin.</p>
+<p style="font-size:14px;color:#4a5a75;line-height:1.6"><b><br>Level Kognitif: Mudah = C1-C2 (LOTS), Sedang = C3-C4 (MOTS), Sulit = C5-C6 (HOTS) — Taksonomi Bloom Revisi.<br><br><b>Cara mengerjakan:</b> Cara mengerjakan:</b> Pilih 1 jawaban A-D. Bisa pindah soal dengan tombol Sebelumnya / Berikutnya. Klik Selesai jika sudah yakin. Setelah selesai akan muncul Nilai, Predikat, dan Pembahasan.</p>
+<label style="display:block;margin:14px 0 6px;font-weight:700">Nama Siswa (opsional)</label>
+<input id="nama" placeholder="Contoh: Ahmad - SDN Pahlawan" style="width:100%;padding:13px;border:2px solid #e2e8f0;border-radius:12px;font-size:16px">
+<button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
+<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:12px">SRP &bull; Guru sebagai Pengamat &bull; Siswa sebagai Pejuang</p>
+</div>
+
+<div id="resumeBox" class="card" style="display:none;border:2px solid #f2b705">
+<h3 style="margin:0 0 8px">Lanjut Ujian Terakhir?</h3>
+<p id="resumeText" style="line-height:1.6;color:#4a5a75"></p>
+<div class="row"><button class="btn ghost" type="button" onclick="mulaiBaru()">Mulai Baru (Hapus yang Lama)</button><button class="btn primary" type="button" onclick="lanjutUjian()">Ya, Lanjut →</button></div>
+</div>
+<div id="quiz" class="card" style="display:none">
+<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><span class="badge" id="progText">Soal 1 dari 20</span><span id="saveInfo" style="font-size:11px;color:#0a7a3a;font-weight:700">● Tersimpan otomatis</span><span id="timer" style="font-weight:900;color:#c0392b;font-size:18px">40:00</span></div>
+<div class="bar" style="margin:12px 0"><i id="progBar"></i></div>
+<div class="q" id="qText"></div><div id="opts"></div>
+<div class="row"><button type="button" class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button type="button" class="btn primary" id="btnNext">Berikutnya &rarr;</button></div>
+<button type="button" class="btn" id="btnSelesai" style="width:100%;margin-top:12px;background:#f2b705">Selesai &amp; Lihat Hasil</button>
+<p id="debug" style="font-size:11px;color:#999;text-align:center"></p>
+</div>
+<div id="hasil" class="card" style="display:none">
+<h2 id="hasilJudul" style="margin:0"></h2><p id="hasilNama" style="color:#5a6b88"></p>
+<div style="text-align:center;background:#eaf1ff;border-radius:14px;padding:20px;margin:14px 0"><div style="font-size:52px;font-weight:900;color:#0b3a7a" id="skor">0</div><div id="predikat" style="font-weight:800"></div><div id="ringkasan" style="margin-top:6px;color:#4a5a75"></div></div>
+<div style="background:#f3f6fb;border-radius:12px;padding:14px;margin-top:14px;font-size:14px;line-height:1.7" id="jamInfo"></div>
+<div class="no-print" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+<button type="button" class="btn" id="btnWA" style="flex:1;background:#25D366;color:#fff">Kirim Ringkas ke WhatsApp Guru / Wali</button>
+<button type="button" class="btn" id="btnPrint" style="flex:1;background:#0b3a7a;color:#fff">Cetak PDF - Semua Jawaban + Pembahasan</button>
+</div>
+<div id="review"></div>
+<button type="button" class="btn primary no-print" style="width:100%;margin-top:16px" onclick="ulangiUjian()">Ulangi Ujian (Soal Baru Diacak)</button>
+<a href="javascript:void(0)" onclick="kembaliKeBeranda()"  class="no-print" style="display:block;text-align:center;margin-top:12px;color:#0b3a7a;font-weight:700;text-decoration:none">&larr; Kembali ke Pilih Kelas</a>
+</div>
+</div>
+<div id="modalSelesai" class="modal"><div class="box"><h3 style="margin:0 0 8px">Yakin Sudah Selesai?</h3><p id="modalInfo" style="color:#4a5a75;line-height:1.6"></p><div style="display:flex;gap:10px;margin-top:16px"><button type="button" class="btn ghost" id="btnBatal" style="flex:1">Belum, Cek Lagi</button><button type="button" class="btn primary" id="btnYaSelesai" style="flex:1">Ya, Selesai</button></div></div></div>
+<script>
+var BANK=[{"q": "Ibukota Jawa Timur adalah ....", "o": ["Surabaya", "Madiun", "Kediri", "Malang"], "a": 0, "e": "Surabaya itu ibukota Jawa Timur. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Alat untuk menunjukkan arah adalah ....", "o": ["Timbangan", "Termometer", "Penggaris", "Kompas"], "a": 3, "e": "Kompas untuk arah. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Lagu kebangsaan Indonesia adalah ....", "o": ["Maju Tak Gentar", "Indonesia Raya", "Halo-Halo Bandung", "Garuda Pancasila"], "a": 1, "e": "Lagu kebangsaan kita Indonesia Raya. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Mata uang Indonesia adalah ....", "o": ["Dolar", "Rupiah", "Ringgit", "Yen"], "a": 1, "e": "Kita pakai Rupiah. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Tempat bertemunya penjual dan pembeli disebut ....", "o": ["Pasar", "Kantor Pos", "Rumah Sakit", "Sekolah"], "a": 0, "e": "Pasar itu tempat jual beli. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Pulau terbesar di Indonesia adalah ....", "o": ["Kalimantan", "Lombok", "Jawa", "Bali"], "a": 0, "e": "Kalimantan terbesar. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Pahlawan Bapak Proklamator adalah ....", "o": ["Cut Nyak Dien", "Kartini", "Soekarno", "Diponegoro"], "a": 2, "e": "Soekarno yang proklamasi. (Level: C1 Mengingat)", "cog": "C1", "lv": "M"}, {"q": "Mengapa kita harus menghormati budaya lain?", "o": ["Agar kerukunan terjaga", "Agar budaya kita hilang", "Agar sombong", "Agar daerah lain takut"], "a": 0, "e": "Beda budaya itu untuk dihormati biar rukun. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Peta berfungsi untuk ....", "o": ["Menunjukkan letak suatu tempat", "Menghitung penduduk", "Menyimpan uang", "Mengukur suhu"], "a": 0, "e": "Peta itu untuk letak. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Mengapa petani menanam padi di sawah yang banyak air?", "o": ["Karena padi tidak butuh air", "Karena padi tumbuh di gurun", "Karena sawah harus kering", "Karena padi butuh air banyak"], "a": 3, "e": "Padi butuh air banyak. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Jika membuang sampah sembarangan, lingkungan menjadi ....", "o": ["Kotor dan banjir", "Indah", "Bersih", "Sejuk"], "a": 0, "e": "Sampah sembarangan bikin kotor dan banjir. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Nelayan pekerjaannya ....", "o": ["Menanam padi", "Membuat baju", "Mengajar", "Menangkap ikan di laut"], "a": 3, "e": "Nelayan itu menangkap ikan. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Mengapa harus menghemat uang jajan?", "o": ["Agar bisa menabung", "Agar teman iri", "Agar cepat habis", "Agar tidak bisa beli"], "a": 0, "e": "Hemat biar bisa nabung. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Sikap cinta tanah air adalah ....", "o": ["Buang sampah sembarangan", "Tidak mau upacara", "Menjaga kebersihan dan menghormati pahlawan", "Ejek budaya lain"], "a": 2, "e": "Cinta tanah air itu menjaga. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Tari Reog berasal dari ....", "o": ["Aceh", "Papua", "Ponorogo", "Bali"], "a": 2, "e": "Reog itu Ponorogo. (Level: C2 Memahami)", "cog": "C2", "lv": "M"}, {"q": "Siti ingin ke museum di Surabaya. Alat yang tepat untuk menunjukkan arah adalah ....", "o": ["Timbangan", "Termometer", "Stopwatch", "Peta"], "a": 3, "e": "Mau cari jalan, pakai peta. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Ibu membeli beras di pasar. Kegiatan Ibu termasuk ....", "o": ["Ekspor", "Distribusi", "Konsumsi", "Produksi"], "a": 2, "e": "Membeli untuk dipakai itu konsumsi. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Petani panen padi, jual ke pedagang, pedagang jual ke toko, toko jual ke pembeli. Ini menunjukkan ....", "o": ["Produksi di pabrik", "Ekspor", "Distribusi barang dari produsen ke konsumen", "Konsumsi di rumah"], "a": 2, "e": "Barang jalan dari petani ke pembeli, itu distribusi. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Budi ingin menabung untuk sepeda. Tindakan yang tepat adalah ....", "o": ["Tidak menabung", "Menyisihkan uang jajan", "Menghabiskan semua uang", "Meminjam terus"], "a": 1, "e": "Nabung itu sisihkan. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Ada teman berbeda suku dan agama. Sikap yang tepat adalah ....", "o": ["Menghormati dan berteman", "Tidak mau berteman", "Mengejek", "Pilih yang sama saja"], "a": 0, "e": "Beda itu untuk dihormati. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Desa banyak kebun teh di pegunungan. Pekerjaan yang cocok adalah ....", "o": ["Petani garam", "Penjual ikan laut", "Nelayan", "Petani teh"], "a": 3, "e": "Pegunungan teh, ya petani teh. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Siswa bakti sosial membersihkan sungai. Ini menunjukkan sikap ....", "o": ["Sombong", "Takut", "Egois", "Gotong royong dan peduli lingkungan"], "a": 3, "e": "Bersih-bersih bareng itu gotong royong. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Ayah bekerja sebagai sopir bus. Pekerjaan Ayah termasuk bidang ....", "o": ["Jasa", "Pertanian", "Perikanan", "Pertambangan"], "a": 0, "e": "Sopir itu jasa. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Peta skala 1:100.000 artinya ....", "o": ["1 cm = 1 cm", "1 cm di peta = 100.000 cm di sebenarnya", "Peta tidak ada skala", "Peta hanya hiasan"], "a": 1, "e": "Skala itu perbandingan. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Rani membandingkan harga di dua toko lalu memilih yang murah dan bagus. Ini menunjukkan sikap ....", "o": ["Sombong", "Takut", "Boros", "Cermat dan hemat"], "a": 3, "e": "Bandingkan dulu baru beli, itu cermat. (Level: C3 Menerapkan)", "cog": "C3", "lv": "S"}, {"q": "Data: Desa A dekat laut banyak nelayan, Desa B pegunungan banyak petani sayur. Ini menunjukkan ....", "o": ["Desa A lebih kaya", "Semua desa sama", "Kondisi geografis mempengaruhi pekerjaan", "Desa B tidak ada pekerjaan"], "a": 2, "e": "Dekat laut ya nelayan, pegunungan ya petani. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Kota banyak kendaraan, udara kotor. Hubungannya ....", "o": ["Tidak berpengaruh", "Asap kendaraan mencemari udara", "Kendaraan membuat udara bersih", "Udara kotor karena hujan"], "a": 1, "e": "Asap kendaraan bikin udara kotor. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Jika semua warga buang sampah ke sungai, yang terjadi ....", "o": ["Ikan bertambah", "Sungai tercemar dan banjir", "Sungai bersih", "Air jernih"], "a": 1, "e": "Sampah terus-menerus, ya tercemar dan banjir. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Peta A banyak gunung, Peta B banyak pantai. Kesimpulannya ....", "o": ["Peta B pegunungan", "Peta A pantai", "Peta A pegunungan, Peta B pantai", "Keduanya sama"], "a": 2, "e": "Gunung ya pegunungan, pantai ya pantai. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Grafik harga beras naik saat kemarau. Penyebab paling mungkin ....", "o": ["Hasil panen berkurang karena kekeringan", "Beras tidak laku", "Tidak menanam padi", "Panen melimpah"], "a": 0, "e": "Kemarau, panen berkurang, harga naik. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Hutan banyak pohon ditebang. Jika terus terjadi, yang terjadi ....", "o": ["Tidak ada perubahan", "Udara lebih bersih", "Banjir dan hewan kehilangan rumah", "Hutan lebih lebat"], "a": 2, "e": "Pohon hilang, tanah tidak ada penahan, banjir. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Siswa A: 'Semua harus jadi petani.' Siswa B: 'Pekerjaan beragam.' Yang lebih tepat ....", "o": ["Keduanya salah", "Siswa B, karena pekerjaan beragam", "Keduanya benar", "Siswa A, karena petani saja cukup"], "a": 1, "e": "Tidak semua harus petani. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Pasar tradisional sepi karena banyak belanja online. Ini menunjukkan ....", "o": ["Pasar lebih modern", "Belanja online tidak berpengaruh", "Pasar tidak dibutuhkan", "Teknologi mempengaruhi ekonomi"], "a": 3, "e": "Teknologi berubah, cara belanja berubah. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Daerah banyak wisatawan, yang terjadi pada warga ....", "o": ["Tidak perlu bekerja", "Tidak ada pekerjaan", "Banyak peluang usaha", "Pindah"], "a": 2, "e": "Wisatawan banyak, peluang usaha banyak. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Anak menabung setiap hari, sebulan uangnya bertambah. Ini menunjukkan ....", "o": ["Uang habis sendiri", "Uang bertambah tanpa menabung", "Menabung sedikit-sedikit bisa jadi banyak", "Menabung tidak berguna"], "a": 2, "e": "Nabung sedikit-sedikit, lama-lama jadi banyak. (Level: C4 Menganalisis)", "cog": "C4", "lv": "S"}, {"q": "Dani berkata: 'Semua budaya lain harus dihilangkan.' Pendapat Dani ....", "o": ["Benar, karena budaya kita paling benar", "Kurang tepat, karena budaya tidak ada", "Benar, karena budaya lain tidak penting", "Kurang tepat, karena semua budaya harus dihormati"], "a": 3, "e": "Budaya lain bukan untuk dihilangkan. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Rani berkata: 'Buang sampah ke sungai tidak masalah.' Pendapat Rani ....", "o": ["Kurang tepat, karena sungai tidak mengalir", "Kurang tepat, karena sampah mencemari sungai", "Benar, karena sungai membersihkan sendiri", "Benar, karena sampah hilang sendiri"], "a": 1, "e": "Sampah tidak hilang, dia mencemari. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Ali bilang peta tidak penting, Budi bilang peta tetap penting. Yang lebih tepat ....", "o": ["Keduanya salah", "Keduanya benar", "Ali, karena peta tidak penting", "Budi, karena peta membantu memahami wilayah"], "a": 3, "e": "Peta tetap penting untuk memahami wilayah. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Teman berkata: 'Uang tidak perlu dihemat, habiskan saja.' Pendapat ini ....", "o": ["Kurang tepat, karena uang harus dikelola dan ditabung", "Benar, karena uang untuk dihabiskan", "Benar, karena menabung tidak penting", "Kurang tepat, karena uang tidak ada gunanya"], "a": 0, "e": "Uang harus dikelola. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Cara 1 gotong royong bersihkan lingkungan, Cara 2 biarkan kotor. Yang lebih baik ....", "o": ["Keduanya sama", "Keduanya buruk", "Cara 2, karena lebih mudah", "Cara 1, karena bersih dan rukun"], "a": 3, "e": "Gotong royong itu bersih dan rukun. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Tono berkata: 'Pahlawan hanya yang memegang senjata.' Pendapat Tono ....", "o": ["Kurang tepat, karena pahlawan juga lewat pendidikan", "Benar, karena guru bukan pahlawan", "Benar, karena pahlawan harus bersenjata", "Kurang tepat, karena pahlawan tidak ada"], "a": 0, "e": "Guru dan dokter juga pahlawan. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Siswa A: 'Semua pekerjaan sama saja, tidak perlu dihormati.' Siswa B: 'Semua pekerjaan harus dihormati.' Yang lebih tepat ....", "o": ["Siswa A, karena pekerjaan tidak penting", "Keduanya benar", "Siswa B, karena semua pekerjaan bermanfaat", "Keduanya salah"], "a": 2, "e": "Semua pekerjaan bermanfaat. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Sari berkata: 'Indonesia hanya punya satu budaya.' Pendapat Sari ....", "o": ["Benar, karena budaya tidak beragam", "Benar, karena Indonesia satu budaya", "Kurang tepat, karena Indonesia tidak punya budaya", "Kurang tepat, karena Indonesia beragam budaya"], "a": 3, "e": "Indonesia itu beragam, bukan satu. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Dua siswa berdebat: Satu bilang pasar tradisional tidak penting lagi, satu bilang tetap penting. Yang lebih tepat ....", "o": ["Yang bilang tetap penting, karena pasar menjaga ekonomi warga dan budaya", "Keduanya salah", "Yang bilang tidak penting", "Keduanya benar"], "a": 0, "e": "Pasar tradisional itu menjaga ekonomi warga. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Anak berkata: 'Jika kita tidak membuang sampah sembarangan, banjir tetap terjadi.' Pendapat ini ....", "o": ["Benar, karena sampah tidak berpengaruh", "Benar, karena banjir hanya karena hujan", "Kurang tepat, karena sampah adalah salah satu penyebab banjir, menguranginya mengurangi risiko", "Kurang tepat, karena banjir tidak ada"], "a": 2, "e": "Sampah itu salah satu penyebab banjir. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Teman berkata: 'Semua daerah di Indonesia sama saja.' Pendapat ini ....", "o": ["Benar, karena semua daerah sama", "Kurang tepat, karena setiap daerah punya geografis dan budaya berbeda", "Kurang tepat, karena Indonesia tidak punya daerah", "Benar, karena geografis tidak berpengaruh"], "a": 1, "e": "Setiap daerah punya ciri sendiri. (Level: C5 Mengevaluasi)", "cog": "C5", "lv": "H"}, {"q": "Kamu ingin membuat peta sederhana desamu. Langkah paling tepat ....", "o": ["Tidak menggambar", "Mengamati desamu, menggambar jalan, sungai, tempat penting, memberi keterangan", "Menggambar peta negara lain", "Menggambar tanpa mengamati"], "a": 1, "e": "Peta itu harus dari pengamatan. (Level: C6 Mencipta)", "cog": "C6", "lv": "H"}, {"q": "Sekolah ingin menghormati pahlawan. Strategi paling tepat ....", "o": ["Melupakan sejarah", "Upacara, pameran foto pahlawan, cerita perjuangan", "Mengejek pahlawan", "Tidak mengadakan apa-apa"], "a": 1, "e": "Menghormati pahlawan dengan mengenang. (Level: C6 Mencipta)", "cog": "C6", "lv": "H"}, {"q": "Kamu ingin mengajak teman mengurangi sampah plastik. Strategi paling tepat ....", "o": ["Tidak melakukan apa-apa", "Buang sampah ke sungai", "Bank sampah dan bawa botol sendiri", "Bakar sampah"], "a": 2, "e": "Bank sampah itu strategi. (Level: C6 Mencipta)", "cog": "C6", "lv": "H"}, {"q": "Kamu ingin membuat poster tentang hemat uang. Cara paling tepat ....", "o": ["Gambar saja tanpa tulisan", "Buat poster dengan contoh menabung dan membandingkan harga", "Tidak membuat apa-apa", "Buat poster tanpa pesan"], "a": 1, "e": "Poster hemat itu harus ada contoh menabung. (Level: C6 Mencipta)", "cog": "C6", "lv": "H"}];
+var soal=[], idx=0, jawab=[], sisa=40*60, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
+function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+
+// === AUTO-SAVE SRP (Anti-Hilang Kalau Ke-Refresh) ===
+var SAVE_KEY='SRP_IPS5_TR';
+var savedData=null;
+var allowLeave=false;
+function getBankIdx(qtxt){ for(var i=0;i<BANK.length;i++) if(BANK[i].q===qtxt) return i; return -1; }
+function saveState(){
+  try{
+    if(!soal || soal.length===0) return;
+    var data={bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', sudahSelesai: false};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+    var el=document.getElementById('saveInfo'); if(el) el.textContent='● Tersimpan otomatis - '+(jawab.filter(function(x){return x!==null}).length)+'/'+soal.length+' terjawab';
+  }catch(e){}
+}
+function saveHasil(){
+  try{
+    var data={sudahSelesai:true, bankIdx: soal.map(function(s){return getBankIdx(s.q);}), jawab: jawab, idx: idx, sisa: sisa, jamMulai: jamMulai?jamMulai.getTime():Date.now(), jamAkhir: jamAkhir?jamAkhir.getTime():Date.now(), nama: document.getElementById('nama')?document.getElementById('nama').value:'', benar: benarAkhir, nilai: nilaiAkhir, predikat: predikatAkhir};
+    localStorage.setItem(SAVE_KEY, JSON.stringify(data));
+  }catch(e){}
+}
+function clearState(){ try{ localStorage.removeItem(SAVE_KEY); }catch(e){} }
+function ulangiUjian(){ allowLeave=true; clearState(); location.reload(); }
+function kembaliKeBeranda(){ allowLeave=true; clearState(); window.location.href='../index.html'; }
+function cekResume(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.bankIdx || d.sudahSelesai) return;
+    savedData=d;
+    var terjawab=d.jawab.filter(function(x){return x!==null}).length;
+    var mm=Math.floor(d.sisa/60), ss=d.sisa%60;
+    document.getElementById('resumeText').innerHTML='Kamu tadi sudah mengerjakan <b>'+terjawab+' dari '+d.bankIdx.length+' soal</b>, sisa waktu <b>'+('0'+mm).slice(-2)+':'+('0'+ss).slice(-2)+'</b>.<br>Kalau pilih <b>Lanjut</b>, jawabanmu balik lagi, timer lanjut. Kalau pilih <b>Mulai Baru</b>, yang lama dihapus.';
+    document.getElementById('resumeBox').style.display='block';
+    if(d.nama && document.getElementById('nama')) document.getElementById('nama').value=d.nama;
+  }catch(e){}
+}
+function mulaiBaru(){ clearState(); savedData=null; document.getElementById('resumeBox').style.display='none'; mulai(); }
+function lanjutUjian(){
+  if(!savedData) return;
+  var d=savedData;
+  jamMulai=new Date(d.jamMulai);
+  soal=d.bankIdx.map(function(i){return BANK[i];});
+  jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+  document.getElementById('resumeBox').style.display='none';
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--; saveState();
+    var m=Math.floor(sisa/60), s=sisa%60;
+    var te=document.getElementById('timer'); if(te) te.textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+  saveState();
+}
+function cekHasilTersimpan(){
+  try{
+    var raw=localStorage.getItem(SAVE_KEY); if(!raw) return;
+    var d=JSON.parse(raw); if(!d || !d.sudahSelesai) return;
+    // Kalau sudah selesai TAPI user baru masuk dari beranda, jangan langsung tampilkan hasil.
+    // Kita tampilkan kotak resume yang menawarkan Lihat Hasil Lama / Mulai Baru, biar tidak kejebak di Laporan.
+    // Untuk itu, kita TIDAK auto-restore di sini. Restore hanya kalau user pilih Lihat Hasil.
+    // Jadi fungsi ini sekarang hanya menyiapkan tombol Lihat Hasil di resumeBox.
+    var rb=document.getElementById('resumeBox');
+    var rt=document.getElementById('resumeText');
+    if(rb && rt){
+      rt.innerHTML='Kamu sudah menyelesaikan ujian ini dengan nilai <b>'+d.nilai+' / 100</b> ('+d.predikat+').<br>Mau <b>Lihat Hasil Lama</b> atau <b>Mulai Baru</b>?';
+      rb.style.display='block';
+      // Ubah tombol Lanjut jadi Lihat Hasil
+      var btns=rb.querySelectorAll('button');
+      if(btns.length>=2){ btns[1].textContent='Lihat Hasil Lama →'; btns[1].setAttribute('onclick','lihatHasilLama()'); }
+    }
+    savedData=d;
+  }catch(e){}
+}
+function lihatHasilLama(){
+  try{
+    var d=savedData || JSON.parse(localStorage.getItem(SAVE_KEY));
+    if(!d || !d.sudahSelesai) return;
+    jamMulai=new Date(d.jamMulai); jamAkhir=new Date(d.jamAkhir);
+    soal=d.bankIdx.map(function(i){return BANK[i];});
+    jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa;
+    benarAkhir=d.benar; nilaiAkhir=d.nilai; predikatAkhir=d.predikat;
+    document.getElementById('resumeBox').style.display='none';
+    document.getElementById('start').style.display='none';
+    document.getElementById('quiz').style.display='none';
+    var h=document.getElementById('hasil'); h.style.display='block';
+    var nama=d.nama||'Pejuang Kelas 5';
+    document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+    var isTr = document.title.indexOf('Transisi')!==-1;
+    var lbl = isTr ? 'IPS Kelas 5 - Transisi' : 'IPS Kelas 5 - Reguler';
+    document.getElementById('hasilNama').textContent=lbl+' - '+new Date(d.jamAkhir).toLocaleDateString('id-ID');
+    document.getElementById('skor').textContent=d.nilai;
+    document.getElementById('predikat').textContent=d.predikat;
+    var ring=document.getElementById('ringkasan');
+    if(ring){
+      if(isTr){
+        var mB=0,mT=0,sB=0,sT=0,hB=0,hT=0;
+        for(var i=0;i<soal.length;i++){ var lv=soal[i].lv; var ok=jawab[i]===soal[i].a; if(lv==='M'){mT++; if(ok) mB++;} else if(lv==='S'){sT++; if(ok) sB++;} else if(lv==='H'){hT++; if(ok) hB++;} }
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Mudah '+mB+'/'+mT+' ('+(mB*4)+' poin) - Sedang '+sB+'/'+sT+' ('+(sB*5)+' poin) - Sulit '+hB+'/'+hT+' ('+(hB*6)+' poin)';
+      } else {
+        ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Salah '+(soal.length-d.benar)+' soal - Nilai '+d.nilai+' / 100 (1 soal = 5 poin)';
+      }
+    }
+    var jamEl=document.getElementById('jamInfo'); if(jamEl) jamEl.innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit';
+    var huruf=['A','B','C','D'];
+    var rev=document.getElementById('review');
+    var out='<h3>Pembahasan</h3>';
+    for(var k=0;k<soal.length;k++){ var s=soal[k]; var ok2=jawab[k]===s.a; out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+(s.cog||'')+'] '+s.q+'</b><br><span class="'+(ok2?'ok':'no')+'">'+(ok2?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>'; }
+    rev.innerHTML=out;
+  }catch(e){}
+}
+window.addEventListener('beforeunload', function(e){
+  if(allowLeave) return;
+  var qz=document.getElementById('quiz');
+  var hasilEl=document.getElementById('hasil');
+  var lagiUjian = qz && qz.style.display!=='none' && typeof soal!=='undefined' && soal && soal.length>0;
+  var sudahHasil = hasilEl && hasilEl.style.display!=='none';
+  if(lagiUjian || sudahHasil){
+    try{ if(lagiUjian) saveState(); else if(typeof saveHasil==='function') saveHasil(); }catch(err){}
+    e.preventDefault(); e.returnValue='Ujian masih berjalan.';
+    return e.returnValue;
+  }
+});
+document.addEventListener('DOMContentLoaded', function(){ cekHasilTersimpan(); cekResume(); });
+
+function mulai(){
+  jamMulai=new Date();
+  var bM=BANK.filter(function(s){return s.lv==='M'}); var bS=BANK.filter(function(s){return s.lv==='S'}); var bH=BANK.filter(function(s){return s.lv==='H'});
+  soal=acak(bM.slice()).slice(0,6).concat(acak(bS.slice()).slice(0,8)).concat(acak(bH.slice()).slice(0,6));
+  jawab=[]; for(var i=0;i<20;i++) jawab.push(null);
+  idx=0; sisa=40*60;
+  document.getElementById('start').style.display='none';
+  document.getElementById('quiz').style.display='block';
+  tampil();
+  if(timerInt) clearInterval(timerInt);
+  timerInt=setInterval(function(){
+    sisa--;
+    var m=Math.floor(sisa/60), s=sisa%60;
+    document.getElementById('timer').textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2);
+    if(sisa<=0){clearInterval(timerInt); selesai();}
+  },1000);
+}
+function tampil(){
+  document.getElementById('progText').textContent='Soal '+(idx+1)+' dari 20';
+  document.getElementById('progBar').style.width=((idx+1)/20*100)+'%';
+  document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q;
+  var c=document.getElementById('opts'); c.innerHTML='';
+  var huruf=['A','B','C','D'];
+  for(var i=0;i<4;i++){
+    (function(i){
+      var b=document.createElement('button');
+      b.type='button';
+      b.className='opt'+(jawab[idx]===i?' sel':'');
+      b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i];
+      b.onclick=function(){jawab[idx]=i; tampil();};
+      c.appendChild(b);
+    })(i);
+  }
+}
+function mintaSelesai(){
+  var dijawab=0; for(var i=0;i<jawab.length;i++) if(jawab[i]!==null) dijawab++;
+  var msg='Kamu baru menjawab <b>'+dijawab+' dari 20 soal</b>.<br>';
+  msg+=(dijawab<20)?('Masih ada '+(20-dijawab)+' soal yang belum dijawab. Yakin mau selesai?'):('Semua soal sudah dijawab. Lanjut lihat hasil?');
+  document.getElementById('modalInfo').innerHTML=msg;
+  document.getElementById('modalSelesai').style.display='flex';
+}
+function tutupModal(){document.getElementById('modalSelesai').style.display='none';}
+function selesai(){
+  if(timerInt) clearInterval(timerInt);
+  tutupModal();
+  jamAkhir=new Date();
+  var poinM=0, poinS=0, poinH=0, benarM=0, benarS=0, benarH=0, benar=0;
+  var poinSoal=[4,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6];
+  for(var i=0;i<soal.length;i++){
+    if(jawab[i]===soal[i].a){
+      benar++;
+      if(i<6){benarM++; poinM+=4;}
+      else if(i<14){benarS++; poinS+=5;}
+      else{benarH++; poinH+=6;}
+    }
+  }
+  var nilai=poinM+poinS+poinH;
+  var pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi';
+  benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred;
+  window.__poinM=poinM; window.__poinS=poinS; window.__poinH=poinH; window.__benarM=benarM; window.__benarS=benarS; window.__benarH=benarH;
+  document.getElementById('quiz').style.display='none';
+  var h=document.getElementById('hasil'); h.style.display='block';
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama;
+  document.getElementById('hasilNama').textContent='IPS Kelas 5 - Transisi - '+new Date().toLocaleDateString('id-ID');
+  document.getElementById('skor').textContent=nilai;
+  document.getElementById('predikat').textContent=pred;
+  document.getElementById('ringkasan').textContent='Benar '+benar+' dari 20 soal - Poin '+nilai+' / 100 | Mudah '+benarM+'/6 ('+poinM+' poin) - Sedang '+benarS+'/8 ('+poinS+' poin) - Sulit '+benarH+'/6 ('+poinH+' poin)';
+  document.getElementById('jamInfo').innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit<br><b>Mudah (Kelas 5 Pertengahan):</b> '+benarM+' dari 6 benar, '+poinM+' / 24 poin &nbsp;|&nbsp; <b>Sedang (Kelas 5 Akhir):</b> '+benarS+' dari 8 benar, '+poinS+' / 40 poin &nbsp;|&nbsp; <b>Sulit (Kelas 6 Awal):</b> '+benarH+' dari 6 benar, '+poinH+' / 36 poin';
+  var huruf=['A','B','C','D'];
+  var rev=document.getElementById('review');
+  var out='<h3>Pembahasan</h3>';
+  var labelLv=['Mudah','Mudah','Mudah','Mudah','Mudah','Mudah','Sedang','Sedang','Sedang','Sedang','Sedang','Sedang','Sedang','Sedang','Sulit','Sulit','Sulit','Sulit','Sulit','Sulit'];
+  for(var k=0;k<soal.length;k++){
+    var s=soal[k]; var ok=jawab[k]===s.a;
+    out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+labelLv[k]+' - '+poinSoal[k]+' poin] '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';
+  }
+  rev.innerHTML=out;
+  saveHasil();
+  window.scrollTo(0,0);
+}
+function kirimWA(){
+  var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
+  var lines=['HASIL UJIAN SRP','Nama: '+nama,'Ujian: IPS Kelas 5 - Transisi','Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 20 soal','Mudah: '+window.__benarM+'/6 ('+window.__poinM+' poin)','Sedang: '+window.__benarS+'/8 ('+window.__poinS+' poin)','Sulit: '+window.__benarH+'/6 ('+window.__poinH+' poin)','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'------------------------','SURABAYA RUMAH PAHLAWAN','APLIKASI UJIAN MANDIRI TERPADU'];
+  window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank');
+}
+document.getElementById('btnMulai').onclick=mulai;
+document.getElementById('btnNext').onclick=function(){if(idx<19) idx++; tampil();};
+document.getElementById('btnPrev').onclick=function(){if(idx>0) idx--; tampil();};
+document.getElementById('btnSelesai').onclick=mintaSelesai;
+document.getElementById('btnBatal').onclick=tutupModal;
+document.getElementById('btnYaSelesai').onclick=selesai;
+document.getElementById('btnWA').onclick=kirimWA;
+document.getElementById('btnPrint').onclick=function(){window.print();};
+document.getElementById('modalSelesai').onclick=function(e){if(e.target===this) tutupModal();};
+</script></body></html>
