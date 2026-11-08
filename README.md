@@ -24,6 +24,7 @@ Sistem asesmen dan latihan soal online langsung di web tanpa instalasi, dirancan
 * **Levelisasi:** 
   * *Reguler:* Penyesuaian materi sesuai tingkat kelas.
   * *Transisi:* Peningkatan jenjang dengan variasi tingkat kesulitan (Mudah, Sedang, Sulit).
+  * *Transenden:* Puncak nalar murni, studi kasus tak terduga, melampaui kebiasaan sekolah.
 * **Cakupan Mapel:** Matematika, IPA, IPS, Fisika, Kimia, Biologi, TWK, TIU, TKP.
 
 ### 3. Aplikasi Bantu Lingkungan (Perangkat Kerja Warga)
