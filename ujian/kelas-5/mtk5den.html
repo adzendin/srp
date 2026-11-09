@@ -244,7 +244,12 @@ function selesai(){
 }
 function kirimWA(){
   var nama=document.getElementById('nama').value||'Pejuang Kelas 5';
-  var lines=['HASIL UJIAN SRP','Nama: '+nama,'Ujian: Matematika Kelas 5 — Transenden','Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 25 soal (1 soal = 4 poin)','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'------------------------','SURABAYA RUMAH PAHLAWAN','APLIKASI UJIAN MANDIRI TERPADU'];
+  var tgl = jamAkhir || new Date();
+  var hariArr=['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+  var hari = hariArr[tgl.getDay()];
+  var dd=('0'+tgl.getDate()).slice(-2), mm=('0'+(tgl.getMonth()+1)).slice(-2), yy=tgl.getFullYear();
+  var tanggal = dd+'-'+mm+'-'+yy;
+  var lines=['HASIL UJIAN MANDIRI TERPADU','------','Nama: '+nama,'Ujian: Matematika Kelas 5 — Transenden','Hari: '+hari,'Tanggal: '+tanggal,'Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,'Benar: '+benarAkhir+' dari 25 soal (1 soal = 4 poin)','Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'-----','@Surabayarp'];
   window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank');
 }
 document.getElementById('btnMulai').onclick=mulai;
