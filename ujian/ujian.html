@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SURABAYA RUMAH PAHLAWAN</title>
+<!-- S6: MESIN - SU JANGAN SENTUH -->
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f3f6fb;color:#17233b}
+.top{background:#2e7d32;color:#fff;padding:22px 16px 18px;text-align:center;border-bottom:5px solid #f2b705}
+.top small{letter-spacing:.18em;text-transform:uppercase;opacity:.85;font-size:11px}.top h1{margin:8px 0 4px;font-size:26px}.top p{margin:0;opacity:.9}
+.wrap{max-width:760px;margin:18px auto;padding:0 14px 40px}
+.card{background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(11,58,122,.08);padding:20px}
+.badge{display:inline-block;background:#eaf1ff;color:#2e7d32;padding:6px 10px;border-radius:99px;font-weight:700;font-size:12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.meta div{background:#f3f6fb;border-radius:10px;padding:10px 12px;flex:1;min-width:140px;text-align:center}.meta b{display:block;font-size:18px}
+.bar{height:10px;background:#e8edf5;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#2e7d32;width:0%}
+.q{font-size:19px;font-weight:700;line-height:1.5;margin:18px 0}.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:14px;margin:8px 0;cursor:pointer;font-size:16px}.opt:hover{border-color:#2e7d32}.opt.sel{border-color:#2e7d32;background:#eaf1ff}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.primary{background:#2e7d32;color:#fff}.ghost{background:#eef2f7}.row{display:flex;justify-content:space-between;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ok{color:#0a7a3a;font-weight:800}.no{color:#c0392b;font-weight:800}
+.exp{background:#f8fafc;border-left:4px solid #f2b705;padding:10px 12px;border-radius:8px;margin-top:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:99;padding:16px}
+.modal .box{background:#fff;border-radius:16px;padding:22px;max-width:420px;width:100%;text-align:center}
+@media print{body{background:#fff}.top{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.card{box-shadow:none}#start,#quiz{display:none!important}#hasil{display:block!important}}
+@media(max-width:520px){.top h1{font-size:21px}.q{font-size:17px}}
+</style></head><body>
+<div class="top" id="topBar"><small>Surabaya Rumah Pahlawan &bull; Ujian Mandiri Terpadu</small><h1 id="judulTop">Memuat…</h1><p>mudah didapat, untuk meMUDAhkan bersama.</p></div>
+<div class="wrap">
+<div id="loadError" class="card" style="display:none;text-align:center"><h2>Soal belum siap</h2><p style="line-height:1.6;color:#4a5a75">Soal ini sedang disiapkan, Pejuang. Sabar ya. Coba lagi sebentar. Kalau masih belum, hubungi kontak di beranda.</p><button class="btn primary" onclick="location.reload()">Coba Lagi</button></div>
+<div id="start" class="card" style="display:none">
+<span class="badge" id="badgeEl"></span>
+<h2 style="margin:12px 0 6px">Selamat Datang, Pejuang Kelas 6!</h2>
+<p style="line-height:1.6;color:#4a5a75" id="descEl"></p>
+<div class="meta"><div>Soal Tersedia<b id="metaTotal"></b></div><div>Diujikan<b>20 Soal</b></div><div>Waktu<b id="metaWaktu"></b></div><div>Nilai Max<b>100</b></div></div>
+<p style="font-size:14px;color:#4a5a75;line-height:1.6" id="diujikanEl"></p>
+<div id="resumeBox" style="display:none;background:#fff7e0;border:1px solid #f2b705;border-radius:12px;padding:12px;margin:10px 0"><b>Lanjut ujian?</b><div id="resumeText"></div><div style="display:flex;gap:8px;margin-top:10px"><button class="btn primary" onclick="lanjutUjian()">Lanjut</button><button class="btn ghost" onclick="mulaiBaru()">Mulai Baru</button></div></div>
+<label style="display:block;margin:14px 0 6px;font-weight:700">Nama Siswa (opsional)</label>
+<input id="nama" placeholder="Contoh: Ahmad - SDN Pahlawan" style="width:100%;padding:13px;border:2px solid #e2e8f0;border-radius:12px;font-size:16px">
+<button type="button" class="btn primary" id="btnMulai" style="width:100%;margin-top:16px;font-size:17px">Mulai Ujian &rarr;</button>
+<p style="text-align:center;font-size:12px;color:#8a99b3;margin-top:10px">Skor disimpan otomatis di perangkat ini.</p>
+</div>
+<div id="quiz" class="card" style="display:none">
+<div style="display:flex;justify-content:space-between;font-weight:700"><span id="progText"></span><span id="timer">00:00</span></div>
+<div class="bar" style="margin:10px 0"><i id="progBar"></i></div>
+<div id="saveInfo" style="font-size:12px;color:#8a99b3"></div>
+<div class="q" id="qText"></div><div id="opts"></div>
+<div class="row"><button class="btn ghost" id="btnPrev">&larr; Sebelumnya</button><button class="btn ghost" id="btnNext">Berikutnya &rarr;</button><button class="btn primary" id="btnSelesai">Selesai</button></div>
+</div>
+<div id="hasil" class="card" style="display:none">
+<h2 id="hasilJudul"></h2><p id="hasilNama"></p>
+<div style="font-size:52px;font-weight:900;text-align:center" id="skor"></div>
+<div style="text-align:center;font-weight:800" id="predikat"></div>
+<p id="ringkasan" style="text-align:center"></p><p id="jamInfo" style="text-align:center;font-size:13px"></p>
+<div class="row" style="justify-content:center"><button class="btn primary" id="btnWA">Kirim via WhatsApp</button><button class="btn ghost" id="btnPrint">Cetak / PDF</button></div>
+<div class="row" style="justify-content:center"><button class="btn ghost" onclick="ulangiUjian()">Ulangi Ujian</button><button class="btn ghost" onclick="kembaliKeBeranda()">Kembali ke Beranda</button></div>
+<div id="review"></div>
+</div>
+</div>
+<div class="modal" id="modalSelesai"><div class="box"><h3>Selesaikan ujian?</h3><p id="modalInfo"></p><div style="display:flex;gap:10px;justify-content:center"><button class="btn ghost" id="btnBatal">Batal</button><button class="btn primary" id="btnYaSelesai">Ya, Selesai</button></div></div></div>
+<script>
+var DATA=null, LIST=[], soal=[], idx=0, jawab=[], sisa=0, timerInt=null, jamMulai=null, jamAkhir=null, nilaiAkhir=0, benarAkhir=0, predikatAkhir='';
+var SAVE_KEY='SRP_UJIAN';
+var savedData=null, allowLeave=false;
+function param(n){var u=new URLSearchParams(location.search); return u.get(n);}
+function acak(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function fmtJam(d){return d.toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit',second:'2-digit'})+' WIB';}
+function getIdx(qtxt){for(var i=0;i<LIST.length;i++) if(LIST[i].q===qtxt) return i; return -1;}
+function poinSoal(s){ if(DATA && DATA.poin_per_level && s.lvl) return DATA.poin_per_level[s.lvl]||0; if(s.pts) return s.pts; return (DATA&&DATA.poin_per_soal)||5; }
+function saveState(){try{if(!soal||!soal.length) return; var data={idxList:soal.map(function(s){return getIdx(s.q);}), jawab:jawab, idx:idx, sisa:sisa, jamMulai:jamMulai?jamMulai.getTime():Date.now(), nama:document.getElementById('nama')?document.getElementById('nama').value:'', sudahSelesai:false}; localStorage.setItem(SAVE_KEY, JSON.stringify(data)); var el=document.getElementById('saveInfo'); if(el) el.textContent='● Tersimpan otomatis - '+(jawab.filter(function(x){return x!==null}).length)+'/'+soal.length+' terjawab';}catch(e){}}
+function saveHasil(){try{var data={sudahSelesai:true, idxList:soal.map(function(s){return getIdx(s.q);}), jawab:jawab, idx:idx, sisa:sisa, jamMulai:jamMulai?jamMulai.getTime():Date.now(), jamAkhir:jamAkhir?jamAkhir.getTime():Date.now(), nama:document.getElementById('nama')?document.getElementById('nama').value:'', benar:benarAkhir, nilai:nilaiAkhir, predikat:predikatAkhir}; localStorage.setItem(SAVE_KEY, JSON.stringify(data));}catch(e){}}
+function restoreHasil(){try{var raw=localStorage.getItem(SAVE_KEY); if(!raw) return false; var d=JSON.parse(raw); if(!d||!d.sudahSelesai) return false; jamMulai=new Date(d.jamMulai); jamAkhir=new Date(d.jamAkhir); soal=d.idxList.map(function(i){return LIST[i];}); jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa; benarAkhir=d.benar; nilaiAkhir=d.nilai; predikatAkhir=d.predikat; document.getElementById('start').style.display='none'; document.getElementById('quiz').style.display='none'; var h=document.getElementById('hasil'); h.style.display='block'; var nama=d.nama||'Pejuang Kelas 6'; document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama; document.getElementById('hasilNama').textContent=DATA.judul+' - '+new Date(d.jamAkhir).toLocaleDateString('id-ID'); document.getElementById('skor').textContent=d.nilai; document.getElementById('predikat').textContent=d.predikat; var ring=document.getElementById('ringkasan'); if(ring) ring.textContent='Benar '+d.benar+' dari '+soal.length+' soal - Salah '+(soal.length-d.benar)+' soal - Nilai '+d.nilai+' / 100'; var jamEl=document.getElementById('jamInfo'); if(jamEl) jamEl.innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit'; var huruf=['A','B','C','D']; var rev=document.getElementById('review'); var out='<h3>Pembahasan</h3>'; for(var k=0;k<soal.length;k++){var s=soal[k]; var ok2=jawab[k]===s.a; out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+(s.cog||'')+'] '+s.q+'</b><br><span class="'+(ok2?'ok':'no')+'">'+(ok2?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';} rev.innerHTML=out; return true;}catch(e){return false;}}
+function cekHasilTersimpan(){try{var raw=localStorage.getItem(SAVE_KEY); if(!raw) return; var d=JSON.parse(raw); if(!d||!d.sudahSelesai) return; if(restoreHasil()){var rb=document.getElementById('resumeBox'); if(rb) rb.style.display='none';}}catch(e){}}
+function ulangiUjian(){allowLeave=true; clearState(); location.reload();}
+function kembaliKeBeranda(){allowLeave=true; clearState(); window.location.href='index.html';}
+function clearState(){try{localStorage.removeItem(SAVE_KEY);}catch(e){}}
+function cekResume(){try{var raw=localStorage.getItem(SAVE_KEY); if(!raw) return; var d=JSON.parse(raw); if(!d||!d.idxList||d.sudahSelesai) return; savedData=d; var terjawab=d.jawab.filter(function(x){return x!==null}).length; var mm=Math.floor(d.sisa/60), ss=d.sisa%60; document.getElementById('resumeText').innerHTML='Kamu tadi sudah mengerjakan <b>'+terjawab+' dari '+d.idxList.length+' soal</b>, sisa waktu <b>'+('0'+mm).slice(-2)+':'+('0'+ss).slice(-2)+'</b>.<br>Kalau pilih <b>Lanjut</b>, jawabanmu balik lagi, timer lanjut. Kalau pilih <b>Mulai Baru</b>, yang lama dihapus.'; document.getElementById('resumeBox').style.display='block'; if(d.nama && document.getElementById('nama')) document.getElementById('nama').value=d.nama;}catch(e){}}
+function mulaiBaru(){clearState(); savedData=null; document.getElementById('resumeBox').style.display='none'; mulai();}
+function lanjutUjian(){if(!savedData) return; var d=savedData; jamMulai=new Date(d.jamMulai); soal=d.idxList.map(function(i){return LIST[i];}); jawab=d.jawab.slice(); idx=d.idx; sisa=d.sisa; document.getElementById('resumeBox').style.display='none'; document.getElementById('start').style.display='none'; document.getElementById('quiz').style.display='block'; tampil(); saveState(); if(timerInt) clearInterval(timerInt); timerInt=setInterval(function(){sisa--; saveState(); var m=Math.floor(sisa/60), s=sisa%60; var te=document.getElementById('timer'); if(te) te.textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2); if(sisa<=0){clearInterval(timerInt); selesai();}},1000);}
+window.addEventListener('beforeunload', function(e){if(allowLeave) return; var qz=document.getElementById('quiz'); var hasilEl=document.getElementById('hasil'); var lagiUjian=qz&&qz.style.display!=='none'&&soal&&soal.length>0; var sudahHasil=hasilEl&&hasilEl.style.display!=='none'; if(lagiUjian||sudahHasil){try{if(lagiUjian) saveState(); else if(typeof saveHasil==='function') saveHasil();}catch(err){} e.preventDefault(); e.returnValue='Ujian masih berjalan.'; return e.returnValue;}});
+function pilihSoal(){ if(DATA.sampling){ var out=[]; Object.keys(DATA.sampling).forEach(function(lvl){ var pool=LIST.filter(function(s){return s.lvl===lvl;}); out=out.concat(acak(pool.slice()).slice(0, DATA.sampling[lvl])); }); return acak(out); } return acak(LIST.slice()).slice(0,20); }
+function mulai(){ jamMulai=new Date(); soal=pilihSoal(); jawab=[]; for(var i=0;i<soal.length;i++) jawab.push(null); idx=0; sisa=(DATA.waktu_menit||40)*60; document.getElementById('start').style.display='none'; document.getElementById('quiz').style.display='block'; tampil(); saveState(); if(timerInt) clearInterval(timerInt); timerInt=setInterval(function(){sisa--; var m=Math.floor(sisa/60), s=sisa%60; document.getElementById('timer').textContent=('0'+m).slice(-2)+':'+('0'+s).slice(-2); if(sisa<=0){clearInterval(timerInt); selesai();}},1000); }
+function tampil(){ document.getElementById('progText').textContent='Soal '+(idx+1)+' dari '+soal.length; document.getElementById('progBar').style.width=((idx+1)/soal.length*100)+'%'; document.getElementById('qText').textContent=(idx+1)+'. '+soal[idx].q; var c=document.getElementById('opts'); c.innerHTML=''; var huruf=['A','B','C','D']; for(var i=0;i<4;i++){ (function(i){ var b=document.createElement('button'); b.type='button'; b.className='opt'+(jawab[idx]===i?' sel':''); b.innerHTML='<b>'+huruf[i]+'.</b> '+soal[idx].o[i]; b.onclick=function(){jawab[idx]=i; tampil(); saveState();}; c.appendChild(b); })(i); } }
+function mintaSelesai(){ var dijawab=0; for(var i=0;i<jawab.length;i++) if(jawab[i]!==null) dijawab++; var msg='Kamu baru menjawab <b>'+dijawab+' dari '+soal.length+' soal</b>.<br>'; msg+=(dijawab<soal.length)?('Masih ada '+(soal.length-dijawab)+' soal yang belum dijawab. Yakin mau selesai?'):('Semua soal sudah dijawab. Lanjut lihat hasil?'); document.getElementById('modalInfo').innerHTML=msg; document.getElementById('modalSelesai').style.display='flex'; }
+function tutupModal(){document.getElementById('modalSelesai').style.display='none';}
+function selesai(){ if(timerInt) clearInterval(timerInt); tutupModal(); jamAkhir=new Date(); var benar=0, nilai=0; for(var i=0;i<soal.length;i++) if(jawab[i]===soal[i].a){benar++; nilai+=poinSoal(soal[i]);} var pred=nilai>=90?'Sangat Baik':nilai>=75?'Baik':nilai>=60?'Cukup':'Perlu Latihan Lagi'; benarAkhir=benar; nilaiAkhir=nilai; predikatAkhir=pred; document.getElementById('quiz').style.display='none'; var h=document.getElementById('hasil'); h.style.display='block'; var nama=document.getElementById('nama').value||'Pejuang Kelas 6'; document.getElementById('hasilJudul').textContent='Hasil Ujian - '+nama; document.getElementById('hasilNama').textContent=DATA.judul+' - '+new Date().toLocaleDateString('id-ID'); document.getElementById('skor').textContent=nilai; document.getElementById('predikat').textContent=pred; var rinc='Benar '+benar+' dari '+soal.length+' soal - Salah '+(soal.length-benar)+' soal - Nilai '+nilai+' / 100'; if(DATA.poin_per_level) rinc+=' (Mudah 4, Sedang 5, Sulit 6 poin)'; else rinc+=' (1 soal = 5 poin)'; document.getElementById('ringkasan').textContent=rinc; document.getElementById('jamInfo').innerHTML='<b>Jam Mulai:</b> '+fmtJam(jamMulai)+' &nbsp;|&nbsp; <b>Jam Selesai:</b> '+fmtJam(jamAkhir)+' &nbsp;|&nbsp; <b>Durasi:</b> '+Math.max(1,Math.round((jamAkhir-jamMulai)/1000/60))+' menit'; var huruf=['A','B','C','D']; var rev=document.getElementById('review'); var out='<h3>Pembahasan</h3>'; for(var k=0;k<soal.length;k++){var s=soal[k]; var ok=jawab[k]===s.a; out+='<div style="border-top:1px solid #eef2f7;padding:14px 0"><b>'+(k+1)+'. ['+s.cog+'] '+s.q+'</b><br><span class="'+(ok?'ok':'no')+'">'+(ok?'Benar':'Kurang Tepat')+'</span> - Jawaban kamu: '+(jawab[k]==null?'Tidak dijawab':huruf[jawab[k]]+'. '+s.o[jawab[k]])+'<br>Jawaban benar: '+huruf[s.a]+'. '+s.o[s.a]+'<div class="exp"><b>Pembahasan:</b> '+s.e+'</div></div>';} rev.innerHTML=out; saveHasil(); window.scrollTo(0,0); }
+function kirimWA(){ var nama=document.getElementById('nama').value||'Pejuang Kelas 6'; var tgl=jamAkhir||new Date(); var hariArr=['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu']; var hari=hariArr[tgl.getDay()]; var dd=('0'+tgl.getDate()).slice(-2), mm=('0'+(tgl.getMonth()+1)).slice(-2), yy=tgl.getFullYear(); var tanggal=dd+'-'+mm+'-'+yy; var rinc='Benar: '+benarAkhir+' dari '+soal.length+' soal'; if(DATA.poin_per_level) rinc+=' (Mudah 4, Sedang 5, Sulit 6 poin)'; else rinc+=' (1 soal = 5 poin)'; var lines=['HASIL UJIAN MANDIRI TERPADU','------','Nama: '+nama,'Ujian: '+DATA.judul,'Hari: '+hari,'Tanggal: '+tanggal,'Nilai: '+nilaiAkhir+' / 100','Predikat: '+predikatAkhir,rinc,'Mulai: '+fmtJam(jamMulai),'Selesai: '+fmtJam(jamAkhir),'-----','@Surabayarp']; window.open('https://wa.me/?text='+encodeURIComponent(lines.join('\n')),'_blank'); }
+async function init(){
+  var file = param('bank');
+  if(!file){ document.getElementById('loadError').style.display='block'; return; }
+  try{
+    var res = await fetch(file, {cache:'no-store'});
+    if(!res.ok) throw new Error('load gagal');
+    DATA = await res.json();
+    if(!DATA || !DATA.soal || !DATA.soal.length) throw new Error('kosong');
+    LIST = DATA.soal;
+    SAVE_KEY = DATA.save_key || ('SRP_'+(DATA.judul||'UJIAN').replace(/[^A-Za-z0-9]+/g,'_').toUpperCase());
+    // tema jadi data
+    var t = DATA.tema||{};
+    var top=document.getElementById('topBar'); if(t.header) top.style.background=t.header; if(t.garis_atas) top.style.borderBottom='5px solid '+t.garis_atas;
+    var btns=document.querySelectorAll('.primary'); btns.forEach(function(b){ if(t.tombol_utama) b.style.background=t.tombol_utama; });
+    var bar=document.getElementById('progBar'); if(t.progress) bar.style.background=t.progress;
+    var badge=document.getElementById('badgeEl'); badge.style.color=t.header||'#2e7d32';
+    document.getElementById('judulTop').textContent=DATA.judul||'Ujian';
+    document.getElementById('badgeEl').textContent=DATA.badge||'';
+    document.getElementById('descEl').textContent=DATA.deskripsi||'';
+    document.getElementById('metaTotal').textContent=LIST.length+' Soal';
+    document.getElementById('metaWaktu').textContent=(DATA.waktu_menit||40)+' Menit';
+    var mm=Math.floor((DATA.waktu_menit||40)); document.getElementById('timer').textContent=('0'+mm).slice(-2)+':00';
+    var dj = DATA.sampling ? 'Diujikan: 20 Soal (Mudah 6 + Sedang 8 + Sulit 6), Poin 4-5-6 = 100 poin.' : 'Diujikan: 20 Soal Acak, 1 Soal = 5 Poin = 100 poin.';
+    document.getElementById('diujikanEl').innerHTML='<b>Diujikan:</b> '+dj;
+    document.getElementById('start').style.display='block';
+    cekHasilTersimpan(); cekResume();
+  }catch(e){
+    document.getElementById('loadError').style.display='block';
+  }
+}
+document.getElementById('btnMulai').onclick=mulai;
+document.getElementById('btnNext').onclick=function(){if(idx<19) idx++; tampil();};
+document.getElementById('btnPrev').onclick=function(){if(idx>0) idx--; tampil();};
+document.getElementById('btnSelesai').onclick=mintaSelesai;
+document.getElementById('btnBatal').onclick=tutupModal;
+document.getElementById('btnYaSelesai').onclick=selesai;
+document.getElementById('btnWA').onclick=kirimWA;
+document.getElementById('btnPrint').onclick=function(){window.print();};
+document.getElementById('modalSelesai').onclick=function(e){if(e.target===this) tutupModal();};
+init();
+</script></body></html>
