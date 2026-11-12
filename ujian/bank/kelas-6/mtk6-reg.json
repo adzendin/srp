@@ -8,11 +8,11 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
-      "soal": "Bentuk desimal dari pecahan 3/5 adalah ...",
+      "soal": "Kue dipotong jadi 5 bagian sama besar. Sari makan 3 potong. Bentuk desimal dari bagian yang dimakan Sari adalah ...",
       "opsi": {
         "A": "0,35",
         "B": "0,53",
@@ -21,8 +21,8 @@
       },
       "kunci": "C",
       "cog": "C1",
-      "pembahasan": "3/5 = 3 x 2 / 5 x 2 = 6/10 = 0,6. Opsi lain salah ubah penyebut ke 10.",
-      "q": "Bentuk desimal dari pecahan 3/5 adalah ...",
+      "pembahasan": "3/5 = 6/10 = 0,6. Jebakan 0,35 dan 0,53 muncul kalau siswa menempel angka 3 dan 5 tanpa ubah penyebut ke 10.",
+      "q": "Kue dipotong jadi 5 bagian sama besar. Sari makan 3 potong. Bentuk desimal dari bagian yang dimakan Sari adalah ...",
       "o": [
         "0,35",
         "0,53",
@@ -30,33 +30,33 @@
         "0,65"
       ],
       "a": 2,
-      "e": "3/5 = 3 x 2 / 5 x 2 = 6/10 = 0,6. Opsi lain salah ubah penyebut ke 10."
+      "e": "3/5 = 6/10 = 0,6. Jebakan 0,35 dan 0,53 muncul kalau siswa menempel angka 3 dan 5 tanpa ubah penyebut ke 10."
     },
     {
       "no": 2,
-      "soal": "Perbandingan buku Andi dan Budi adalah 3 : 4. Jika buku Andi ada 18 buah, banyak buku Budi adalah ...",
+      "soal": "Perbandingan bibit cabai dan tomat di kebun Pak Rahmat adalah 5 : 6. Jika bibit cabai ada 25 batang, banyak bibit tomat adalah ...",
       "opsi": {
-        "A": "20 buah",
-        "B": "24 buah",
-        "C": "27 buah",
-        "D": "30 buah"
+        "A": "28 batang",
+        "B": "30 batang",
+        "C": "35 batang",
+        "D": "25 batang"
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "1 bagian = 18 : 3 = 6 buah, jadi buku Budi = 4 x 6 = 24 buah. Opsi lain salah bagi atau salah kali.",
-      "q": "Perbandingan buku Andi dan Budi adalah 3 : 4. Jika buku Andi ada 18 buah, banyak buku Budi adalah ...",
+      "pembahasan": "1 bagian = 25 : 5 = 5 batang, jadi tomat = 6 x 5 = 30 batang. Jebakan 35 muncul kalau siswa menambah 25 + 10 tanpa cari nilai 1 bagian.",
+      "q": "Perbandingan bibit cabai dan tomat di kebun Pak Rahmat adalah 5 : 6. Jika bibit cabai ada 25 batang, banyak bibit tomat adalah ...",
       "o": [
-        "20 buah",
-        "24 buah",
-        "27 buah",
-        "30 buah"
+        "28 batang",
+        "30 batang",
+        "35 batang",
+        "25 batang"
       ],
       "a": 1,
-      "e": "1 bagian = 18 : 3 = 6 buah, jadi buku Budi = 4 x 6 = 24 buah. Opsi lain salah bagi atau salah kali."
+      "e": "1 bagian = 25 : 5 = 5 batang, jadi tomat = 6 x 5 = 30 batang. Jebakan 35 muncul kalau siswa menambah 25 + 10 tanpa cari nilai 1 bagian."
     },
     {
       "no": 3,
-      "soal": "Volume kubus dengan panjang rusuk 7 cm adalah ...",
+      "soal": "Kotak kado Bu Lestari berbentuk kubus dengan rusuk 7 cm. Volume kotak itu adalah ...",
       "opsi": {
         "A": "147 cm3",
         "B": "196 cm3",
@@ -65,8 +65,8 @@
       },
       "kunci": "D",
       "cog": "C3",
-      "pembahasan": "Volume kubus = 7 x 7 x 7 = 343 cm3. Opsi lain salah hitung pangkat tiga.",
-      "q": "Volume kubus dengan panjang rusuk 7 cm adalah ...",
+      "pembahasan": "Volume = 7 x 7 x 7 = 343 cm3. Jebakan 294 muncul kalau siswa hitung 6 x 7 x 7, itu luas permukaan, bukan volume.",
+      "q": "Kotak kado Bu Lestari berbentuk kubus dengan rusuk 7 cm. Volume kotak itu adalah ...",
       "o": [
         "147 cm3",
         "196 cm3",
@@ -74,11 +74,11 @@
         "343 cm3"
       ],
       "a": 3,
-      "e": "Volume kubus = 7 x 7 x 7 = 343 cm3. Opsi lain salah hitung pangkat tiga."
+      "e": "Volume = 7 x 7 x 7 = 343 cm3. Jebakan 294 muncul kalau siswa hitung 6 x 7 x 7, itu luas permukaan, bukan volume."
     },
     {
       "no": 4,
-      "soal": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu ganjil adalah ...",
+      "soal": "Dadu di pos ronda dilempar sekali. Peluang muncul mata dadu ganjil adalah ...",
       "opsi": {
         "A": "1/2",
         "B": "1/3",
@@ -87,8 +87,8 @@
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "Mata ganjil ada 3 (1, 3, 5) dari 6 kemungkinan, jadi 3/6 = 1/2. Opsi lain salah hitung kejadian.",
-      "q": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu ganjil adalah ...",
+      "pembahasan": "Mata ganjil ada 3 dari 6, jadi 3/6 = 1/2. Jebakan 1/3 muncul kalau siswa hitung ganjil cuma 1, 3 saja dan lupa 5.",
+      "q": "Dadu di pos ronda dilempar sekali. Peluang muncul mata dadu ganjil adalah ...",
       "o": [
         "1/2",
         "1/3",
@@ -96,33 +96,33 @@
         "2/3"
       ],
       "a": 0,
-      "e": "Mata ganjil ada 3 (1, 3, 5) dari 6 kemungkinan, jadi 3/6 = 1/2. Opsi lain salah hitung kejadian."
+      "e": "Mata ganjil ada 3 dari 6, jadi 3/6 = 1/2. Jebakan 1/3 muncul kalau siswa hitung ganjil cuma 1, 3 saja dan lupa 5."
     },
     {
       "no": 5,
-      "soal": "Hasil dari 2 1/2 - 3/4 adalah ...",
+      "soal": "Pita Ibu Wati panjangnya 2 1/2 meter. Dipotong 3/4 meter untuk hiasan. Sisa pita Ibu Wati adalah ...",
       "opsi": {
-        "A": "1 1/2",
-        "B": "1 3/4",
-        "C": "2 1/4",
-        "D": "1 1/4"
+        "A": "1 1/2 meter",
+        "B": "1 3/4 meter",
+        "C": "2 1/4 meter",
+        "D": "1 1/4 meter"
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "2 1/2 = 5/2 = 10/4, jadi 10/4 - 3/4 = 7/4 = 1 3/4. Opsi lain salah samakan penyebut.",
-      "q": "Hasil dari 2 1/2 - 3/4 adalah ...",
+      "pembahasan": "2 1/2 = 10/4, jadi 10/4 - 3/4 = 7/4 = 1 3/4 meter. Jebakan 1 1/4 muncul kalau siswa kurangi pembilang dan penyebut sendiri-sendiri.",
+      "q": "Pita Ibu Wati panjangnya 2 1/2 meter. Dipotong 3/4 meter untuk hiasan. Sisa pita Ibu Wati adalah ...",
       "o": [
-        "1 1/2",
-        "1 3/4",
-        "2 1/4",
-        "1 1/4"
+        "1 1/2 meter",
+        "1 3/4 meter",
+        "2 1/4 meter",
+        "1 1/4 meter"
       ],
       "a": 1,
-      "e": "2 1/2 = 5/2 = 10/4, jadi 10/4 - 3/4 = 7/4 = 1 3/4. Opsi lain salah samakan penyebut."
+      "e": "2 1/2 = 10/4, jadi 10/4 - 3/4 = 7/4 = 1 3/4 meter. Jebakan 1 1/4 muncul kalau siswa kurangi pembilang dan penyebut sendiri-sendiri."
     },
     {
       "no": 6,
-      "soal": "Bentuk pecahan paling sederhana dari 75% adalah ...",
+      "soal": "75% peserta lomba di Tugu Pahlawan lolos ke babak final. Bentuk pecahan paling sederhana dari 75% adalah ...",
       "opsi": {
         "A": "3/4",
         "B": "7/5",
@@ -131,8 +131,8 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "75% = 75/100 = 3/4. Opsi lain salah sederhanakan.",
-      "q": "Bentuk pecahan paling sederhana dari 75% adalah ...",
+      "pembahasan": "75% = 75/100 = 3/4. Jebakan 7/5 muncul kalau siswa menempel angka 7 dan 5 dari 75 tanpa bagi 25.",
+      "q": "75% peserta lomba di Tugu Pahlawan lolos ke babak final. Bentuk pecahan paling sederhana dari 75% adalah ...",
       "o": [
         "3/4",
         "7/5",
@@ -140,55 +140,55 @@
         "1/4"
       ],
       "a": 0,
-      "e": "75% = 75/100 = 3/4. Opsi lain salah sederhanakan."
+      "e": "75% = 75/100 = 3/4. Jebakan 7/5 muncul kalau siswa menempel angka 7 dan 5 dari 75 tanpa bagi 25."
     },
     {
       "no": 7,
-      "soal": "Bilangan yang 10 kali lipat dari 0,45 adalah ...",
+      "soal": "Timbangan Pasar Turi menunjukkan 0,45 kg untuk satu bungkus kunyit. Berat 10 bungkus yang sama adalah ...",
       "opsi": {
-        "A": "0,045",
-        "B": "0,45",
-        "C": "45",
-        "D": "4,5"
+        "A": "0,045 kg",
+        "B": "0,45 kg",
+        "C": "45 kg",
+        "D": "4,5 kg"
       },
       "kunci": "D",
       "cog": "C1",
-      "pembahasan": "0,45 x 10 = 4,5 karena koma geser satu ke kanan. Opsi lain salah geser koma.",
-      "q": "Bilangan yang 10 kali lipat dari 0,45 adalah ...",
+      "pembahasan": "0,45 x 10 = 4,5 kg karena koma geser satu ke kanan. Jebakan 0,045 muncul kalau siswa geser koma ke kiri.",
+      "q": "Timbangan Pasar Turi menunjukkan 0,45 kg untuk satu bungkus kunyit. Berat 10 bungkus yang sama adalah ...",
       "o": [
-        "0,045",
-        "0,45",
-        "45",
-        "4,5"
+        "0,045 kg",
+        "0,45 kg",
+        "45 kg",
+        "4,5 kg"
       ],
       "a": 3,
-      "e": "0,45 x 10 = 4,5 karena koma geser satu ke kanan. Opsi lain salah geser koma."
+      "e": "0,45 x 10 = 4,5 kg karena koma geser satu ke kanan. Jebakan 0,045 muncul kalau siswa geser koma ke kiri."
     },
     {
       "no": 8,
-      "soal": "Pecahan yang senilai dengan 1/2 adalah ...",
+      "soal": "Loyang pizza Warung Bu Tini dipotong 2 sama besar. Dimas makan 1 potong. Potongan yang sama besar dengan potongan Dimas adalah ...",
       "opsi": {
-        "A": "1/3",
-        "B": "2/3",
-        "C": "3/5",
-        "D": "2/4"
+        "A": "1/3 loyang",
+        "B": "2/3 loyang",
+        "C": "3/5 loyang",
+        "D": "2/4 loyang"
       },
       "kunci": "D",
       "cog": "C1",
-      "pembahasan": "2/4 = 1/2 karena pembilang dan penyebut sama-sama dibagi 2. Opsi lain nilainya bukan 1/2.",
-      "q": "Pecahan yang senilai dengan 1/2 adalah ...",
+      "pembahasan": "1 potong = 1/2 loyang dan 2/4 = 1/2. Jebakan 2/3 muncul kalau siswa kira pembilang lebih besar pasti lebih besar nilainya.",
+      "q": "Loyang pizza Warung Bu Tini dipotong 2 sama besar. Dimas makan 1 potong. Potongan yang sama besar dengan potongan Dimas adalah ...",
       "o": [
-        "1/3",
-        "2/3",
-        "3/5",
-        "2/4"
+        "1/3 loyang",
+        "2/3 loyang",
+        "3/5 loyang",
+        "2/4 loyang"
       ],
       "a": 3,
-      "e": "2/4 = 1/2 karena pembilang dan penyebut sama-sama dibagi 2. Opsi lain nilainya bukan 1/2."
+      "e": "1 potong = 1/2 loyang dan 2/4 = 1/2. Jebakan 2/3 muncul kalau siswa kira pembilang lebih besar pasti lebih besar nilainya."
     },
     {
       "no": 9,
-      "soal": "Ibu membayar Rp2.500,00 untuk pensil dan Rp1.750,00 untuk penghapus. Total yang dibayar Ibu adalah ...",
+      "soal": "Bu Tini di Pasar Turi membayar Rp2.500,00 untuk tempe dan Rp1.750,00 untuk tahu. Total yang dibayar Bu Tini adalah ...",
       "opsi": {
         "A": "Rp4.250,00",
         "B": "Rp4.200,00",
@@ -197,8 +197,8 @@
       },
       "kunci": "A",
       "cog": "C2",
-      "pembahasan": "2.500 + 1.750 = 4.250. Opsi lain salah jumlahkan koma.",
-      "q": "Ibu membayar Rp2.500,00 untuk pensil dan Rp1.750,00 untuk penghapus. Total yang dibayar Ibu adalah ...",
+      "pembahasan": "2.500 + 1.750 = 4.250. Jebakan 3.250 muncul kalau siswa jumlahkan 2 + 1 saja dan lupa ratusan di belakang.",
+      "q": "Bu Tini di Pasar Turi membayar Rp2.500,00 untuk tempe dan Rp1.750,00 untuk tahu. Total yang dibayar Bu Tini adalah ...",
       "o": [
         "Rp4.250,00",
         "Rp4.200,00",
@@ -206,121 +206,121 @@
         "Rp4.750,00"
       ],
       "a": 0,
-      "e": "2.500 + 1.750 = 4.250. Opsi lain salah jumlahkan koma."
+      "e": "2.500 + 1.750 = 4.250. Jebakan 3.250 muncul kalau siswa jumlahkan 2 + 1 saja dan lupa ratusan di belakang."
     },
     {
       "no": 10,
-      "soal": "Hasil dari 2 x 3/4 adalah ...",
+      "soal": "Satu loyang brownies butuh 3/4 kg tepung. Dapur Sekolah Pelita membuat 2 loyang. Tepung yang dibutuhkan adalah ...",
       "opsi": {
-        "A": "3/8",
-        "B": "6/8",
-        "C": "1 1/2",
-        "D": "2 3/4"
+        "A": "3/8 kg",
+        "B": "2/4 kg",
+        "C": "1 1/2 kg",
+        "D": "2 3/4 kg"
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "2 x 3/4 = 6/4 = 1 1/2. Opsi lain salah kalikan pembilangnya.",
-      "q": "Hasil dari 2 x 3/4 adalah ...",
+      "pembahasan": "2 x 3/4 = 6/4 = 1 1/2 kg. Jebakan 3/8 muncul kalau siswa kalikan 2 ke penyebut juga.",
+      "q": "Satu loyang brownies butuh 3/4 kg tepung. Dapur Sekolah Pelita membuat 2 loyang. Tepung yang dibutuhkan adalah ...",
       "o": [
-        "3/8",
-        "6/8",
-        "1 1/2",
-        "2 3/4"
+        "3/8 kg",
+        "2/4 kg",
+        "1 1/2 kg",
+        "2 3/4 kg"
       ],
       "a": 2,
-      "e": "2 x 3/4 = 6/4 = 1 1/2. Opsi lain salah kalikan pembilangnya."
+      "e": "2 x 3/4 = 6/4 = 1 1/2 kg. Jebakan 3/8 muncul kalau siswa kalikan 2 ke penyebut juga."
     },
     {
       "no": 11,
-      "soal": "Luas persegi panjang dengan panjang 12 cm dan lebar 8 cm adalah ...",
+      "soal": "Atap pendopo berbentuk trapesium dengan sisi sejajar 16 m dan 8 m, tinggi 8 m. Luas atap itu adalah ...",
       "opsi": {
-        "A": "40 cm2",
-        "B": "96 cm2",
-        "C": "20 cm2",
-        "D": "80 cm2"
+        "A": "40 m2",
+        "B": "96 m2",
+        "C": "192 m2",
+        "D": "80 m2"
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "Luas = 12 x 8 = 96 cm2. Opsi lain salah rumus atau salah kali.",
-      "q": "Luas persegi panjang dengan panjang 12 cm dan lebar 8 cm adalah ...",
+      "pembahasan": "Luas = (16 + 8) : 2 x 8 = 96 m2. Jebakan 192 muncul kalau siswa lupa bagi 2.",
+      "q": "Atap pendopo berbentuk trapesium dengan sisi sejajar 16 m dan 8 m, tinggi 8 m. Luas atap itu adalah ...",
       "o": [
-        "40 cm2",
-        "96 cm2",
-        "20 cm2",
-        "80 cm2"
+        "40 m2",
+        "96 m2",
+        "192 m2",
+        "80 m2"
       ],
       "a": 1,
-      "e": "Luas = 12 x 8 = 96 cm2. Opsi lain salah rumus atau salah kali."
+      "e": "Luas = (16 + 8) : 2 x 8 = 96 m2. Jebakan 192 muncul kalau siswa lupa bagi 2."
     },
     {
       "no": 12,
-      "soal": "KPK dari 6 dan 8 adalah ...",
+      "soal": "Lampu merah berkedip tiap 6 detik dan lampu biru tiap 8 detik di gapura Kampung Malang. Keduanya berkedip bersama lagi setelah ...",
       "opsi": {
-        "A": "12",
-        "B": "48",
-        "C": "14",
-        "D": "24"
+        "A": "12 detik",
+        "B": "48 detik",
+        "C": "14 detik",
+        "D": "24 detik"
       },
       "kunci": "D",
       "cog": "C3",
-      "pembahasan": "Kelipatan 6 = 6, 12, 18, 24 dan kelipatan 8 = 8, 16, 24, jadi kelipatan sama pertama 24. Opsi lain bukan kelipatan sama pertama.",
-      "q": "KPK dari 6 dan 8 adalah ...",
+      "pembahasan": "Kelipatan bersama pertama dari 6 dan 8 adalah 24 detik. Jebakan 14 muncul kalau siswa jumlahkan 6 + 8.",
+      "q": "Lampu merah berkedip tiap 6 detik dan lampu biru tiap 8 detik di gapura Kampung Malang. Keduanya berkedip bersama lagi setelah ...",
       "o": [
-        "12",
-        "48",
-        "14",
-        "24"
+        "12 detik",
+        "48 detik",
+        "14 detik",
+        "24 detik"
       ],
       "a": 3,
-      "e": "Kelipatan 6 = 6, 12, 18, 24 dan kelipatan 8 = 8, 16, 24, jadi kelipatan sama pertama 24. Opsi lain bukan kelipatan sama pertama."
+      "e": "Kelipatan bersama pertama dari 6 dan 8 adalah 24 detik. Jebakan 14 muncul kalau siswa jumlahkan 6 + 8."
     },
     {
       "no": 13,
-      "soal": "FPB dari 18 dan 24 adalah ...",
+      "soal": "Akuarium Pak Dedi panjang 10 cm, lebar 6 cm, tinggi 5 cm. Volume akuarium itu adalah ...",
       "opsi": {
-        "A": "12",
-        "B": "3",
-        "C": "6",
-        "D": "8"
+        "A": "120 cm3",
+        "B": "150 cm3",
+        "C": "300 cm3",
+        "D": "60 cm3"
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Faktor bersama 18 dan 24 adalah 1, 2, 3, 6, yang terbesar 6. Opsi lain bukan faktor bersama terbesar.",
-      "q": "FPB dari 18 dan 24 adalah ...",
+      "pembahasan": "Volume = 10 x 6 x 5 = 300 cm3. Jebakan 120 muncul kalau siswa hitung 10 x 6 x 2, lupa tinggi yang benar.",
+      "q": "Akuarium Pak Dedi panjang 10 cm, lebar 6 cm, tinggi 5 cm. Volume akuarium itu adalah ...",
       "o": [
-        "12",
-        "3",
-        "6",
-        "8"
+        "120 cm3",
+        "150 cm3",
+        "300 cm3",
+        "60 cm3"
       ],
       "a": 2,
-      "e": "Faktor bersama 18 dan 24 adalah 1, 2, 3, 6, yang terbesar 6. Opsi lain bukan faktor bersama terbesar."
+      "e": "Volume = 10 x 6 x 5 = 300 cm3. Jebakan 120 muncul kalau siswa hitung 10 x 6 x 2, lupa tinggi yang benar."
     },
     {
       "no": 14,
-      "soal": "Keliling persegi panjang dengan panjang 15 cm dan lebar 9 cm adalah ...",
+      "soal": "Roda becak Pak Slamet jari-jarinya 7 cm. Keliling roda itu adalah ...",
       "opsi": {
-        "A": "48 cm",
-        "B": "135 cm",
-        "C": "24 cm",
-        "D": "60 cm"
+        "A": "44 cm",
+        "B": "154 cm",
+        "C": "22 cm",
+        "D": "88 cm"
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "Keliling = 2 x (15 + 9) = 48 cm. Opsi lain salah rumus atau salah jumlah.",
-      "q": "Keliling persegi panjang dengan panjang 15 cm dan lebar 9 cm adalah ...",
+      "pembahasan": "Keliling = 2 x 22/7 x 7 = 44 cm. Jebakan 154 muncul kalau siswa hitung luas, bukan keliling.",
+      "q": "Roda becak Pak Slamet jari-jarinya 7 cm. Keliling roda itu adalah ...",
       "o": [
-        "48 cm",
-        "135 cm",
-        "24 cm",
-        "60 cm"
+        "44 cm",
+        "154 cm",
+        "22 cm",
+        "88 cm"
       ],
       "a": 0,
-      "e": "Keliling = 2 x (15 + 9) = 48 cm. Opsi lain salah rumus atau salah jumlah."
+      "e": "Keliling = 2 x 22/7 x 7 = 44 cm. Jebakan 154 muncul kalau siswa hitung luas, bukan keliling."
     },
     {
       "no": 15,
-      "soal": "Diagram batang penjualan toko: Senin 40 bungkus, Selasa 55 bungkus, Rabu 45 bungkus. Selisih penjualan Selasa dan Senin adalah ...",
+      "soal": "Tabel penjualan kerupuk Bu Sari: Senin 40 bungkus, Selasa 55 bungkus, Rabu 45 bungkus. Selisih penjualan Selasa dan Senin adalah ...",
       "opsi": {
         "A": "10 bungkus",
         "B": "15 bungkus",
@@ -329,8 +329,8 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Selisih = 55 - 40 = 15 bungkus. Opsi lain salah baca batang.",
-      "q": "Diagram batang penjualan toko: Senin 40 bungkus, Selasa 55 bungkus, Rabu 45 bungkus. Selisih penjualan Selasa dan Senin adalah ...",
+      "pembahasan": "Selisih = 55 - 40 = 15 bungkus. Jebakan 10 muncul kalau siswa kurangi 55 - 45, salah pilih hari.",
+      "q": "Tabel penjualan kerupuk Bu Sari: Senin 40 bungkus, Selasa 55 bungkus, Rabu 45 bungkus. Selisih penjualan Selasa dan Senin adalah ...",
       "o": [
         "10 bungkus",
         "15 bungkus",
@@ -338,11 +338,11 @@
         "5 bungkus"
       ],
       "a": 1,
-      "e": "Selisih = 55 - 40 = 15 bungkus. Opsi lain salah baca batang."
+      "e": "Selisih = 55 - 40 = 15 bungkus. Jebakan 10 muncul kalau siswa kurangi 55 - 45, salah pilih hari."
     },
     {
       "no": 16,
-      "soal": "Perhatikan pernyataan tentang balok: (1) Balok 2 x 3 x 4 volumenya 24 cm3. (2) Balok 4 x 3 x 2 volumenya sama dengan balok pertama. (3) Balok 1 x 6 x 4 volumenya juga 24 cm3. Pernyataan yang benar adalah ...",
+      "soal": "Perhatikan pernyataan tentang balok kayu Bengkel Jaya: (1) Balok 3 x 4 x 5 volumenya 60 cm3. (2) Balok 5 x 4 x 3 volumenya sama dengan balok pertama. (3) Balok 2 x 6 x 5 volumenya juga 60 cm3. Pernyataan yang benar adalah ...",
       "opsi": {
         "A": "(1) saja",
         "B": "(1) dan (2) saja",
@@ -351,8 +351,8 @@
       },
       "kunci": "C",
       "cog": "C4",
-      "pembahasan": "Ketiganya 24 cm3 karena perkalian tiga ukurannya sama hasilnya. Opsi lain membuang pernyataan yang benar.",
-      "q": "Perhatikan pernyataan tentang balok: (1) Balok 2 x 3 x 4 volumenya 24 cm3. (2) Balok 4 x 3 x 2 volumenya sama dengan balok pertama. (3) Balok 1 x 6 x 4 volumenya juga 24 cm3. Pernyataan yang benar adalah ...",
+      "pembahasan": "Ketiganya 60 cm3 karena urutan kali tidak ubah hasil. Jebakan B muncul kalau siswa kira balok ketiga beda karena angkanya beda urutan.",
+      "q": "Perhatikan pernyataan tentang balok kayu Bengkel Jaya: (1) Balok 3 x 4 x 5 volumenya 60 cm3. (2) Balok 5 x 4 x 3 volumenya sama dengan balok pertama. (3) Balok 2 x 6 x 5 volumenya juga 60 cm3. Pernyataan yang benar adalah ...",
       "o": [
         "(1) saja",
         "(1) dan (2) saja",
@@ -360,205 +360,141 @@
         "(2) dan (3) saja"
       ],
       "a": 2,
-      "e": "Ketiganya 24 cm3 karena perkalian tiga ukurannya sama hasilnya. Opsi lain membuang pernyataan yang benar."
+      "e": "Ketiganya 60 cm3 karena urutan kali tidak ubah hasil. Jebakan B muncul kalau siswa kira balok ketiga beda karena angkanya beda urutan."
     },
     {
       "no": 17,
-      "soal": "Dua koin dilempar sekali. Pernyataan: (1) Peluang dua-duanya angka 1/4. (2) Peluang satu angka satu gambar 1/2. (3) Peluang dua-duanya gambar 1/4. Pernyataan yang benar adalah ...",
+      "soal": "Tiga toples permen Perpustakaan Kota: Toples Hijau 1 merah dari 10, Toples Merah 2 merah dari 10, Toples Kuning 3 merah dari 10. Urutan peluang dapat permen merah dari paling kecil adalah ...",
       "opsi": {
-        "A": "(1) saja",
-        "B": "(1) dan (2) saja",
-        "C": "(2) dan (3) saja",
-        "D": "(1), (2), dan (3)"
+        "A": "Kuning, Merah, Hijau",
+        "B": "Merah, Kuning, Hijau",
+        "C": "Kuning, Hijau, Merah",
+        "D": "Hijau, Merah, Kuning"
       },
       "kunci": "D",
       "cog": "C4",
-      "pembahasan": "Ada 4 hasil sama mungkin: AA, AG, GA, GG, jadi 1/4, 2/4, 1/4. Opsi lain membuang pernyataan yang benar.",
-      "q": "Dua koin dilempar sekali. Pernyataan: (1) Peluang dua-duanya angka 1/4. (2) Peluang satu angka satu gambar 1/2. (3) Peluang dua-duanya gambar 1/4. Pernyataan yang benar adalah ...",
+      "pembahasan": "Peluangnya 1/10, 2/10, 3/10, jadi urutannya Hijau, Merah, Kuning. Jebakan A muncul kalau siswa urutkan dari warna paling mencolok, bukan dari angkanya.",
+      "q": "Tiga toples permen Perpustakaan Kota: Toples Hijau 1 merah dari 10, Toples Merah 2 merah dari 10, Toples Kuning 3 merah dari 10. Urutan peluang dapat permen merah dari paling kecil adalah ...",
       "o": [
-        "(1) saja",
-        "(1) dan (2) saja",
-        "(2) dan (3) saja",
-        "(1), (2), dan (3)"
+        "Kuning, Merah, Hijau",
+        "Merah, Kuning, Hijau",
+        "Kuning, Hijau, Merah",
+        "Hijau, Merah, Kuning"
       ],
       "a": 3,
-      "e": "Ada 4 hasil sama mungkin: AA, AG, GA, GG, jadi 1/4, 2/4, 1/4. Opsi lain membuang pernyataan yang benar."
+      "e": "Peluangnya 1/10, 2/10, 3/10, jadi urutannya Hijau, Merah, Kuning. Jebakan A muncul kalau siswa urutkan dari warna paling mencolok, bukan dari angkanya."
     },
     {
       "no": 18,
-      "soal": "Lantai 10 m x 8 m akan dipasang ubin, kecuali kolam 2 m x 2 m. Cara hitung luas yang dipasang ubin yang benar adalah ...",
+      "soal": "Taman segitiga Taman Bungkul alas 10 m dan tinggi 8 m. Di tengahnya ada kolam persegi 2 m x 2 m. Rumus luas rumput yang benar adalah ...",
       "opsi": {
-        "A": "10 x 8 - 2 x 2",
-        "B": "10 x 8 + 2 x 2",
+        "A": "(10 x 8 : 2) - 2 x 2",
+        "B": "(10 x 8 : 2) + 2 x 2",
         "C": "10 x 8 : 2 x 2",
         "D": "10 + 8 - 2 - 2"
       },
       "kunci": "A",
       "cog": "C4",
-      "pembahasan": "Luas lantai dikurangi luas kolam yang tidak dipasang ubin. Opsi lain menjumlah atau membagi luasnya.",
-      "q": "Lantai 10 m x 8 m akan dipasang ubin, kecuali kolam 2 m x 2 m. Cara hitung luas yang dipasang ubin yang benar adalah ...",
+      "pembahasan": "Luas segitiga dikurangi luas kolam yang tidak berumput. Jebakan B muncul kalau siswa jumlahkan kolam, padahal kolam bukan rumput.",
+      "q": "Taman segitiga Taman Bungkul alas 10 m dan tinggi 8 m. Di tengahnya ada kolam persegi 2 m x 2 m. Rumus luas rumput yang benar adalah ...",
       "o": [
-        "10 x 8 - 2 x 2",
-        "10 x 8 + 2 x 2",
+        "(10 x 8 : 2) - 2 x 2",
+        "(10 x 8 : 2) + 2 x 2",
         "10 x 8 : 2 x 2",
         "10 + 8 - 2 - 2"
       ],
       "a": 0,
-      "e": "Luas lantai dikurangi luas kolam yang tidak dipasang ubin. Opsi lain menjumlah atau membagi luasnya."
+      "e": "Luas segitiga dikurangi luas kolam yang tidak berumput. Jebakan B muncul kalau siswa jumlahkan kolam, padahal kolam bukan rumput."
     },
     {
       "no": 19,
-      "soal": "Paket P: 4 buku Rp20.000,00. Paket Q: 6 buku Rp24.000,00. Paket yang harga per bukunya lebih murah adalah ...",
+      "soal": "Toko Sari jual 4 buku Rp20.000,00. Toko Dimas jual 6 buku Rp24.000,00. Toko yang harga per bukunya lebih murah adalah ...",
       "opsi": {
-        "A": "Paket P, karena jumlah bukunya lebih sedikit",
-        "B": "Paket Q, karena per buku Rp4.000,00 lebih murah dari Rp5.000,00",
+        "A": "Toko Sari, karena jumlah bukunya lebih sedikit",
+        "B": "Toko Dimas, karena per buku Rp4.000,00 lebih murah dari Rp5.000,00",
         "C": "Sama murah",
         "D": "Tidak bisa ditentukan"
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Per buku P = 20.000 : 4 = 5.000 dan Q = 24.000 : 6 = 4.000. Opsi lain salah bandingkan totalnya saja.",
-      "q": "Paket P: 4 buku Rp20.000,00. Paket Q: 6 buku Rp24.000,00. Paket yang harga per bukunya lebih murah adalah ...",
+      "pembahasan": "Per buku Toko Sari = 5.000 dan Toko Dimas = 4.000. Jebakan A muncul kalau siswa kira toko dengan buku lebih sedikit pasti lebih murah.",
+      "q": "Toko Sari jual 4 buku Rp20.000,00. Toko Dimas jual 6 buku Rp24.000,00. Toko yang harga per bukunya lebih murah adalah ...",
       "o": [
-        "Paket P, karena jumlah bukunya lebih sedikit",
-        "Paket Q, karena per buku Rp4.000,00 lebih murah dari Rp5.000,00",
+        "Toko Sari, karena jumlah bukunya lebih sedikit",
+        "Toko Dimas, karena per buku Rp4.000,00 lebih murah dari Rp5.000,00",
         "Sama murah",
         "Tidak bisa ditentukan"
       ],
       "a": 1,
-      "e": "Per buku P = 20.000 : 4 = 5.000 dan Q = 24.000 : 6 = 4.000. Opsi lain salah bandingkan totalnya saja."
+      "e": "Per buku Toko Sari = 5.000 dan Toko Dimas = 4.000. Jebakan A muncul kalau siswa kira toko dengan buku lebih sedikit pasti lebih murah."
     },
     {
       "no": 20,
-      "soal": "Data nilai: 6, 7, 8, 7, 9. Pernyataan: (1) Modus 7. (2) Median 7. (3) Rata-rata 7,4. Pernyataan yang benar adalah ...",
+      "soal": "Data nilai ulangan Kelas 6 Pelita: 6, 7, 8, 7, 9. Kesimpulan yang benar adalah ...",
       "opsi": {
-        "A": "(1) saja",
-        "B": "(1) dan (2) saja",
-        "C": "(1), (2), dan (3)",
-        "D": "(2) dan (3) saja"
+        "A": "Modus 8",
+        "B": "Median 8",
+        "C": "Rata-rata 7,4 dan modus 7",
+        "D": "Total nilai 36"
       },
       "kunci": "C",
       "cog": "C4",
-      "pembahasan": "Urutkan 6, 7, 7, 8, 9, modus 7, tengah 7, dan total 37 : 5 = 7,4. Opsi lain membuang pernyataan yang benar.",
-      "q": "Data nilai: 6, 7, 8, 7, 9. Pernyataan: (1) Modus 7. (2) Median 7. (3) Rata-rata 7,4. Pernyataan yang benar adalah ...",
+      "pembahasan": "Urutkan 6, 7, 7, 8, 9, modus 7, tengah 7, total 37 : 5 = 7,4. Jebakan A muncul kalau siswa kira angka yang muncul di tengah data asli adalah modus.",
+      "q": "Data nilai ulangan Kelas 6 Pelita: 6, 7, 8, 7, 9. Kesimpulan yang benar adalah ...",
       "o": [
-        "(1) saja",
-        "(1) dan (2) saja",
-        "(1), (2), dan (3)",
-        "(2) dan (3) saja"
+        "Modus 8",
+        "Median 8",
+        "Rata-rata 7,4 dan modus 7",
+        "Total nilai 36"
       ],
       "a": 2,
-      "e": "Urutkan 6, 7, 7, 8, 9, modus 7, tengah 7, dan total 37 : 5 = 7,4. Opsi lain membuang pernyataan yang benar."
+      "e": "Urutkan 6, 7, 7, 8, 9, modus 7, tengah 7, total 37 : 5 = 7,4. Jebakan A muncul kalau siswa kira angka yang muncul di tengah data asli adalah modus."
     },
     {
       "no": 21,
-      "soal": "Persegi panjang 10 cm x 6 cm. Pernyataan: (1) Kelilingnya 36 cm. (2) Luasnya 60 cm2. (3) Jika panjang ditambah 2 cm, luasnya bertambah 12 cm2. Pernyataan yang benar adalah ...",
+      "soal": "Taman Perpustakaan Kota panjang 10 m dan lebar 6 m. Cara Dewi: keliling = 2 x (10 + 6) = 32 m. Cara Fajar: keliling = 10 + 6 = 16 m. Pernyataan yang benar adalah ...",
       "opsi": {
-        "A": "(1) dan (2) saja",
-        "B": "(1) dan (3) saja",
-        "C": "(2) dan (3) saja",
-        "D": "(1), (2), dan (3)"
+        "A": "Cara Dewi salah, Cara Fajar benar",
+        "B": "Cara Dewi benar, Cara Fajar benar",
+        "C": "Cara Dewi benar, Cara Fajar salah",
+        "D": "Cara Dewi salah, Cara Fajar salah"
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Keliling = 2 x (10 + 6) = 32 cm, bukan 36 cm, jadi (1) salah. Luas = 60 cm2 dan luas baru 12 x 6 = 72 cm2, jadi bertambah 12 cm2, maka (2) dan (3) benar.",
-      "q": "Persegi panjang 10 cm x 6 cm. Pernyataan: (1) Kelilingnya 36 cm. (2) Luasnya 60 cm2. (3) Jika panjang ditambah 2 cm, luasnya bertambah 12 cm2. Pernyataan yang benar adalah ...",
+      "pembahasan": "Keliling persegi panjang harus keliling penuh 2 x (10 + 6) = 32 m. Jebakan B muncul kalau siswa kira dua cara yang beda hasil bisa sama-sama benar.",
+      "q": "Taman Perpustakaan Kota panjang 10 m dan lebar 6 m. Cara Dewi: keliling = 2 x (10 + 6) = 32 m. Cara Fajar: keliling = 10 + 6 = 16 m. Pernyataan yang benar adalah ...",
       "o": [
-        "(1) dan (2) saja",
-        "(1) dan (3) saja",
-        "(2) dan (3) saja",
-        "(1), (2), dan (3)"
+        "Cara Dewi salah, Cara Fajar benar",
+        "Cara Dewi benar, Cara Fajar benar",
+        "Cara Dewi benar, Cara Fajar salah",
+        "Cara Dewi salah, Cara Fajar salah"
       ],
       "a": 2,
-      "e": "Keliling = 2 x (10 + 6) = 32 cm, bukan 36 cm, jadi (1) salah. Luas = 60 cm2 dan luas baru 12 x 6 = 72 cm2, jadi bertambah 12 cm2, maka (2) dan (3) benar."
+      "e": "Keliling persegi panjang harus keliling penuh 2 x (10 + 6) = 32 m. Jebakan B muncul kalau siswa kira dua cara yang beda hasil bisa sama-sama benar."
     },
     {
       "no": 22,
-      "soal": "Toko P: buku Rp30.000,00 + ongkir Rp5.000,00. Toko Q: buku Rp32.000,00 gratis ongkir. Toko yang total belanjanya lebih murah adalah ...",
+      "soal": "Toko Melati: buku Rp30.000,00 + ongkir Rp5.000,00. Toko Mawar: buku Rp32.000,00 gratis ongkir. Toko yang total belanjanya lebih murah adalah ...",
       "opsi": {
-        "A": "Toko Q, karena total Rp32.000,00 lebih murah dari Rp35.000,00",
-        "B": "Toko P, karena harga bukunya lebih murah",
+        "A": "Toko Mawar, karena total Rp32.000,00 lebih murah dari Rp35.000,00",
+        "B": "Toko Melati, karena harga bukunya lebih murah",
         "C": "Sama saja",
-        "D": "Toko P, karena ongkirnya kecil"
+        "D": "Toko Melati, karena ongkirnya kecil"
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Total P = 35.000 dan total Q = 32.000. Opsi lain hanya lihat harga buku atau ongkirnya saja.",
-      "q": "Toko P: buku Rp30.000,00 + ongkir Rp5.000,00. Toko Q: buku Rp32.000,00 gratis ongkir. Toko yang total belanjanya lebih murah adalah ...",
+      "pembahasan": "Total Toko Melati = 35.000 dan Toko Mawar = 32.000. Jebakan B muncul kalau siswa hanya lihat harga buku dan lupa ongkir.",
+      "q": "Toko Melati: buku Rp30.000,00 + ongkir Rp5.000,00. Toko Mawar: buku Rp32.000,00 gratis ongkir. Toko yang total belanjanya lebih murah adalah ...",
       "o": [
-        "Toko Q, karena total Rp32.000,00 lebih murah dari Rp35.000,00",
-        "Toko P, karena harga bukunya lebih murah",
+        "Toko Mawar, karena total Rp32.000,00 lebih murah dari Rp35.000,00",
+        "Toko Melati, karena harga bukunya lebih murah",
         "Sama saja",
-        "Toko P, karena ongkirnya kecil"
+        "Toko Melati, karena ongkirnya kecil"
       ],
       "a": 0,
-      "e": "Total P = 35.000 dan total Q = 32.000. Opsi lain hanya lihat harga buku atau ongkirnya saja."
+      "e": "Total Toko Melati = 35.000 dan Toko Mawar = 32.000. Jebakan B muncul kalau siswa hanya lihat harga buku dan lupa ongkir."
     },
     {
       "no": 23,
-      "soal": "Bagi 60 menit untuk 3 tugas. Cara P: masing-masing 20 menit. Cara Q: tugas sulit 30 menit, dua tugas lain masing-masing 15 menit. Cara yang memenuhi syarat tugas sulit paling banyak adalah ...",
-      "opsi": {
-        "A": "Cara P, karena adil",
-        "B": "Sama saja",
-        "C": "Cara Q, karena tugas sulit 30 menit paling banyak dan total 60 menit",
-        "D": "Tidak ada yang memenuhi"
-      },
-      "kunci": "C",
-      "cog": "C5",
-      "pembahasan": "Cara P sama rata, jadi tugas sulit tidak paling banyak, sedangkan Cara Q total 30 + 15 + 15 = 60 dan sulit paling banyak. Opsi lain salah cek syaratnya.",
-      "q": "Bagi 60 menit untuk 3 tugas. Cara P: masing-masing 20 menit. Cara Q: tugas sulit 30 menit, dua tugas lain masing-masing 15 menit. Cara yang memenuhi syarat tugas sulit paling banyak adalah ...",
-      "o": [
-        "Cara P, karena adil",
-        "Sama saja",
-        "Cara Q, karena tugas sulit 30 menit paling banyak dan total 60 menit",
-        "Tidak ada yang memenuhi"
-      ],
-      "a": 2,
-      "e": "Cara P sama rata, jadi tugas sulit tidak paling banyak, sedangkan Cara Q total 30 + 15 + 15 = 60 dan sulit paling banyak. Opsi lain salah cek syaratnya."
-    },
-    {
-      "no": 24,
-      "soal": "Kelas akan piket 3 kelompok: A tiap 2 hari, B tiap 3 hari, C tiap 4 hari. Hari ini ketiganya piket bersama. Ketiganya piket bersama lagi setelah ...",
-      "opsi": {
-        "A": "6 hari, karena KPK dari 2 dan 3",
-        "B": "8 hari, karena KPK dari 2 dan 4",
-        "C": "4 hari, karena yang paling kecil",
-        "D": "12 hari, karena KPK dari 2, 3, dan 4"
-      },
-      "kunci": "D",
-      "cog": "C6",
-      "pembahasan": "Bersama lagi harus kelipatan 2, 3, dan 4 sekaligus, KPK-nya 12. Opsi lain hanya pakai sebagian kelompok.",
-      "q": "Kelas akan piket 3 kelompok: A tiap 2 hari, B tiap 3 hari, C tiap 4 hari. Hari ini ketiganya piket bersama. Ketiganya piket bersama lagi setelah ...",
-      "o": [
-        "6 hari, karena KPK dari 2 dan 3",
-        "8 hari, karena KPK dari 2 dan 4",
-        "4 hari, karena yang paling kecil",
-        "12 hari, karena KPK dari 2, 3, dan 4"
-      ],
-      "a": 3,
-      "e": "Bersama lagi harus kelipatan 2, 3, dan 4 sekaligus, KPK-nya 12. Opsi lain hanya pakai sebagian kelompok."
-    },
-    {
-      "no": 25,
-      "soal": "Rancanglah cara membagi Rp90.000,00 untuk 3 kelompok dengan perbandingan 1 : 2 : 3 agar pas tanpa sisa. Cara yang tepat adalah ...",
-      "opsi": {
-        "A": "Rp10.000,00 ; Rp20.000,00 ; Rp30.000,00",
-        "B": "Rp15.000,00 ; Rp30.000,00 ; Rp45.000,00",
-        "C": "Rp20.000,00 ; Rp20.000,00 ; Rp20.000,00",
-        "D": "Rp30.000,00 ; Rp30.000,00 ; Rp30.000,00"
-      },
-      "kunci": "B",
-      "cog": "C6",
-      "pembahasan": "Jumlah 6 bagian = 90.000, jadi 1 bagian = 15.000 dan pembagian 1 : 2 : 3 = 15.000, 30.000, 45.000. Opsi lain totalnya bukan 90.000 atau rasionya salah.",
-      "q": "Rancanglah cara membagi Rp90.000,00 untuk 3 kelompok dengan perbandingan 1 : 2 : 3 agar pas tanpa sisa. Cara yang tepat adalah ...",
-      "o": [
-        "Rp10.000,00 ; Rp20.000,00 ; Rp30.000,00",
-        "Rp15.000,00 ; Rp30.000,00 ; Rp45.000,00",
-        "Rp20.000,00 ; Rp20.000,00 ; Rp20.000,00",
-        "Rp30.000,00 ; Rp30.000,00 ; Rp30.000,00"
-      ],
-      "a": 1,
-      "e": "Jumlah 6 bagian = 90.000, jadi 1 bagian = 15.000 dan pembagian 1 : 2 : 3 = 15.000, 30.000, 45.000. Opsi lain totalnya bukan 90.000 atau rasionya salah."
-    }
-  ]
-}
+      "soal": "Nisa membagi 60 menit: Matematika 30 menit, IPA 15 menit, IPS 15 menit. Rani membagi 60 menit: tiap mapel 20 menit. Rencana yang membuat Matematika paling banyak adalah ...",
+      "ops
