@@ -1,0 +1,339 @@
+{
+  "judul": "Matematika Kelas 6 — Reguler",
+  "mapel": "Matematika",
+  "kelas": 6,
+  "jenis": "Reguler",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Bentuk desimal dari pecahan 3/5 adalah ...",
+      "opsi": {
+        "A": "0,35",
+        "B": "0,53",
+        "C": "0,6",
+        "D": "0,65"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "pembahasan": "3/5 = 3 x 2 / 5 x 2 = 6/10 = 0,6. Opsi lain salah ubah penyebut ke 10."
+    },
+    {
+      "no": 2,
+      "soal": "Perbandingan buku Andi dan Budi adalah 3 : 4. Jika buku Andi ada 18 buah, banyak buku Budi adalah ...",
+      "opsi": {
+        "A": "20 buah",
+        "B": "24 buah",
+        "C": "27 buah",
+        "D": "30 buah"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "1 bagian = 18 : 3 = 6 buah, jadi buku Budi = 4 x 6 = 24 buah. Opsi lain salah bagi atau salah kali."
+    },
+    {
+      "no": 3,
+      "soal": "Volume kubus dengan panjang rusuk 7 cm adalah ...",
+      "opsi": {
+        "A": "147 cm3",
+        "B": "196 cm3",
+        "C": "294 cm3",
+        "D": "343 cm3"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Volume kubus = 7 x 7 x 7 = 343 cm3. Opsi lain salah hitung pangkat tiga."
+    },
+    {
+      "no": 4,
+      "soal": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu ganjil adalah ...",
+      "opsi": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/6",
+        "D": "2/3"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Mata ganjil ada 3 (1, 3, 5) dari 6 kemungkinan, jadi 3/6 = 1/2. Opsi lain salah hitung kejadian."
+    },
+    {
+      "no": 5,
+      "soal": "Hasil dari 2 1/2 - 3/4 adalah ...",
+      "opsi": {
+        "A": "1 1/2",
+        "B": "1 3/4",
+        "C": "2 1/4",
+        "D": "1 1/4"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "2 1/2 = 5/2 = 10/4, jadi 10/4 - 3/4 = 7/4 = 1 3/4. Opsi lain salah samakan penyebut."
+    },
+    {
+      "no": 6,
+      "soal": "Bentuk pecahan paling sederhana dari 75% adalah ...",
+      "opsi": {
+        "A": "3/4",
+        "B": "7/5",
+        "C": "3/5",
+        "D": "1/4"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "75% = 75/100 = 3/4. Opsi lain salah sederhanakan."
+    },
+    {
+      "no": 7,
+      "soal": "Bilangan yang 10 kali lipat dari 0,45 adalah ...",
+      "opsi": {
+        "A": "0,045",
+        "B": "0,45",
+        "C": "45",
+        "D": "4,5"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "0,45 x 10 = 4,5 karena koma geser satu ke kanan. Opsi lain salah geser koma."
+    },
+    {
+      "no": 8,
+      "soal": "Pecahan yang senilai dengan 1/2 adalah ...",
+      "opsi": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "3/5",
+        "D": "2/4"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "2/4 = 1/2 karena pembilang dan penyebut sama-sama dibagi 2. Opsi lain nilainya bukan 1/2."
+    },
+    {
+      "no": 9,
+      "soal": "Ibu membayar Rp2.500,00 untuk pensil dan Rp1.750,00 untuk penghapus. Total yang dibayar Ibu adalah ...",
+      "opsi": {
+        "A": "Rp4.250,00",
+        "B": "Rp4.200,00",
+        "C": "Rp3.250,00",
+        "D": "Rp4.750,00"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "2.500 + 1.750 = 4.250. Opsi lain salah jumlahkan koma."
+    },
+    {
+      "no": 10,
+      "soal": "Hasil dari 2 x 3/4 adalah ...",
+      "opsi": {
+        "A": "3/8",
+        "B": "6/8",
+        "C": "1 1/2",
+        "D": "2 3/4"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "2 x 3/4 = 6/4 = 1 1/2. Opsi lain salah kalikan pembilangnya."
+    },
+    {
+      "no": 11,
+      "soal": "Luas persegi panjang dengan panjang 12 cm dan lebar 8 cm adalah ...",
+      "opsi": {
+        "A": "40 cm2",
+        "B": "96 cm2",
+        "C": "20 cm2",
+        "D": "80 cm2"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Luas = 12 x 8 = 96 cm2. Opsi lain salah rumus atau salah kali."
+    },
+    {
+      "no": 12,
+      "soal": "KPK dari 6 dan 8 adalah ...",
+      "opsi": {
+        "A": "12",
+        "B": "48",
+        "C": "14",
+        "D": "24"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Kelipatan 6 = 6, 12, 18, 24 dan kelipatan 8 = 8, 16, 24, jadi kelipatan sama pertama 24. Opsi lain bukan kelipatan sama pertama."
+    },
+    {
+      "no": 13,
+      "soal": "FPB dari 18 dan 24 adalah ...",
+      "opsi": {
+        "A": "12",
+        "B": "3",
+        "C": "6",
+        "D": "8"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Faktor bersama 18 dan 24 adalah 1, 2, 3, 6, yang terbesar 6. Opsi lain bukan faktor bersama terbesar."
+    },
+    {
+      "no": 14,
+      "soal": "Keliling persegi panjang dengan panjang 15 cm dan lebar 9 cm adalah ...",
+      "opsi": {
+        "A": "48 cm",
+        "B": "135 cm",
+        "C": "24 cm",
+        "D": "60 cm"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Keliling = 2 x (15 + 9) = 48 cm. Opsi lain salah rumus atau salah jumlah."
+    },
+    {
+      "no": 15,
+      "soal": "Diagram batang penjualan toko: Senin 40 bungkus, Selasa 55 bungkus, Rabu 45 bungkus. Selisih penjualan Selasa dan Senin adalah ...",
+      "opsi": {
+        "A": "10 bungkus",
+        "B": "15 bungkus",
+        "C": "20 bungkus",
+        "D": "5 bungkus"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Selisih = 55 - 40 = 15 bungkus. Opsi lain salah baca batang."
+    },
+    {
+      "no": 16,
+      "soal": "Perhatikan pernyataan tentang balok: (1) Balok 2 x 3 x 4 volumenya 24 cm3. (2) Balok 4 x 3 x 2 volumenya sama dengan balok pertama. (3) Balok 1 x 6 x 4 volumenya juga 24 cm3. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(1) dan (2) saja",
+        "C": "(1), (2), dan (3)",
+        "D": "(2) dan (3) saja"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Ketiganya 24 cm3 karena perkalian tiga ukurannya sama hasilnya. Opsi lain membuang pernyataan yang benar."
+    },
+    {
+      "no": 17,
+      "soal": "Dua koin dilempar sekali. Pernyataan: (1) Peluang dua-duanya angka 1/4. (2) Peluang satu angka satu gambar 1/2. (3) Peluang dua-duanya gambar 1/4. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(1) dan (2) saja",
+        "C": "(2) dan (3) saja",
+        "D": "(1), (2), dan (3)"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Ada 4 hasil sama mungkin: AA, AG, GA, GG, jadi 1/4, 2/4, 1/4. Opsi lain membuang pernyataan yang benar."
+    },
+    {
+      "no": 18,
+      "soal": "Lantai 10 m x 8 m akan dipasang ubin, kecuali kolam 2 m x 2 m. Cara hitung luas yang dipasang ubin yang benar adalah ...",
+      "opsi": {
+        "A": "10 x 8 - 2 x 2",
+        "B": "10 x 8 + 2 x 2",
+        "C": "10 x 8 : 2 x 2",
+        "D": "10 + 8 - 2 - 2"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Luas lantai dikurangi luas kolam yang tidak dipasang ubin. Opsi lain menjumlah atau membagi luasnya."
+    },
+    {
+      "no": 19,
+      "soal": "Paket P: 4 buku Rp20.000,00. Paket Q: 6 buku Rp24.000,00. Paket yang harga per bukunya lebih murah adalah ...",
+      "opsi": {
+        "A": "Paket P, karena jumlah bukunya lebih sedikit",
+        "B": "Paket Q, karena per buku Rp4.000,00 lebih murah dari Rp5.000,00",
+        "C": "Sama murah",
+        "D": "Tidak bisa ditentukan"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Per buku P = 20.000 : 4 = 5.000 dan Q = 24.000 : 6 = 4.000. Opsi lain salah bandingkan totalnya saja."
+    },
+    {
+      "no": 20,
+      "soal": "Data nilai: 6, 7, 8, 7, 9. Pernyataan: (1) Modus 7. (2) Median 7. (3) Rata-rata 7,4. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(1) dan (2) saja",
+        "C": "(1), (2), dan (3)",
+        "D": "(2) dan (3) saja"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Urutkan 6, 7, 7, 8, 9, modus 7, tengah 7, dan total 37 : 5 = 7,4. Opsi lain membuang pernyataan yang benar."
+    },
+    {
+      "no": 21,
+      "soal": "Persegi panjang 10 cm x 6 cm. Pernyataan: (1) Kelilingnya 36 cm. (2) Luasnya 60 cm2. (3) Jika panjang ditambah 2 cm, luasnya bertambah 12 cm2. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "(1) dan (2) saja",
+        "B": "(1) dan (3) saja",
+        "C": "(2) dan (3) saja",
+        "D": "(1), (2), dan (3)"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Keliling = 2 x (10 + 6) = 32 cm, bukan 36 cm, jadi (1) salah. Luas = 60 cm2 dan luas baru 12 x 6 = 72 cm2, jadi bertambah 12 cm2, maka (2) dan (3) benar."
+    },
+    {
+      "no": 22,
+      "soal": "Toko P: buku Rp30.000,00 + ongkir Rp5.000,00. Toko Q: buku Rp32.000,00 gratis ongkir. Toko yang total belanjanya lebih murah adalah ...",
+      "opsi": {
+        "A": "Toko Q, karena total Rp32.000,00 lebih murah dari Rp35.000,00",
+        "B": "Toko P, karena harga bukunya lebih murah",
+        "C": "Sama saja",
+        "D": "Toko P, karena ongkirnya kecil"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Total P = 35.000 dan total Q = 32.000. Opsi lain hanya lihat harga buku atau ongkirnya saja."
+    },
+    {
+      "no": 23,
+      "soal": "Bagi 60 menit untuk 3 tugas. Cara P: masing-masing 20 menit. Cara Q: tugas sulit 30 menit, dua tugas lain masing-masing 15 menit. Cara yang memenuhi syarat tugas sulit paling banyak adalah ...",
+      "opsi": {
+        "A": "Cara P, karena adil",
+        "B": "Sama saja",
+        "C": "Cara Q, karena tugas sulit 30 menit paling banyak dan total 60 menit",
+        "D": "Tidak ada yang memenuhi"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Cara P sama rata, jadi tugas sulit tidak paling banyak, sedangkan Cara Q total 30 + 15 + 15 = 60 dan sulit paling banyak. Opsi lain salah cek syaratnya."
+    },
+    {
+      "no": 24,
+      "soal": "Kelas akan piket 3 kelompok: A tiap 2 hari, B tiap 3 hari, C tiap 4 hari. Hari ini ketiganya piket bersama. Ketiganya piket bersama lagi setelah ...",
+      "opsi": {
+        "A": "6 hari, karena KPK dari 2 dan 3",
+        "B": "8 hari, karena KPK dari 2 dan 4",
+        "C": "4 hari, karena yang paling kecil",
+        "D": "12 hari, karena KPK dari 2, 3, dan 4"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Bersama lagi harus kelipatan 2, 3, dan 4 sekaligus, KPK-nya 12. Opsi lain hanya pakai sebagian kelompok."
+    },
+    {
+      "no": 25,
+      "soal": "Rancanglah cara membagi Rp90.000,00 untuk 3 kelompok dengan perbandingan 1 : 2 : 3 agar pas tanpa sisa. Cara yang tepat adalah ...",
+      "opsi": {
+        "A": "Rp10.000,00 ; Rp20.000,00 ; Rp30.000,00",
+        "B": "Rp15.000,00 ; Rp30.000,00 ; Rp45.000,00",
+        "C": "Rp20.000,00 ; Rp20.000,00 ; Rp20.000,00",
+        "D": "Rp30.000,00 ; Rp30.000,00 ; Rp30.000,00"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Jumlah 6 bagian = 90.000, jadi 1 bagian = 15.000 dan pembagian 1 : 2 : 3 = 15.000, 30.000, 45.000. Opsi lain totalnya bukan 90.000 atau rasionya salah."
+    }
+  ]
+}
