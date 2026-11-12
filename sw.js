@@ -1,5 +1,5 @@
 /* SRP Service Worker - Beranda SRP PWA */
-const CACHE = 'srp-v1';
+const CACHE = 'srp-v2';
 const CORE = [
   './',
   './index.html',
