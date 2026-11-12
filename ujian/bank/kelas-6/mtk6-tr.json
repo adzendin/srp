@@ -1,0 +1,374 @@
+{
+  "judul": "Matematika Kelas 6 — Transisi",
+  "mapel": "Matematika",
+  "kelas": 6,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "poin_level": {
+    "Mudah": 4,
+    "Sedang": 5,
+    "Sulit": 6
+  },
+  "diujikan": 20,
+  "diujikan_detail": {
+    "Mudah": 6,
+    "Sedang": 8,
+    "Sulit": 6
+  },
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "level": "Mudah",
+      "soal": "Nadia parkir di lantai -2 Apartemen Merpati. Ia naik lift 5 lantai ke atas. Nadia sekarang di lantai ...",
+      "opsi": {
+        "A": "3",
+        "B": "5",
+        "C": "-7",
+        "D": "7"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "-2 + 5 = 3. Jebakan C muncul kalau siswa jumlahkan -2 dan 5 jadi -7 karena melihat tanda minus."
+    },
+    {
+      "no": 2,
+      "level": "Mudah",
+      "soal": "Di papan skor Fikri tertulis: -1/2, 0, 1/4, -3/4. Bilangan paling kecil adalah ...",
+      "opsi": {
+        "A": "-1/2",
+        "B": "-3/4",
+        "C": "0",
+        "D": "1/4"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Samakan penyebut 4: -2/4, 0, 1/4, -3/4, jadi paling kecil -3/4. Jebakan A muncul kalau siswa kira -1/2 lebih kecil karena penyebutnya lebih kecil."
+    },
+    {
+      "no": 3,
+      "level": "Mudah",
+      "soal": "Sanggar Bambu mencampur 12 kaleng cat putih dan 18 kaleng cat biru. Rasio cat putih dan cat biru dalam bentuk paling sederhana adalah ...",
+      "opsi": {
+        "A": "3 : 2",
+        "B": "4 : 3",
+        "C": "2 : 3",
+        "D": "12 : 18"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "pembahasan": "12 : 18 dibagi 6 jadi 2 : 3. Jebakan A muncul kalau siswa balik urutan putih dan biru. Jebakan B muncul kalau siswa bagi 12 dengan 3 dan 18 dengan 6, bukan bagi dengan bilangan yang sama."
+    },
+    {
+      "no": 4,
+      "level": "Mudah",
+      "soal": "Toko Cendana memberi voucher 3m - 4 ribu rupiah. Jika m = 5, nilai voucher itu adalah ...",
+      "opsi": {
+        "A": "9 ribu rupiah",
+        "B": "10 ribu rupiah",
+        "C": "12 ribu rupiah",
+        "D": "11 ribu rupiah"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "3 x 5 - 4 = 15 - 4 = 11 ribu rupiah. Jebakan C muncul kalau siswa hitung 3 x 5 = 15 lalu lupa kurangi 4 dan tebak 12."
+    },
+    {
+      "no": 5,
+      "level": "Mudah",
+      "soal": "Dadu kayu Bengkel Cemara berbentuk kubus rusuk 3 cm. Volume dadu itu adalah ...",
+      "opsi": {
+        "A": "27 cm3",
+        "B": "18 cm3",
+        "C": "54 cm3",
+        "D": "9 cm3"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Volume = 3 x 3 x 3 = 27 cm3. Jebakan C muncul kalau siswa hitung 6 x 3 x 3, itu luas permukaan, bukan volume."
+    },
+    {
+      "no": 6,
+      "level": "Mudah",
+      "soal": "Satu koin dilempar sekali di Pasar Atom. Peluang muncul sisi angka adalah ...",
+      "opsi": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "1"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Koin hanya punya 2 sisi, jadi 1 dari 2 = 1/2. Jebakan A muncul kalau siswa kira koin punya 3 sisi."
+    },
+    {
+      "no": 7,
+      "level": "Mudah",
+      "soal": "Koperasi Dahlia mencatat saldo -3/4 juta rupiah. Bentuk desimal dari -3/4 adalah ...",
+      "opsi": {
+        "A": "-0,34",
+        "B": "-0,43",
+        "C": "-0,75",
+        "D": "-0,25"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "-3/4 = -75/100 = -0,75. Jebakan D muncul kalau siswa kira -3/4 sama dengan -1/4 karena sama-sama punya angka 4."
+    },
+    {
+      "no": 8,
+      "level": "Sedang",
+      "soal": "Skor gim Zara mula-mula -7, lalu bertambah 12. Skor akhir Zara adalah ...",
+      "opsi": {
+        "A": "-19",
+        "B": "-5",
+        "C": "4",
+        "D": "5"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "-7 + 12 = 5 karena 12 lebih besar dan positif. Jebakan A muncul kalau siswa jumlahkan -7 dan 12 jadi -19 tanpa lihat tanda."
+    },
+    {
+      "no": 9,
+      "level": "Sedang",
+      "soal": "Toko Roti Kenari memakai 1/2 kg tepung, lalu mengembalikan 1/4 kg karena kelebihan. Tepung yang benar-benar terpakai adalah ...",
+      "opsi": {
+        "A": "1/4 kg",
+        "B": "3/4 kg",
+        "C": "1/2 kg",
+        "D": "-1/4 kg"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "1/2 - 1/4 = 2/4 - 1/4 = 1/4 kg. Jebakan B muncul kalau siswa jumlahkan 1/2 + 1/4 tanpa lihat pengembalian."
+    },
+    {
+      "no": 10,
+      "level": "Sedang",
+      "soal": "Warung Delima membuat es blewah dengan rasio sirup dan air 2 : 3. Jika totalnya 25 gelas, banyak gelas air adalah ...",
+      "opsi": {
+        "A": "10 gelas",
+        "B": "15 gelas",
+        "C": "20 gelas",
+        "D": "25 gelas"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Total 5 bagian = 25 gelas, jadi 1 bagian = 5 gelas, air = 3 x 5 = 15 gelas. Jebakan A muncul kalau siswa ambil bagian sirup, bukan air."
+    },
+    {
+      "no": 11,
+      "level": "Sedang",
+      "soal": "Kurir Lentera menetapkan ongkos 4x - 3 ribu rupiah. Jika ongkos yang dibayar 9 ribu rupiah, nilai x adalah ...",
+      "opsi": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "15"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "4x - 3 = 9, jadi 4x = 12, x = 3. Jebakan A muncul kalau siswa hitung 9 + 3 = 12 lalu berhenti tanpa bagi 4."
+    },
+    {
+      "no": 12,
+      "level": "Sedang",
+      "soal": "Kotak hadiah Galeri Flamboyan berbentuk kubus rusuk 4 cm. Luas seluruh permukaan kotak itu adalah ...",
+      "opsi": {
+        "A": "64 cm2",
+        "B": "48 cm2",
+        "C": "128 cm2",
+        "D": "96 cm2"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Luas permukaan = 6 x (4 x 4) = 96 cm2. Jebakan A muncul kalau siswa hitung volume 64, bukan luas permukaan."
+    },
+    {
+      "no": 13,
+      "level": "Sedang",
+      "soal": "Perhatikan pernyataan di papan nilai Kelas 6 Mentari: (1) -3 < 0. (2) -5 > -2. (3) 1/2 = 2/4. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "(1) dan (3) saja",
+        "B": "(1) saja",
+        "C": "(2) dan (3) saja",
+        "D": "(1), (2), dan (3)"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "(1) benar karena bilangan negatif di bawah 0, (3) benar karena 2/4 = 1/2. Jebakan D muncul kalau siswa pakai (2), padahal -5 lebih kecil dari -2."
+    },
+    {
+      "no": 14,
+      "level": "Sedang",
+      "soal": "Di undian Festival Kali Mas, satu koin dan satu dadu dilempar bersama. Peluang muncul angka pada koin DAN mata 6 pada dadu adalah ...",
+      "opsi": {
+        "A": "1/2",
+        "B": "1/12",
+        "C": "1/6",
+        "D": "1/3"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Peluangnya 1/2 x 1/6 = 1/12 karena dua kejadian dikalikan. Jebakan C muncul kalau siswa hanya hitung peluang dadu saja dan lupa koin."
+    },
+    {
+      "no": 15,
+      "level": "Sedang",
+      "soal": "Workshop Akasia menggabung balok 10 cm x 5 cm x 4 cm dengan kubus 3 cm x 3 cm x 3 cm. Rumus volume gabungannya yang benar adalah ...",
+      "opsi": {
+        "A": "(10 x 5 x 4) - (3 x 3 x 3)",
+        "B": "10 x 5 x 4 x 3",
+        "C": "(10 x 5 x 4) + (3 x 3 x 3)",
+        "D": "10 + 5 + 4 + 3"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Volume gabungan = volume balok ditambah volume kubus. Jebakan A muncul kalau siswa kurangi kubus, padahal kubus digabung, bukan dipotong."
+    },
+    {
+      "no": 16,
+      "level": "Sedang",
+      "soal": "Perbandingan bibit a dan b di Taman Surya adalah a : b = 2 : 3. Jika a + b = 20, nilai a adalah ...",
+      "opsi": {
+        "A": "6",
+        "B": "10",
+        "C": "12",
+        "D": "8"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Total 5 bagian = 20, jadi 1 bagian = 4, a = 2 x 4 = 8. Jebakan C muncul kalau siswa ambil bagian b, bukan a."
+    },
+    {
+      "no": 17,
+      "level": "Sedang",
+      "soal": "Poin gim Arka dihitung -3 x 4 + 10. Hasilnya adalah ...",
+      "opsi": {
+        "A": "-2",
+        "B": "2",
+        "C": "-22",
+        "D": "22"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "-3 x 4 = -12, lalu -12 + 10 = -2 karena perkalian dulu. Jebakan C muncul kalau siswa hitung -3 x (4 + 10) tanpa dahulukan perkalian."
+    },
+    {
+      "no": 18,
+      "level": "Sedang",
+      "soal": "Soal: sederhanakan 2(x + 3). Cara Lina: 2x + 3. Cara Omar: 2x + 6. Pernyataan yang benar adalah ...",
+      "opsi": {
+        "A": "Cara Lina benar, Cara Omar salah",
+        "B": "Cara Lina salah, Cara Omar benar",
+        "C": "Cara Lina benar, Cara Omar benar",
+        "D": "Cara Lina salah, Cara Omar salah"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "2 harus dikalikan ke x DAN ke 3, jadi 2x + 6. Jebakan A muncul kalau siswa kira 2 hanya dikalikan ke x saja."
+    },
+    {
+      "no": 19,
+      "level": "Sulit",
+      "soal": "Rasio jus jeruk dan jus apel di Kafe Anggrek adalah 4 : 6. Jika jus jeruk ada 10 gelas dan rasionya tetap, banyak jus apel adalah ...",
+      "opsi": {
+        "A": "12 gelas",
+        "B": "18 gelas",
+        "C": "15 gelas",
+        "D": "20 gelas"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "4 : 6 = 10 : n, jadi n = 10 x 6 : 4 = 15 gelas. Jebakan A muncul kalau siswa kira selisih 2 gelas tetap, padahal rasio dikalikan."
+    },
+    {
+      "no": 20,
+      "level": "Sulit",
+      "soal": "Kantong bola Lapangan Ketabang berisi 3 merah dan 5 biru. Peluang dapat merah adalah ...",
+      "opsi": {
+        "A": "3/5",
+        "B": "5/8",
+        "C": "8/3",
+        "D": "3/8"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Peluang merah = 3 dari total 8 = 3/8. Jebakan B muncul kalau siswa kira 5/8 itu merah, padahal 5/8 itu peluang biru."
+    },
+    {
+      "no": 21,
+      "level": "Sulit",
+      "soal": "Dita menghitung 1/2 - 1/3 dengan cara (1 - 1)/(2 - 3) = 0. Kesalahan terletak di ...",
+      "opsi": {
+        "A": "Hasilnya 0 sudah benar",
+        "B": "Salah karena 1/2 - 1/3 = 1/5",
+        "C": "Salah karena penyebut harus disamakan dulu, hasil benar 1/6",
+        "D": "Salah karena pembilang harus ditambah"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Samakan penyebut 6 dulu: 3/6 - 2/6 = 1/6. Jebakan B muncul kalau siswa kira pengurangan pecahan boleh kurangi penyebutnya juga."
+    },
+    {
+      "no": 22,
+      "level": "Sulit",
+      "soal": "Hasil dari -5 - (-8) adalah ...",
+      "opsi": {
+        "A": "3",
+        "B": "-13",
+        "C": "-3",
+        "D": "13"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Kurang bilangan negatif berubah jadi tambah, jadi -5 + 8 = 3. Jebakan B muncul kalau siswa abaikan tanda minus kedua dan langsung kurangi 8."
+    },
+    {
+      "no": 23,
+      "level": "Sulit",
+      "soal": "36 stiker mau dibagi rasio 2 : 1. Rencana yang tepat adalah ...",
+      "opsi": {
+        "A": "20 dan 16",
+        "B": "18 dan 18",
+        "C": "24 dan 12",
+        "D": "30 dan 6"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Total 3 bagian = 36, jadi 1 bagian = 12, 2 bagian = 24. Jebakan A muncul kalau siswa kira total 36 saja sudah cukup tanpa cek rasionya."
+    },
+    {
+      "no": 24,
+      "level": "Sulit",
+      "soal": "Toko Bintang mau buat kotak mainan: panjang 3x cm, lebar x cm, tinggi 3 cm, volume 81 cm3. Nilai x yang tepat adalah ...",
+      "opsi": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "3"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Volume = (3x) x x x 3 = 9x² = 81, jadi x² = 9, x = 3. Jebakan B muncul kalau siswa pakai x = 4 tanpa cek 9 x 16 = 144, bukan 81."
+    },
+    {
+      "no": 25,
+      "level": "Sulit",
+      "soal": "Kelas 6 Flamingo mau letakkan x/12 di antara 1/2 dan 2/3. Nilai x yang tepat adalah ...",
+      "opsi": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "1/2 = 6/12 dan 2/3 = 8/12, jadi x harus di antara 6 dan 8, yaitu 7. Jebakan C muncul kalau siswa kira 9/12 masih di antara, padahal 9/12 sudah lebih dari 8/12."
+    }
+  ]
+}
