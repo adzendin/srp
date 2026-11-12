@@ -497,4 +497,68 @@
     {
       "no": 23,
       "soal": "Nisa membagi 60 menit: Matematika 30 menit, IPA 15 menit, IPS 15 menit. Rani membagi 60 menit: tiap mapel 20 menit. Rencana yang membuat Matematika paling banyak adalah ...",
-      "ops
+      "opsi": {
+        "A": "Rencana Rani, karena adil",
+        "B": "Sama saja",
+        "C": "Rencana Nisa, karena Matematika 30 menit paling banyak dan total 60 menit",
+        "D": "Tidak ada yang memenuhi"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Rencana Rani sama rata, jadi Matematika tidak paling banyak. Jebakan A muncul kalau siswa kira adil pasti memenuhi syarat.",
+      "q": "Nisa membagi 60 menit: Matematika 30 menit, IPA 15 menit, IPS 15 menit. Rani membagi 60 menit: tiap mapel 20 menit. Rencana yang membuat Matematika paling banyak adalah ...",
+      "o": [
+        "Rencana Rani, karena adil",
+        "Sama saja",
+        "Rencana Nisa, karena Matematika 30 menit paling banyak dan total 60 menit",
+        "Tidak ada yang memenuhi"
+      ],
+      "a": 2,
+      "e": "Rencana Rani sama rata, jadi Matematika tidak paling banyak. Jebakan A muncul kalau siswa kira adil pasti memenuhi syarat."
+    },
+    {
+      "no": 24,
+      "soal": "Sekolah Pelita membuat kebun luas 36 m2. Pilih denah dengan pagar paling hemat!",
+      "opsi": {
+        "A": "Panjang 12 m lebar 3 m, keliling 30 m",
+        "B": "Panjang 18 m lebar 2 m, keliling 40 m",
+        "C": "Panjang 9 m lebar 4 m, keliling 26 m",
+        "D": "Panjang 6 m lebar 6 m, keliling 24 m"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Semua luas 36 m2 dan keliling terkecil D = 24 m. Jebakan A muncul kalau siswa pilih yang panjangnya paling besar, bukan kelilingnya.",
+      "q": "Sekolah Pelita membuat kebun luas 36 m2. Pilih denah dengan pagar paling hemat!",
+      "o": [
+        "Panjang 12 m lebar 3 m, keliling 30 m",
+        "Panjang 18 m lebar 2 m, keliling 40 m",
+        "Panjang 9 m lebar 4 m, keliling 26 m",
+        "Panjang 6 m lebar 6 m, keliling 24 m"
+      ],
+      "a": 3,
+      "e": "Semua luas 36 m2 dan keliling terkecil D = 24 m. Jebakan A muncul kalau siswa pilih yang panjangnya paling besar, bukan kelilingnya."
+    },
+    {
+      "no": 25,
+      "soal": "Kelas 6 Pelita mau buat kantong 10 kelereng agar peluang dapat merah 3/5. Rancangan yang tepat adalah ...",
+      "opsi": {
+        "A": "5 merah dan 5 biru",
+        "B": "6 merah dan 4 biru",
+        "C": "3 merah dan 7 biru",
+        "D": "2 merah dan 8 biru"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Peluang 3/5 dari 10 = 6 merah, jadi 6 merah dan 4 biru. Jebakan C muncul kalau siswa pakai angka 3 dari 3/5 langsung tanpa kali 10.",
+      "q": "Kelas 6 Pelita mau buat kantong 10 kelereng agar peluang dapat merah 3/5. Rancangan yang tepat adalah ...",
+      "o": [
+        "5 merah dan 5 biru",
+        "6 merah dan 4 biru",
+        "3 merah dan 7 biru",
+        "2 merah dan 8 biru"
+      ],
+      "a": 1,
+      "e": "Peluang 3/5 dari 10 = 6 merah, jadi 6 merah dan 4 biru. Jebakan C muncul kalau siswa pakai angka 3 dari 3/5 langsung tanpa kali 10."
+    }
+  ]
+}
