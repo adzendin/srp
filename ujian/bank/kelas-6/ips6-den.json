@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -21,7 +21,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai tiga pernyataan tentang globalisasi dan warung kopi Kenjeran. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) salah karena kata selalu, (3) benar. Pelajaran Nalar: Globalisasi itu peluang, bukan jaminan untung. Penutup Tips: Uji kata selalu dengan satu contoh yang melawan. Kenapa Opsi Lain Salah: A memakai (2) yang salah, C membuang (1) yang benar, D memakai (2). Di Mana Jebakannya: Kata selalu di (2) yang kelihatan positif. Cara Cek Cepat: Tanya, apakah semua warung kecil otomatis untung? Kalau tidak, (2) gugur."
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang globalisasi dan warung kopi Kenjeran. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) salah karena kata selalu, (3) benar. Pelajaran Nalar: Globalisasi itu peluang, bukan jaminan untung. Penutup Tips: Uji kata selalu dengan satu contoh yang melawan. Kenapa Opsi Lain Salah: A memakai (2) yang salah, C membuang (1) yang benar, D memakai (2). Di Mana Jebakannya: Kata selalu di (2) yang kelihatan positif. Cara Cek Cepat: Tanya, apakah semua warung kecil otomatis untung? Kalau tidak, (2) gugur.",
+      "q": "Warga Kenjeran membuka warung kopi. Pernyataan: (1) Globalisasi membuat kopi Kenjeran bisa dijual lewat internet ke luar kota. (2) Globalisasi selalu membuat warung kecil untung. (3) Warung harus jaga rasa agar pembeli tidak pindah ke kopi luar. Pernyataan yang benar adalah ...",
+      "o": [
+        "(1) dan (2) saja",
+        "(1) dan (3) saja",
+        "(2) dan (3) saja",
+        "(1), (2), dan (3)"
+      ],
+      "a": 1,
+      "e": "Bedah: Nilai tiga pernyataan tentang globalisasi dan warung kopi Kenjeran. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) salah karena kata selalu, (3) benar. Pelajaran Nalar: Globalisasi itu peluang, bukan jaminan untung. Penutup Tips: Uji kata selalu dengan satu contoh yang melawan. Kenapa Opsi Lain Salah: A memakai (2) yang salah, C membuang (1) yang benar, D memakai (2). Di Mana Jebakannya: Kata selalu di (2) yang kelihatan positif. Cara Cek Cepat: Tanya, apakah semua warung kecil otomatis untung? Kalau tidak, (2) gugur."
     },
     {
       "no": 2,
@@ -34,7 +43,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai usulan tambah tempat hanya Rabu dari data 3 hari. Cara Hitung/Uji: Hitung tren 10 ke 12 ke 20, naik terus. Pelajaran Nalar: Tren naik butuh pengurangan setiap hari, bukan hanya hari tertinggi. Penutup Tips: Baca tren data, bukan hanya hari tertinggi. Kenapa Opsi Lain Salah: A hanya melihat Rabu, C menghilangkan fasilitas, D melarang acara. Di Mana Jebakannya: Angka Rabu paling besar membuat kita fokus hanya Rabu. Cara Cek Cepat: Cek apakah Senin dan Selasa juga naik."
+      "pembahasan": "Bedah: Nilai usulan tambah tempat hanya Rabu dari data 3 hari. Cara Hitung/Uji: Hitung tren 10 ke 12 ke 20, naik terus. Pelajaran Nalar: Tren naik butuh pengurangan setiap hari, bukan hanya hari tertinggi. Penutup Tips: Baca tren data, bukan hanya hari tertinggi. Kenapa Opsi Lain Salah: A hanya melihat Rabu, C menghilangkan fasilitas, D melarang acara. Di Mana Jebakannya: Angka Rabu paling besar membuat kita fokus hanya Rabu. Cara Cek Cepat: Cek apakah Senin dan Selasa juga naik.",
+      "q": "Data sampah sekolah: Senin 10 kg, Selasa 12 kg, Rabu 20 kg (ada acara). Kepala sekolah mengusulkan tambah tempat sampah hanya pada Rabu. Evaluasi usulan itu!",
+      "o": [
+        "Sudah cukup, karena sampah hanya banyak pada Rabu",
+        "Kurang cukup, karena data naik tiap hari dan acara bisa kapan saja, perlu pemilahan + pengurangan setiap hari, bukan hanya tambah tempat pada Rabu",
+        "Tidak perlu tempat sampah sama sekali",
+        "Sekolah harus melarang semua acara agar sampah tidak naik"
+      ],
+      "a": 1,
+      "e": "Bedah: Nilai usulan tambah tempat hanya Rabu dari data 3 hari. Cara Hitung/Uji: Hitung tren 10 ke 12 ke 20, naik terus. Pelajaran Nalar: Tren naik butuh pengurangan setiap hari, bukan hanya hari tertinggi. Penutup Tips: Baca tren data, bukan hanya hari tertinggi. Kenapa Opsi Lain Salah: A hanya melihat Rabu, C menghilangkan fasilitas, D melarang acara. Di Mana Jebakannya: Angka Rabu paling besar membuat kita fokus hanya Rabu. Cara Cek Cepat: Cek apakah Senin dan Selasa juga naik."
     },
     {
       "no": 3,
@@ -47,7 +65,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai tiga pernyataan tentang pasar tradisional. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) belum tentu, (3) benar. Pelajaran Nalar: Kata selalu harus diuji, tidak semua barang di pasar lebih murah. Penutup Tips: Waspada kata selalu / semua / pasti, uji dengan contoh. Kenapa Opsi Lain Salah: B melewatkan (3), C menganggap (2) mutlak, D menolak yang benar. Di Mana Jebakannya: (2) kelihatan benar karena pasar sering murah. Cara Cek Cepat: Cari satu barang di pasar yang lebih mahal dari toko."
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang pasar tradisional. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) belum tentu, (3) benar. Pelajaran Nalar: Kata selalu harus diuji, tidak semua barang di pasar lebih murah. Penutup Tips: Waspada kata selalu / semua / pasti, uji dengan contoh. Kenapa Opsi Lain Salah: B melewatkan (3), C menganggap (2) mutlak, D menolak yang benar. Di Mana Jebakannya: (2) kelihatan benar karena pasar sering murah. Cara Cek Cepat: Cari satu barang di pasar yang lebih mahal dari toko.",
+      "q": "Perhatikan pernyataan: (1) Pasar tradisional melatih tawar-menawar. (2) Pasar tradisional selalu lebih murah dari toko modern. (3) Pasar tradisional memberi lapangan kerja warga sekitar. Nilai pernyataan yang tepat!",
+      "o": [
+        "(1) dan (3) benar, (2) belum tentu benar karena harga tergantung barang dan musim",
+        "Hanya (1) benar",
+        "Hanya (2) benar",
+        "Semua pernyataan salah"
+      ],
+      "a": 0,
+      "e": "Bedah: Nilai tiga pernyataan tentang pasar tradisional. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) belum tentu, (3) benar. Pelajaran Nalar: Kata selalu harus diuji, tidak semua barang di pasar lebih murah. Penutup Tips: Waspada kata selalu / semua / pasti, uji dengan contoh. Kenapa Opsi Lain Salah: B melewatkan (3), C menganggap (2) mutlak, D menolak yang benar. Di Mana Jebakannya: (2) kelihatan benar karena pasar sering murah. Cara Cek Cepat: Cari satu barang di pasar yang lebih mahal dari toko."
     },
     {
       "no": 4,
@@ -60,7 +87,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai dua pendapat tentang tujuan koperasi sekolah. Cara Hitung/Uji: Cek asas koperasi, kekeluargaan dan kesejahteraan anggota, bukan untung pengurus. Pelajaran Nalar: Koperasi berbeda dari toko biasa karena tujuannya anggota. Penutup Tips: Ingat asas kekeluargaan = untuk anggota. Kenapa Opsi Lain Salah: A menyamakan koperasi dengan toko, B menolak tujuan, D mengabaikan anggota. Di Mana Jebakannya: Koperasi juga jualan, jadi kelihatan sama dengan toko. Cara Cek Cepat: Tanya, untuk siapa sisa hasil usaha kembali?"
+      "pembahasan": "Bedah: Nilai dua pendapat tentang tujuan koperasi sekolah. Cara Hitung/Uji: Cek asas koperasi, kekeluargaan dan kesejahteraan anggota, bukan untung pengurus. Pelajaran Nalar: Koperasi berbeda dari toko biasa karena tujuannya anggota. Penutup Tips: Ingat asas kekeluargaan = untuk anggota. Kenapa Opsi Lain Salah: A menyamakan koperasi dengan toko, B menolak tujuan, D mengabaikan anggota. Di Mana Jebakannya: Koperasi juga jualan, jadi kelihatan sama dengan toko. Cara Cek Cepat: Tanya, untuk siapa sisa hasil usaha kembali?",
+      "q": "Dua kelompok siswa berdebat: Kelompok X berkata koperasi sekolah hanya untuk mencari untung. Kelompok Y berkata koperasi sekolah untuk kesejahteraan anggota. Nilai mana yang sesuai asas koperasi!",
+      "o": [
+        "Kelompok X benar, koperasi sama dengan toko biasa",
+        "Keduanya salah, koperasi tidak punya tujuan",
+        "Kelompok Y benar, karena koperasi berdasar asas kekeluargaan dan sisa hasil usaha kembali untuk anggota",
+        "Keduanya benar, karena koperasi boleh mengabaikan anggota demi untung pengurus"
+      ],
+      "a": 2,
+      "e": "Bedah: Nilai dua pendapat tentang tujuan koperasi sekolah. Cara Hitung/Uji: Cek asas koperasi, kekeluargaan dan kesejahteraan anggota, bukan untung pengurus. Pelajaran Nalar: Koperasi berbeda dari toko biasa karena tujuannya anggota. Penutup Tips: Ingat asas kekeluargaan = untuk anggota. Kenapa Opsi Lain Salah: A menyamakan koperasi dengan toko, B menolak tujuan, D mengabaikan anggota. Di Mana Jebakannya: Koperasi juga jualan, jadi kelihatan sama dengan toko. Cara Cek Cepat: Tanya, untuk siapa sisa hasil usaha kembali?"
     },
     {
       "no": 5,
@@ -73,7 +109,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai mengapa sungai bersih hanya seminggu setelah kerja bakti. Cara Hitung/Uji: Cek apakah solusi hanya sekali atau rutin + fasilitas + pengawasan + edukasi. Pelajaran Nalar: Bersih sesaat tanpa sistem akan kotor lagi. Penutup Tips: Cari opsi yang ada jadwal rutin + fasilitas + pengawasan + edukasi. Kenapa Opsi Lain Salah: A menyerah, B pasrah, C menghukum tanpa sistem. Di Mana Jebakannya: Kerja bakti sekali kelihatan sudah cukup. Cara Cek Cepat: Tanya, apakah ada jadwal setelah kerja bakti?"
+      "pembahasan": "Bedah: Nilai mengapa sungai bersih hanya seminggu setelah kerja bakti. Cara Hitung/Uji: Cek apakah solusi hanya sekali atau rutin + fasilitas + pengawasan + edukasi. Pelajaran Nalar: Bersih sesaat tanpa sistem akan kotor lagi. Penutup Tips: Cari opsi yang ada jadwal rutin + fasilitas + pengawasan + edukasi. Kenapa Opsi Lain Salah: A menyerah, B pasrah, C menghukum tanpa sistem. Di Mana Jebakannya: Kerja bakti sekali kelihatan sudah cukup. Cara Cek Cepat: Tanya, apakah ada jadwal setelah kerja bakti?",
+      "q": "Kota Surabaya mengadakan kerja bakti membersihkan Kalimas. Setelah kerja bakti, sungai bersih 1 minggu lalu kotor lagi. Evaluasi penyebab dan solusinya!",
+      "o": [
+        "Kerja bakti tidak berguna, tidak perlu lagi",
+        "Sungai memang tidak bisa bersih",
+        "Warga harus dihukum semua",
+        "Kerja bakti sekali tidak cukup. Perlu jadwal rutin + tempat sampah + pengawasan + edukasi agar sampah tidak dibuang ke sungai lagi"
+      ],
+      "a": 3,
+      "e": "Bedah: Nilai mengapa sungai bersih hanya seminggu setelah kerja bakti. Cara Hitung/Uji: Cek apakah solusi hanya sekali atau rutin + fasilitas + pengawasan + edukasi. Pelajaran Nalar: Bersih sesaat tanpa sistem akan kotor lagi. Penutup Tips: Cari opsi yang ada jadwal rutin + fasilitas + pengawasan + edukasi. Kenapa Opsi Lain Salah: A menyerah, B pasrah, C menghukum tanpa sistem. Di Mana Jebakannya: Kerja bakti sekali kelihatan sudah cukup. Cara Cek Cepat: Tanya, apakah ada jadwal setelah kerja bakti?"
     },
     {
       "no": 6,
@@ -86,7 +131,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai pernyataan semua warga kota besar kaya dan tidak perlu gotong royong. Cara Hitung/Uji: Cek apakah kota besar menghapus kemiskinan dan kebutuhan bersama. Pelajaran Nalar: Kota besar tetap punya kesenjangan dan masalah bersama. Penutup Tips: Waspada kata semua dalam pernyataan umum. Kenapa Opsi Lain Salah: B menganggap kota tanpa masalah, C membatasi gotong royong hanya desa, D kebalikan yang juga salah. Di Mana Jebakannya: Kata semua membuat pernyataan kelihatan tegas. Cara Cek Cepat: Cari satu contoh warga kota yang masih butuh bantuan."
+      "pembahasan": "Bedah: Nilai pernyataan semua warga kota besar kaya dan tidak perlu gotong royong. Cara Hitung/Uji: Cek apakah kota besar menghapus kemiskinan dan kebutuhan bersama. Pelajaran Nalar: Kota besar tetap punya kesenjangan dan masalah bersama. Penutup Tips: Waspada kata semua dalam pernyataan umum. Kenapa Opsi Lain Salah: B menganggap kota tanpa masalah, C membatasi gotong royong hanya desa, D kebalikan yang juga salah. Di Mana Jebakannya: Kata semua membuat pernyataan kelihatan tegas. Cara Cek Cepat: Cari satu contoh warga kota yang masih butuh bantuan.",
+      "q": "Seorang siswa berkata: Karena Surabaya kota besar, maka semua warga Surabaya kaya dan tidak perlu gotong royong. Evaluasi pernyataan itu!",
+      "o": [
+        "Salah, karena kota besar tetap punya warga miskin dan gotong royong tetap dibutuhkan untuk kebersihan, keamanan, dan bantuan",
+        "Benar, karena kota besar tidak pernah ada masalah",
+        "Benar, karena gotong royong hanya untuk desa",
+        "Salah, karena semua warga Surabaya miskin"
+      ],
+      "a": 0,
+      "e": "Bedah: Nilai pernyataan semua warga kota besar kaya dan tidak perlu gotong royong. Cara Hitung/Uji: Cek apakah kota besar menghapus kemiskinan dan kebutuhan bersama. Pelajaran Nalar: Kota besar tetap punya kesenjangan dan masalah bersama. Penutup Tips: Waspada kata semua dalam pernyataan umum. Kenapa Opsi Lain Salah: B menganggap kota tanpa masalah, C membatasi gotong royong hanya desa, D kebalikan yang juga salah. Di Mana Jebakannya: Kata semua membuat pernyataan kelihatan tegas. Cara Cek Cepat: Cari satu contoh warga kota yang masih butuh bantuan."
     },
     {
       "no": 7,
@@ -99,7 +153,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai tiga pernyataan tentang Sumpah Pemuda. Cara Hitung/Uji: Uji satu per satu, menyatukan benar, perbedaan hilang salah, dasar persatuan benar. Pelajaran Nalar: Persatuan bukan menghapus perbedaan, tapi menyatukannya. Penutup Tips: Persatuan beda dengan penyeragaman. Kenapa Opsi Lain Salah: A membenarkan (2), B hanya (2), D menolak yang benar. Di Mana Jebakannya: Menyatukan disangka sama dengan menghilangkan perbedaan. Cara Cek Cepat: Tanya, apakah setelah Sumpah Pemuda semua bahasa daerah hilang?"
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang Sumpah Pemuda. Cara Hitung/Uji: Uji satu per satu, menyatukan benar, perbedaan hilang salah, dasar persatuan benar. Pelajaran Nalar: Persatuan bukan menghapus perbedaan, tapi menyatukannya. Penutup Tips: Persatuan beda dengan penyeragaman. Kenapa Opsi Lain Salah: A membenarkan (2), B hanya (2), D menolak yang benar. Di Mana Jebakannya: Menyatukan disangka sama dengan menghilangkan perbedaan. Cara Cek Cepat: Tanya, apakah setelah Sumpah Pemuda semua bahasa daerah hilang?",
+      "q": "Perhatikan pernyataan tentang Sumpah Pemuda: (1) Sumpah Pemuda menyatukan pemuda dari berbagai daerah. (2) Sumpah Pemuda membuat semua perbedaan hilang. (3) Sumpah Pemuda menjadi dasar persatuan. Nilai mana yang tepat?",
+      "o": [
+        "Semua benar",
+        "Hanya (2) benar",
+        "(1) dan (3) benar, (2) salah karena perbedaan tetap ada tapi disatukan dalam persatuan",
+        "Semua salah"
+      ],
+      "a": 2,
+      "e": "Bedah: Nilai tiga pernyataan tentang Sumpah Pemuda. Cara Hitung/Uji: Uji satu per satu, menyatukan benar, perbedaan hilang salah, dasar persatuan benar. Pelajaran Nalar: Persatuan bukan menghapus perbedaan, tapi menyatukannya. Penutup Tips: Persatuan beda dengan penyeragaman. Kenapa Opsi Lain Salah: A membenarkan (2), B hanya (2), D menolak yang benar. Di Mana Jebakannya: Menyatukan disangka sama dengan menghilangkan perbedaan. Cara Cek Cepat: Tanya, apakah setelah Sumpah Pemuda semua bahasa daerah hilang?"
     },
     {
       "no": 8,
@@ -112,7 +175,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai kesimpulan minat baca turun hanya dari data Rabu. Cara Hitung/Uji: Cek data 4 hari dan faktor hujan pada Rabu. Pelajaran Nalar: Satu hari yang hujan tidak bisa mewakili minat baca. Penutup Tips: Cek faktor luar (hujan) sebelum menyimpulkan tren. Kenapa Opsi Lain Salah: A hanya melihat angka terkecil, B mengabaikan hujan, C menutup perpustakaan. Di Mana Jebakannya: Angka 15 paling kecil menarik kesimpulan cepat. Cara Cek Cepat: Cek hari lain, apakah tetap tinggi?"
+      "pembahasan": "Bedah: Nilai kesimpulan minat baca turun hanya dari data Rabu. Cara Hitung/Uji: Cek data 4 hari dan faktor hujan pada Rabu. Pelajaran Nalar: Satu hari yang hujan tidak bisa mewakili minat baca. Penutup Tips: Cek faktor luar (hujan) sebelum menyimpulkan tren. Kenapa Opsi Lain Salah: A hanya melihat angka terkecil, B mengabaikan hujan, C menutup perpustakaan. Di Mana Jebakannya: Angka 15 paling kecil menarik kesimpulan cepat. Cara Cek Cepat: Cek hari lain, apakah tetap tinggi?",
+      "q": "Data pengunjung perpustakaan sekolah: Senin 30, Selasa 28, Rabu 15 (hujan deras), Kamis 32. Seorang siswa menyimpulkan minat baca turun karena Rabu hanya 15. Evaluasi kesimpulan itu!",
+      "o": [
+        "Benar, karena angka Rabu paling kecil",
+        "Benar, karena hujan tidak berpengaruh",
+        "Salah, karena perpustakaan harus ditutup",
+        "Kurang tepat, karena penurunan Rabu bertepatan dengan hujan deras dan hari lain tetap tinggi. Satu hari tidak cukup untuk menyimpulkan minat baca turun"
+      ],
+      "a": 3,
+      "e": "Bedah: Nilai kesimpulan minat baca turun hanya dari data Rabu. Cara Hitung/Uji: Cek data 4 hari dan faktor hujan pada Rabu. Pelajaran Nalar: Satu hari yang hujan tidak bisa mewakili minat baca. Penutup Tips: Cek faktor luar (hujan) sebelum menyimpulkan tren. Kenapa Opsi Lain Salah: A hanya melihat angka terkecil, B mengabaikan hujan, C menutup perpustakaan. Di Mana Jebakannya: Angka 15 paling kecil menarik kesimpulan cepat. Cara Cek Cepat: Cek hari lain, apakah tetap tinggi?"
     },
     {
       "no": 9,
@@ -125,7 +197,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai dua berita penyebab harga cabai naik secara hati-hati. Cara Hitung/Uji: Cek apakah kesimpulan memeriksa data panen dan stok, bukan langsung menyalahkan. Pelajaran Nalar: Harga bisa naik karena banyak sebab, perlu bukti. Penutup Tips: Jangan menyimpulkan dari satu berita saja. Kenapa Opsi Lain Salah: A, C, D langsung menyalahkan satu pihak tanpa bukti. Di Mana Jebakannya: Dua berita yang bertentangan membuat kita pilih satu. Cara Cek Cepat: Tanya, data panen dan stok sudah dicek?"
+      "pembahasan": "Bedah: Nilai dua berita penyebab harga cabai naik secara hati-hati. Cara Hitung/Uji: Cek apakah kesimpulan memeriksa data panen dan stok, bukan langsung menyalahkan. Pelajaran Nalar: Harga bisa naik karena banyak sebab, perlu bukti. Penutup Tips: Jangan menyimpulkan dari satu berita saja. Kenapa Opsi Lain Salah: A, C, D langsung menyalahkan satu pihak tanpa bukti. Di Mana Jebakannya: Dua berita yang bertentangan membuat kita pilih satu. Cara Cek Cepat: Tanya, data panen dan stok sudah dicek?",
+      "q": "Perhatikan dua berita: Berita 1: Harga cabai naik karena gagal panen. Berita 2: Harga cabai naik karena pedagang menimbun. Mana kesimpulan yang paling hati-hati?",
+      "o": [
+        "Pasti pedagang yang salah, tidak perlu cek data",
+        "Kenaikan harga bisa dari gagal panen, penimbunan, atau keduanya. Perlu cek data panen dan stok sebelum menyalahkan satu pihak",
+        "Pasti cuaca yang salah, pedagang tidak pernah salah",
+        "Harga naik pasti karena pembeli boros"
+      ],
+      "a": 1,
+      "e": "Bedah: Nilai dua berita penyebab harga cabai naik secara hati-hati. Cara Hitung/Uji: Cek apakah kesimpulan memeriksa data panen dan stok, bukan langsung menyalahkan. Pelajaran Nalar: Harga bisa naik karena banyak sebab, perlu bukti. Penutup Tips: Jangan menyimpulkan dari satu berita saja. Kenapa Opsi Lain Salah: A, C, D langsung menyalahkan satu pihak tanpa bukti. Di Mana Jebakannya: Dua berita yang bertentangan membuat kita pilih satu. Cara Cek Cepat: Tanya, data panen dan stok sudah dicek?"
     },
     {
       "no": 10,
@@ -138,7 +219,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai pernyataan barang banyak menjamin untung walau ditawar sangat murah. Cara Hitung/Uji: Cek hubungan harga jual, modal, dan ongkos. Untung = jual - modal - ongkos. Pelajaran Nalar: Jika jual di bawah modal, rugi walau barang banyak. Penutup Tips: Hitung modal + ongkos dulu sebelum menilai untung. Kenapa Opsi Lain Salah: A dan B mengabaikan modal, D melarang untung. Di Mana Jebakannya: Barang banyak kelihatan pasti untung. Cara Cek Cepat: Hitung satu barang, jual di bawah modal untung atau rugi?"
+      "pembahasan": "Bedah: Nilai pernyataan barang banyak menjamin untung walau ditawar sangat murah. Cara Hitung/Uji: Cek hubungan harga jual, modal, dan ongkos. Untung = jual - modal - ongkos. Pelajaran Nalar: Jika jual di bawah modal, rugi walau barang banyak. Penutup Tips: Hitung modal + ongkos dulu sebelum menilai untung. Kenapa Opsi Lain Salah: A dan B mengabaikan modal, D melarang untung. Di Mana Jebakannya: Barang banyak kelihatan pasti untung. Cara Cek Cepat: Hitung satu barang, jual di bawah modal untung atau rugi?",
+      "q": "Seorang pedagang berkata: Jika semua pembeli menawar sampai sangat murah, pedagang tetap untung karena barangnya banyak. Evaluasi pernyataan itu!",
+      "o": [
+        "Benar, karena barang banyak pasti untung",
+        "Benar, karena menawar tidak berpengaruh pada untung",
+        "Salah, karena jika harga jual di bawah modal + ongkos, pedagang rugi walau barangnya banyak",
+        "Salah, karena pedagang dilarang untung"
+      ],
+      "a": 2,
+      "e": "Bedah: Nilai pernyataan barang banyak menjamin untung walau ditawar sangat murah. Cara Hitung/Uji: Cek hubungan harga jual, modal, dan ongkos. Untung = jual - modal - ongkos. Pelajaran Nalar: Jika jual di bawah modal, rugi walau barang banyak. Penutup Tips: Hitung modal + ongkos dulu sebelum menilai untung. Kenapa Opsi Lain Salah: A dan B mengabaikan modal, D melarang untung. Di Mana Jebakannya: Barang banyak kelihatan pasti untung. Cara Cek Cepat: Hitung satu barang, jual di bawah modal untung atau rugi?"
     },
     {
       "no": 11,
@@ -151,7 +241,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai usulan jalan beton di mangrove dengan data penyusutan luas dan pengunjung. Cara Hitung/Uji: Hitung penyusutan: 100 - 40 = 60 hektare hilang, artinya 60% sudah hilang. Lalu nilai apakah jalan beton menambah atau mengurangi kerusakan. Pelajaran Nalar: Data bukan sekadar angka, data menunjukkan mangrove sudah kritis, jadi keputusan harus melindungi yang tersisa. Penutup Tips: Hitung dulu selisih luasnya, baru nilai usulannya. Kenapa Opsi Lain Salah: B dan C mengabaikan data penyusutan, D terlalu ekstrem dan mematikan ekonomi warga. Di Mana Jebakannya: Jalan beton kelihatan memudahkan pengunjung. Cara Cek Cepat: Hitung dulu, 100 ke 40 hilang berapa persen?"
+      "pembahasan": "Bedah: Nilai usulan jalan beton di mangrove dengan data penyusutan luas dan pengunjung. Cara Hitung/Uji: Hitung penyusutan: 100 - 40 = 60 hektare hilang, artinya 60% sudah hilang. Lalu nilai apakah jalan beton menambah atau mengurangi kerusakan. Pelajaran Nalar: Data bukan sekadar angka, data menunjukkan mangrove sudah kritis, jadi keputusan harus melindungi yang tersisa. Penutup Tips: Hitung dulu selisih luasnya, baru nilai usulannya. Kenapa Opsi Lain Salah: B dan C mengabaikan data penyusutan, D terlalu ekstrem dan mematikan ekonomi warga. Di Mana Jebakannya: Jalan beton kelihatan memudahkan pengunjung. Cara Cek Cepat: Hitung dulu, 100 ke 40 hilang berapa persen?",
+      "q": "Perhatikan data Pamurbaya: Luas mangrove tersisa 40 hektare. Luas mangrove 10 tahun lalu 100 hektare. Jumlah pengunjung ekowisata per bulan 2.000 orang. Usulan membuka jalan beton lebar di tengah mangrove agar pengunjung makin banyak. Evaluasi usulan itu!",
+      "o": [
+        "Ditolak, karena mangrove sudah menyusut 60% dan jalan beton justru mempercepat kerusakan sekaligus mematikan daya tarik ekowisata itu sendiri",
+        "Diterima, karena jalan beton membuat pengunjung tidak perlu berjalan kaki",
+        "Diterima, karena mangrove yang tersisa masih cukup untuk foto-foto",
+        "Ditolak, karena semua pengunjung harus dilarang masuk kawasan mangrove selamanya"
+      ],
+      "a": 0,
+      "e": "Bedah: Nilai usulan jalan beton di mangrove dengan data penyusutan luas dan pengunjung. Cara Hitung/Uji: Hitung penyusutan: 100 - 40 = 60 hektare hilang, artinya 60% sudah hilang. Lalu nilai apakah jalan beton menambah atau mengurangi kerusakan. Pelajaran Nalar: Data bukan sekadar angka, data menunjukkan mangrove sudah kritis, jadi keputusan harus melindungi yang tersisa. Penutup Tips: Hitung dulu selisih luasnya, baru nilai usulannya. Kenapa Opsi Lain Salah: B dan C mengabaikan data penyusutan, D terlalu ekstrem dan mematikan ekonomi warga. Di Mana Jebakannya: Jalan beton kelihatan memudahkan pengunjung. Cara Cek Cepat: Hitung dulu, 100 ke 40 hilang berapa persen?"
     },
     {
       "no": 12,
@@ -164,7 +263,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai prioritas dagangan saat biaya kirim satu barang naik akibat cuaca, barang lain tetap. Cara Hitung/Uji: Cek mana barang yang menyangkut kebutuhan pokok, bagaimana stok diatur, dan bagaimana pembeli diberi informasi agar tidak panik. Pelajaran Nalar: Saat barang pokok langka, pedagang yang adil mengatur stok dan memberi info, bukan menaikkan harga seenaknya. Penutup Tips: Dahulukan kebutuhan pokok + stok terbatas + info jujur ke pembeli. Kenapa Opsi Lain Salah: A mendahulukan yang bukan kebutuhan pokok, B mematikan penghasilan, C memanfaatkan kelangkaan secara tidak adil. Di Mana Jebakannya: Pakaian lebih mudah dijual, jadi kelihatan didahulukan. Cara Cek Cepat: Tanya, mana yang dibutuhkan pembeli setiap hari?"
+      "pembahasan": "Bedah: Nilai prioritas dagangan saat biaya kirim satu barang naik akibat cuaca, barang lain tetap. Cara Hitung/Uji: Cek mana barang yang menyangkut kebutuhan pokok, bagaimana stok diatur, dan bagaimana pembeli diberi informasi agar tidak panik. Pelajaran Nalar: Saat barang pokok langka, pedagang yang adil mengatur stok dan memberi info, bukan menaikkan harga seenaknya. Penutup Tips: Dahulukan kebutuhan pokok + stok terbatas + info jujur ke pembeli. Kenapa Opsi Lain Salah: A mendahulukan yang bukan kebutuhan pokok, B mematikan penghasilan, C memanfaatkan kelangkaan secara tidak adil. Di Mana Jebakannya: Pakaian lebih mudah dijual, jadi kelihatan didahulukan. Cara Cek Cepat: Tanya, mana yang dibutuhkan pembeli setiap hari?",
+      "q": "Pelabuhan Tanjung Perak menerima dua kiriman dalam seminggu yang sama: beras dari Sulawesi dan pakaian jadi dari Jakarta. Biaya kirim beras naik karena cuaca buruk, sedangkan biaya kirim pakaian tetap. Pedagang Surabaya harus memilih mana yang didahulukan. Evaluasi keputusan yang paling masuk akal!",
+      "o": [
+        "Mendahulukan pakaian karena lebih ringan dan lebih mudah dipajang",
+        "Menunda semua penjualan sampai cuaca benar-benar cerah",
+        "Menjual beras dengan harga sangat tinggi agar untung besar dari kelangkaan",
+        "Mendahulukan beras dengan stok terbatas + harga wajar, sambil memberi tahu pembeli jadwal kiriman berikutnya agar tidak panik membeli"
+      ],
+      "a": 3,
+      "e": "Bedah: Nilai prioritas dagangan saat biaya kirim satu barang naik akibat cuaca, barang lain tetap. Cara Hitung/Uji: Cek mana barang yang menyangkut kebutuhan pokok, bagaimana stok diatur, dan bagaimana pembeli diberi informasi agar tidak panik. Pelajaran Nalar: Saat barang pokok langka, pedagang yang adil mengatur stok dan memberi info, bukan menaikkan harga seenaknya. Penutup Tips: Dahulukan kebutuhan pokok + stok terbatas + info jujur ke pembeli. Kenapa Opsi Lain Salah: A mendahulukan yang bukan kebutuhan pokok, B mematikan penghasilan, C memanfaatkan kelangkaan secara tidak adil. Di Mana Jebakannya: Pakaian lebih mudah dijual, jadi kelihatan didahulukan. Cara Cek Cepat: Tanya, mana yang dibutuhkan pembeli setiap hari?"
     },
     {
       "no": 13,
@@ -177,7 +285,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: Nilai tiga pernyataan tentang wilayah laut Indonesia. Cara Hitung/Uji: Cek satu per satu, laut teritorial 12 mil benar, ZEE 200 mil benar, laut bebas milik satu negara salah. Pelajaran Nalar: Wilayah laut dibedakan dari jarak dan haknya, bukan semua milik satu negara. Penutup Tips: Ingat angka 12 dan 200 sebagai pembeda. Kenapa Opsi Lain Salah: A melewatkan (2), B melewatkan (1), D menolak yang benar. Di Mana Jebakannya: Laut bebas disangka sama dengan laut teritorial. Cara Cek Cepat: Tanya, apakah laut bebas boleh dimiliki satu negara?"
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang wilayah laut Indonesia. Cara Hitung/Uji: Cek satu per satu, laut teritorial 12 mil benar, ZEE 200 mil benar, laut bebas milik satu negara salah. Pelajaran Nalar: Wilayah laut dibedakan dari jarak dan haknya, bukan semua milik satu negara. Penutup Tips: Ingat angka 12 dan 200 sebagai pembeda. Kenapa Opsi Lain Salah: A melewatkan (2), B melewatkan (1), D menolak yang benar. Di Mana Jebakannya: Laut bebas disangka sama dengan laut teritorial. Cara Cek Cepat: Tanya, apakah laut bebas boleh dimiliki satu negara?",
+      "q": "Perhatikan pernyataan tentang wilayah laut Indonesia: (1) Laut teritorial lebarnya 12 mil laut dari garis pantai. (2) Zona Ekonomi Eksklusif lebarnya 200 mil laut. (3) Laut bebas adalah milik satu negara saja. Nilai mana yang tepat?",
+      "o": [
+        "Hanya (1) benar",
+        "Hanya (2) benar",
+        "(1) dan (2) benar, (3) salah karena laut bebas bukan milik satu negara",
+        "Semua salah"
+      ],
+      "a": 2,
+      "e": "Bedah: Nilai tiga pernyataan tentang wilayah laut Indonesia. Cara Hitung/Uji: Cek satu per satu, laut teritorial 12 mil benar, ZEE 200 mil benar, laut bebas milik satu negara salah. Pelajaran Nalar: Wilayah laut dibedakan dari jarak dan haknya, bukan semua milik satu negara. Penutup Tips: Ingat angka 12 dan 200 sebagai pembeda. Kenapa Opsi Lain Salah: A melewatkan (2), B melewatkan (1), D menolak yang benar. Di Mana Jebakannya: Laut bebas disangka sama dengan laut teritorial. Cara Cek Cepat: Tanya, apakah laut bebas boleh dimiliki satu negara?"
     },
     {
       "no": 14,
@@ -190,7 +307,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: Buat strategi hadapi banjir di Kalimas. Cara Hitung/Uji: Cek apakah strategi cegah sebab banjir dan siapkan evakuasi. Pelajaran Nalar: Banjir dihadapi dengan cegah + siap, bukan buang sampah ke sungai. Penutup Tips: Tanya, apakah strateginya mengurangi sebab banjir dan menyiapkan evakuasi? Kenapa Opsi Lain Salah: A mencemari, C buang ke sungai, D tidak menghentikan banjir. Di Mana Jebakannya: Tutup pintu kelihatan melindungi sekolah. Cara Cek Cepat: Cek apakah ada bersih sungai dan ada jalur evakuasi."
+      "pembahasan": "Bedah: Buat strategi hadapi banjir di Kalimas. Cara Hitung/Uji: Cek apakah strategi cegah sebab banjir dan siapkan evakuasi. Pelajaran Nalar: Banjir dihadapi dengan cegah + siap, bukan buang sampah ke sungai. Penutup Tips: Tanya, apakah strateginya mengurangi sebab banjir dan menyiapkan evakuasi? Kenapa Opsi Lain Salah: A mencemari, C buang ke sungai, D tidak menghentikan banjir. Di Mana Jebakannya: Tutup pintu kelihatan melindungi sekolah. Cara Cek Cepat: Cek apakah ada bersih sungai dan ada jalur evakuasi.",
+      "q": "Sekolah di Kalimas, Surabaya, rawan banjir saat hujan deras. Strategi yang paling tepat untuk menghadapi banjir itu adalah ...",
+      "o": [
+        "Buang sampah ke Kalimas agar sungai bersih",
+        "Buat program bersih sungai, tanam pohon di bantaran, dan siapkan jalur evakuasi + tas siaga banjir",
+        "Buat jadwal piket buang sampah ke sungai tiap hari",
+        "Tutup semua pintu sekolah saat banjir agar air tidak masuk"
+      ],
+      "a": 1,
+      "e": "Bedah: Buat strategi hadapi banjir di Kalimas. Cara Hitung/Uji: Cek apakah strategi cegah sebab banjir dan siapkan evakuasi. Pelajaran Nalar: Banjir dihadapi dengan cegah + siap, bukan buang sampah ke sungai. Penutup Tips: Tanya, apakah strateginya mengurangi sebab banjir dan menyiapkan evakuasi? Kenapa Opsi Lain Salah: A mencemari, C buang ke sungai, D tidak menghentikan banjir. Di Mana Jebakannya: Tutup pintu kelihatan melindungi sekolah. Cara Cek Cepat: Cek apakah ada bersih sungai dan ada jalur evakuasi."
     },
     {
       "no": 15,
@@ -203,7 +329,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang pilihan pelelangan ikan untuk nelayan kecil bermodal terbatas. Cara Hitung/Uji: Cek mana yang memakai aset yang ada, biaya rendah, dan memberi kepastian jadwal. Pelajaran Nalar: Perbaikan + jadwal lebih masuk akal daripada gedung baru yang mahal. Penutup Tips: Cari opsi yang hemat + pakai yang sudah ada + jadwal jelas. Kenapa Opsi Lain Salah: B membebani biaya, C merugikan nelayan, D mengusir nelayan. Di Mana Jebakannya: Gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, siapa yang bayar sewa gedung besar?"
+      "pembahasan": "Bedah: Rancang pilihan pelelangan ikan untuk nelayan kecil bermodal terbatas. Cara Hitung/Uji: Cek mana yang memakai aset yang ada, biaya rendah, dan memberi kepastian jadwal. Pelajaran Nalar: Perbaikan + jadwal lebih masuk akal daripada gedung baru yang mahal. Penutup Tips: Cari opsi yang hemat + pakai yang sudah ada + jadwal jelas. Kenapa Opsi Lain Salah: B membebani biaya, C merugikan nelayan, D mengusir nelayan. Di Mana Jebakannya: Gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, siapa yang bayar sewa gedung besar?",
+      "q": "Kampung di Kenjeran ingin membuat tempat pelelangan ikan bersih. Ada dua usulan: (1) Bangun gedung baru besar di atas pantai, (2) Perbaiki balai lama + buat jadwal lelang + tempat cuci ikan. Rancanglah pilihan yang paling tepat untuk nelayan kecil dengan modal terbatas!",
+      "o": [
+        "Usulan 2, karena memakai bangunan yang ada, jadwal jelas, dan nelayan kecil tidak terbebani biaya sewa gedung besar",
+        "Usulan 1, karena gedung besar pasti membuat ikan lebih segar walau biayanya tinggi",
+        "Menutup pelelangan dan menjual ikan langsung ke tengkulak dengan harga murah",
+        "Memindahkan semua nelayan ke kota lain agar tidak perlu pelelangan"
+      ],
+      "a": 0,
+      "e": "Bedah: Rancang pilihan pelelangan ikan untuk nelayan kecil bermodal terbatas. Cara Hitung/Uji: Cek mana yang memakai aset yang ada, biaya rendah, dan memberi kepastian jadwal. Pelajaran Nalar: Perbaikan + jadwal lebih masuk akal daripada gedung baru yang mahal. Penutup Tips: Cari opsi yang hemat + pakai yang sudah ada + jadwal jelas. Kenapa Opsi Lain Salah: B membebani biaya, C merugikan nelayan, D mengusir nelayan. Di Mana Jebakannya: Gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, siapa yang bayar sewa gedung besar?"
     },
     {
       "no": 16,
@@ -216,7 +351,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang jalur ekowisata mangrove yang melindungi akar dan tetap memberi pembelajaran. Cara Hitung/Uji: Cek apakah pengunjung tidak menginjak akar, ada penjelasan, ada pemandu, dan ada batas rombongan. Pelajaran Nalar: Jembatan kayu + pemandu + batas rombongan melindungi sekaligus mendidik. Penutup Tips: Cari opsi yang ada jembatan + papan + pemandu + batas. Kenapa Opsi Lain Salah: A merusak akar, B menebang, C mematikan wisata. Di Mana Jebakannya: Jalan bebas kelihatan paling alami. Cara Cek Cepat: Cek apakah kaki pengunjung menyentuh akar?"
+      "pembahasan": "Bedah: Rancang jalur ekowisata mangrove yang melindungi akar dan tetap memberi pembelajaran. Cara Hitung/Uji: Cek apakah pengunjung tidak menginjak akar, ada penjelasan, ada pemandu, dan ada batas rombongan. Pelajaran Nalar: Jembatan kayu + pemandu + batas rombongan melindungi sekaligus mendidik. Penutup Tips: Cari opsi yang ada jembatan + papan + pemandu + batas. Kenapa Opsi Lain Salah: A merusak akar, B menebang, C mematikan wisata. Di Mana Jebakannya: Jalan bebas kelihatan paling alami. Cara Cek Cepat: Cek apakah kaki pengunjung menyentuh akar?",
+      "q": "Warga Pamurbaya ingin membuat ekowisata mangrove tapi takut akarnya rusak terinjak. Rancanglah jalur pengunjung yang melindungi mangrove sekaligus tetap bisa belajar!",
+      "o": [
+        "Membiarkan pengunjung berjalan bebas di antara akar",
+        "Menebang mangrove untuk membuat jalan aspal",
+        "Melarang semua orang melihat mangrove",
+        "Membuat jembatan kayu di atas akar + papan penjelasan + pemandu warga + batas jumlah pengunjung per rombongan"
+      ],
+      "a": 3,
+      "e": "Bedah: Rancang jalur ekowisata mangrove yang melindungi akar dan tetap memberi pembelajaran. Cara Hitung/Uji: Cek apakah pengunjung tidak menginjak akar, ada penjelasan, ada pemandu, dan ada batas rombongan. Pelajaran Nalar: Jembatan kayu + pemandu + batas rombongan melindungi sekaligus mendidik. Penutup Tips: Cari opsi yang ada jembatan + papan + pemandu + batas. Kenapa Opsi Lain Salah: A merusak akar, B menebang, C mematikan wisata. Di Mana Jebakannya: Jalan bebas kelihatan paling alami. Cara Cek Cepat: Cek apakah kaki pengunjung menyentuh akar?"
     },
     {
       "no": 17,
@@ -229,7 +373,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang program yang mengubah ejekan perbedaan menjadi kebanggaan bersama lewat pengalaman langsung. Cara Hitung/Uji: Cek apakah program itu membuat siswa mengalami budaya lain, bukan hanya dilarang, dan menghasilkan kesepakatan bersama. Pelajaran Nalar: Menghargai perbedaan tidak tumbuh dari larangan saja, tapi dari mengenal lalu menyepakati aturan bersama. Penutup Tips: Cari opsi yang ada tampil + kenal + kesepakatan bersama. Kenapa Opsi Lain Salah: A menghapus identitas, B mempertebal sekat, D menghukum tanpa memberi pemahaman. Di Mana Jebakannya: Melarang kelihatan cepat menyelesaikan pertengkaran. Cara Cek Cepat: Cek apakah siswa mengalami budaya lain atau hanya dilarang?"
+      "pembahasan": "Bedah: Rancang program yang mengubah ejekan perbedaan menjadi kebanggaan bersama lewat pengalaman langsung. Cara Hitung/Uji: Cek apakah program itu membuat siswa mengalami budaya lain, bukan hanya dilarang, dan menghasilkan kesepakatan bersama. Pelajaran Nalar: Menghargai perbedaan tidak tumbuh dari larangan saja, tapi dari mengenal lalu menyepakati aturan bersama. Penutup Tips: Cari opsi yang ada tampil + kenal + kesepakatan bersama. Kenapa Opsi Lain Salah: A menghapus identitas, B mempertebal sekat, D menghukum tanpa memberi pemahaman. Di Mana Jebakannya: Melarang kelihatan cepat menyelesaikan pertengkaran. Cara Cek Cepat: Cek apakah siswa mengalami budaya lain atau hanya dilarang?",
+      "q": "Di sekolah dekat Tugu Pahlawan, siswa dari berbagai suku sering bertengkar karena saling mengejek bahasa daerah dan makanan khas. Rancanglah program yang membuat perbedaan itu justru jadi kebanggaan bersama!",
+      "o": [
+        "Melarang siswa memakai bahasa daerah dan membawa makanan khas ke sekolah",
+        "Memisahkan kelas berdasarkan suku agar tidak bertemu",
+        "Membuat Festival Satu Pahlawan: tiap kelas menampilkan bahasa, makanan, dan cerita pahlawan dari daerah berbeda, lalu menyusun kesepakatan kelas tentang cara saling menghargai",
+        "Menghukum siswa yang mengejek dengan membersihkan sekolah selama sebulan tanpa penjelasan"
+      ],
+      "a": 2,
+      "e": "Bedah: Rancang program yang mengubah ejekan perbedaan menjadi kebanggaan bersama lewat pengalaman langsung. Cara Hitung/Uji: Cek apakah program itu membuat siswa mengalami budaya lain, bukan hanya dilarang, dan menghasilkan kesepakatan bersama. Pelajaran Nalar: Menghargai perbedaan tidak tumbuh dari larangan saja, tapi dari mengenal lalu menyepakati aturan bersama. Penutup Tips: Cari opsi yang ada tampil + kenal + kesepakatan bersama. Kenapa Opsi Lain Salah: A menghapus identitas, B mempertebal sekat, D menghukum tanpa memberi pemahaman. Di Mana Jebakannya: Melarang kelihatan cepat menyelesaikan pertengkaran. Cara Cek Cepat: Cek apakah siswa mengalami budaya lain atau hanya dilarang?"
     },
     {
       "no": 18,
@@ -242,7 +395,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang strategi adaptasi pedagang pasar tradisional menghadapi belanja lewat ponsel dengan modal kecil. Cara Hitung/Uji: Cek apakah strategi itu memakai alat yang sudah dimiliki pedagang, menjangkau pembeli baru, dan tidak meninggalkan lapak. Pelajaran Nalar: Bertahan bukan berarti melawan zaman, tapi memakai cara baru yang sesuai kemampuan. Penutup Tips: Cari opsi yang menggabungkan katalog sederhana + antar pesanan + kerja bersama. Kenapa Opsi Lain Salah: A pasif dan menunggu, C menghabiskan modal, D tidak mungkin ditegakkan. Di Mana Jebakannya: Melarang belanja lewat ponsel kelihatan membela pedagang. Cara Cek Cepat: Tanya, apakah strategi itu memakai ponsel yang sudah dimiliki?"
+      "pembahasan": "Bedah: Rancang strategi adaptasi pedagang pasar tradisional menghadapi belanja lewat ponsel dengan modal kecil. Cara Hitung/Uji: Cek apakah strategi itu memakai alat yang sudah dimiliki pedagang, menjangkau pembeli baru, dan tidak meninggalkan lapak. Pelajaran Nalar: Bertahan bukan berarti melawan zaman, tapi memakai cara baru yang sesuai kemampuan. Penutup Tips: Cari opsi yang menggabungkan katalog sederhana + antar pesanan + kerja bersama. Kenapa Opsi Lain Salah: A pasif dan menunggu, C menghabiskan modal, D tidak mungkin ditegakkan. Di Mana Jebakannya: Melarang belanja lewat ponsel kelihatan membela pedagang. Cara Cek Cepat: Tanya, apakah strategi itu memakai ponsel yang sudah dimiliki?",
+      "q": "Pedagang di Pasar Turi mengeluh pembeli berkurang karena banyak yang belanja lewat ponsel. Pedagang punya modal kecil, tidak bisa membuat aplikasi sendiri. Rancanglah strategi paling realistis agar pedagang Pasar Turi tetap bertahan tanpa meninggalkan lapaknya!",
+      "o": [
+        "Menutup lapak dan menunggu pembeli datang sendiri",
+        "Membuat katalog foto dagangan di grup chat warga + jadwal antar pesanan keliling kampung dengan gerobak bersama",
+        "Menjual semua dagangan dengan harga rugi agar cepat habis",
+        "Melarang pembeli belanja lewat ponsel di seluruh Surabaya"
+      ],
+      "a": 1,
+      "e": "Bedah: Rancang strategi adaptasi pedagang pasar tradisional menghadapi belanja lewat ponsel dengan modal kecil. Cara Hitung/Uji: Cek apakah strategi itu memakai alat yang sudah dimiliki pedagang, menjangkau pembeli baru, dan tidak meninggalkan lapak. Pelajaran Nalar: Bertahan bukan berarti melawan zaman, tapi memakai cara baru yang sesuai kemampuan. Penutup Tips: Cari opsi yang menggabungkan katalog sederhana + antar pesanan + kerja bersama. Kenapa Opsi Lain Salah: A pasif dan menunggu, C menghabiskan modal, D tidak mungkin ditegakkan. Di Mana Jebakannya: Melarang belanja lewat ponsel kelihatan membela pedagang. Cara Cek Cepat: Tanya, apakah strategi itu memakai ponsel yang sudah dimiliki?"
     },
     {
       "no": 19,
@@ -255,7 +417,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang jadwal perawatan selokan agar tidak banjir berulang. Cara Hitung/Uji: Cek apakah ada jadwal rutin, pembagian giliran, tempat sampah, dan bukti laporan. Pelajaran Nalar: Banjir berulang butuh perawatan rutin, bukan kerja sekali. Penutup Tips: Cari opsi yang ada jadwal + giliran + bak sampah + laporan. Kenapa Opsi Lain Salah: A menunggu banjir, B membebani satu orang, C membuat air tidak mengalir. Di Mana Jebakannya: Gotong royong sekali kelihatan sudah cukup. Cara Cek Cepat: Cek apakah ada jadwal setelah gotong royong pertama?"
+      "pembahasan": "Bedah: Rancang jadwal perawatan selokan agar tidak banjir berulang. Cara Hitung/Uji: Cek apakah ada jadwal rutin, pembagian giliran, tempat sampah, dan bukti laporan. Pelajaran Nalar: Banjir berulang butuh perawatan rutin, bukan kerja sekali. Penutup Tips: Cari opsi yang ada jadwal + giliran + bak sampah + laporan. Kenapa Opsi Lain Salah: A menunggu banjir, B membebani satu orang, C membuat air tidak mengalir. Di Mana Jebakannya: Gotong royong sekali kelihatan sudah cukup. Cara Cek Cepat: Cek apakah ada jadwal setelah gotong royong pertama?",
+      "q": "RT di Surabaya sering banjir karena selokan tersumbat sampah. Warga sudah gotong royong sekali, tapi banjir kembali. Rancanglah jadwal perawatan selokan yang paling berkelanjutan!",
+      "o": [
+        "Gotong royong hanya saat sudah banjir",
+        "Menyuruh satu orang membersihkan selokan setiap hari tanpa giliran",
+        "Menutup semua selokan dengan semen",
+        "Membuat jadwal piket mingguan per gang + bak sampah di ujung gang + laporan foto ke grup RT setiap selesai piket"
+      ],
+      "a": 3,
+      "e": "Bedah: Rancang jadwal perawatan selokan agar tidak banjir berulang. Cara Hitung/Uji: Cek apakah ada jadwal rutin, pembagian giliran, tempat sampah, dan bukti laporan. Pelajaran Nalar: Banjir berulang butuh perawatan rutin, bukan kerja sekali. Penutup Tips: Cari opsi yang ada jadwal + giliran + bak sampah + laporan. Kenapa Opsi Lain Salah: A menunggu banjir, B membebani satu orang, C membuat air tidak mengalir. Di Mana Jebakannya: Gotong royong sekali kelihatan sudah cukup. Cara Cek Cepat: Cek apakah ada jadwal setelah gotong royong pertama?"
     },
     {
       "no": 20,
@@ -268,7 +439,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang mading pahlawan yang melatih nalar, bukan hanya hafalan. Cara Hitung/Uji: Cek apakah ada cerita, pertanyaan mengapa, dan kolom refleksi siswa. Pelajaran Nalar: Cerita + mengapa + refleksi melatih nalar. Penutup Tips: Cari opsi yang ada cerita + mengapa + refleksi. Kenapa Opsi Lain Salah: B hanya daftar, C hanya foto, D hanya hukuman. Di Mana Jebakannya: Daftar nama kelihatan lengkap. Cara Cek Cepat: Tanya, apakah siswa diajak berpikir mengapa atau hanya menghafal?"
+      "pembahasan": "Bedah: Rancang mading pahlawan yang melatih nalar, bukan hanya hafalan. Cara Hitung/Uji: Cek apakah ada cerita, pertanyaan mengapa, dan kolom refleksi siswa. Pelajaran Nalar: Cerita + mengapa + refleksi melatih nalar. Penutup Tips: Cari opsi yang ada cerita + mengapa + refleksi. Kenapa Opsi Lain Salah: B hanya daftar, C hanya foto, D hanya hukuman. Di Mana Jebakannya: Daftar nama kelihatan lengkap. Cara Cek Cepat: Tanya, apakah siswa diajak berpikir mengapa atau hanya menghafal?",
+      "q": "Sekolah ingin membuat mading tentang pahlawan Surabaya. Agar siswa tidak hanya menghafal nama, rancanglah isi mading yang paling melatih nalar!",
+      "o": [
+        "Cerita singkat perjuangan + pertanyaan mengapa pahlawan itu memilih cara itu + kolom siswa menulis apa yang akan mereka lakukan jika di posisi itu",
+        "Hanya daftar nama pahlawan tanpa cerita",
+        "Hanya foto pahlawan tanpa keterangan",
+        "Mading berisi hukuman bagi yang tidak hafal nama pahlawan"
+      ],
+      "a": 0,
+      "e": "Bedah: Rancang mading pahlawan yang melatih nalar, bukan hanya hafalan. Cara Hitung/Uji: Cek apakah ada cerita, pertanyaan mengapa, dan kolom refleksi siswa. Pelajaran Nalar: Cerita + mengapa + refleksi melatih nalar. Penutup Tips: Cari opsi yang ada cerita + mengapa + refleksi. Kenapa Opsi Lain Salah: B hanya daftar, C hanya foto, D hanya hukuman. Di Mana Jebakannya: Daftar nama kelihatan lengkap. Cara Cek Cepat: Tanya, apakah siswa diajak berpikir mengapa atau hanya menghafal?"
     },
     {
       "no": 21,
@@ -281,7 +461,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang rute wisata 30 menit di Tugu Pahlawan yang berkesan. Cara Hitung/Uji: Cek apakah ada pembuka, titik penting, tanya jawab, dan penutup. Pelajaran Nalar: Rute dengan cerita + titik penting + tanya jawab + penutup lebih berkesan. Penutup Tips: Cari opsi yang ada pembuka + titik + tanya jawab + penutup. Kenapa Opsi Lain Salah: A tanpa penjelasan, B tanpa cerita, D pulang. Di Mana Jebakannya: Lari keliling kelihatan menghemat waktu. Cara Cek Cepat: Cek apakah ada cerita di tiap titik?"
+      "pembahasan": "Bedah: Rancang rute wisata 30 menit di Tugu Pahlawan yang berkesan. Cara Hitung/Uji: Cek apakah ada pembuka, titik penting, tanya jawab, dan penutup. Pelajaran Nalar: Rute dengan cerita + titik penting + tanya jawab + penutup lebih berkesan. Penutup Tips: Cari opsi yang ada pembuka + titik + tanya jawab + penutup. Kenapa Opsi Lain Salah: A tanpa penjelasan, B tanpa cerita, D pulang. Di Mana Jebakannya: Lari keliling kelihatan menghemat waktu. Cara Cek Cepat: Cek apakah ada cerita di tiap titik?",
+      "q": "Kamu menjadi pemandu wisata cilik di Tugu Pahlawan. Rombongan datang dari luar kota dan hanya punya 30 menit. Rancanglah rute 30 menit yang paling berkesan!",
+      "o": [
+        "Ajak rombongan duduk di luar tanpa penjelasan",
+        "Ajak rombongan lari mengelilingi tugu tanpa berhenti",
+        "Buat rute: 5 menit cerita awal + 15 menit lihat 3 titik penting dengan cerita + 10 menit tanya jawab + foto bersama dengan pesan perjuangan",
+        "Ajak rombongan langsung pulang"
+      ],
+      "a": 2,
+      "e": "Bedah: Rancang rute wisata 30 menit di Tugu Pahlawan yang berkesan. Cara Hitung/Uji: Cek apakah ada pembuka, titik penting, tanya jawab, dan penutup. Pelajaran Nalar: Rute dengan cerita + titik penting + tanya jawab + penutup lebih berkesan. Penutup Tips: Cari opsi yang ada pembuka + titik + tanya jawab + penutup. Kenapa Opsi Lain Salah: A tanpa penjelasan, B tanpa cerita, D pulang. Di Mana Jebakannya: Lari keliling kelihatan menghemat waktu. Cara Cek Cepat: Cek apakah ada cerita di tiap titik?"
     },
     {
       "no": 22,
@@ -294,7 +483,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang cara kirim bersama kerajinan agar ongkos hemat dan adil. Cara Hitung/Uji: Cek apakah ada jadwal bersama, pembagian ongkos sesuai berat, dan catatan. Pelajaran Nalar: Kirim bersama + bagi sesuai berat + catatan mencegah curiga. Penutup Tips: Cari opsi yang ada jadwal + bagi berat + catatan. Kenapa Opsi Lain Salah: A mahal, C tanpa catatan rawan hilang, D menyerah. Di Mana Jebakannya: Titip tanpa catatan kelihatan praktis. Cara Cek Cepat: Cek apakah ada catatan berat dan ongkos?"
+      "pembahasan": "Bedah: Rancang cara kirim bersama kerajinan agar ongkos hemat dan adil. Cara Hitung/Uji: Cek apakah ada jadwal bersama, pembagian ongkos sesuai berat, dan catatan. Pelajaran Nalar: Kirim bersama + bagi sesuai berat + catatan mencegah curiga. Penutup Tips: Cari opsi yang ada jadwal + bagi berat + catatan. Kenapa Opsi Lain Salah: A mahal, C tanpa catatan rawan hilang, D menyerah. Di Mana Jebakannya: Titip tanpa catatan kelihatan praktis. Cara Cek Cepat: Cek apakah ada catatan berat dan ongkos?",
+      "q": "Desa di pinggir Surabaya ingin menjual hasil kerajinan ke kota, tapi ongkos kirim mahal jika sendiri-sendiri. Rancanglah cara kirim bersama yang adil!",
+      "o": [
+        "Masing-masing kirim sendiri dengan ongkos penuh",
+        "Membuat jadwal kirim bersama seminggu sekali + ongkos dibagi sesuai berat barang + satu orang koordinator yang dicatat di buku kas",
+        "Menitipkan barang ke orang yang lewat tanpa catatan",
+        "Tidak menjual lagi agar tidak perlu kirim"
+      ],
+      "a": 1,
+      "e": "Bedah: Rancang cara kirim bersama kerajinan agar ongkos hemat dan adil. Cara Hitung/Uji: Cek apakah ada jadwal bersama, pembagian ongkos sesuai berat, dan catatan. Pelajaran Nalar: Kirim bersama + bagi sesuai berat + catatan mencegah curiga. Penutup Tips: Cari opsi yang ada jadwal + bagi berat + catatan. Kenapa Opsi Lain Salah: A mahal, C tanpa catatan rawan hilang, D menyerah. Di Mana Jebakannya: Titip tanpa catatan kelihatan praktis. Cara Cek Cepat: Cek apakah ada catatan berat dan ongkos?"
     },
     {
       "no": 23,
@@ -307,7 +505,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang kampanye hemat listrik yang bisa diukur. Cara Hitung/Uji: Cek apakah ada piket, catatan meteran, grafik, dan penghargaan. Pelajaran Nalar: Tanpa catatan dan grafik, hemat tidak bisa diukur. Penutup Tips: Cari opsi yang ada piket + catat + grafik + penghargaan. Kenapa Opsi Lain Salah: A hanya tulisan, B tanpa catatan, D melarang total. Di Mana Jebakannya: Tulisan HEMAT LISTRIK kelihatan sudah kampanye. Cara Cek Cepat: Tanya, bagaimana cara mengukur hematnya?"
+      "pembahasan": "Bedah: Rancang kampanye hemat listrik yang bisa diukur. Cara Hitung/Uji: Cek apakah ada piket, catatan meteran, grafik, dan penghargaan. Pelajaran Nalar: Tanpa catatan dan grafik, hemat tidak bisa diukur. Penutup Tips: Cari opsi yang ada piket + catat + grafik + penghargaan. Kenapa Opsi Lain Salah: A hanya tulisan, B tanpa catatan, D melarang total. Di Mana Jebakannya: Tulisan HEMAT LISTRIK kelihatan sudah kampanye. Cara Cek Cepat: Tanya, bagaimana cara mengukur hematnya?",
+      "q": "Kamu diminta membuat kampanye Hemat Listrik di kelas. Rancanglah kampanye yang bisa diukur hasilnya!",
+      "o": [
+        "Hanya menempel tulisan HEMAT LISTRIK",
+        "Menyuruh semua siswa mematikan listrik di rumah tanpa catatan",
+        "Membuat daftar piket matikan lampu/kipas + catat meteran kelas tiap Jumat + grafik mingguan + penghargaan kelas paling hemat",
+        "Melarang siswa menyalakan lampu sama sekali"
+      ],
+      "a": 2,
+      "e": "Bedah: Rancang kampanye hemat listrik yang bisa diukur. Cara Hitung/Uji: Cek apakah ada piket, catatan meteran, grafik, dan penghargaan. Pelajaran Nalar: Tanpa catatan dan grafik, hemat tidak bisa diukur. Penutup Tips: Cari opsi yang ada piket + catat + grafik + penghargaan. Kenapa Opsi Lain Salah: A hanya tulisan, B tanpa catatan, D melarang total. Di Mana Jebakannya: Tulisan HEMAT LISTRIK kelihatan sudah kampanye. Cara Cek Cepat: Tanya, bagaimana cara mengukur hematnya?"
     },
     {
       "no": 24,
@@ -320,7 +527,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang sistem pilah bank sampah yang mudah untuk warga. Cara Hitung/Uji: Cek apakah jumlah bak sedikit, ada warna, ada contoh gambar, dan ada jadwal timbang. Pelajaran Nalar: 3 bak + warna + gambar lebih mudah daripada hafalan 20 jenis. Penutup Tips: Cari opsi yang sederhana + warna + gambar + jadwal. Kenapa Opsi Lain Salah: A tidak memilah, B terlalu sulit, C membakar. Di Mana Jebakannya: Satu bak kelihatan paling mudah. Cara Cek Cepat: Cek apakah warga tahu sampah masuk bak mana tanpa menghafal?"
+      "pembahasan": "Bedah: Rancang sistem pilah bank sampah yang mudah untuk warga. Cara Hitung/Uji: Cek apakah jumlah bak sedikit, ada warna, ada contoh gambar, dan ada jadwal timbang. Pelajaran Nalar: 3 bak + warna + gambar lebih mudah daripada hafalan 20 jenis. Penutup Tips: Cari opsi yang sederhana + warna + gambar + jadwal. Kenapa Opsi Lain Salah: A tidak memilah, B terlalu sulit, C membakar. Di Mana Jebakannya: Satu bak kelihatan paling mudah. Cara Cek Cepat: Cek apakah warga tahu sampah masuk bak mana tanpa menghafal?",
+      "q": "Kampung ingin membuat bank sampah. Warga sudah setuju, tapi bingung cara memilah. Rancanglah sistem pilah yang paling mudah untuk warga!",
+      "o": [
+        "Satu bak besar untuk semua sampah",
+        "Menyuruh warga menghafal 20 jenis sampah",
+        "Membakar semua sampah di bank sampah",
+        "Membuat 3 bak berwarna: hijau untuk sisa makanan, kuning untuk plastik/botol, merah untuk yang berbahaya + contoh gambar di tiap bak + jadwal timbang seminggu sekali"
+      ],
+      "a": 3,
+      "e": "Bedah: Rancang sistem pilah bank sampah yang mudah untuk warga. Cara Hitung/Uji: Cek apakah jumlah bak sedikit, ada warna, ada contoh gambar, dan ada jadwal timbang. Pelajaran Nalar: 3 bak + warna + gambar lebih mudah daripada hafalan 20 jenis. Penutup Tips: Cari opsi yang sederhana + warna + gambar + jadwal. Kenapa Opsi Lain Salah: A tidak memilah, B terlalu sulit, C membakar. Di Mana Jebakannya: Satu bak kelihatan paling mudah. Cara Cek Cepat: Cek apakah warga tahu sampah masuk bak mana tanpa menghafal?"
     },
     {
       "no": 25,
@@ -333,7 +549,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: Rancang taman baca kampung tanpa gedung dan dana kecil. Cara Hitung/Uji: Cek apakah memakai tempat yang ada, rak bekas, jadwal, daftar pinjaman, dan relawan. Pelajaran Nalar: Teras + rak bekas + jadwal + relawan membuat taman baca jalan dengan dana kecil. Penutup Tips: Cari opsi yang ada tempat + rak bekas + jadwal + relawan. Kenapa Opsi Lain Salah: B menunggu gedung, C membeli mahal, D melarang pinjam. Di Mana Jebakannya: Menunggu gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, apakah taman baca bisa buka minggu ini dengan yang sudah ada?"
+      "pembahasan": "Bedah: Rancang taman baca kampung tanpa gedung dan dana kecil. Cara Hitung/Uji: Cek apakah memakai tempat yang ada, rak bekas, jadwal, daftar pinjaman, dan relawan. Pelajaran Nalar: Teras + rak bekas + jadwal + relawan membuat taman baca jalan dengan dana kecil. Penutup Tips: Cari opsi yang ada tempat + rak bekas + jadwal + relawan. Kenapa Opsi Lain Salah: B menunggu gedung, C membeli mahal, D melarang pinjam. Di Mana Jebakannya: Menunggu gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, apakah taman baca bisa buka minggu ini dengan yang sudah ada?",
+      "q": "Warga ingin membuat taman baca di kampung, tapi tidak ada gedung dan dana kecil. Rancanglah taman baca paling mungkin jalan!",
+      "o": [
+        "Memakai teras balai RT + rak buku dari peti bekas + jadwal buka sore + daftar buku pinjaman + relawan jaga bergiliran",
+        "Menunggu ada gedung baru yang besar",
+        "Membeli buku mahal semua jenis sekaligus",
+        "Membuat taman baca tapi tidak boleh ada yang meminjam buku"
+      ],
+      "a": 0,
+      "e": "Bedah: Rancang taman baca kampung tanpa gedung dan dana kecil. Cara Hitung/Uji: Cek apakah memakai tempat yang ada, rak bekas, jadwal, daftar pinjaman, dan relawan. Pelajaran Nalar: Teras + rak bekas + jadwal + relawan membuat taman baca jalan dengan dana kecil. Penutup Tips: Cari opsi yang ada tempat + rak bekas + jadwal + relawan. Kenapa Opsi Lain Salah: B menunggu gedung, C membeli mahal, D melarang pinjam. Di Mana Jebakannya: Menunggu gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, apakah taman baca bisa buka minggu ini dengan yang sudah ada?"
     }
   ]
 }

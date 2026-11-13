@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -21,7 +21,16 @@
       },
       "kunci": "C",
       "cog": "C1",
-      "pembahasan": "Kalimat tanya diakhiri tanda tanya dan berisi pertanyaan. Berita memberi kabar, seruan dan ajakan mengajak."
+      "pembahasan": "Kalimat tanya diakhiri tanda tanya dan berisi pertanyaan. Berita memberi kabar, seruan dan ajakan mengajak.",
+      "q": "Kalimat yang diakhiri tanda tanya dan berisi pertanyaan disebut kalimat ...",
+      "o": [
+        "Berita",
+        "Seruan",
+        "Tanya",
+        "Ajakan"
+      ],
+      "a": 2,
+      "e": "Kalimat tanya diakhiri tanda tanya dan berisi pertanyaan. Berita memberi kabar, seruan dan ajakan mengajak."
     },
     {
       "no": 2,
@@ -34,7 +43,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Kata baku penulisannya sesuai kaidah. Kata tidak baku belum sesuai, serapan dari bahasa lain, gaul bahasa pergaulan."
+      "pembahasan": "Kata baku penulisannya sesuai kaidah. Kata tidak baku belum sesuai, serapan dari bahasa lain, gaul bahasa pergaulan.",
+      "q": "Kata yang penulisannya sudah sesuai kaidah disebut kata ...",
+      "o": [
+        "Baku",
+        "Tidak baku",
+        "Serapan",
+        "Gaul"
+      ],
+      "a": 0,
+      "e": "Kata baku penulisannya sesuai kaidah. Kata tidak baku belum sesuai, serapan dari bahasa lain, gaul bahasa pergaulan."
     },
     {
       "no": 3,
@@ -47,7 +65,16 @@
       },
       "kunci": "B",
       "cog": "C1",
-      "pembahasan": "Teks laporan hasil pengamatan berisi hasil pengamatan. Narasi cerita, persuasi ajakan, puisi karya sastra berirama."
+      "pembahasan": "Teks laporan hasil pengamatan berisi hasil pengamatan. Narasi cerita, persuasi ajakan, puisi karya sastra berirama.",
+      "q": "Teks yang berisi laporan hasil pengamatan disebut teks ...",
+      "o": [
+        "Narasi",
+        "Laporan hasil pengamatan",
+        "Persuasi",
+        "Puisi"
+      ],
+      "a": 1,
+      "e": "Teks laporan hasil pengamatan berisi hasil pengamatan. Narasi cerita, persuasi ajakan, puisi karya sastra berirama."
     },
     {
       "no": 4,
@@ -60,7 +87,16 @@
       },
       "kunci": "D",
       "cog": "C1",
-      "pembahasan": "Lawan kata rajin adalah malas. Giat, tekun, semangat searti dengan rajin."
+      "pembahasan": "Lawan kata rajin adalah malas. Giat, tekun, semangat searti dengan rajin.",
+      "q": "Lawan kata dari kata rajin adalah ...",
+      "o": [
+        "Giat",
+        "Tekun",
+        "Semangat",
+        "Malas"
+      ],
+      "a": 3,
+      "e": "Lawan kata rajin adalah malas. Giat, tekun, semangat searti dengan rajin."
     },
     {
       "no": 5,
@@ -73,7 +109,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Perpustakaan sekolah menunjukkan tempat membaca. Sari pelaku, membaca kegiatan, buku benda yang dibaca."
+      "pembahasan": "Perpustakaan sekolah menunjukkan tempat membaca. Sari pelaku, membaca kegiatan, buku benda yang dibaca.",
+      "q": "Bacalah kalimat: Sari membaca buku di perpustakaan sekolah. Kata yang menunjukkan tempat adalah ...",
+      "o": [
+        "Sari",
+        "Membaca",
+        "Perpustakaan sekolah",
+        "Buku"
+      ],
+      "a": 2,
+      "e": "Perpustakaan sekolah menunjukkan tempat membaca. Sari pelaku, membaca kegiatan, buku benda yang dibaca."
     },
     {
       "no": 6,
@@ -86,7 +131,16 @@
       },
       "kunci": "A",
       "cog": "C2",
-      "pembahasan": "Kalimat ajakan ditandai kata mari dan tanda seru. Opsi lain berita, tanya, dan pernyataan biasa."
+      "pembahasan": "Kalimat ajakan ditandai kata mari dan tanda seru. Opsi lain berita, tanya, dan pernyataan biasa.",
+      "q": "Kalimat berikut yang merupakan kalimat ajakan adalah ...",
+      "o": [
+        "Mari kita jaga kebersihan kelas bersama-sama!",
+        "Kelas itu sangat kotor.",
+        "Siapa yang membuang sampah di kelas?",
+        "Aku sudah membersihkan kelas."
+      ],
+      "a": 0,
+      "e": "Kalimat ajakan ditandai kata mari dan tanda seru. Opsi lain berita, tanya, dan pernyataan biasa."
     },
     {
       "no": 7,
@@ -99,7 +153,16 @@
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "Teks persuasi bertujuan mengajak pembaca melakukan sesuatu. Narasi menceritakan, laporan melaporkan, cerita lucu menghibur."
+      "pembahasan": "Teks persuasi bertujuan mengajak pembaca melakukan sesuatu. Narasi menceritakan, laporan melaporkan, cerita lucu menghibur.",
+      "q": "Tujuan teks persuasi adalah ...",
+      "o": [
+        "Menceritakan pengalaman liburan",
+        "Mengajak pembaca melakukan sesuatu",
+        "Melaporkan hasil pengamatan",
+        "Menghibur pembaca dengan cerita lucu"
+      ],
+      "a": 1,
+      "e": "Teks persuasi bertujuan mengajak pembaca melakukan sesuatu. Narasi menceritakan, laporan melaporkan, cerita lucu menghibur."
     },
     {
       "no": 8,
@@ -112,7 +175,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Pesan ada di isi pantun baris 3-4, yaitu rajin belajar agar cita-cita tercapai. Baris 1-2 hanya sampiran."
+      "pembahasan": "Pesan ada di isi pantun baris 3-4, yaitu rajin belajar agar cita-cita tercapai. Baris 1-2 hanya sampiran.",
+      "q": "Perhatikan pantun: Pergi ke pasar membeli jamu, / Pulangnya mampir ke rumah paman. / Rajinlah belajar setiap waktu, / Agar cita-citamu tercapai di depan. Pesan pantun tersebut adalah ...",
+      "o": [
+        "Pergi ke pasar",
+        "Mampir ke rumah paman",
+        "Rajin belajar agar cita-cita tercapai",
+        "Membeli jamu"
+      ],
+      "a": 2,
+      "e": "Pesan ada di isi pantun baris 3-4, yaitu rajin belajar agar cita-cita tercapai. Baris 1-2 hanya sampiran."
     },
     {
       "no": 9,
@@ -125,7 +197,16 @@
       },
       "kunci": "D",
       "cog": "C2",
-      "pembahasan": "Adik sedang membaca buku cerita, jadi bentuk membaca tepat. Membacakan untuk orang lain, dibaca pasif, terbaca tidak sesuai pelaku."
+      "pembahasan": "Adik sedang membaca buku cerita, jadi bentuk membaca tepat. Membacakan untuk orang lain, dibaca pasif, terbaca tidak sesuai pelaku.",
+      "q": "Kata berimbuhan yang tepat untuk melengkapi kalimat: Adik sedang ... buku cerita di kamar adalah ...",
+      "o": [
+        "Membacakan",
+        "Dibaca",
+        "Terbaca",
+        "Membaca"
+      ],
+      "a": 3,
+      "e": "Adik sedang membaca buku cerita, jadi bentuk membaca tepat. Membacakan untuk orang lain, dibaca pasif, terbaca tidak sesuai pelaku."
     },
     {
       "no": 10,
@@ -138,7 +219,16 @@
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "Urutan yang benar adalah Beni berlibur ke Surabaya bersama keluarga pada hari Minggu. Opsi lain susunan subjek dan keterangan terbalik."
+      "pembahasan": "Urutan yang benar adalah Beni berlibur ke Surabaya bersama keluarga pada hari Minggu. Opsi lain susunan subjek dan keterangan terbalik.",
+      "q": "Susunlah kalimat acak menjadi kalimat yang tepat: (1) ke Surabaya (2) bersama keluarga (3) Beni berlibur (4) pada hari Minggu. Urutan yang benar adalah ...",
+      "o": [
+        "(3) - (1) - (2) - (4)",
+        "(1) - (2) - (3) - (4)",
+        "(2) - (1) - (4) - (3)",
+        "(4) - (3) - (2) - (1)"
+      ],
+      "a": 0,
+      "e": "Urutan yang benar adalah Beni berlibur ke Surabaya bersama keluarga pada hari Minggu. Opsi lain susunan subjek dan keterangan terbalik."
     },
     {
       "no": 11,
@@ -151,7 +241,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Bentuk baku adalah apotek, bukan apotik. Opsi A, C, dan D salah tulis apotik."
+      "pembahasan": "Bentuk baku adalah apotek, bukan apotik. Opsi A, C, dan D salah tulis apotik.",
+      "q": "Kalimat yang menggunakan kata baku adalah ...",
+      "o": [
+        "Aku mau ke apotik membeli obat.",
+        "Aku mau ke apotek membeli obat.",
+        "Aku mau ke apotik membeli obat-obatan.",
+        "Aku mau ke apotik membeli obat yang banyak sekali."
+      ],
+      "a": 1,
+      "e": "Bentuk baku adalah apotek, bukan apotik. Opsi A, C, dan D salah tulis apotik."
     },
     {
       "no": 12,
@@ -164,7 +263,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Gagasan pokok ada di kalimat pertama, yaitu mangrove sangat bermanfaat. Opsi lain hanya kalimat penjelas."
+      "pembahasan": "Gagasan pokok ada di kalimat pertama, yaitu mangrove sangat bermanfaat. Opsi lain hanya kalimat penjelas.",
+      "q": "Tentukan gagasan pokok paragraf: Mangrove di Wonorejo sangat bermanfaat. Akarnya menahan abrasi. Daunnya menjadi tempat ikan kecil berlindung. Hutan ini juga menjadi tempat belajar siswa. Gagasan pokok paragraf tersebut adalah ...",
+      "o": [
+        "Siswa belajar di Wonorejo",
+        "Ikan kecil berlindung di daun mangrove",
+        "Mangrove di Wonorejo sangat bermanfaat",
+        "Akar mangrove menahan abrasi"
+      ],
+      "a": 2,
+      "e": "Gagasan pokok ada di kalimat pertama, yaitu mangrove sangat bermanfaat. Opsi lain hanya kalimat penjelas."
     },
     {
       "no": 13,
@@ -177,7 +285,16 @@
       },
       "kunci": "D",
       "cog": "C3",
-      "pembahasan": "Kalimat efektif tidak mengulang kata para dan siswa-siswa. Opsi A, B, C boros kata dan pengulangan."
+      "pembahasan": "Kalimat efektif tidak mengulang kata para dan siswa-siswa. Opsi A, B, C boros kata dan pengulangan.",
+      "q": "Kalimat efektif yang tepat adalah ...",
+      "o": [
+        "Para siswa-siswa sedang belajar di kelas.",
+        "Siswa-siswa itu sedang belajar di kelas yang bersih itu.",
+        "Para siswa itu sedang belajar di kelas dengan rajin sekali.",
+        "Para siswa sedang belajar di kelas."
+      ],
+      "a": 3,
+      "e": "Kalimat efektif tidak mengulang kata para dan siswa-siswa. Opsi A, B, C boros kata dan pengulangan."
     },
     {
       "no": 14,
@@ -190,7 +307,16 @@
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "Teks menggambarkan Tugu Pahlawan, jadi deskripsi. Bukan ajakan, bukan urutan cerita, bukan langkah-langkah."
+      "pembahasan": "Teks menggambarkan Tugu Pahlawan, jadi deskripsi. Bukan ajakan, bukan urutan cerita, bukan langkah-langkah.",
+      "q": "Bacalah teks: Tugu Pahlawan berdiri gagah di tengah kota Surabaya. Tugu ini mengingatkan kita pada perjuangan arek-arek Suroboyo. Setiap hari banyak pengunjung datang untuk belajar sejarah. Jenis teks tersebut adalah ...",
+      "o": [
+        "Deskripsi, karena menggambarkan Tugu Pahlawan",
+        "Persuasi, karena mengajak berlibur",
+        "Narasi, karena menceritakan urutan waktu",
+        "Prosedur, karena memberi langkah-langkah"
+      ],
+      "a": 0,
+      "e": "Teks menggambarkan Tugu Pahlawan, jadi deskripsi. Bukan ajakan, bukan urutan cerita, bukan langkah-langkah."
     },
     {
       "no": 15,
@@ -203,7 +329,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Kata karena dan maka tidak boleh dipakai bersamaan. Yang tepat adalah karena hujan deras, upacara ditunda."
+      "pembahasan": "Kata karena dan maka tidak boleh dipakai bersamaan. Yang tepat adalah karena hujan deras, upacara ditunda.",
+      "q": "Perbaikilah kalimat: Karena hujan deras, maka upacara ditunda. Perbaikan yang tepat adalah ...",
+      "o": [
+        "Karena hujan deras maka upacara ditunda.",
+        "Hujan deras, maka upacara ditunda.",
+        "Karena hujan deras, upacara ditunda.",
+        "Karena hujan deras, maka upacara ditunda karena hujan."
+      ],
+      "a": 2,
+      "e": "Kata karena dan maka tidak boleh dipakai bersamaan. Yang tepat adalah karena hujan deras, upacara ditunda."
     },
     {
       "no": 16,
@@ -216,7 +351,16 @@
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Rajin membaca menjadi sebab, nilai meningkat menjadi akibat. Opsi A terbalik, C dan D salah karena jelas berhubungan."
+      "pembahasan": "Rajin membaca menjadi sebab, nilai meningkat menjadi akibat. Opsi A terbalik, C dan D salah karena jelas berhubungan.",
+      "q": "Perhatikan dua kalimat: (1) Rina rajin membaca buku setiap malam. (2) Nilai Rina meningkat. Hubungan kedua kalimat tersebut adalah ...",
+      "o": [
+        "Kalimat 1 akibat dari kalimat 2",
+        "Kalimat 1 sebab dari kalimat 2",
+        "Kedua kalimat tidak berhubungan",
+        "Kalimat 1 dan 2 bertentangan"
+      ],
+      "a": 1,
+      "e": "Rajin membaca menjadi sebab, nilai meningkat menjadi akibat. Opsi A terbalik, C dan D salah karena jelas berhubungan."
     },
     {
       "no": 17,
@@ -229,7 +373,16 @@
       },
       "kunci": "D",
       "cog": "C4",
-      "pembahasan": "Teks laporan berdasarkan fakta dan sistematis. Bahasa khayalan untuk cerita fiksi, bukan laporan."
+      "pembahasan": "Teks laporan berdasarkan fakta dan sistematis. Bahasa khayalan untuk cerita fiksi, bukan laporan.",
+      "q": "Perhatikan pernyataan tentang teks laporan: (1) Berdasarkan fakta hasil pengamatan. (2) Menggunakan bahasa khayalan. (3) Disusun secara sistematis. Yang benar adalah ...",
+      "o": [
+        "(1) saja",
+        "(2) saja",
+        "(1) dan (2) saja",
+        "(1) dan (3) saja"
+      ],
+      "a": 3,
+      "e": "Teks laporan berdasarkan fakta dan sistematis. Bahasa khayalan untuk cerita fiksi, bukan laporan."
     },
     {
       "no": 18,
@@ -242,7 +395,16 @@
       },
       "kunci": "C",
       "cog": "C4",
-      "pembahasan": "Kata cerah, riang, senang, harapan menunjukkan suasana senang. Opsi lain berlawanan dengan isi puisi."
+      "pembahasan": "Kata cerah, riang, senang, harapan menunjukkan suasana senang. Opsi lain berlawanan dengan isi puisi.",
+      "q": "Bacalah puisi: Di pagi yang cerah, / Burung-burung bernyanyi riang. / Hatiku pun ikut senang, / Menyambut hari penuh harapan. Suasana puisi tersebut adalah ...",
+      "o": [
+        "Sedih",
+        "Takut",
+        "Senang dan penuh harapan",
+        "Marah"
+      ],
+      "a": 2,
+      "e": "Kata cerah, riang, senang, harapan menunjukkan suasana senang. Opsi lain berlawanan dengan isi puisi."
     },
     {
       "no": 19,
@@ -255,7 +417,16 @@
       },
       "kunci": "A",
       "cog": "C4",
-      "pembahasan": "Urutan logis adalah membeli, lalu membaca, lalu memahami. Opsi lain membalik urutan sebab-akibat."
+      "pembahasan": "Urutan logis adalah membeli, lalu membaca, lalu memahami. Opsi lain membalik urutan sebab-akibat.",
+      "q": "Perhatikan kalimat: (1) Sinta membeli buku. (2) Sinta membaca buku itu di rumah. (3) Sinta memahami isi buku itu. Urutan yang menunjukkan sebab-akibat yang tepat adalah ...",
+      "o": [
+        "(1) - (2) - (3)",
+        "(3) - (2) - (1)",
+        "(2) - (3) - (1)",
+        "(1) - (3) - (2)"
+      ],
+      "a": 0,
+      "e": "Urutan logis adalah membeli, lalu membaca, lalu memahami. Opsi lain membalik urutan sebab-akibat."
     },
     {
       "no": 20,
@@ -268,7 +439,16 @@
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Kata karena menunjukkan sebab-akibat. Kalimat itu bukan kalimat tanya karena tidak ada tanda tanya."
+      "pembahasan": "Kata karena menunjukkan sebab-akibat. Kalimat itu bukan kalimat tanya karena tidak ada tanda tanya.",
+      "q": "Dua siswa berpendapat tentang kalimat: Budi tidak masuk sekolah karena sakit. Siswa X berkata kalimat itu kalimat sebab-akibat. Siswa Y berkata kalimat itu kalimat tanya. Yang benar adalah ...",
+      "o": [
+        "Siswa Y benar",
+        "Siswa X benar, karena karena menunjukkan sebab",
+        "Keduanya benar",
+        "Keduanya salah"
+      ],
+      "a": 1,
+      "e": "Kata karena menunjukkan sebab-akibat. Kalimat itu bukan kalimat tanya karena tidak ada tanda tanya."
     },
     {
       "no": 21,
@@ -281,7 +461,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Iklan mengajak membuang sampah pada tempatnya agar lingkungan bersih. Opsi lain salah membaca ajakan iklan."
+      "pembahasan": "Iklan mengajak membuang sampah pada tempatnya agar lingkungan bersih. Opsi lain salah membaca ajakan iklan.",
+      "q": "Perhatikan iklan: Ayo, buang sampah pada tempatnya! Lingkungan bersih, hidup sehat. Penilaian yang tepat terhadap iklan tersebut adalah ...",
+      "o": [
+        "Iklan itu hanya cerita lucu",
+        "Iklan itu tidak jelas tujuannya",
+        "Iklan itu mengajak membuang sampah sembarangan",
+        "Iklan itu mengajak membuang sampah pada tempatnya agar lingkungan bersih"
+      ],
+      "a": 3,
+      "e": "Iklan mengajak membuang sampah pada tempatnya agar lingkungan bersih. Opsi lain salah membaca ajakan iklan."
     },
     {
       "no": 22,
@@ -294,7 +483,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Pengulangan sangat berkali-kali membuat kalimat tidak efektif. Untuk teks laporan perlu kalimat jelas dan tidak berlebihan."
+      "pembahasan": "Pengulangan sangat berkali-kali membuat kalimat tidak efektif. Untuk teks laporan perlu kalimat jelas dan tidak berlebihan.",
+      "q": "Seorang siswa menulis: Perpustakaan adalah tempat yang sangat sangat sangat ramai dan sangat sangat berisik. Penilaian yang tepat adalah ...",
+      "o": [
+        "Kalimat sudah efektif",
+        "Kalimat sudah baku",
+        "Kalimat belum efektif karena pengulangan sangat yang berlebihan",
+        "Kalimat sudah tepat untuk teks laporan"
+      ],
+      "a": 2,
+      "e": "Pengulangan sangat berkali-kali membuat kalimat tidak efektif. Untuk teks laporan perlu kalimat jelas dan tidak berlebihan."
     },
     {
       "no": 23,
@@ -307,7 +505,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Teks eksposisi membahas topik umum dengan penjelasan dan data, jadi judul (1) tepat. Judul (2) lebih ke pengalaman pribadi."
+      "pembahasan": "Teks eksposisi membahas topik umum dengan penjelasan dan data, jadi judul (1) tepat. Judul (2) lebih ke pengalaman pribadi.",
+      "q": "Perhatikan dua judul: (1) Pengaruh Game terhadap Belajar Siswa. (2) Aku Suka Bermain Game. Judul yang lebih tepat untuk teks eksposisi adalah ...",
+      "o": [
+        "(1), karena membahas pengaruh secara umum dan dapat dijelaskan dengan data",
+        "(2), karena lebih pendek",
+        "Keduanya sama tepat",
+        "Keduanya tidak tepat"
+      ],
+      "a": 0,
+      "e": "Teks eksposisi membahas topik umum dengan penjelasan dan data, jadi judul (1) tepat. Judul (2) lebih ke pengalaman pribadi."
     },
     {
       "no": 24,
@@ -320,7 +527,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Kalimat ajakan harus ada ajakan dan tindakan jelas, yaitu mari hemat air dengan menutup keran. Opsi lain bukan ajakan."
+      "pembahasan": "Kalimat ajakan harus ada ajakan dan tindakan jelas, yaitu mari hemat air dengan menutup keran. Opsi lain bukan ajakan.",
+      "q": "Buatlah kalimat ajakan yang paling tepat untuk kampanye hemat air di sekolah!",
+      "o": [
+        "Air itu basah.",
+        "Mari kita hemat air dengan menutup keran setelah digunakan!",
+        "Siapa yang membuang air?",
+        "Air di sekolah sangat banyak."
+      ],
+      "a": 1,
+      "e": "Kalimat ajakan harus ada ajakan dan tindakan jelas, yaitu mari hemat air dengan menutup keran. Opsi lain bukan ajakan."
     },
     {
       "no": 25,
@@ -333,7 +549,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Urutan menulis laporan adalah mengamati, mencatat data, menyusun kerangka, menulis, lalu menyunting. Opsi lain melompat atau mengarang data."
+      "pembahasan": "Urutan menulis laporan adalah mengamati, mencatat data, menyusun kerangka, menulis, lalu menyunting. Opsi lain melompat atau mengarang data.",
+      "q": "Rancanglah urutan menulis teks laporan hasil pengamatan kebun sekolah yang paling tepat!",
+      "o": [
+        "Menulis kesimpulan dulu, lalu mengamati",
+        "Mengarang data tanpa mengamati",
+        "Menulis judul lalu langsung menyimpulkan",
+        "Mengamati, mencatat data, menyusun kerangka, menulis laporan, menyunting"
+      ],
+      "a": 3,
+      "e": "Urutan menulis laporan adalah mengamati, mencatat data, menyusun kerangka, menulis, lalu menyunting. Opsi lain melompat atau mengarang data."
     }
   ]
 }

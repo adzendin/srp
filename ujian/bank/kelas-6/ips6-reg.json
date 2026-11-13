@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -21,7 +21,16 @@
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "Sumatra tahun 1950 dipecah jadi Sumatra Utara, Sumatra Tengah, dan Sumatra Selatan, jadi jawabannya Sumatra Utara. Opsi lain bukan pemekaran dari Sumatra."
+      "pembahasan": "Sumatra tahun 1950 dipecah jadi Sumatra Utara, Sumatra Tengah, dan Sumatra Selatan, jadi jawabannya Sumatra Utara. Opsi lain bukan pemekaran dari Sumatra.",
+      "q": "Pada 17 Agustus 1945, Indonesia memiliki 8 provinsi. Salah satunya adalah Provinsi Sumatra. Provinsi yang dibentuk dari pemekaran Provinsi Sumatra pada tahun 1950 adalah ...",
+      "o": [
+        "Provinsi Bali",
+        "Provinsi Sumatra Utara",
+        "Provinsi Kalimantan Barat",
+        "Provinsi Sulawesi Utara"
+      ],
+      "a": 1,
+      "e": "Sumatra tahun 1950 dipecah jadi Sumatra Utara, Sumatra Tengah, dan Sumatra Selatan, jadi jawabannya Sumatra Utara. Opsi lain bukan pemekaran dari Sumatra."
     },
     {
       "no": 2,
@@ -34,7 +43,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Ekspor = barang keluar dari Indonesia ke negara lain, jadi kopi ke Jepang adalah ekspor. Opsi A terbalik, C dan D bukan kegiatan antarnegara."
+      "pembahasan": "Ekspor = barang keluar dari Indonesia ke negara lain, jadi kopi ke Jepang adalah ekspor. Opsi A terbalik, C dan D bukan kegiatan antarnegara.",
+      "q": "Indonesia mengekspor kopi ke Jepang dan mengimpor mesin dari Jepang. Kegiatan Indonesia mengirim kopi ke Jepang disebut ...",
+      "o": [
+        "Impor, karena kopi masuk ke Jepang",
+        "Ekspor, karena kopi keluar dari Indonesia",
+        "Konsumsi, karena kopi diminum di Jepang",
+        "Distribusi, karena kopi dibagikan di Indonesia"
+      ],
+      "a": 1,
+      "e": "Ekspor = barang keluar dari Indonesia ke negara lain, jadi kopi ke Jepang adalah ekspor. Opsi A terbalik, C dan D bukan kegiatan antarnegara."
     },
     {
       "no": 3,
@@ -47,7 +65,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Filipina ada di Asia Tenggara, jadi benua yang tepat adalah Asia. Opsi lain jauh dari Indonesia."
+      "pembahasan": "Filipina ada di Asia Tenggara, jadi benua yang tepat adalah Asia. Opsi lain jauh dari Indonesia.",
+      "q": "Benua yang letaknya paling dekat dengan Indonesia di sebelah utara dan tempat negara Filipina berada adalah ...",
+      "o": [
+        "Asia",
+        "Afrika",
+        "Australia",
+        "Amerika"
+      ],
+      "a": 0,
+      "e": "Filipina ada di Asia Tenggara, jadi benua yang tepat adalah Asia. Opsi lain jauh dari Indonesia."
     },
     {
       "no": 4,
@@ -60,7 +87,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Thailand di utara berbatasan dengan Myanmar. Indonesia, Filipina, dan Brunei tidak berbatasan darat langsung dengan Thailand di utara."
+      "pembahasan": "Thailand di utara berbatasan dengan Myanmar. Indonesia, Filipina, dan Brunei tidak berbatasan darat langsung dengan Thailand di utara.",
+      "q": "Di peta Asia Tenggara, negara Thailand berbatasan langsung di sebelah utara dengan ...",
+      "o": [
+        "Indonesia",
+        "Filipina",
+        "Myanmar",
+        "Brunei Darussalam"
+      ],
+      "a": 2,
+      "e": "Thailand di utara berbatasan dengan Myanmar. Indonesia, Filipina, dan Brunei tidak berbatasan darat langsung dengan Thailand di utara."
     },
     {
       "no": 5,
@@ -73,7 +109,16 @@
       },
       "kunci": "D",
       "cog": "C4",
-      "pembahasan": "Hujan deras dan hutan gundul membuat air tidak terserap sehingga banjir, jadi (2) dan (3) benar. Gunung meletus bukan penyebab langsung banjir."
+      "pembahasan": "Hujan deras dan hutan gundul membuat air tidak terserap sehingga banjir, jadi (2) dan (3) benar. Gunung meletus bukan penyebab langsung banjir.",
+      "q": "Perhatikan pernyataan: (1) Gunung berapi meletus, (2) Hujan deras berhari-hari, (3) Penebangan hutan liar. Yang dapat menyebabkan banjir adalah ...",
+      "o": [
+        "(1) saja",
+        "(1) dan (2) saja",
+        "(1) dan (3) saja",
+        "(2) dan (3) saja"
+      ],
+      "a": 3,
+      "e": "Hujan deras dan hutan gundul membuat air tidak terserap sehingga banjir, jadi (2) dan (3) benar. Gunung meletus bukan penyebab langsung banjir."
     },
     {
       "no": 6,
@@ -86,7 +131,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Tanjung adalah daratan yang menjorok ke laut. Teluk kebalikannya, selat laut sempit, delta endapan di muara."
+      "pembahasan": "Tanjung adalah daratan yang menjorok ke laut. Teluk kebalikannya, selat laut sempit, delta endapan di muara.",
+      "q": "Kenampakan alam berupa daratan yang menjorok ke laut disebut ...",
+      "o": [
+        "Tanjung",
+        "Teluk",
+        "Selat",
+        "Delta"
+      ],
+      "a": 0,
+      "e": "Tanjung adalah daratan yang menjorok ke laut. Teluk kebalikannya, selat laut sempit, delta endapan di muara."
     },
     {
       "no": 7,
@@ -99,7 +153,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Selisih WIB ke WIT adalah 2 jam lebih cepat, jadi 09.00 + 2 jam = 11.00. Opsi lain salah hitung selisih."
+      "pembahasan": "Selisih WIB ke WIT adalah 2 jam lebih cepat, jadi 09.00 + 2 jam = 11.00. Opsi lain salah hitung selisih.",
+      "q": "Jika di peta Indonesia, Jakarta pukul 09.00 WIB, maka di Jayapura pukul ...",
+      "o": [
+        "07.00 WIT",
+        "08.00 WIT",
+        "11.00 WIT",
+        "12.00 WIT"
+      ],
+      "a": 2,
+      "e": "Selisih WIB ke WIT adalah 2 jam lebih cepat, jadi 09.00 + 2 jam = 11.00. Opsi lain salah hitung selisih."
     },
     {
       "no": 8,
@@ -112,7 +175,16 @@
       },
       "kunci": "D",
       "cog": "C2",
-      "pembahasan": "Berlindung di bawah meja yang kuat dan lindungi kepala adalah cara aman saat gempa. Opsi lain membahayakan diri."
+      "pembahasan": "Berlindung di bawah meja yang kuat dan lindungi kepala adalah cara aman saat gempa. Opsi lain membahayakan diri.",
+      "q": "Sikap yang tepat saat gempa terjadi di dalam kelas adalah ...",
+      "o": [
+        "Berlari ke arah jendela kaca",
+        "Tetap diam di tengah ruangan sambil berteriak",
+        "Naik ke atas meja lalu melompat",
+        "Berlindung di bawah meja yang kuat dan lindungi kepala"
+      ],
+      "a": 3,
+      "e": "Berlindung di bawah meja yang kuat dan lindungi kepala adalah cara aman saat gempa. Opsi lain membahayakan diri."
     },
     {
       "no": 9,
@@ -125,7 +197,16 @@
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Beli impor berlebihan dan menonton tanpa memilih isi adalah dampak negatif, jadi (1) dan (3) benar. Membeli batik lokal justru dampak positif."
+      "pembahasan": "Beli impor berlebihan dan menonton tanpa memilih isi adalah dampak negatif, jadi (1) dan (3) benar. Membeli batik lokal justru dampak positif.",
+      "q": "Perhatikan data: (1) Membeli mainan impor setiap minggu, (2) Membeli batik buatan pengrajin lokal, (3) Menonton film luar tanpa memilih isinya. Yang termasuk dampak negatif globalisasi adalah ...",
+      "o": [
+        "(1) dan (2) saja",
+        "(1) dan (3) saja",
+        "(2) dan (3) saja",
+        "(1), (2), dan (3)"
+      ],
+      "a": 1,
+      "e": "Beli impor berlebihan dan menonton tanpa memilih isi adalah dampak negatif, jadi (1) dan (3) benar. Membeli batik lokal justru dampak positif."
     },
     {
       "no": 10,
@@ -138,7 +219,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Impor mesin membantu Indonesia membuat barang dengan alat lebih baik. Opsi lain salah, impor bukan untuk menutup pabrik atau berhenti ekspor."
+      "pembahasan": "Impor mesin membantu Indonesia membuat barang dengan alat lebih baik. Opsi lain salah, impor bukan untuk menutup pabrik atau berhenti ekspor.",
+      "q": "Manfaat Indonesia mengimpor mesin dari negara lain adalah ...",
+      "o": [
+        "Agar Indonesia tidak perlu belajar teknologi",
+        "Agar semua pabrik Indonesia tutup",
+        "Agar Indonesia bisa membuat barang dengan alat yang lebih baik",
+        "Agar Indonesia tidak perlu mengekspor lagi"
+      ],
+      "a": 2,
+      "e": "Impor mesin membantu Indonesia membuat barang dengan alat lebih baik. Opsi lain salah, impor bukan untuk menutup pabrik atau berhenti ekspor."
     },
     {
       "no": 11,
@@ -151,7 +241,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Surabaya adalah ibu kota Jawa Timur. Jawa Barat ibu kotanya Bandung, Jawa Tengah Semarang, Yogyakarta ibu kotanya Yogyakarta."
+      "pembahasan": "Surabaya adalah ibu kota Jawa Timur. Jawa Barat ibu kotanya Bandung, Jawa Tengah Semarang, Yogyakarta ibu kotanya Yogyakarta.",
+      "q": "Provinsi yang ibu kotanya Surabaya adalah ...",
+      "o": [
+        "Jawa Timur",
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Daerah Istimewa Yogyakarta"
+      ],
+      "a": 0,
+      "e": "Surabaya adalah ibu kota Jawa Timur. Jawa Barat ibu kotanya Bandung, Jawa Tengah Semarang, Yogyakarta ibu kotanya Yogyakarta."
     },
     {
       "no": 12,
@@ -164,7 +263,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Tidak semua barang impor buruk, buku impor bisa membantu belajar, jadi Kelompok Y benar. Kata semua pada Kelompok X terlalu mutlak."
+      "pembahasan": "Tidak semua barang impor buruk, buku impor bisa membantu belajar, jadi Kelompok Y benar. Kata semua pada Kelompok X terlalu mutlak.",
+      "q": "Dua kelompok siswa berdebat: Kelompok X berkata semua barang impor buruk. Kelompok Y berkata beberapa barang impor bisa membantu belajar, misalnya buku. Penilaian yang tepat adalah ...",
+      "o": [
+        "Kelompok X benar, semua impor buruk",
+        "Kelompok Y salah, buku impor tidak berguna",
+        "Keduanya benar, semua impor buruk dan membantu",
+        "Kelompok Y benar, karena kata semua pada Kelompok X terlalu mutlak"
+      ],
+      "a": 3,
+      "e": "Tidak semua barang impor buruk, buku impor bisa membantu belajar, jadi Kelompok Y benar. Kata semua pada Kelompok X terlalu mutlak."
     },
     {
       "no": 13,
@@ -177,7 +285,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Bi berarti dua, jadi kerja sama dua negara adalah bilateral. Multilateral banyak negara, regional kawasan, internasional istilah umum."
+      "pembahasan": "Bi berarti dua, jadi kerja sama dua negara adalah bilateral. Multilateral banyak negara, regional kawasan, internasional istilah umum.",
+      "q": "Kerja sama antarnegara yang dilakukan oleh dua negara saja disebut kerja sama ...",
+      "o": [
+        "Multilateral",
+        "Regional",
+        "Bilateral",
+        "Internasional"
+      ],
+      "a": 2,
+      "e": "Bi berarti dua, jadi kerja sama dua negara adalah bilateral. Multilateral banyak negara, regional kawasan, internasional istilah umum."
     },
     {
       "no": 14,
@@ -190,7 +307,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Distribusi adalah menyalurkan barang ke pembeli. Petani yang membuat beras adalah produksi, pembeli yang memakai adalah konsumsi, ekspor ke luar negeri bukan antar pulau."
+      "pembahasan": "Distribusi adalah menyalurkan barang ke pembeli. Petani yang membuat beras adalah produksi, pembeli yang memakai adalah konsumsi, ekspor ke luar negeri bukan antar pulau.",
+      "q": "Seorang petani di Jawa menjual beras ke pedagang di Sumatra. Pedagang itu menjual lagi ke pembeli. Kegiatan pedagang itu disebut ...",
+      "o": [
+        "Produksi, karena membuat beras",
+        "Distribusi, karena menyalurkan beras ke pembeli",
+        "Konsumsi, karena memakan beras",
+        "Ekspor, karena menjual ke luar negeri"
+      ],
+      "a": 1,
+      "e": "Distribusi adalah menyalurkan barang ke pembeli. Petani yang membuat beras adalah produksi, pembeli yang memakai adalah konsumsi, ekspor ke luar negeri bukan antar pulau."
     },
     {
       "no": 15,
@@ -203,7 +329,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Tsunami adalah air laut naik ke daratan setelah gempa di laut. Banjir bandang dari hujan, longsor dari tanah, kekeringan kekurangan air."
+      "pembahasan": "Tsunami adalah air laut naik ke daratan setelah gempa di laut. Banjir bandang dari hujan, longsor dari tanah, kekeringan kekurangan air.",
+      "q": "Bencana alam yang terjadi karena air laut naik ke daratan setelah gempa di laut disebut ...",
+      "o": [
+        "Tsunami",
+        "Banjir bandang",
+        "Tanah longsor",
+        "Kekeringan"
+      ],
+      "a": 0,
+      "e": "Tsunami adalah air laut naik ke daratan setelah gempa di laut. Banjir bandang dari hujan, longsor dari tanah, kekeringan kekurangan air."
     },
     {
       "no": 16,
@@ -216,7 +351,16 @@
       },
       "kunci": "D",
       "cog": "C4",
-      "pembahasan": "Bahasa dan mata uang adalah kenampakan sosial buatan manusia. Gunung berapi adalah kenampakan alam, bukan sosial."
+      "pembahasan": "Bahasa dan mata uang adalah kenampakan sosial buatan manusia. Gunung berapi adalah kenampakan alam, bukan sosial.",
+      "q": "Perhatikan pernyataan tentang kenampakan sosial Asia Tenggara: (1) Bahasa, (2) Mata uang, (3) Gunung berapi. Yang termasuk kenampakan sosial adalah ...",
+      "o": [
+        "(1) saja",
+        "(3) saja",
+        "(1) dan (3) saja",
+        "(1) dan (2) saja"
+      ],
+      "a": 3,
+      "e": "Bahasa dan mata uang adalah kenampakan sosial buatan manusia. Gunung berapi adalah kenampakan alam, bukan sosial."
     },
     {
       "no": 17,
@@ -229,7 +373,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Tiap wilayah Indonesia berbeda kenampakan alam, budaya, dan ekonominya, jadi tidak sama saja. Indonesia memang negara kepulauan."
+      "pembahasan": "Tiap wilayah Indonesia berbeda kenampakan alam, budaya, dan ekonominya, jadi tidak sama saja. Indonesia memang negara kepulauan.",
+      "q": "Seorang siswa berkata: Karena Indonesia negara kepulauan, maka semua wilayah Indonesia sama saja. Penilaian yang tepat adalah ...",
+      "o": [
+        "Benar, semua wilayah sama persis",
+        "Benar, karena semua pulau punya gunung yang sama",
+        "Salah, karena tiap wilayah punya kenampakan alam, budaya, dan kegiatan ekonomi yang berbeda",
+        "Salah, karena Indonesia bukan negara kepulauan"
+      ],
+      "a": 2,
+      "e": "Tiap wilayah Indonesia berbeda kenampakan alam, budaya, dan ekonominya, jadi tidak sama saja. Indonesia memang negara kepulauan."
     },
     {
       "no": 18,
@@ -242,7 +395,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Menghargai makanan khas teman dan tidak mengejek adalah sikap menghargai keberagaman. Opsi lain diskriminatif dan memecah persatuan."
+      "pembahasan": "Menghargai makanan khas teman dan tidak mengejek adalah sikap menghargai keberagaman. Opsi lain diskriminatif dan memecah persatuan.",
+      "q": "Di sekolah, siswa dari berbagai suku saling mengejek makanan khas. Sikap yang tepat adalah ...",
+      "o": [
+        "Ikut mengejek agar diterima teman",
+        "Menghargai makanan khas teman dan tidak mengejek",
+        "Melarang teman membawa makanan khas",
+        "Memisahkan tempat duduk berdasarkan suku"
+      ],
+      "a": 1,
+      "e": "Menghargai makanan khas teman dan tidak mengejek adalah sikap menghargai keberagaman. Opsi lain diskriminatif dan memecah persatuan."
     },
     {
       "no": 19,
@@ -255,7 +417,16 @@
       },
       "kunci": "D",
       "cog": "C2",
-      "pembahasan": "Laut teritorial adalah wilayah laut 12 mil dari garis pantai. Zona Ekonomi Eksklusif 200 mil, landas kontinen dasar laut, laut bebas di luar wilayah negara."
+      "pembahasan": "Laut teritorial adalah wilayah laut 12 mil dari garis pantai. Zona Ekonomi Eksklusif 200 mil, landas kontinen dasar laut, laut bebas di luar wilayah negara.",
+      "q": "Wilayah laut Indonesia yang lebarnya 12 mil laut dari garis pantai disebut ...",
+      "o": [
+        "Zona Ekonomi Eksklusif",
+        "Landas kontinen",
+        "Laut bebas",
+        "Laut teritorial"
+      ],
+      "a": 3,
+      "e": "Laut teritorial adalah wilayah laut 12 mil dari garis pantai. Zona Ekonomi Eksklusif 200 mil, landas kontinen dasar laut, laut bebas di luar wilayah negara."
     },
     {
       "no": 20,
@@ -268,7 +439,16 @@
       },
       "kunci": "A",
       "cog": "C4",
-      "pembahasan": "Negara A dan B saling melengkapi karena hasil alamnya beda. Berdagang menguntungkan keduanya, bukan harus berhenti."
+      "pembahasan": "Negara A dan B saling melengkapi karena hasil alamnya beda. Berdagang menguntungkan keduanya, bukan harus berhenti.",
+      "q": "Perhatikan tabel: Negara A mengekspor karet, mengimpor gandum. Negara B mengekspor gandum, mengimpor karet. Kesimpulan yang tepat adalah ...",
+      "o": [
+        "Kedua negara saling melengkapi karena beda hasil alamnya",
+        "Kedua negara harus berhenti berdagang",
+        "Negara A lebih kaya dari Negara B karena karetnya lebih banyak",
+        "Negara B tidak perlu karet karena punya gandum"
+      ],
+      "a": 0,
+      "e": "Negara A dan B saling melengkapi karena hasil alamnya beda. Berdagang menguntungkan keduanya, bukan harus berhenti."
     },
     {
       "no": 21,
@@ -281,7 +461,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Jadwal piket + cek selokan + latihan evakuasi + tas siaga adalah kesiapsiagaan lengkap dan adil. Opsi lain menunggu banjir, membebani satu orang, atau menutup sekolah."
+      "pembahasan": "Jadwal piket + cek selokan + latihan evakuasi + tas siaga adalah kesiapsiagaan lengkap dan adil. Opsi lain menunggu banjir, membebani satu orang, atau menutup sekolah.",
+      "q": "Kamu diminta membuat jadwal kesiapsiagaan banjir di sekolah dekat sungai. Jadwal yang paling tepat adalah ...",
+      "o": [
+        "Jadwal hanya saat sudah banjir",
+        "Jadwal menyuruh satu siswa membersihkan selokan setiap hari tanpa giliran",
+        "Jadwal piket mingguan per kelas + cek selokan + latihan evakuasi + tas siaga",
+        "Jadwal menutup sekolah setiap hujan"
+      ],
+      "a": 2,
+      "e": "Jadwal piket + cek selokan + latihan evakuasi + tas siaga adalah kesiapsiagaan lengkap dan adil. Opsi lain menunggu banjir, membebani satu orang, atau menutup sekolah."
     },
     {
       "no": 22,
@@ -294,7 +483,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Sosialisasi primer adalah yang pertama kali dari keluarga di rumah. Sosialisasi sekunder dari sekolah dan masyarakat."
+      "pembahasan": "Sosialisasi primer adalah yang pertama kali dari keluarga di rumah. Sosialisasi sekunder dari sekolah dan masyarakat.",
+      "q": "Seorang anak mempelajari tata cara sopan santun pertama kali dari orang tua di rumah. Proses ini disebut sosialisasi ...",
+      "o": [
+        "Sekunder, karena di sekolah",
+        "Primer, karena pertama kali dari keluarga",
+        "Tersier, karena di tempat kerja",
+        "Formal, karena di kantor"
+      ],
+      "a": 1,
+      "e": "Sosialisasi primer adalah yang pertama kali dari keluarga di rumah. Sosialisasi sekunder dari sekolah dan masyarakat."
     },
     {
       "no": 23,
@@ -307,7 +505,16 @@
       },
       "kunci": "C",
       "cog": "C4",
-      "pembahasan": "ASEAN didirikan 1967 dan bertujuan kerja sama ekonomi budaya, jadi (1) dan (3) benar. ASEAN bukan pakta militer, jadi (2) salah."
+      "pembahasan": "ASEAN didirikan 1967 dan bertujuan kerja sama ekonomi budaya, jadi (1) dan (3) benar. ASEAN bukan pakta militer, jadi (2) salah.",
+      "q": "Perhatikan pernyataan: (1) ASEAN didirikan 1967, (2) ASEAN adalah pakta militer, (3) ASEAN bertujuan kerja sama ekonomi dan budaya. Yang benar adalah ...",
+      "o": [
+        "(1) dan (2) saja",
+        "(2) dan (3) saja",
+        "(1) dan (3) saja",
+        "(1), (2), dan (3)"
+      ],
+      "a": 2,
+      "e": "ASEAN didirikan 1967 dan bertujuan kerja sama ekonomi budaya, jadi (1) dan (3) benar. ASEAN bukan pakta militer, jadi (2) salah."
     },
     {
       "no": 24,
@@ -320,7 +527,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Pekerjaan dan resapan sama-sama penting. Jika resapan hilang, banjir merugikan warga dan usaha. Perlu cari lokasi lain atau kurangi bangunan."
+      "pembahasan": "Pekerjaan dan resapan sama-sama penting. Jika resapan hilang, banjir merugikan warga dan usaha. Perlu cari lokasi lain atau kurangi bangunan.",
+      "q": "Sebuah kota mengusulkan membangun mal besar di atas lahan resapan air. Pengembang berkata mal memberi pekerjaan. Warga berkata banjir makin parah. Penilaian yang tepat adalah ...",
+      "o": [
+        "Hanya pekerjaan penting, banjir tidak perlu dipikirkan",
+        "Hanya banjir penting, pekerjaan tidak perlu dipikirkan",
+        "Tidak perlu ditimbang, bangun saja malnya",
+        "Keduanya harus ditimbang: pekerjaan penting, tapi jika resapan hilang banjir merugikan warga dan usaha juga terganggu, perlu cari lokasi lain"
+      ],
+      "a": 3,
+      "e": "Pekerjaan dan resapan sama-sama penting. Jika resapan hilang, banjir merugikan warga dan usaha. Perlu cari lokasi lain atau kurangi bangunan."
     },
     {
       "no": 25,
@@ -333,7 +549,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Festival budaya + tampil + kesepakatan saling menghargai membuat perbedaan jadi kebanggaan. Opsi lain menghapus identitas, memisahkan, atau menghukum."
+      "pembahasan": "Festival budaya + tampil + kesepakatan saling menghargai membuat perbedaan jadi kebanggaan. Opsi lain menghapus identitas, memisahkan, atau menghukum.",
+      "q": "Kamu diminta membuat program agar siswa bangga dengan budaya daerahnya. Program yang paling tepat adalah ...",
+      "o": [
+        "Festival budaya: tiap kelas menampilkan bahasa, makanan, dan cerita daerah, lalu menyusun kesepakatan saling menghargai",
+        "Melarang siswa memakai bahasa daerah",
+        "Memisahkan kelas berdasarkan suku",
+        "Menghukum siswa yang membawa makanan khas"
+      ],
+      "a": 0,
+      "e": "Festival budaya + tampil + kesepakatan saling menghargai membuat perbedaan jadi kebanggaan. Opsi lain menghapus identitas, memisahkan, atau menghukum."
     }
   ]
 }

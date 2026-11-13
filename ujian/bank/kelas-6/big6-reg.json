@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -21,7 +21,16 @@
       },
       "kunci": "C",
       "cog": "C1",
-      "pembahasan": "Good morning untuk pagi hari. Good night malam sebelum tidur, good evening sore, good bye perpisahan."
+      "pembahasan": "Good morning untuk pagi hari. Good night malam sebelum tidur, good evening sore, good bye perpisahan.",
+      "q": "What is the correct greeting in the morning?",
+      "o": [
+        "Good night",
+        "Good evening",
+        "Good morning",
+        "Good bye"
+      ],
+      "a": 2,
+      "e": "Good morning untuk pagi hari. Good night malam sebelum tidur, good evening sore, good bye perpisahan."
     },
     {
       "no": 2,
@@ -34,7 +43,16 @@
       },
       "kunci": "A",
       "cog": "C1",
-      "pembahasan": "Ibunya ayah adalah nenek, grandmother. Mother ibu, sister saudara perempuan, aunt bibi."
+      "pembahasan": "Ibunya ayah adalah nenek, grandmother. Mother ibu, sister saudara perempuan, aunt bibi.",
+      "q": "My father's mother is my ...",
+      "o": [
+        "Grandmother",
+        "Mother",
+        "Sister",
+        "Aunt"
+      ],
+      "a": 0,
+      "e": "Ibunya ayah adalah nenek, grandmother. Mother ibu, sister saudara perempuan, aunt bibi."
     },
     {
       "no": 3,
@@ -47,7 +65,16 @@
       },
       "kunci": "B",
       "cog": "C1",
-      "pembahasan": "Pencil adalah benda sekolah. Banana makanan, cat hewan, rain cuaca."
+      "pembahasan": "Pencil adalah benda sekolah. Banana makanan, cat hewan, rain cuaca.",
+      "q": "Which one is a school object?",
+      "o": [
+        "Banana",
+        "Pencil",
+        "Cat",
+        "Rain"
+      ],
+      "a": 1,
+      "e": "Pencil adalah benda sekolah. Banana makanan, cat hewan, rain cuaca."
     },
     {
       "no": 4,
@@ -60,7 +87,16 @@
       },
       "kunci": "D",
       "cog": "C1",
-      "pembahasan": "Sapi bersuara moo. Meow kucing, woof anjing, quack bebek."
+      "pembahasan": "Sapi bersuara moo. Meow kucing, woof anjing, quack bebek.",
+      "q": "A cow says ...",
+      "o": [
+        "Meow",
+        "Woof",
+        "Quack",
+        "Moo"
+      ],
+      "a": 3,
+      "e": "Sapi bersuara moo. Meow kucing, woof anjing, quack bebek."
     },
     {
       "no": 5,
@@ -73,7 +109,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Lapar berarti ingin makan nasi, rice. Water dan juice minuman, soap sabun bukan makanan."
+      "pembahasan": "Lapar berarti ingin makan nasi, rice. Water dan juice minuman, soap sabun bukan makanan.",
+      "q": "I am hungry. I want to eat ...",
+      "o": [
+        "Water",
+        "Juice",
+        "Rice",
+        "Soap"
+      ],
+      "a": 2,
+      "e": "Lapar berarti ingin makan nasi, rice. Water dan juice minuman, soap sabun bukan makanan."
     },
     {
       "no": 6,
@@ -86,7 +131,16 @@
       },
       "kunci": "A",
       "cog": "C2",
-      "pembahasan": "Panas berarti sunny. Rainy hujan, snowy salju, windy berangin."
+      "pembahasan": "Panas berarti sunny. Rainy hujan, snowy salju, windy berangin.",
+      "q": "Today is very hot. The weather is ...",
+      "o": [
+        "Sunny",
+        "Rainy",
+        "Snowy",
+        "Windy"
+      ],
+      "a": 0,
+      "e": "Panas berarti sunny. Rainy hujan, snowy salju, windy berangin."
     },
     {
       "no": 7,
@@ -99,7 +153,16 @@
       },
       "kunci": "B",
       "cog": "C2",
-      "pembahasan": "Subjek Siti she, jadi brushes. Brush untuk I/you/they, brushing butuh to be, brushed lampau."
+      "pembahasan": "Subjek Siti she, jadi brushes. Brush untuk I/you/they, brushing butuh to be, brushed lampau.",
+      "q": "Every morning, Siti ... her teeth.",
+      "o": [
+        "Brush",
+        "Brushes",
+        "Brushing",
+        "Brushed"
+      ],
+      "a": 1,
+      "e": "Subjek Siti she, jadi brushes. Brush untuk I/you/they, brushing butuh to be, brushed lampau."
     },
     {
       "no": 8,
@@ -112,7 +175,16 @@
       },
       "kunci": "C",
       "cog": "C2",
-      "pembahasan": "Two books jamak, jadi are. Is untuk tunggal, am untuk I, was lampau tunggal."
+      "pembahasan": "Two books jamak, jadi are. Is untuk tunggal, am untuk I, was lampau tunggal.",
+      "q": "There ... two books on the table.",
+      "o": [
+        "Is",
+        "Am",
+        "Are",
+        "Was"
+      ],
+      "a": 2,
+      "e": "Two books jamak, jadi are. Is untuk tunggal, am untuk I, was lampau tunggal."
     },
     {
       "no": 9,
@@ -125,7 +197,16 @@
       },
       "kunci": "D",
       "cog": "C2",
-      "pembahasan": "Below the table berarti under the table. On the table di atas, in the sky di langit, under water di bawah air, tidak sesuai keterangan below."
+      "pembahasan": "Below the table berarti under the table. On the table di atas, in the sky di langit, under water di bawah air, tidak sesuai keterangan below.",
+      "q": "The cat is ... the table. The cat is below the table.",
+      "o": [
+        "On the table",
+        "In the sky",
+        "Under water",
+        "Under the table"
+      ],
+      "a": 3,
+      "e": "Below the table berarti under the table. On the table di atas, in the sky di langit, under water di bawah air, tidak sesuai keterangan below."
     },
     {
       "no": 10,
@@ -138,7 +219,16 @@
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "She goes, karena she + verb + s. Go untuk I/you/they, going butuh to be, gone butuh have."
+      "pembahasan": "She goes, karena she + verb + s. Go untuk I/you/they, going butuh to be, gone butuh have.",
+      "q": "Choose the correct sentence: She ... to school by bus.",
+      "o": [
+        "Goes",
+        "Go",
+        "Going",
+        "Gone"
+      ],
+      "a": 0,
+      "e": "She goes, karena she + verb + s. Go untuk I/you/they, going butuh to be, gone butuh have."
     },
     {
       "no": 11,
@@ -151,7 +241,16 @@
       },
       "kunci": "B",
       "cog": "C3",
-      "pembahasan": "Makan setiap hari berarti suka, like. Hates dan dislikes berlawanan, hate juga berlawanan."
+      "pembahasan": "Makan setiap hari berarti suka, like. Hates dan dislikes berlawanan, hate juga berlawanan.",
+      "q": "I ... apples. I eat them every day.",
+      "o": [
+        "Hates",
+        "Like",
+        "Dislikes",
+        "Hate"
+      ],
+      "a": 1,
+      "e": "Makan setiap hari berarti suka, like. Hates dan dislikes berlawanan, hate juga berlawanan."
     },
     {
       "no": 12,
@@ -164,7 +263,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "Gajah itu big, besar. Tiny, small, little berarti kecil, berlawanan dengan gajah."
+      "pembahasan": "Gajah itu big, besar. Tiny, small, little berarti kecil, berlawanan dengan gajah.",
+      "q": "Which adjective is correct? The elephant is ...",
+      "o": [
+        "Tiny",
+        "Small",
+        "Big",
+        "Little"
+      ],
+      "a": 2,
+      "e": "Gajah itu big, besar. Tiny, small, little berarti kecil, berlawanan dengan gajah."
     },
     {
       "no": 13,
@@ -177,7 +285,16 @@
       },
       "kunci": "D",
       "cog": "C3",
-      "pembahasan": "Now menunjukkan present continuous, jadi are playing. Plays dan play simple present, played lampau."
+      "pembahasan": "Now menunjukkan present continuous, jadi are playing. Plays dan play simple present, played lampau.",
+      "q": "Look! The children ... in the yard now.",
+      "o": [
+        "Plays",
+        "Play",
+        "Played",
+        "Are playing"
+      ],
+      "a": 3,
+      "e": "Now menunjukkan present continuous, jadi are playing. Plays dan play simple present, played lampau."
     },
     {
       "no": 14,
@@ -190,7 +307,16 @@
       },
       "kunci": "A",
       "cog": "C3",
-      "pembahasan": "Pukul 7 pagi waktunya berangkat sekolah. Opsi lain untuk malam hari."
+      "pembahasan": "Pukul 7 pagi waktunya berangkat sekolah. Opsi lain untuk malam hari.",
+      "q": "What time is it? It is 7 o'clock in the morning. It is time to ...",
+      "o": [
+        "Go to school",
+        "Sleep at night",
+        "Have dinner at 9 pm",
+        "Watch stars"
+      ],
+      "a": 0,
+      "e": "Pukul 7 pagi waktunya berangkat sekolah. Opsi lain untuk malam hari."
     },
     {
       "no": 15,
@@ -203,7 +329,16 @@
       },
       "kunci": "C",
       "cog": "C3",
-      "pembahasan": "20 + 5 = 25, twenty-five. Fifteen 15, twenty 20, thirty-five 35."
+      "pembahasan": "20 + 5 = 25, twenty-five. Fifteen 15, twenty 20, thirty-five 35.",
+      "q": "Twenty + five = ...",
+      "o": [
+        "Fifteen",
+        "Twenty",
+        "Twenty-five",
+        "Thirty-five"
+      ],
+      "a": 2,
+      "e": "20 + 5 = 25, twenty-five. Fifteen 15, twenty 20, thirty-five 35."
     },
     {
       "no": 16,
@@ -216,7 +351,16 @@
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Teks menyebut Rani rambut panjang, mata cokelat, tinggi. Opsi B sesuai semua ciri, opsi lain mengubah ciri."
+      "pembahasan": "Teks menyebut Rani rambut panjang, mata cokelat, tinggi. Opsi B sesuai semua ciri, opsi lain mengubah ciri.",
+      "q": "Read: Rani has long hair. She has brown eyes. She is tall. Rani is ...",
+      "o": [
+        "A boy with short hair",
+        "A tall girl with long hair and brown eyes",
+        "A small boy",
+        "A girl with blue eyes"
+      ],
+      "a": 1,
+      "e": "Teks menyebut Rani rambut panjang, mata cokelat, tinggi. Opsi B sesuai semua ciri, opsi lain mengubah ciri."
     },
     {
       "no": 17,
@@ -229,7 +373,16 @@
       },
       "kunci": "D",
       "cog": "C4",
-      "pembahasan": "He are salah, seharusnya he is. Opsi lain pasangan subjek dan to be sudah benar."
+      "pembahasan": "He are salah, seharusnya he is. Opsi lain pasangan subjek dan to be sudah benar.",
+      "q": "Which sentence is NOT correct?",
+      "o": [
+        "He is a doctor.",
+        "She is a teacher.",
+        "They are students.",
+        "He are a farmer."
+      ],
+      "a": 3,
+      "e": "He are salah, seharusnya he is. Opsi lain pasangan subjek dan to be sudah benar."
     },
     {
       "no": 18,
@@ -242,7 +395,16 @@
       },
       "kunci": "C",
       "cog": "C4",
-      "pembahasan": "Tanya hobi dijawab playing football. Opsi lain umur, nama, tempat tinggal bukan hobi."
+      "pembahasan": "Tanya hobi dijawab playing football. Opsi lain umur, nama, tempat tinggal bukan hobi.",
+      "q": "Budi: What is your hobby? Andi: I like ...",
+      "o": [
+        "I am ten years old.",
+        "My name is Andi.",
+        "Playing football.",
+        "I live in Surabaya."
+      ],
+      "a": 2,
+      "e": "Tanya hobi dijawab playing football. Opsi lain umur, nama, tempat tinggal bukan hobi."
     },
     {
       "no": 19,
@@ -255,7 +417,16 @@
       },
       "kunci": "A",
       "cog": "C4",
-      "pembahasan": "Setelah Senin adalah Selasa, Tuesday. Sunday sebelum Senin, Friday dan Saturday jauh."
+      "pembahasan": "Setelah Senin adalah Selasa, Tuesday. Sunday sebelum Senin, Friday dan Saturday jauh.",
+      "q": "Today is Monday. Tomorrow is ...",
+      "o": [
+        "Tuesday",
+        "Sunday",
+        "Friday",
+        "Saturday"
+      ],
+      "a": 0,
+      "e": "Setelah Senin adalah Selasa, Tuesday. Sunday sebelum Senin, Friday dan Saturday jauh."
     },
     {
       "no": 20,
@@ -268,7 +439,16 @@
       },
       "kunci": "B",
       "cog": "C4",
-      "pembahasan": "Urutan yang benar cuci tangan, berdoa, lalu makan. Opsi lain membalik urutan kebersihan dan doa."
+      "pembahasan": "Urutan yang benar cuci tangan, berdoa, lalu makan. Opsi lain membalik urutan kebersihan dan doa.",
+      "q": "Which is the correct order? (1) Wash your hands (2) Eat lunch (3) Pray before eating",
+      "o": [
+        "(2) - (1) - (3)",
+        "(1) - (3) - (2)",
+        "(3) - (2) - (1)",
+        "(2) - (3) - (1)"
+      ],
+      "a": 1,
+      "e": "Urutan yang benar cuci tangan, berdoa, lalu makan. Opsi lain membalik urutan kebersihan dan doa."
     },
     {
       "no": 21,
@@ -281,7 +461,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Y lebih baik karena buah punya rasa beda-beda. X terlalu mutlak dengan kata all dan always sweet."
+      "pembahasan": "Y lebih baik karena buah punya rasa beda-beda. X terlalu mutlak dengan kata all dan always sweet.",
+      "q": "Two students say: X: All fruits are sweet. Y: Some fruits are sweet, some are sour. The taste depends on the fruit. Which is better?",
+      "o": [
+        "X, because all fruits are always sweet",
+        "Both are wrong",
+        "Both are same",
+        "Y, because Y shows fruits have different tastes"
+      ],
+      "a": 3,
+      "e": "Y lebih baik karena buah punya rasa beda-beda. X terlalu mutlak dengan kata all dan always sweet."
     },
     {
       "no": 22,
@@ -294,7 +483,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Keep quiet berarti berbicara pelan. Berteriak, berlari, bermain bola berlawanan dengan notice."
+      "pembahasan": "Keep quiet berarti berbicara pelan. Berteriak, berlari, bermain bola berlawanan dengan notice.",
+      "q": "Read the notice: Please keep the library quiet. What should students do?",
+      "o": [
+        "Shout in the library",
+        "Run in the library",
+        "Speak quietly in the library",
+        "Play football in the library"
+      ],
+      "a": 2,
+      "e": "Keep quiet berarti berbicara pelan. Berteriak, berlari, bermain bola berlawanan dengan notice."
     },
     {
       "no": 23,
@@ -307,7 +505,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Would you like paling sopan untuk mengundang. Come now dan you must memaksa, go away mengusir."
+      "pembahasan": "Would you like paling sopan untuk mengundang. Come now dan you must memaksa, go away mengusir.",
+      "q": "Which invitation is the most polite?",
+      "o": [
+        "Would you like to come to my birthday party?",
+        "Come now!",
+        "You must come!",
+        "Go away!"
+      ],
+      "a": 0,
+      "e": "Would you like paling sopan untuk mengundang. Come now dan you must memaksa, go away mengusir."
     },
     {
       "no": 24,
@@ -320,7 +527,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Meminta tolong paling tepat dengan excuse me, could you help me, please. Opsi lain bukan meminta tolong."
+      "pembahasan": "Meminta tolong paling tepat dengan excuse me, could you help me, please. Opsi lain bukan meminta tolong.",
+      "q": "Make the best sentence to ask for help in class!",
+      "o": [
+        "I am hungry.",
+        "Excuse me, Miss, could you help me with this question, please?",
+        "I want to go home.",
+        "This is boring."
+      ],
+      "a": 1,
+      "e": "Meminta tolong paling tepat dengan excuse me, could you help me, please. Opsi lain bukan meminta tolong."
     },
     {
       "no": 25,
@@ -333,7 +549,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Rencana terbaik ada jadwal piket, buang sampah ke tempatnya, dan cek tiap Jumat. Opsi lain mengotori, pasif, atau menutup kelas."
+      "pembahasan": "Rencana terbaik ada jadwal piket, buang sampah ke tempatnya, dan cek tiap Jumat. Opsi lain mengotori, pasif, atau menutup kelas.",
+      "q": "Make the best plan to keep the classroom clean!",
+      "o": [
+        "Throw rubbish on the floor",
+        "Wait for the teacher to clean",
+        "Close the classroom all day",
+        "Make a picket schedule + put rubbish in the bin + check the class every Friday"
+      ],
+      "a": 3,
+      "e": "Rencana terbaik ada jadwal piket, buang sampah ke tempatnya, dan cek tiap Jumat. Opsi lain mengotori, pasif, atau menutup kelas."
     }
   ]
 }

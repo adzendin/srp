@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -22,7 +22,16 @@
       "kunci": "B",
       "cog": "C1",
       "pembahasan": "Biggest adalah superlative, paling besar. Big dasar, bigger comparative, bigly bukan bentuk benar.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "Which one is a superlative adjective?",
+      "o": [
+        "Big",
+        "Biggest",
+        "Bigger",
+        "Bigly"
+      ],
+      "a": 1,
+      "e": "Biggest adalah superlative, paling besar. Big dasar, bigger comparative, bigly bukan bentuk benar."
     },
     {
       "no": 2,
@@ -36,7 +45,16 @@
       "kunci": "A",
       "cog": "C1",
       "pembahasan": "Can menunjukkan kemampuan berenang. Must go kewajiban pergi, should not larangan, am not penyangkalan.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "I ... swim very well.",
+      "o": [
+        "Can",
+        "Must go",
+        "Should not",
+        "Am not"
+      ],
+      "a": 0,
+      "e": "Can menunjukkan kemampuan berenang. Must go kewajiban pergi, should not larangan, am not penyangkalan."
     },
     {
       "no": 3,
@@ -50,7 +68,16 @@
       "kunci": "B",
       "cog": "C1",
       "pembahasan": "Should untuk saran minum air saat haus. Must not dan cannot larangan, never tidak pernah.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "You ... drink water when you are thirsty.",
+      "o": [
+        "Must not",
+        "Should",
+        "Cannot",
+        "Never"
+      ],
+      "a": 1,
+      "e": "Should untuk saran minum air saat haus. Must not dan cannot larangan, never tidak pernah."
     },
     {
       "no": 4,
@@ -64,7 +91,16 @@
       "kunci": "D",
       "cog": "C2",
       "pembahasan": "Tempat membaca buku adalah library. Market pasar, kitchen dapur, playground tempat bermain.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "Which word means a place to read books?",
+      "o": [
+        "Market",
+        "Kitchen",
+        "Playground",
+        "Library"
+      ],
+      "a": 3,
+      "e": "Tempat membaca buku adalah library. Market pasar, kitchen dapur, playground tempat bermain."
     },
     {
       "no": 5,
@@ -78,7 +114,16 @@
       "kunci": "C",
       "cog": "C2",
       "pembahasan": "Mobil lebih cepat dari sepeda, jadi faster. Slow dasar, slower lebih lambat, slowest paling lambat.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "A car is ... than a bicycle.",
+      "o": [
+        "Slow",
+        "Slower",
+        "Faster",
+        "Slowest"
+      ],
+      "a": 2,
+      "e": "Mobil lebih cepat dari sepeda, jadi faster. Slow dasar, slower lebih lambat, slowest paling lambat."
     },
     {
       "no": 6,
@@ -92,7 +137,16 @@
       "kunci": "A",
       "cog": "C2",
       "pembahasan": "Yesterday lampau, jadi went. Go dan goes sekarang, going butuh to be.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "She ... to the library yesterday.",
+      "o": [
+        "Went",
+        "Go",
+        "Goes",
+        "Going"
+      ],
+      "a": 0,
+      "e": "Yesterday lampau, jadi went. Go dan goes sekarang, going butuh to be."
     },
     {
       "no": 7,
@@ -106,7 +160,16 @@
       "kunci": "B",
       "cog": "C2",
       "pembahasan": "May I borrow your pencil, please paling sopan untuk minta izin. Opsi lain memerintah atau mengusir.",
-      "level": "Mudah"
+      "level": "Mudah",
+      "q": "Which sentence asks permission politely?",
+      "o": [
+        "Give me that!",
+        "May I borrow your pencil, please?",
+        "Go away!",
+        "Do it now!"
+      ],
+      "a": 1,
+      "e": "May I borrow your pencil, please paling sopan untuk minta izin. Opsi lain memerintah atau mengusir."
     },
     {
       "no": 8,
@@ -120,7 +183,16 @@
       "kunci": "C",
       "cog": "C3",
       "pembahasan": "Gajah lebih besar dari kucing, jadi bigger. Smaller berlawanan, biggest superlative butuh the, small dasar.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Choose the correct comparative: The elephant is ... than the cat.",
+      "o": [
+        "Small",
+        "Smaller",
+        "Bigger",
+        "Biggest"
+      ],
+      "a": 2,
+      "e": "Gajah lebih besar dari kucing, jadi bigger. Smaller berlawanan, biggest superlative butuh the, small dasar."
     },
     {
       "no": 9,
@@ -134,7 +206,16 @@
       "kunci": "D",
       "cog": "C3",
       "pembahasan": "Teks menggambarkan Tugu Pahlawan, jadi descriptive text. Bukan resep, lagu, atau dialog.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Read: Tugu Pahlawan is in Surabaya. It is tall and historic. Many visitors come to learn history. The text is ...",
+      "o": [
+        "A recipe",
+        "A song",
+        "A dialogue",
+        "A descriptive text"
+      ],
+      "a": 3,
+      "e": "Teks menggambarkan Tugu Pahlawan, jadi descriptive text. Bukan resep, lagu, atau dialog."
     },
     {
       "no": 10,
@@ -148,7 +229,16 @@
       "kunci": "A",
       "cog": "C3",
       "pembahasan": "Saran untuk sakit adalah istirahat dan minum air hangat. Opsi lain memperparah sakit.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Which suggestion is correct for a friend who is sick?",
+      "o": [
+        "You should rest and drink warm water.",
+        "You should play football all day.",
+        "You should not eat at all.",
+        "You should stay in the rain."
+      ],
+      "a": 0,
+      "e": "Saran untuk sakit adalah istirahat dan minum air hangat. Opsi lain memperparah sakit."
     },
     {
       "no": 11,
@@ -162,7 +252,16 @@
       "kunci": "C",
       "cog": "C3",
       "pembahasan": "Meminjam buku di perpustakaan boleh, jadi can. Must not dan cannot larangan, never tidak pernah.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Complete: You ... borrow books in the library.",
+      "o": [
+        "Must not",
+        "Never",
+        "Can",
+        "Cannot"
+      ],
+      "a": 2,
+      "e": "Meminjam buku di perpustakaan boleh, jadi can. Must not dan cannot larangan, never tidak pernah."
     },
     {
       "no": 12,
@@ -176,7 +275,16 @@
       "kunci": "C",
       "cog": "C3",
       "pembahasan": "Urutan benar nyalakan keran, cuci tangan, matikan keran, keringkan tangan. Opsi lain membalik urutan.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Arrange: (1) Turn on the tap (2) Wash your hands (3) Dry your hands (4) Turn off the tap. Correct order:",
+      "o": [
+        "(2) - (1) - (4) - (3)",
+        "(3) - (2) - (1) - (4)",
+        "(1) - (2) - (4) - (3)",
+        "(4) - (3) - (2) - (1)"
+      ],
+      "a": 2,
+      "e": "Urutan benar nyalakan keran, cuci tangan, matikan keran, keringkan tangan. Opsi lain membalik urutan."
     },
     {
       "no": 13,
@@ -190,7 +298,16 @@
       "kunci": "D",
       "cog": "C4",
       "pembahasan": "Gagasan utama di kalimat pertama, pantai Kenjeran ramai hari Minggu. Opsi lain kalimat penjelas.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Read: Kenjeran beach is busy on Sunday. People sell fish and souvenirs. Children play on the sand. The main idea is ...",
+      "o": [
+        "Children play on the sand",
+        "People sell fish",
+        "Kenjeran is in Surabaya",
+        "Kenjeran beach is busy on Sunday"
+      ],
+      "a": 3,
+      "e": "Gagasan utama di kalimat pertama, pantai Kenjeran ramai hari Minggu. Opsi lain kalimat penjelas."
     },
     {
       "no": 14,
@@ -204,7 +321,16 @@
       "kunci": "A",
       "cog": "C4",
       "pembahasan": "Can + verb dasar, jadi can sings salah. Can sing, sings, dan is singing sudah benar.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Which sentence has a wrong verb after can?",
+      "o": [
+        "She can sings well.",
+        "She can sing well.",
+        "She sings well.",
+        "She is singing well."
+      ],
+      "a": 0,
+      "e": "Can + verb dasar, jadi can sings salah. Can sing, sings, dan is singing sudah benar."
     },
     {
       "no": 15,
@@ -218,7 +344,16 @@
       "kunci": "C",
       "cog": "C4",
       "pembahasan": "Belajar giat menjadi sebab, nilai bagus menjadi akibat. Opsi A terbalik, B dan D salah.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Two sentences: (1) Rina studied hard. (2) She got a good score. The relation is ...",
+      "o": [
+        "(1) result, (2) cause",
+        "No relation",
+        "(1) cause, (2) result",
+        "Opposite"
+      ],
+      "a": 2,
+      "e": "Belajar giat menjadi sebab, nilai bagus menjadi akibat. Opsi A terbalik, B dan D salah."
     },
     {
       "no": 16,
@@ -232,7 +367,16 @@
       "kunci": "B",
       "cog": "C4",
       "pembahasan": "One of the + most famous adalah superlative. Famous dasar, more famous comparative, famously keterangan cara.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Choose the correct superlative: Mount Bromo is one of the ... mountains in East Java.",
+      "o": [
+        "Famous",
+        "Most famous",
+        "More famous",
+        "Famously"
+      ],
+      "a": 1,
+      "e": "One of the + most famous adalah superlative. Famous dasar, more famous comparative, famously keterangan cara."
     },
     {
       "no": 17,
@@ -246,7 +390,16 @@
       "kunci": "D",
       "cog": "C4",
       "pembahasan": "Do not litter berarti jangan buang sampah di taman. Opsi lain berlawanan atau tidak sesuai notice.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Read: Please do not litter in the park. Keep it clean. The notice means ...",
+      "o": [
+        "Litter in the park",
+        "Play in the park",
+        "Run in the park",
+        "Do not throw rubbish in the park"
+      ],
+      "a": 3,
+      "e": "Do not litter berarti jangan buang sampah di taman. Opsi lain berlawanan atau tidak sesuai notice."
     },
     {
       "no": 18,
@@ -260,7 +413,16 @@
       "kunci": "C",
       "cog": "C5",
       "pembahasan": "Teks prosedur butuh cara membuat, jadi judul (1) tepat. Judul (2) pengalaman pribadi, bukan prosedur.",
-      "level": "Sedang"
+      "level": "Sedang",
+      "q": "Two titles: (1) How to Make a Paper Boat. (2) I Like Paper Boats. Which is better for a procedure text?",
+      "o": [
+        "(2), because it is shorter",
+        "Both are same",
+        "(1), because it shows steps how to make",
+        "Both are wrong"
+      ],
+      "a": 2,
+      "e": "Teks prosedur butuh cara membuat, jadi judul (1) tepat. Judul (2) pengalaman pribadi, bukan prosedur."
     },
     {
       "no": 19,
@@ -274,7 +436,16 @@
       "kunci": "A",
       "cog": "C5",
       "pembahasan": "Teks deskripsi butuh kata sifat untuk menggambarkan. Hanya nama tidak cukup. Opsi lain salah memahami deskripsi.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "A student writes a descriptive text without any adjectives, only names. Evaluation:",
+      "o": [
+        "Less good, because descriptive text needs adjectives to describe",
+        "Good, because names are enough",
+        "Good, because adjectives are not important",
+        "Less good, because descriptive text must be a song"
+      ],
+      "a": 0,
+      "e": "Teks deskripsi butuh kata sifat untuk menggambarkan. Hanya nama tidak cukup. Opsi lain salah memahami deskripsi."
     },
     {
       "no": 20,
@@ -288,7 +459,16 @@
       "kunci": "B",
       "cog": "C5",
       "pembahasan": "Poster mengajak hemat air dengan mematikan keran. Opsi lain salah membaca ajakan poster.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "Read the poster: Let's save water! Turn off the tap after use. Evaluation:",
+      "o": [
+        "The poster asks to waste water",
+        "The poster asks to save water by turning off the tap",
+        "The poster has no purpose",
+        "The poster is only a story"
+      ],
+      "a": 1,
+      "e": "Poster mengajak hemat air dengan mematikan keran. Opsi lain salah membaca ajakan poster."
     },
     {
       "no": 21,
@@ -302,7 +482,16 @@
       "kunci": "D",
       "cog": "C5",
       "pembahasan": "Teks bagus dinilai isi, kejelasan, dan bahasa, bukan panjang. Kata all pada X terlalu mutlak.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "Two students: X: All long texts are good. Y: A good text is judged by content, clarity, and correct language, not length. Who is right?",
+      "o": [
+        "X is right",
+        "Both are right",
+        "Both are wrong",
+        "Y is right, because length is not the measure of a good text"
+      ],
+      "a": 3,
+      "e": "Teks bagus dinilai isi, kejelasan, dan bahasa, bukan panjang. Kata all pada X terlalu mutlak."
     },
     {
       "no": 22,
@@ -316,7 +505,16 @@
       "kunci": "C",
       "cog": "C5",
       "pembahasan": "Buku tebal, bergambar, murah, banyak dibeli menunjukkan menarik dan terjangkau. Opsi lain berlawanan dengan teks.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "Read: The book is thick and full of pictures. The price is cheap. Many students buy it. Conclusion:",
+      "o": [
+        "The book is not popular",
+        "The book is expensive",
+        "The book is interesting and affordable so many students buy it",
+        "The book has no pictures"
+      ],
+      "a": 2,
+      "e": "Buku tebal, bergambar, murah, banyak dibeli menunjukkan menarik dan terjangkau. Opsi lain berlawanan dengan teks."
     },
     {
       "no": 23,
@@ -330,7 +528,16 @@
       "kunci": "A",
       "cog": "C5",
       "pembahasan": "Sulit tidaknya teks tergantung kosakata dan isi, bukan bahasa saja. Kata always pada B dan C terlalu mutlak.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "A student says: Because the text is in English, it must be difficult. Evaluation:",
+      "o": [
+        "Less correct, because difficulty depends on vocabulary and content, not language alone",
+        "Correct, because English is always difficult",
+        "Correct, because Indonesian is always easy",
+        "Less correct, because text does not need content"
+      ],
+      "a": 0,
+      "e": "Sulit tidaknya teks tergantung kosakata dan isi, bukan bahasa saja. Kata always pada B dan C terlalu mutlak."
     },
     {
       "no": 24,
@@ -344,7 +551,16 @@
       "kunci": "B",
       "cog": "C6",
       "pembahasan": "Pembuka pidato yang menarik mengajak membayangkan dan menyapa teman. Opsi lain datar, menuduh, atau negatif saja.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "Make the best opening for a speech about keeping the school clean!",
+      "o": [
+        "School is there.",
+        "Friends, imagine if our school is clean and comfortable every day!",
+        "Who throws rubbish?",
+        "Our school is dirty."
+      ],
+      "a": 1,
+      "e": "Pembuka pidato yang menarik mengajak membayangkan dan menyapa teman. Opsi lain datar, menuduh, atau negatif saja."
     },
     {
       "no": 25,
@@ -358,7 +574,16 @@
       "kunci": "D",
       "cog": "C6",
       "pembahasan": "Rencana terbaik memakai sudut kelas, rak bekas, daftar pinjam, dan jadwal piket. Opsi lain menunggu gedung, membeli mahal, atau melarang pinjam.",
-      "level": "Sulit"
+      "level": "Sulit",
+      "q": "Make the best plan to make a class reading corner!",
+      "o": [
+        "Wait for a new building",
+        "Buy expensive books all at once",
+        "Make a reading corner but forbid borrowing",
+        "Use a corner of the class + a shelf from a used box + a borrowing list + a picket schedule"
+      ],
+      "a": 3,
+      "e": "Rencana terbaik memakai sudut kelas, rak bekas, daftar pinjam, dan jadwal piket. Opsi lain menunggu gedung, membeli mahal, atau melarang pinjam."
     }
   ]
 }

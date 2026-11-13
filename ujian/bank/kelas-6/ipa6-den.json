@@ -8,7 +8,7 @@
   "diujikan": 20,
   "save_key": "",
   "warna_kelas": "Hijau Daun",
-  "versi": "v1.0",
+  "versi": "v1.1",
   "soal": [
     {
       "no": 1,
@@ -21,7 +21,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Uji rantai makanan dari ujungnya, jangan dari tengahnya. Padi membuat makanan sendiri jadi produsen, belalang konsumen I, katak konsumen II, ular konsumen III, jadi (1) dan (2) benar, (3) salah. Produsen itu yang membuat makanan sendiri, bukan yang paling besar. Urutkan dulu rantai dari produsen, baru tentukan tingkatnya. Jebakannya di ular yang kelihatan kuat, padahal kuat bukan berarti produsen. Cek cepat: tanya, siapa yang membuat makanan sendiri? Kalau hanya padi, buang pernyataan yang menyebut ular produsen. Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah."
+      "pembahasan": "Uji rantai makanan dari ujungnya, jangan dari tengahnya. Padi membuat makanan sendiri jadi produsen, belalang konsumen I, katak konsumen II, ular konsumen III, jadi (1) dan (2) benar, (3) salah. Produsen itu yang membuat makanan sendiri, bukan yang paling besar. Urutkan dulu rantai dari produsen, baru tentukan tingkatnya. Jebakannya di ular yang kelihatan kuat, padahal kuat bukan berarti produsen. Cek cepat: tanya, siapa yang membuat makanan sendiri? Kalau hanya padi, buang pernyataan yang menyebut ular produsen. Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah.",
+      "q": "Kelas 6 SD Kenjeran mengamati kebun sekolah: padi dimakan belalang, belalang dimakan katak, katak dimakan ular. Pernyataan: (1) Padi adalah produsen. (2) Katak adalah konsumen tingkat II. (3) Ular adalah produsen. Pernyataan yang benar adalah ...",
+      "o": [
+        "(1) dan (2) saja",
+        "(1) dan (3) saja",
+        "(2) dan (3) saja",
+        "(1), (2), dan (3)"
+      ],
+      "a": 0,
+      "e": "Uji rantai makanan dari ujungnya, jangan dari tengahnya. Padi membuat makanan sendiri jadi produsen, belalang konsumen I, katak konsumen II, ular konsumen III, jadi (1) dan (2) benar, (3) salah. Produsen itu yang membuat makanan sendiri, bukan yang paling besar. Urutkan dulu rantai dari produsen, baru tentukan tingkatnya. Jebakannya di ular yang kelihatan kuat, padahal kuat bukan berarti produsen. Cek cepat: tanya, siapa yang membuat makanan sendiri? Kalau hanya padi, buang pernyataan yang menyebut ular produsen. Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah."
     },
     {
       "no": 2,
@@ -34,7 +43,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Klaim magnet diuji dengan jenis logamnya, bukan dengan kata semua. Magnet menarik besi, baja, dan nikel, sedangkan aluminium dan tembaga tidak tertarik, jadi klaim salah. Kata semua harus diuji dengan satu contoh yang melawan. Cari dulu satu logam yang tidak tertarik magnet, lalu nilai klaimnya. Jebakannya di kata semua logam yang kelihatan masuk akal, padahal aluminium dan tembaga adalah contoh yang melawan. Cek cepat: tanya, apakah aluminium tertarik magnet? Kalau tidak, klaim yang memakai kata semua sudah gugur. Opsi B salah karena semua logam tidak tertarik, opsi C salah karena aluminium tidak tertarik, opsi D salah karena datanya cukup."
+      "pembahasan": "Klaim magnet diuji dengan jenis logamnya, bukan dengan kata semua. Magnet menarik besi, baja, dan nikel, sedangkan aluminium dan tembaga tidak tertarik, jadi klaim salah. Kata semua harus diuji dengan satu contoh yang melawan. Cari dulu satu logam yang tidak tertarik magnet, lalu nilai klaimnya. Jebakannya di kata semua logam yang kelihatan masuk akal, padahal aluminium dan tembaga adalah contoh yang melawan. Cek cepat: tanya, apakah aluminium tertarik magnet? Kalau tidak, klaim yang memakai kata semua sudah gugur. Opsi B salah karena semua logam tidak tertarik, opsi C salah karena aluminium tidak tertarik, opsi D salah karena datanya cukup.",
+      "q": "Klaim: magnet menarik semua benda logam, termasuk aluminium dan tembaga. Klaim itu ...",
+      "o": [
+        "Salah, karena magnet hanya menarik besi, baja, dan nikel, bukan aluminium dan tembaga",
+        "Benar, karena semua logam tertarik magnet",
+        "Benar, karena aluminium paling kuat tertarik magnet",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 0,
+      "e": "Klaim magnet diuji dengan jenis logamnya, bukan dengan kata semua. Magnet menarik besi, baja, dan nikel, sedangkan aluminium dan tembaga tidak tertarik, jadi klaim salah. Kata semua harus diuji dengan satu contoh yang melawan. Cari dulu satu logam yang tidak tertarik magnet, lalu nilai klaimnya. Jebakannya di kata semua logam yang kelihatan masuk akal, padahal aluminium dan tembaga adalah contoh yang melawan. Cek cepat: tanya, apakah aluminium tertarik magnet? Kalau tidak, klaim yang memakai kata semua sudah gugur. Opsi B salah karena semua logam tidak tertarik, opsi C salah karena aluminium tidak tertarik, opsi D salah karena datanya cukup."
     },
     {
       "no": 3,
@@ -47,7 +65,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Gerhana dibaca dari siapa yang di tengah, bukan dari siapa yang paling besar. Matahari — Bulan — Bumi artinya Bulan di tengah, bayangan Bulan jatuh ke Bumi, jadi klaim benar. Yang di tengah itulah yang membuat bayangan. Gambar dulu urutannya, baru tentukan gerhananya. Jebakannya di opsi A yang memakai urutan gerhana Bulan, padahal yang ditanya gerhana Matahari. Cek cepat: tanya, siapa yang di tengah? Kalau Bulan, itu gerhana Matahari. Opsi A salah karena itu urutan gerhana Bulan, opsi B salah karena Matahari tidak pernah di tengah, opsi D salah karena datanya cukup."
+      "pembahasan": "Gerhana dibaca dari siapa yang di tengah, bukan dari siapa yang paling besar. Matahari — Bulan — Bumi artinya Bulan di tengah, bayangan Bulan jatuh ke Bumi, jadi klaim benar. Yang di tengah itulah yang membuat bayangan. Gambar dulu urutannya, baru tentukan gerhananya. Jebakannya di opsi A yang memakai urutan gerhana Bulan, padahal yang ditanya gerhana Matahari. Cek cepat: tanya, siapa yang di tengah? Kalau Bulan, itu gerhana Matahari. Opsi A salah karena itu urutan gerhana Bulan, opsi B salah karena Matahari tidak pernah di tengah, opsi D salah karena datanya cukup.",
+      "q": "Klaim: gerhana Matahari terjadi saat posisi Matahari — Bulan — Bumi segaris, Bulan menutupi Matahari. Klaim itu ...",
+      "o": [
+        "Salah, gerhana Matahari terjadi saat Bumi di tengah",
+        "Salah, gerhana Matahari terjadi saat Matahari di tengah",
+        "Benar, karena Bulan di antara Matahari dan Bumi sehingga bayangan Bulan menutupi Matahari",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 2,
+      "e": "Gerhana dibaca dari siapa yang di tengah, bukan dari siapa yang paling besar. Matahari — Bulan — Bumi artinya Bulan di tengah, bayangan Bulan jatuh ke Bumi, jadi klaim benar. Yang di tengah itulah yang membuat bayangan. Gambar dulu urutannya, baru tentukan gerhananya. Jebakannya di opsi A yang memakai urutan gerhana Bulan, padahal yang ditanya gerhana Matahari. Cek cepat: tanya, siapa yang di tengah? Kalau Bulan, itu gerhana Matahari. Opsi A salah karena itu urutan gerhana Bulan, opsi B salah karena Matahari tidak pernah di tengah, opsi D salah karena datanya cukup."
     },
     {
       "no": 4,
@@ -60,7 +87,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Cara olah sampah dinilai dari akibatnya ke lingkungan, bukan dari gratisnya. Dibuang ke sungai mencemari air, ditimbun tanpa olah membusuk dan mencemari tanah, dibuat kompos mengubah sampah jadi pupuk 5 kg, jadi cara ketiga paling tepat. Hilang dari mata belum tentu hilang dari lingkungan. Tanya dulu, ke mana sampah itu akhirnya pergi? Jebakannya di kata gratis yang kelihatan paling untung, padahal gratis tapi mencemari itu paling rugi. Cek cepat: telusuri dulu akhir sampahnya, baru pilih caranya. Opsi A salah karena mencemari sungai, opsi B salah karena timbunan membusuk, opsi C salah alasan karena butuh kerja bukan bukti lingkungan."
+      "pembahasan": "Cara olah sampah dinilai dari akibatnya ke lingkungan, bukan dari gratisnya. Dibuang ke sungai mencemari air, ditimbun tanpa olah membusuk dan mencemari tanah, dibuat kompos mengubah sampah jadi pupuk 5 kg, jadi cara ketiga paling tepat. Hilang dari mata belum tentu hilang dari lingkungan. Tanya dulu, ke mana sampah itu akhirnya pergi? Jebakannya di kata gratis yang kelihatan paling untung, padahal gratis tapi mencemari itu paling rugi. Cek cepat: telusuri dulu akhir sampahnya, baru pilih caranya. Opsi A salah karena mencemari sungai, opsi B salah karena timbunan membusuk, opsi C salah alasan karena butuh kerja bukan bukti lingkungan.",
+      "q": "Kantin SD Rungkut menghasilkan 10 kg sisa sayur tiap hari. Cara pertama: dibuang ke sungai, gratis. Cara kedua: ditimbun di tanah tanpa diolah, gratis. Cara ketiga: dibuat kompos, butuh 2 hari kerja tapi jadi pupuk 5 kg. Cara yang paling tepat untuk lingkungan adalah ...",
+      "o": [
+        "Cara pertama, karena gratis dan sampah langsung hilang",
+        "Cara kedua, karena gratis dan sampah tertimbun",
+        "Cara ketiga, karena butuh 2 hari kerja",
+        "Cara ketiga, karena sampah berubah jadi pupuk dan tidak mencemari sungai"
+      ],
+      "a": 3,
+      "e": "Cara olah sampah dinilai dari akibatnya ke lingkungan, bukan dari gratisnya. Dibuang ke sungai mencemari air, ditimbun tanpa olah membusuk dan mencemari tanah, dibuat kompos mengubah sampah jadi pupuk 5 kg, jadi cara ketiga paling tepat. Hilang dari mata belum tentu hilang dari lingkungan. Tanya dulu, ke mana sampah itu akhirnya pergi? Jebakannya di kata gratis yang kelihatan paling untung, padahal gratis tapi mencemari itu paling rugi. Cek cepat: telusuri dulu akhir sampahnya, baru pilih caranya. Opsi A salah karena mencemari sungai, opsi B salah karena timbunan membusuk, opsi C salah alasan karena butuh kerja bukan bukti lingkungan."
     },
     {
       "no": 5,
@@ -73,7 +109,16 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Baca datanya dari Hari 1 ke Hari 4, jangan loncat ke kesimpulan. 2 ke 4 naik 2, 4 ke 6 naik 2, 6 ke 9 naik 3, jadi naik tiap hari, total kenaikan = 9 - 2 = 7 cm. Naik tiap hari belum tentu naiknya sama tiap hari. Hitung selisih antar hari dulu, baru hitung total kenaikan. Jebakannya di angka 9 yang kelihatan seperti total kenaikan, padahal 9 itu tinggi Hari 4. Cek cepat: kurangkan tinggi akhir dengan tinggi awal, jangan ambil angka akhirnya. Opsi B salah karena tinggi naik, opsi C salah karena Hari 4 paling tinggi, opsi D salah karena 9 itu tingginya, bukan kenaikannya."
+      "pembahasan": "Baca datanya dari Hari 1 ke Hari 4, jangan loncat ke kesimpulan. 2 ke 4 naik 2, 4 ke 6 naik 2, 6 ke 9 naik 3, jadi naik tiap hari, total kenaikan = 9 - 2 = 7 cm. Naik tiap hari belum tentu naiknya sama tiap hari. Hitung selisih antar hari dulu, baru hitung total kenaikan. Jebakannya di angka 9 yang kelihatan seperti total kenaikan, padahal 9 itu tinggi Hari 4. Cek cepat: kurangkan tinggi akhir dengan tinggi awal, jangan ambil angka akhirnya. Opsi B salah karena tinggi naik, opsi C salah karena Hari 4 paling tinggi, opsi D salah karena 9 itu tingginya, bukan kenaikannya.",
+      "q": "Data tinggi kecambah kacang hijau: Hari 1 = 2 cm, Hari 2 = 4 cm, Hari 3 = 6 cm, Hari 4 = 9 cm. Kesimpulan yang benar adalah ...",
+      "o": [
+        "Tinggi naik tiap hari dan total kenaikan dari Hari 1 ke Hari 4 adalah 7 cm",
+        "Tinggi turun tiap hari dan total kenaikan 7 cm",
+        "Hari 4 paling pendek dan total kenaikan 7 cm",
+        "Tinggi naik tiap hari dan total kenaikan 9 cm"
+      ],
+      "a": 0,
+      "e": "Baca datanya dari Hari 1 ke Hari 4, jangan loncat ke kesimpulan. 2 ke 4 naik 2, 4 ke 6 naik 2, 6 ke 9 naik 3, jadi naik tiap hari, total kenaikan = 9 - 2 = 7 cm. Naik tiap hari belum tentu naiknya sama tiap hari. Hitung selisih antar hari dulu, baru hitung total kenaikan. Jebakannya di angka 9 yang kelihatan seperti total kenaikan, padahal 9 itu tinggi Hari 4. Cek cepat: kurangkan tinggi akhir dengan tinggi awal, jangan ambil angka akhirnya. Opsi B salah karena tinggi naik, opsi C salah karena Hari 4 paling tinggi, opsi D salah karena 9 itu tingginya, bukan kenaikannya."
     },
     {
       "no": 6,
@@ -86,7 +131,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Percobaan yang baik hanya mengubah air, yang lain sama dan diukur. Kirana hanya mengubah siraman, cahaya sama, ukur tiap hari, jadi benar, Dewa mengubah cahaya dan siraman sekaligus, jadi tidak membuktikan air. Kalau dua hal berubah sekaligus, tidak tahu mana yang menyebabkan. Cari dulu apa yang diubah di tiap cara. Jebakannya di cara Dewa yang kelihatan ada pembanding, padahal pembandingnya mengubah dua hal. Cek cepat: tanya, apa yang dibedakan? Kalau bukan hanya air, buang cara itu. Opsi A salah karena Dewa salah, opsi C salah karena keduanya tidak bisa benar saat variabelnya beda, opsi D salah karena Kirana benar."
+      "pembahasan": "Percobaan yang baik hanya mengubah air, yang lain sama dan diukur. Kirana hanya mengubah siraman, cahaya sama, ukur tiap hari, jadi benar, Dewa mengubah cahaya dan siraman sekaligus, jadi tidak membuktikan air. Kalau dua hal berubah sekaligus, tidak tahu mana yang menyebabkan. Cari dulu apa yang diubah di tiap cara. Jebakannya di cara Dewa yang kelihatan ada pembanding, padahal pembandingnya mengubah dua hal. Cek cepat: tanya, apa yang dibedakan? Kalau bukan hanya air, buang cara itu. Opsi A salah karena Dewa salah, opsi C salah karena keduanya tidak bisa benar saat variabelnya beda, opsi D salah karena Kirana benar.",
+      "q": "Soal: buktikan tanaman butuh air. Cara Kirana: dua tanaman sama, satu disiram tiap hari, satu tidak disiram, cahaya sama, ukur tiap hari. Cara Dewa: dua tanaman, satu di terang disiram, satu di gelap tidak disiram. Pernyataan yang benar adalah ...",
+      "o": [
+        "Cara Dewa benar, Cara Kirana salah",
+        "Cara Kirana benar, Cara Dewa salah",
+        "Cara Kirana benar, Cara Dewa benar",
+        "Cara Kirana salah, Cara Dewa salah"
+      ],
+      "a": 1,
+      "e": "Percobaan yang baik hanya mengubah air, yang lain sama dan diukur. Kirana hanya mengubah siraman, cahaya sama, ukur tiap hari, jadi benar, Dewa mengubah cahaya dan siraman sekaligus, jadi tidak membuktikan air. Kalau dua hal berubah sekaligus, tidak tahu mana yang menyebabkan. Cari dulu apa yang diubah di tiap cara. Jebakannya di cara Dewa yang kelihatan ada pembanding, padahal pembandingnya mengubah dua hal. Cek cepat: tanya, apa yang dibedakan? Kalau bukan hanya air, buang cara itu. Opsi A salah karena Dewa salah, opsi C salah karena keduanya tidak bisa benar saat variabelnya beda, opsi D salah karena Kirana benar."
     },
     {
       "no": 7,
@@ -99,7 +153,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Rantai makanan dibaca ke atas dan ke bawah dari yang hilang. Belalang hilang, katak kehilangan mangsa jadi kekurangan makanan, padi kehilangan pemakan jadi tumbuh lebih subur, jadi klaim benar. Hilangnya satu tingkat mengubah dua arah sekaligus. Telusuri dulu ke atas, lalu ke bawah. Jebakannya di anggapan katak akan makan padi, padahal katak tidak makan padi. Cek cepat: tanya, siapa yang makan belalang dan siapa yang dimakan belalang? Opsi A salah karena katak makan belalang, opsi B salah karena katak tidak makan padi, opsi D salah karena datanya cukup."
+      "pembahasan": "Rantai makanan dibaca ke atas dan ke bawah dari yang hilang. Belalang hilang, katak kehilangan mangsa jadi kekurangan makanan, padi kehilangan pemakan jadi tumbuh lebih subur, jadi klaim benar. Hilangnya satu tingkat mengubah dua arah sekaligus. Telusuri dulu ke atas, lalu ke bawah. Jebakannya di anggapan katak akan makan padi, padahal katak tidak makan padi. Cek cepat: tanya, siapa yang makan belalang dan siapa yang dimakan belalang? Opsi A salah karena katak makan belalang, opsi B salah karena katak tidak makan padi, opsi D salah karena datanya cukup.",
+      "q": "Klaim: jika belalang punah, katak akan kekurangan makanan dan padi akan tumbuh lebih subur. Klaim itu ...",
+      "o": [
+        "Salah, katak tidak makan belalang",
+        "Salah, padi akan habis dimakan katak",
+        "Benar, karena katak kehilangan mangsanya dan padi kehilangan pemakannya",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 2,
+      "e": "Rantai makanan dibaca ke atas dan ke bawah dari yang hilang. Belalang hilang, katak kehilangan mangsa jadi kekurangan makanan, padi kehilangan pemakan jadi tumbuh lebih subur, jadi klaim benar. Hilangnya satu tingkat mengubah dua arah sekaligus. Telusuri dulu ke atas, lalu ke bawah. Jebakannya di anggapan katak akan makan padi, padahal katak tidak makan padi. Cek cepat: tanya, siapa yang makan belalang dan siapa yang dimakan belalang? Opsi A salah karena katak makan belalang, opsi B salah karena katak tidak makan padi, opsi D salah karena datanya cukup."
     },
     {
       "no": 8,
@@ -112,7 +175,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Pasang surut dibaca dari gaya yang menarik air, bukan dari angin atau terbitnya Matahari. Gravitasi Bulan menarik air laut sehingga air naik di sisi yang menghadap Bulan, jadi klaim benar. Gaya yang menarik itulah penyebabnya, bukan hembusan angin. Cari dulu gaya apa yang menarik air laut. Jebakannya di opsi C yang jawabannya kebetulan benar tapi alasannya salah, karena angin bukan penyebab utama pasang surut. Cek cepat: tanya, apakah alasannya menyebut gravitasi Bulan? Kalau tidak, buang opsi itu. Opsi A salah karena angin bukan penyebab utama, opsi B salah karena terbit Matahari tidak menarik air, opsi C salah alasan karena angin saja tidak cukup."
+      "pembahasan": "Pasang surut dibaca dari gaya yang menarik air, bukan dari angin atau terbitnya Matahari. Gravitasi Bulan menarik air laut sehingga air naik di sisi yang menghadap Bulan, jadi klaim benar. Gaya yang menarik itulah penyebabnya, bukan hembusan angin. Cari dulu gaya apa yang menarik air laut. Jebakannya di opsi C yang jawabannya kebetulan benar tapi alasannya salah, karena angin bukan penyebab utama pasang surut. Cek cepat: tanya, apakah alasannya menyebut gravitasi Bulan? Kalau tidak, buang opsi itu. Opsi A salah karena angin bukan penyebab utama, opsi B salah karena terbit Matahari tidak menarik air, opsi C salah alasan karena angin saja tidak cukup.",
+      "q": "Klaim: pasang surut air laut terjadi karena gravitasi Bulan menarik air laut. Klaim itu ...",
+      "o": [
+        "Salah, pasang surut terjadi karena angin",
+        "Salah, pasang surut terjadi karena Matahari terbit",
+        "Benar, karena air laut didorong angin saja",
+        "Benar, karena tarikan gravitasi Bulan membuat air laut naik di sisi yang menghadap Bulan"
+      ],
+      "a": 3,
+      "e": "Pasang surut dibaca dari gaya yang menarik air, bukan dari angin atau terbitnya Matahari. Gravitasi Bulan menarik air laut sehingga air naik di sisi yang menghadap Bulan, jadi klaim benar. Gaya yang menarik itulah penyebabnya, bukan hembusan angin. Cari dulu gaya apa yang menarik air laut. Jebakannya di opsi C yang jawabannya kebetulan benar tapi alasannya salah, karena angin bukan penyebab utama pasang surut. Cek cepat: tanya, apakah alasannya menyebut gravitasi Bulan? Kalau tidak, buang opsi itu. Opsi A salah karena angin bukan penyebab utama, opsi B salah karena terbit Matahari tidak menarik air, opsi C salah alasan karena angin saja tidak cukup."
     },
     {
       "no": 9,
@@ -125,7 +197,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Titik didih air diuji dengan tekanan udaranya, bukan dengan kebersihan airnya. Tekanan udara di dataran tinggi lebih kecil, air lebih mudah mendidih, jadi suhu didihnya lebih rendah, jadi klaim benar. Tekanan udara yang kecil membuat air cepat mendidih. Bandingkan dulu tekanan udara di dua tempat itu. Jebakannya di angka 100 derajat yang dihafal dari buku, padahal angka itu hanya berlaku pada tekanan normal. Cek cepat: tanya, apakah tekanan udaranya sama? Kalau beda, titik didihnya ikut beda. Opsi A salah karena 100 derajat hanya pada tekanan normal, opsi C salah karena kotor bukan penyebabnya, opsi D salah karena datanya cukup."
+      "pembahasan": "Titik didih air diuji dengan tekanan udaranya, bukan dengan kebersihan airnya. Tekanan udara di dataran tinggi lebih kecil, air lebih mudah mendidih, jadi suhu didihnya lebih rendah, jadi klaim benar. Tekanan udara yang kecil membuat air cepat mendidih. Bandingkan dulu tekanan udara di dua tempat itu. Jebakannya di angka 100 derajat yang dihafal dari buku, padahal angka itu hanya berlaku pada tekanan normal. Cek cepat: tanya, apakah tekanan udaranya sama? Kalau beda, titik didihnya ikut beda. Opsi A salah karena 100 derajat hanya pada tekanan normal, opsi C salah karena kotor bukan penyebabnya, opsi D salah karena datanya cukup.",
+      "q": "Klaim: air di Batu (dataran tinggi) mendidih pada suhu lebih rendah dari air di Surabaya (dataran rendah). Klaim itu ...",
+      "o": [
+        "Salah, karena air selalu mendidih pada 100 derajat di mana saja",
+        "Benar, karena tekanan udara di dataran tinggi lebih kecil sehingga air lebih mudah mendidih",
+        "Benar, karena air di Batu lebih kotor",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 1,
+      "e": "Titik didih air diuji dengan tekanan udaranya, bukan dengan kebersihan airnya. Tekanan udara di dataran tinggi lebih kecil, air lebih mudah mendidih, jadi suhu didihnya lebih rendah, jadi klaim benar. Tekanan udara yang kecil membuat air cepat mendidih. Bandingkan dulu tekanan udara di dua tempat itu. Jebakannya di angka 100 derajat yang dihafal dari buku, padahal angka itu hanya berlaku pada tekanan normal. Cek cepat: tanya, apakah tekanan udaranya sama? Kalau beda, titik didihnya ikut beda. Opsi A salah karena 100 derajat hanya pada tekanan normal, opsi C salah karena kotor bukan penyebabnya, opsi D salah karena datanya cukup."
     },
     {
       "no": 10,
@@ -138,7 +219,16 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Cahaya Bulan dibaca dari sumbernya, bukan dari terangnya. Bulan terlihat terang karena memantulkan cahaya Matahari, bukan karena menghasilkan cahaya sendiri, jadi klaim salah. Terang belum tentu bersinar sendiri. Tanya dulu, dari mana cahaya itu berasal? Jebakannya di terang Bulan yang kelihatan seperti sumber cahaya, padahal itu pantulan. Cek cepat: tanya, apakah Bulan menghasilkan cahaya sendiri? Kalau tidak, klaim yang menyebut bersinar sendiri sudah gugur. Opsi A salah karena terang bukan bukti bersinar sendiri, opsi C salah karena Bulan terlihat, opsi D salah karena datanya cukup."
+      "pembahasan": "Cahaya Bulan dibaca dari sumbernya, bukan dari terangnya. Bulan terlihat terang karena memantulkan cahaya Matahari, bukan karena menghasilkan cahaya sendiri, jadi klaim salah. Terang belum tentu bersinar sendiri. Tanya dulu, dari mana cahaya itu berasal? Jebakannya di terang Bulan yang kelihatan seperti sumber cahaya, padahal itu pantulan. Cek cepat: tanya, apakah Bulan menghasilkan cahaya sendiri? Kalau tidak, klaim yang menyebut bersinar sendiri sudah gugur. Opsi A salah karena terang bukan bukti bersinar sendiri, opsi C salah karena Bulan terlihat, opsi D salah karena datanya cukup.",
+      "q": "Klaim: Bulan bersinar sendiri seperti Matahari. Klaim itu ...",
+      "o": [
+        "Benar, karena Bulan terlihat terang di malam hari",
+        "Salah, karena Bulan memantulkan cahaya Matahari, bukan menghasilkan cahaya sendiri",
+        "Salah, karena Bulan tidak terlihat di malam hari",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 1,
+      "e": "Cahaya Bulan dibaca dari sumbernya, bukan dari terangnya. Bulan terlihat terang karena memantulkan cahaya Matahari, bukan karena menghasilkan cahaya sendiri, jadi klaim salah. Terang belum tentu bersinar sendiri. Tanya dulu, dari mana cahaya itu berasal? Jebakannya di terang Bulan yang kelihatan seperti sumber cahaya, padahal itu pantulan. Cek cepat: tanya, apakah Bulan menghasilkan cahaya sendiri? Kalau tidak, klaim yang menyebut bersinar sendiri sudah gugur. Opsi A salah karena terang bukan bukti bersinar sendiri, opsi C salah karena Bulan terlihat, opsi D salah karena datanya cukup."
     },
     {
       "no": 11,
@@ -151,7 +241,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Sendi dibaca dari arah geraknya, bukan dari bisa digerakkan atau tidak. Bahu bisa banyak arah karena sendi peluru, lutut hanya satu arah karena sendi engsel, jadi klaim salah. Arah gerak itulah pembedanya. Gerakkan dulu sendi itu ke berbagai arah, baru tentukan jenisnya. Jebakannya di kata bisa digerakkan yang berlaku untuk semua sendi, padahal jenis sendi dibedakan dari arahnya. Cek cepat: tanya, apakah lutut bisa memutar seperti bahu? Kalau tidak, keduanya bukan sendi yang sama. Opsi A salah karena bisa digerakkan bukan bukti jenis sama, opsi B salah karena bahu tidak satu arah, opsi D salah karena datanya cukup."
+      "pembahasan": "Sendi dibaca dari arah geraknya, bukan dari bisa digerakkan atau tidak. Bahu bisa banyak arah karena sendi peluru, lutut hanya satu arah karena sendi engsel, jadi klaim salah. Arah gerak itulah pembedanya. Gerakkan dulu sendi itu ke berbagai arah, baru tentukan jenisnya. Jebakannya di kata bisa digerakkan yang berlaku untuk semua sendi, padahal jenis sendi dibedakan dari arahnya. Cek cepat: tanya, apakah lutut bisa memutar seperti bahu? Kalau tidak, keduanya bukan sendi yang sama. Opsi A salah karena bisa digerakkan bukan bukti jenis sama, opsi B salah karena bahu tidak satu arah, opsi D salah karena datanya cukup.",
+      "q": "Klaim: sendi bahu dan sendi lutut sama-sama sendi engsel. Klaim itu ...",
+      "o": [
+        "Benar, karena keduanya bisa digerakkan",
+        "Benar, karena keduanya hanya satu arah",
+        "Salah, karena bahu sendi peluru yang bisa banyak arah, lutut sendi engsel yang satu arah",
+        "Tidak bisa ditentukan"
+      ],
+      "a": 2,
+      "e": "Sendi dibaca dari arah geraknya, bukan dari bisa digerakkan atau tidak. Bahu bisa banyak arah karena sendi peluru, lutut hanya satu arah karena sendi engsel, jadi klaim salah. Arah gerak itulah pembedanya. Gerakkan dulu sendi itu ke berbagai arah, baru tentukan jenisnya. Jebakannya di kata bisa digerakkan yang berlaku untuk semua sendi, padahal jenis sendi dibedakan dari arahnya. Cek cepat: tanya, apakah lutut bisa memutar seperti bahu? Kalau tidak, keduanya bukan sendi yang sama. Opsi A salah karena bisa digerakkan bukan bukti jenis sama, opsi B salah karena bahu tidak satu arah, opsi D salah karena datanya cukup."
     },
     {
       "no": 12,
@@ -164,7 +263,16 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Suhu diukur dengan alat, bukan dengan tangan. Termometer menunggu sampai angka berhenti lalu dibaca, jadi cara pertama benar, pegang gelas hanya merasakan hangat, bukan mengukur suhu, jadi cara kedua salah. Merasakan bukan mengukur. Tanya dulu, apakah caranya memakai alat ukur? Jebakannya di cara kedua yang kelihatan cepat karena tidak perlu alat, padahal itu bukan pengukuran. Cek cepat: tanya, apakah ada alat ukur dan angka? Kalau tidak, itu bukan mengukur. Opsi A salah karena cara pertama benar, opsi B salah karena keduanya tidak bisa benar saat caranya beda, opsi C salah karena cara pertama benar."
+      "pembahasan": "Suhu diukur dengan alat, bukan dengan tangan. Termometer menunggu sampai angka berhenti lalu dibaca, jadi cara pertama benar, pegang gelas hanya merasakan hangat, bukan mengukur suhu, jadi cara kedua salah. Merasakan bukan mengukur. Tanya dulu, apakah caranya memakai alat ukur? Jebakannya di cara kedua yang kelihatan cepat karena tidak perlu alat, padahal itu bukan pengukuran. Cek cepat: tanya, apakah ada alat ukur dan angka? Kalau tidak, itu bukan mengukur. Opsi A salah karena cara pertama benar, opsi B salah karena keduanya tidak bisa benar saat caranya beda, opsi C salah karena cara pertama benar.",
+      "q": "Cara pertama: celupkan termometer ke air, tunggu sampai angka berhenti, baca angkanya. Cara kedua: pegang gelasnya, kira-kira hangatnya. Pernyataan yang benar adalah ...",
+      "o": [
+        "Cara pertama salah, cara kedua benar",
+        "Cara pertama benar, cara kedua benar",
+        "Cara pertama salah, cara kedua salah",
+        "Cara pertama benar, cara kedua salah"
+      ],
+      "a": 3,
+      "e": "Suhu diukur dengan alat, bukan dengan tangan. Termometer menunggu sampai angka berhenti lalu dibaca, jadi cara pertama benar, pegang gelas hanya merasakan hangat, bukan mengukur suhu, jadi cara kedua salah. Merasakan bukan mengukur. Tanya dulu, apakah caranya memakai alat ukur? Jebakannya di cara kedua yang kelihatan cepat karena tidak perlu alat, padahal itu bukan pengukuran. Cek cepat: tanya, apakah ada alat ukur dan angka? Kalau tidak, itu bukan mengukur. Opsi A salah karena cara pertama benar, opsi B salah karena keduanya tidak bisa benar saat caranya beda, opsi C salah karena cara pertama benar."
     },
     {
       "no": 13,
@@ -177,7 +285,16 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Alat ukur dipilih dari apa yang diukur, bukan dari yang kebetulan ada. Kecepatan angin diukur anemometer, termometer mengukur suhu, mistar mengukur panjang, timbangan mengukur berat, jadi hanya anemometer yang cocok. Nama alat harus pas dengan besaran yang diukur. Tanya dulu, apa yang diukur? Jebakannya di termometer yang kelihatan berhubungan dengan cuaca, padahal yang diukur suhu, bukan kecepatan angin. Cek cepat: pasangkan dulu besaran dengan alatnya, baru pilih. Opsi A salah karena termometer untuk suhu, opsi B salah karena mistar untuk panjang, opsi D salah karena timbangan untuk berat."
+      "pembahasan": "Alat ukur dipilih dari apa yang diukur, bukan dari yang kebetulan ada. Kecepatan angin diukur anemometer, termometer mengukur suhu, mistar mengukur panjang, timbangan mengukur berat, jadi hanya anemometer yang cocok. Nama alat harus pas dengan besaran yang diukur. Tanya dulu, apa yang diukur? Jebakannya di termometer yang kelihatan berhubungan dengan cuaca, padahal yang diukur suhu, bukan kecepatan angin. Cek cepat: pasangkan dulu besaran dengan alatnya, baru pilih. Opsi A salah karena termometer untuk suhu, opsi B salah karena mistar untuk panjang, opsi D salah karena timbangan untuk berat.",
+      "q": "Kelas 6 SD Waru mau mengukur kecepatan angin di lapangan. Alat yang paling tepat adalah ...",
+      "o": [
+        "Termometer, karena mengukur panas angin",
+        "Mistar, karena mengukur panjang angin",
+        "Anemometer, karena mengukur kecepatan angin",
+        "Timbangan, karena mengukur berat angin"
+      ],
+      "a": 2,
+      "e": "Alat ukur dipilih dari apa yang diukur, bukan dari yang kebetulan ada. Kecepatan angin diukur anemometer, termometer mengukur suhu, mistar mengukur panjang, timbangan mengukur berat, jadi hanya anemometer yang cocok. Nama alat harus pas dengan besaran yang diukur. Tanya dulu, apa yang diukur? Jebakannya di termometer yang kelihatan berhubungan dengan cuaca, padahal yang diukur suhu, bukan kecepatan angin. Cek cepat: pasangkan dulu besaran dengan alatnya, baru pilih. Opsi A salah karena termometer untuk suhu, opsi B salah karena mistar untuk panjang, opsi D salah karena timbangan untuk berat."
     },
     {
       "no": 14,
@@ -190,7 +307,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Tekanan udara dibuktikan dengan kertas yang tetap menempel saat gelas dibalik. Gelas berisi air ditutup kertas, dibalik, kertas ditahan lalu dilepas, kertas tetap menempel karena udara menekan dari bawah, jadi hanya D yang membuktikan. Tekanan udara tidak terlihat, tapi akibatnya terlihat dari kertas yang menempel. Siapkan dulu gelas, air, dan kertasnya, baru balik gelasnya. Jebakannya di opsi C yang gelasnya dibalik tapi kertas langsung dilepas tanpa ditahan, padahal kertas harus ditahan dulu sampai udara menekan. Cek cepat: tanya, apakah kertas tetap menempel setelah dilepas? Kalau tidak, percobaan itu tidak membuktikan. Opsi A salah karena tidak ada air, opsi B salah karena tidak ditutup kertas, opsi C salah karena kertas tidak ditahan dulu."
+      "pembahasan": "Tekanan udara dibuktikan dengan kertas yang tetap menempel saat gelas dibalik. Gelas berisi air ditutup kertas, dibalik, kertas ditahan lalu dilepas, kertas tetap menempel karena udara menekan dari bawah, jadi hanya D yang membuktikan. Tekanan udara tidak terlihat, tapi akibatnya terlihat dari kertas yang menempel. Siapkan dulu gelas, air, dan kertasnya, baru balik gelasnya. Jebakannya di opsi C yang gelasnya dibalik tapi kertas langsung dilepas tanpa ditahan, padahal kertas harus ditahan dulu sampai udara menekan. Cek cepat: tanya, apakah kertas tetap menempel setelah dilepas? Kalau tidak, percobaan itu tidak membuktikan. Opsi A salah karena tidak ada air, opsi B salah karena tidak ditutup kertas, opsi C salah karena kertas tidak ditahan dulu.",
+      "q": "Rancangan percobaan yang tepat untuk membuktikan udara menekan dari bawah adalah ...",
+      "o": [
+        "Satu gelas kosong dibalik, tidak diisi air, tidak ditutup kertas",
+        "Satu gelas berisi air dibalik tanpa ditutup kertas",
+        "Satu gelas berisi air ditutup kertas, dibalik, tapi kertas langsung dilepas",
+        "Satu gelas berisi air ditutup kertas, dibalik, kertas ditahan lalu dilepas, amati kertas tetap menempel dan air tidak tumpah"
+      ],
+      "a": 3,
+      "e": "Tekanan udara dibuktikan dengan kertas yang tetap menempel saat gelas dibalik. Gelas berisi air ditutup kertas, dibalik, kertas ditahan lalu dilepas, kertas tetap menempel karena udara menekan dari bawah, jadi hanya D yang membuktikan. Tekanan udara tidak terlihat, tapi akibatnya terlihat dari kertas yang menempel. Siapkan dulu gelas, air, dan kertasnya, baru balik gelasnya. Jebakannya di opsi C yang gelasnya dibalik tapi kertas langsung dilepas tanpa ditahan, padahal kertas harus ditahan dulu sampai udara menekan. Cek cepat: tanya, apakah kertas tetap menempel setelah dilepas? Kalau tidak, percobaan itu tidak membuktikan. Opsi A salah karena tidak ada air, opsi B salah karena tidak ditutup kertas, opsi C salah karena kertas tidak ditahan dulu."
     },
     {
       "no": 15,
@@ -203,7 +329,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bunyi merambat lewat benda padat dibuktikan dengan benang kencang yang menghubungkan dua kaleng. Dua kaleng dihubungkan benang kencang, satu berbicara, satu mendengar, jadi benar, benang kendor membuat bunyi tidak sampai. Benang adalah benda padat yang menghantarkan bunyi. Siapkan dulu dua kaleng dan benang kencang, baru bicara. Jebakannya di opsi D yang kelihatan ada benang, padahal benang kendor tidak menghantarkan bunyi. Cek cepat: tanya, apakah benangnya kencang dan ada yang mendengar? Kalau tidak, buang. Opsi B salah karena tidak ada benang, opsi C salah karena tidak ada pembanding, opsi D salah karena benang kendor."
+      "pembahasan": "Bunyi merambat lewat benda padat dibuktikan dengan benang kencang yang menghubungkan dua kaleng. Dua kaleng dihubungkan benang kencang, satu berbicara, satu mendengar, jadi benar, benang kendor membuat bunyi tidak sampai. Benang adalah benda padat yang menghantarkan bunyi. Siapkan dulu dua kaleng dan benang kencang, baru bicara. Jebakannya di opsi D yang kelihatan ada benang, padahal benang kendor tidak menghantarkan bunyi. Cek cepat: tanya, apakah benangnya kencang dan ada yang mendengar? Kalau tidak, buang. Opsi B salah karena tidak ada benang, opsi C salah karena tidak ada pembanding, opsi D salah karena benang kendor.",
+      "q": "Kelas 6 SD Pagesangan mau membuktikan bunyi merambat lewat benda padat. Rancangan yang tepat adalah ...",
+      "o": [
+        "Dua kaleng dihubungkan benang kencang, satu anak berbicara di kaleng satu, satu anak mendengar di kaleng lain, benang tidak boleh kendor",
+        "Dua kaleng tanpa benang, satu anak berbicara, satu anak mendengar",
+        "Satu kaleng dipegang, tidak ada benang, tidak ada yang mendengar",
+        "Dua kaleng dihubungkan benang kendor, satu anak berbicara, tidak didengar"
+      ],
+      "a": 0,
+      "e": "Bunyi merambat lewat benda padat dibuktikan dengan benang kencang yang menghubungkan dua kaleng. Dua kaleng dihubungkan benang kencang, satu berbicara, satu mendengar, jadi benar, benang kendor membuat bunyi tidak sampai. Benang adalah benda padat yang menghantarkan bunyi. Siapkan dulu dua kaleng dan benang kencang, baru bicara. Jebakannya di opsi D yang kelihatan ada benang, padahal benang kendor tidak menghantarkan bunyi. Cek cepat: tanya, apakah benangnya kencang dan ada yang mendengar? Kalau tidak, buang. Opsi B salah karena tidak ada benang, opsi C salah karena tidak ada pembanding, opsi D salah karena benang kendor."
     },
     {
       "no": 16,
@@ -216,7 +351,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah daun dari selisihnya, jangan dari angkanya saja. Selisih 7 - 4 = 3, 11 - 7 = 4, selisih bertambah 1, jadi Minggu 4 = 11 + 5 = 16 daun dan polanya makin cepat. Soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Cari soal yang minta prediksi dari pola. Jebakannya di opsi C yang kelihatan butuh hitung, padahal hanya menjumlah, bukan memakai pola. Cek cepat: tanya, apakah soalnya minta prediksi? Kalau hanya minta angka yang sudah ada, itu bukan soal nalar. Opsi A dan D salah karena hanya membaca, opsi C salah karena hanya menjumlah."
+      "pembahasan": "Bedah daun dari selisihnya, jangan dari angkanya saja. Selisih 7 - 4 = 3, 11 - 7 = 4, selisih bertambah 1, jadi Minggu 4 = 11 + 5 = 16 daun dan polanya makin cepat. Soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Cari soal yang minta prediksi dari pola. Jebakannya di opsi C yang kelihatan butuh hitung, padahal hanya menjumlah, bukan memakai pola. Cek cepat: tanya, apakah soalnya minta prediksi? Kalau hanya minta angka yang sudah ada, itu bukan soal nalar. Opsi A dan D salah karena hanya membaca, opsi C salah karena hanya menjumlah.",
+      "q": "Data daun baru tunas SD Menanggal: Minggu 1 = 4 daun, Minggu 2 = 7 daun, Minggu 3 = 11 daun. Soal baru yang paling tepat untuk menguji nalar adalah ...",
+      "o": [
+        "Berapa daun Minggu 1?",
+        "Jika selisih bertambah 1 tiap minggu, berapa daun Minggu 4 dan apakah pola naiknya makin cepat?",
+        "Berapa total 3 minggu?",
+        "Berapa daun Minggu 2?"
+      ],
+      "a": 1,
+      "e": "Bedah daun dari selisihnya, jangan dari angkanya saja. Selisih 7 - 4 = 3, 11 - 7 = 4, selisih bertambah 1, jadi Minggu 4 = 11 + 5 = 16 daun dan polanya makin cepat. Soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Cari soal yang minta prediksi dari pola. Jebakannya di opsi C yang kelihatan butuh hitung, padahal hanya menjumlah, bukan memakai pola. Cek cepat: tanya, apakah soalnya minta prediksi? Kalau hanya minta angka yang sudah ada, itu bukan soal nalar. Opsi A dan D salah karena hanya membaca, opsi C salah karena hanya menjumlah."
     },
     {
       "no": 17,
@@ -229,7 +373,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Saringan air dibuktikan dengan lapisan yang menyaring kotoran, bukan dengan kain sekali atau rebus saja. Botol berisi kerikil, pasir, dan arang menyaring kotoran dan bau, air yang keluar lebih jernih, jadi hanya C yang membuktikan. Lapisan yang berurutan itulah yang menjernihkan. Siapkan dulu botol, kerikil, pasir, dan arang, baru tuang airnya. Jebakannya di opsi D yang kelihatan aman karena direbus, padahal rebus tidak menghilangkan kotoran dan lumpur. Cek cepat: tanya, apakah ada lapisan saringan dan apakah kejernihannya diamati? Kalau tidak, buang. Opsi A salah karena langsung diminum, opsi B salah karena hanya kain tipis, opsi D salah karena tidak disaring."
+      "pembahasan": "Saringan air dibuktikan dengan lapisan yang menyaring kotoran, bukan dengan kain sekali atau rebus saja. Botol berisi kerikil, pasir, dan arang menyaring kotoran dan bau, air yang keluar lebih jernih, jadi hanya C yang membuktikan. Lapisan yang berurutan itulah yang menjernihkan. Siapkan dulu botol, kerikil, pasir, dan arang, baru tuang airnya. Jebakannya di opsi D yang kelihatan aman karena direbus, padahal rebus tidak menghilangkan kotoran dan lumpur. Cek cepat: tanya, apakah ada lapisan saringan dan apakah kejernihannya diamati? Kalau tidak, buang. Opsi A salah karena langsung diminum, opsi B salah karena hanya kain tipis, opsi D salah karena tidak disaring.",
+      "q": "Air di Kali Mas keruh dan berbau. Rancangan saringan air sederhana yang paling tepat untuk menjernihkan air itu adalah ...",
+      "o": [
+        "Tuang air keruh langsung ke gelas dan langsung diminum",
+        "Saring air hanya dengan kain tipis sekali, tanpa pasir dan arang",
+        "Susun botol berisi lapisan kerikil, pasir, dan arang, tuang air keruh dari atas, tampung air yang keluar di bawah, amati kejernihannya",
+        "Rebus air keruh tanpa disaring, lalu langsung diminum"
+      ],
+      "a": 2,
+      "e": "Saringan air dibuktikan dengan lapisan yang menyaring kotoran, bukan dengan kain sekali atau rebus saja. Botol berisi kerikil, pasir, dan arang menyaring kotoran dan bau, air yang keluar lebih jernih, jadi hanya C yang membuktikan. Lapisan yang berurutan itulah yang menjernihkan. Siapkan dulu botol, kerikil, pasir, dan arang, baru tuang airnya. Jebakannya di opsi D yang kelihatan aman karena direbus, padahal rebus tidak menghilangkan kotoran dan lumpur. Cek cepat: tanya, apakah ada lapisan saringan dan apakah kejernihannya diamati? Kalau tidak, buang. Opsi A salah karena langsung diminum, opsi B salah karena hanya kain tipis, opsi D salah karena tidak disaring."
     },
     {
       "no": 18,
@@ -242,7 +395,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Pelarutan gula dibuktikan dengan hanya suhu yang dibedakan, yang lain sama dan diukur. Dua gelas sama, satu panas, satu dingin, gula sama, aduk sama, ukur waktu larut, jadi hanya D yang membuktikan. Suhu adalah satu-satunya yang dibedakan. Siapkan dulu dua gelas, gula sama, dan pengukur waktu, baru aduk. Jebakannya di opsi C yang kelihatan ada panas dan dingin, padahal gulanya beda dan tidak diukur. Cek cepat: tanya, apakah hanya suhu yang dibedakan dan apakah waktunya diukur? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi B salah karena suhu sama, opsi C salah karena gula beda dan tidak diukur."
+      "pembahasan": "Pelarutan gula dibuktikan dengan hanya suhu yang dibedakan, yang lain sama dan diukur. Dua gelas sama, satu panas, satu dingin, gula sama, aduk sama, ukur waktu larut, jadi hanya D yang membuktikan. Suhu adalah satu-satunya yang dibedakan. Siapkan dulu dua gelas, gula sama, dan pengukur waktu, baru aduk. Jebakannya di opsi C yang kelihatan ada panas dan dingin, padahal gulanya beda dan tidak diukur. Cek cepat: tanya, apakah hanya suhu yang dibedakan dan apakah waktunya diukur? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi B salah karena suhu sama, opsi C salah karena gula beda dan tidak diukur.",
+      "q": "SD Lakarsantri mau membuktikan air panas melarutkan gula lebih cepat dari air dingin. Rancangan yang tepat adalah ...",
+      "o": [
+        "Satu gelas air panas diberi gula, tidak diukur waktunya",
+        "Dua gelas air panas diberi gula beda jumlah, tidak diukur",
+        "Dua gelas, satu panas, satu dingin, diberi gula beda jumlah, tidak diukur",
+        "Dua gelas sama, satu air panas, satu air dingin, gula sama banyak, aduk sama, ukur waktu sampai gula larut semua"
+      ],
+      "a": 3,
+      "e": "Pelarutan gula dibuktikan dengan hanya suhu yang dibedakan, yang lain sama dan diukur. Dua gelas sama, satu panas, satu dingin, gula sama, aduk sama, ukur waktu larut, jadi hanya D yang membuktikan. Suhu adalah satu-satunya yang dibedakan. Siapkan dulu dua gelas, gula sama, dan pengukur waktu, baru aduk. Jebakannya di opsi C yang kelihatan ada panas dan dingin, padahal gulanya beda dan tidak diukur. Cek cepat: tanya, apakah hanya suhu yang dibedakan dan apakah waktunya diukur? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi B salah karena suhu sama, opsi C salah karena gula beda dan tidak diukur."
     },
     {
       "no": 19,
@@ -255,7 +417,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Magnet buatan dibuat dengan menggosok besi dengan magnet ke satu arah. Paku digosok dengan magnet ke satu arah berulang-ulang, lalu didekatkan ke jarum, jarum tertarik, jadi hanya A yang membuktikan. Gosokan searah itulah yang menyusun magnet di dalam besi. Siapkan dulu paku, magnet, dan jarum, baru gosok searah. Jebakannya di opsi B yang kelihatan menggosok, padahal kayu bukan magnet dan arahnya acak. Cek cepat: tanya, apakah yang menggosok adalah magnet dan arahnya sama? Kalau tidak, buang. Opsi B salah karena kayu bukan magnet, opsi C salah karena air tidak membuat magnet, opsi D salah karena panas merusak magnet."
+      "pembahasan": "Magnet buatan dibuat dengan menggosok besi dengan magnet ke satu arah. Paku digosok dengan magnet ke satu arah berulang-ulang, lalu didekatkan ke jarum, jarum tertarik, jadi hanya A yang membuktikan. Gosokan searah itulah yang menyusun magnet di dalam besi. Siapkan dulu paku, magnet, dan jarum, baru gosok searah. Jebakannya di opsi B yang kelihatan menggosok, padahal kayu bukan magnet dan arahnya acak. Cek cepat: tanya, apakah yang menggosok adalah magnet dan arahnya sama? Kalau tidak, buang. Opsi B salah karena kayu bukan magnet, opsi C salah karena air tidak membuat magnet, opsi D salah karena panas merusak magnet.",
+      "q": "SD Wiyung mau membuat magnet buatan dari paku besi. Rancangan yang tepat adalah ...",
+      "o": [
+        "Gosok paku besi dengan magnet ke satu arah berulang-ulang, lalu dekatkan paku ke jarum, amati jarum tertarik",
+        "Gosok paku besi dengan kayu ke segala arah, lalu dekatkan ke jarum",
+        "Celupkan paku besi ke air, lalu dekatkan ke jarum",
+        "Panaskan paku besi sampai merah, lalu dekatkan ke jarum"
+      ],
+      "a": 0,
+      "e": "Magnet buatan dibuat dengan menggosok besi dengan magnet ke satu arah. Paku digosok dengan magnet ke satu arah berulang-ulang, lalu didekatkan ke jarum, jarum tertarik, jadi hanya A yang membuktikan. Gosokan searah itulah yang menyusun magnet di dalam besi. Siapkan dulu paku, magnet, dan jarum, baru gosok searah. Jebakannya di opsi B yang kelihatan menggosok, padahal kayu bukan magnet dan arahnya acak. Cek cepat: tanya, apakah yang menggosok adalah magnet dan arahnya sama? Kalau tidak, buang. Opsi B salah karena kayu bukan magnet, opsi C salah karena air tidak membuat magnet, opsi D salah karena panas merusak magnet."
     },
     {
       "no": 20,
@@ -268,7 +439,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Gravitasi dibuktikan dengan dua benda yang dijatuhkan bersamaan dari ketinggian sama. Dua bola sama besar, satu besi, satu kayu, dijatuhkan bersamaan, keduanya jatuh ke bawah, jadi hanya B yang membuktikan. Massa yang beda tidak membuat jatuhnya beda jauh jika ketinggiannya sama. Siapkan dulu dua bola, ketinggian sama, dan pengamat, baru jatuhkan bersamaan. Jebakannya di opsi D yang kelihatan ada dua bola, padahal ketinggian dan waktunya beda. Cek cepat: tanya, apakah ketinggian dan waktunya sama dan apakah jatuhnya diamati? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi C salah karena tidak diamati jatuhnya, opsi D salah karena ketinggian dan waktu beda."
+      "pembahasan": "Gravitasi dibuktikan dengan dua benda yang dijatuhkan bersamaan dari ketinggian sama. Dua bola sama besar, satu besi, satu kayu, dijatuhkan bersamaan, keduanya jatuh ke bawah, jadi hanya B yang membuktikan. Massa yang beda tidak membuat jatuhnya beda jauh jika ketinggiannya sama. Siapkan dulu dua bola, ketinggian sama, dan pengamat, baru jatuhkan bersamaan. Jebakannya di opsi D yang kelihatan ada dua bola, padahal ketinggian dan waktunya beda. Cek cepat: tanya, apakah ketinggian dan waktunya sama dan apakah jatuhnya diamati? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi C salah karena tidak diamati jatuhnya, opsi D salah karena ketinggian dan waktu beda.",
+      "q": "Rancangan percobaan yang tepat untuk membuktikan gaya gravitasi menarik semua benda ke bawah adalah ...",
+      "o": [
+        "Satu bola dijatuhkan dari ketinggian, tidak ada pembanding, tidak diukur",
+        "Dua bola sama besar, satu besi, satu kayu, dijatuhkan dari ketinggian sama pada saat sama, amati keduanya jatuh ke bawah dan sampai hampir bersamaan",
+        "Satu bola dilempar ke atas, tidak diamati jatuhnya",
+        "Dua bola dijatuhkan dari ketinggian beda pada waktu beda, tidak diamati"
+      ],
+      "a": 1,
+      "e": "Gravitasi dibuktikan dengan dua benda yang dijatuhkan bersamaan dari ketinggian sama. Dua bola sama besar, satu besi, satu kayu, dijatuhkan bersamaan, keduanya jatuh ke bawah, jadi hanya B yang membuktikan. Massa yang beda tidak membuat jatuhnya beda jauh jika ketinggiannya sama. Siapkan dulu dua bola, ketinggian sama, dan pengamat, baru jatuhkan bersamaan. Jebakannya di opsi D yang kelihatan ada dua bola, padahal ketinggian dan waktunya beda. Cek cepat: tanya, apakah ketinggian dan waktunya sama dan apakah jatuhnya diamati? Kalau tidak, buang. Opsi A salah karena tidak ada pembanding, opsi C salah karena tidak diamati jatuhnya, opsi D salah karena ketinggian dan waktu beda."
     },
     {
       "no": 21,
@@ -281,7 +461,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Model skala harus menjaga urutan jarak, Bumi lebih dekat dari Mars. Bumi 12 cm, Mars 18 cm, jadi hanya C yang urutan dan angkanya cocok. Model yang tertukar urutannya membuat tata surya terbalik. Cek dulu urutannya, baru cek angkanya. Jebakannya di opsi B yang angkanya benar tapi urutannya tertukar, sehingga Mars jadi lebih dekat dari Bumi. Cek cepat: cek dulu angka Bumi, lalu angka Mars, jangan hanya cek angkanya saja. Opsi A salah karena Mars tidak sama dengan Bumi, opsi B salah karena urutannya tertukar, opsi D salah karena Bumi tidak sama dengan Mars."
+      "pembahasan": "Model skala harus menjaga urutan jarak, Bumi lebih dekat dari Mars. Bumi 12 cm, Mars 18 cm, jadi hanya C yang urutan dan angkanya cocok. Model yang tertukar urutannya membuat tata surya terbalik. Cek dulu urutannya, baru cek angkanya. Jebakannya di opsi B yang angkanya benar tapi urutannya tertukar, sehingga Mars jadi lebih dekat dari Bumi. Cek cepat: cek dulu angka Bumi, lalu angka Mars, jangan hanya cek angkanya saja. Opsi A salah karena Mars tidak sama dengan Bumi, opsi B salah karena urutannya tertukar, opsi D salah karena Bumi tidak sama dengan Mars.",
+      "q": "SD Wiyung mau membuat model tata surya skala 1 : 300. Jarak Matahari ke Bumi di model seharusnya 12 cm, jarak Matahari ke Mars 18 cm. Model yang tepat adalah ...",
+      "o": [
+        "Bumi 12 cm, Mars 12 cm",
+        "Bumi 18 cm, Mars 12 cm",
+        "Bumi 12 cm, Mars 18 cm",
+        "Bumi 18 cm, Mars 18 cm"
+      ],
+      "a": 2,
+      "e": "Model skala harus menjaga urutan jarak, Bumi lebih dekat dari Mars. Bumi 12 cm, Mars 18 cm, jadi hanya C yang urutan dan angkanya cocok. Model yang tertukar urutannya membuat tata surya terbalik. Cek dulu urutannya, baru cek angkanya. Jebakannya di opsi B yang angkanya benar tapi urutannya tertukar, sehingga Mars jadi lebih dekat dari Bumi. Cek cepat: cek dulu angka Bumi, lalu angka Mars, jangan hanya cek angkanya saja. Opsi A salah karena Mars tidak sama dengan Bumi, opsi B salah karena urutannya tertukar, opsi D salah karena Bumi tidak sama dengan Mars."
     },
     {
       "no": 22,
@@ -294,7 +483,16 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Kehilangan kalor dikurangi dengan menutup panci dan mengecilkan api setelah mendidih. Panci ditutup agar kalor tidak keluar, api dikecilkan setelah mendidih agar kalor tidak terbuang, jadi hanya D yang membuktikan. Tutup panci menahan kalor di dalam panci. Siapkan dulu panci bertutup dan api yang bisa dikecilkan, baru masak. Jebakannya di opsi B yang kelihatan cepat karena api besar terus, padahal kalor terbuang setelah mendidih. Cek cepat: tanya, apakah pancinya ditutup dan apakah apinya dikecilkan setelah mendidih? Kalau tidak, buang. Opsi A salah karena tanpa tutup, opsi B salah karena api besar terus, opsi C salah karena tutup berpengaruh."
+      "pembahasan": "Kehilangan kalor dikurangi dengan menutup panci dan mengecilkan api setelah mendidih. Panci ditutup agar kalor tidak keluar, api dikecilkan setelah mendidih agar kalor tidak terbuang, jadi hanya D yang membuktikan. Tutup panci menahan kalor di dalam panci. Siapkan dulu panci bertutup dan api yang bisa dikecilkan, baru masak. Jebakannya di opsi B yang kelihatan cepat karena api besar terus, padahal kalor terbuang setelah mendidih. Cek cepat: tanya, apakah pancinya ditutup dan apakah apinya dikecilkan setelah mendidih? Kalau tidak, buang. Opsi A salah karena tanpa tutup, opsi B salah karena api besar terus, opsi C salah karena tutup berpengaruh.",
+      "q": "SD Pacarkeling mau memasak air lebih cepat dengan kalor yang sama. Rancangan yang tepat adalah ...",
+      "o": [
+        "Memasak air tanpa tutup panci dan tanpa mengecilkan api setelah mendidih",
+        "Memasak air dengan panci terbuka dan api besar terus-menerus",
+        "Memasak air tanpa tutup panci karena tutup tidak berpengaruh",
+        "Memasak air dengan panci ditutup agar kalor tidak keluar, kecilkan api setelah mendidih agar kalor tidak terbuang"
+      ],
+      "a": 3,
+      "e": "Kehilangan kalor dikurangi dengan menutup panci dan mengecilkan api setelah mendidih. Panci ditutup agar kalor tidak keluar, api dikecilkan setelah mendidih agar kalor tidak terbuang, jadi hanya D yang membuktikan. Tutup panci menahan kalor di dalam panci. Siapkan dulu panci bertutup dan api yang bisa dikecilkan, baru masak. Jebakannya di opsi B yang kelihatan cepat karena api besar terus, padahal kalor terbuang setelah mendidih. Cek cepat: tanya, apakah pancinya ditutup dan apakah apinya dikecilkan setelah mendidih? Kalau tidak, buang. Opsi A salah karena tanpa tutup, opsi B salah karena api besar terus, opsi C salah karena tutup berpengaruh."
     },
     {
       "no": 23,
@@ -307,7 +505,16 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Tabel dicek baris demi baris dengan data, jangan percaya totalnya saja. Data benar Hari 1 = 10, Hari 2 = 13, Hari 3 = 16, total benar = 10 + 13 + 16 = 39, jadi tabel Sari Hari 3 salah catat 19, total 42 ikut salah. Total yang salah belum tentu hanya totalnya yang salah, isi barisnya harus dicek. Cek baris demi baris. Jebakannya di opsi D yang kelihatan benar karena totalnya salah, padahal akar salahnya di Hari 3. Cek cepat: cek dulu isi tiap baris, baru percaya totalnya. Opsi B salah karena isi tabel salah, opsi C salah karena Hari 1 benar, opsi D salah karena total salah akibat Hari 3 salah."
+      "pembahasan": "Tabel dicek baris demi baris dengan data, jangan percaya totalnya saja. Data benar Hari 1 = 10, Hari 2 = 13, Hari 3 = 16, total benar = 10 + 13 + 16 = 39, jadi tabel Sari Hari 3 salah catat 19, total 42 ikut salah. Total yang salah belum tentu hanya totalnya yang salah, isi barisnya harus dicek. Cek baris demi baris. Jebakannya di opsi D yang kelihatan benar karena totalnya salah, padahal akar salahnya di Hari 3. Cek cepat: cek dulu isi tiap baris, baru percaya totalnya. Opsi B salah karena isi tabel salah, opsi C salah karena Hari 1 benar, opsi D salah karena total salah akibat Hari 3 salah.",
+      "q": "Data panjang batang: Hari 1 = 10 cm, Hari 2 = 13 cm, Hari 3 = 16 cm. Tabel yang dibuat Sari: Hari 1 = 10, Hari 2 = 13, Hari 3 = 19, total 42. Kesalahan tabel Sari terletak di ...",
+      "o": [
+        "Hari 3 salah catat, totalnya ikut salah",
+        "Tabel sudah benar",
+        "Hari 1 salah",
+        "Total saja yang salah"
+      ],
+      "a": 0,
+      "e": "Tabel dicek baris demi baris dengan data, jangan percaya totalnya saja. Data benar Hari 1 = 10, Hari 2 = 13, Hari 3 = 16, total benar = 10 + 13 + 16 = 39, jadi tabel Sari Hari 3 salah catat 19, total 42 ikut salah. Total yang salah belum tentu hanya totalnya yang salah, isi barisnya harus dicek. Cek baris demi baris. Jebakannya di opsi D yang kelihatan benar karena totalnya salah, padahal akar salahnya di Hari 3. Cek cepat: cek dulu isi tiap baris, baru percaya totalnya. Opsi B salah karena isi tabel salah, opsi C salah karena Hari 1 benar, opsi D salah karena total salah akibat Hari 3 salah."
     },
     {
       "no": 24,
@@ -320,7 +527,16 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Garam dalam air dibuktikan dengan menguapkan airnya dan melihat sisanya. Air laut dipanaskan sampai airnya menguap semua, sisa putih tertinggal, sisa itu asin, jadi hanya B yang membuktikan. Garam tidak ikut menguap bersama air. Siapkan dulu air laut, wadah, dan pemanas, baru panaskan sampai kering. Jebakannya di opsi A yang kelihatan cepat karena mencicipi, padahal cicip saja bukan bukti garam tertinggal. Cek cepat: tanya, apakah airnya diuapkan dan apakah sisanya diuji? Kalau tidak, buang. Opsi A salah karena hanya mencicipi, opsi C salah karena saringan tidak memisahkan garam, opsi D salah karena es tetap mengandung garam."
+      "pembahasan": "Garam dalam air dibuktikan dengan menguapkan airnya dan melihat sisanya. Air laut dipanaskan sampai airnya menguap semua, sisa putih tertinggal, sisa itu asin, jadi hanya B yang membuktikan. Garam tidak ikut menguap bersama air. Siapkan dulu air laut, wadah, dan pemanas, baru panaskan sampai kering. Jebakannya di opsi A yang kelihatan cepat karena mencicipi, padahal cicip saja bukan bukti garam tertinggal. Cek cepat: tanya, apakah airnya diuapkan dan apakah sisanya diuji? Kalau tidak, buang. Opsi A salah karena hanya mencicipi, opsi C salah karena saringan tidak memisahkan garam, opsi D salah karena es tetap mengandung garam.",
+      "q": "Rancangan yang tepat untuk membuktikan air laut mengandung garam adalah ...",
+      "o": [
+        "Cicipi air laut saja, tanpa bukti lain",
+        "Panaskan air laut sampai airnya menguap semua, amati sisa putih yang tertinggal, uji sisa itu asin",
+        "Saring air laut dengan kain, amati airnya tetap asin",
+        "Dinginkan air laut sampai beku, amati esnya asin"
+      ],
+      "a": 1,
+      "e": "Garam dalam air dibuktikan dengan menguapkan airnya dan melihat sisanya. Air laut dipanaskan sampai airnya menguap semua, sisa putih tertinggal, sisa itu asin, jadi hanya B yang membuktikan. Garam tidak ikut menguap bersama air. Siapkan dulu air laut, wadah, dan pemanas, baru panaskan sampai kering. Jebakannya di opsi A yang kelihatan cepat karena mencicipi, padahal cicip saja bukan bukti garam tertinggal. Cek cepat: tanya, apakah airnya diuapkan dan apakah sisanya diuji? Kalau tidak, buang. Opsi A salah karena hanya mencicipi, opsi C salah karena saringan tidak memisahkan garam, opsi D salah karena es tetap mengandung garam."
     },
     {
       "no": 25,
@@ -333,7 +549,16 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Penyerbuk tertarik dengan bunga cerah, air, dan tanpa pestisida. Tanam bunga cerah di pinggir kebun, sediakan air bersih, tidak menyemprot pestisida saat mekar, jadi hanya C yang menarik penyerbuk. Penyerbuk butuh makanan, air, dan aman dari racun. Siapkan dulu bunga cerah, air, dan jadwal tanpa semprot, baru amati penyerbuknya. Jebakannya di opsi A yang kelihatan merawat bunga, padahal pestisida mengusir dan membunuh penyerbuk. Cek cepat: tanya, apakah ada bunga, air, dan tanpa pestisida? Kalau tidak, buang. Opsi A salah karena pestisida mengusir penyerbuk, opsi B salah karena plastik menutup bunga, opsi D salah karena tidak ada bunga."
+      "pembahasan": "Penyerbuk tertarik dengan bunga cerah, air, dan tanpa pestisida. Tanam bunga cerah di pinggir kebun, sediakan air bersih, tidak menyemprot pestisida saat mekar, jadi hanya C yang menarik penyerbuk. Penyerbuk butuh makanan, air, dan aman dari racun. Siapkan dulu bunga cerah, air, dan jadwal tanpa semprot, baru amati penyerbuknya. Jebakannya di opsi A yang kelihatan merawat bunga, padahal pestisida mengusir dan membunuh penyerbuk. Cek cepat: tanya, apakah ada bunga, air, dan tanpa pestisida? Kalau tidak, buang. Opsi A salah karena pestisida mengusir penyerbuk, opsi B salah karena plastik menutup bunga, opsi D salah karena tidak ada bunga.",
+      "q": "Kebun SD Jambangan sepi kupu-kupu dan lebah sehingga bunga jarang jadi buah. Rancangan yang paling tepat untuk menarik penyerbuk adalah ...",
+      "o": [
+        "Semprot semua bunga dengan pestisida tiap hari agar bunga terlihat bersih",
+        "Tutup semua bunga dengan plastik agar tidak diganggu",
+        "Tanam bunga berwarna cerah di pinggir kebun, sediakan air bersih, dan tidak menyemprot pestisida saat bunga mekar",
+        "Cabut semua bunga dan ganti dengan batu"
+      ],
+      "a": 2,
+      "e": "Penyerbuk tertarik dengan bunga cerah, air, dan tanpa pestisida. Tanam bunga cerah di pinggir kebun, sediakan air bersih, tidak menyemprot pestisida saat mekar, jadi hanya C yang menarik penyerbuk. Penyerbuk butuh makanan, air, dan aman dari racun. Siapkan dulu bunga cerah, air, dan jadwal tanpa semprot, baru amati penyerbuknya. Jebakannya di opsi A yang kelihatan merawat bunga, padahal pestisida mengusir dan membunuh penyerbuk. Cek cepat: tanya, apakah ada bunga, air, dan tanpa pestisida? Kalau tidak, buang. Opsi A salah karena pestisida mengusir penyerbuk, opsi B salah karena plastik menutup bunga, opsi D salah karena tidak ada bunga."
     }
   ]
 }
