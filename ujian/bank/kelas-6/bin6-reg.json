@@ -1,0 +1,339 @@
+{
+  "judul": "Bahasa Indonesia Kelas 6 — Reguler",
+  "mapel": "Bahasa Indonesia",
+  "kelas": 6,
+  "jenis": "Reguler",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Kalimat yang diakhiri tanda tanya dan berisi pertanyaan disebut kalimat ...",
+      "opsi": {
+        "A": "Berita",
+        "B": "Seruan",
+        "C": "Tanya",
+        "D": "Ajakan"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "pembahasan": "Kalimat tanya diakhiri tanda tanya dan berisi pertanyaan. Berita memberi kabar, seruan dan ajakan mengajak."
+    },
+    {
+      "no": 2,
+      "soal": "Kata yang penulisannya sudah sesuai kaidah disebut kata ...",
+      "opsi": {
+        "A": "Baku",
+        "B": "Tidak baku",
+        "C": "Serapan",
+        "D": "Gaul"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Kata baku penulisannya sesuai kaidah. Kata tidak baku belum sesuai, serapan dari bahasa lain, gaul bahasa pergaulan."
+    },
+    {
+      "no": 3,
+      "soal": "Teks yang berisi laporan hasil pengamatan disebut teks ...",
+      "opsi": {
+        "A": "Narasi",
+        "B": "Laporan hasil pengamatan",
+        "C": "Persuasi",
+        "D": "Puisi"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Teks laporan hasil pengamatan berisi hasil pengamatan. Narasi cerita, persuasi ajakan, puisi karya sastra berirama."
+    },
+    {
+      "no": 4,
+      "soal": "Lawan kata dari kata rajin adalah ...",
+      "opsi": {
+        "A": "Giat",
+        "B": "Tekun",
+        "C": "Semangat",
+        "D": "Malas"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "Lawan kata rajin adalah malas. Giat, tekun, semangat searti dengan rajin."
+    },
+    {
+      "no": 5,
+      "soal": "Bacalah kalimat: Sari membaca buku di perpustakaan sekolah. Kata yang menunjukkan tempat adalah ...",
+      "opsi": {
+        "A": "Sari",
+        "B": "Membaca",
+        "C": "Perpustakaan sekolah",
+        "D": "Buku"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Perpustakaan sekolah menunjukkan tempat membaca. Sari pelaku, membaca kegiatan, buku benda yang dibaca."
+    },
+    {
+      "no": 6,
+      "soal": "Kalimat berikut yang merupakan kalimat ajakan adalah ...",
+      "opsi": {
+        "A": "Mari kita jaga kebersihan kelas bersama-sama!",
+        "B": "Kelas itu sangat kotor.",
+        "C": "Siapa yang membuang sampah di kelas?",
+        "D": "Aku sudah membersihkan kelas."
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Kalimat ajakan ditandai kata mari dan tanda seru. Opsi lain berita, tanya, dan pernyataan biasa."
+    },
+    {
+      "no": 7,
+      "soal": "Tujuan teks persuasi adalah ...",
+      "opsi": {
+        "A": "Menceritakan pengalaman liburan",
+        "B": "Mengajak pembaca melakukan sesuatu",
+        "C": "Melaporkan hasil pengamatan",
+        "D": "Menghibur pembaca dengan cerita lucu"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Teks persuasi bertujuan mengajak pembaca melakukan sesuatu. Narasi menceritakan, laporan melaporkan, cerita lucu menghibur."
+    },
+    {
+      "no": 8,
+      "soal": "Perhatikan pantun: Pergi ke pasar membeli jamu, / Pulangnya mampir ke rumah paman. / Rajinlah belajar setiap waktu, / Agar cita-citamu tercapai di depan. Pesan pantun tersebut adalah ...",
+      "opsi": {
+        "A": "Pergi ke pasar",
+        "B": "Mampir ke rumah paman",
+        "C": "Rajin belajar agar cita-cita tercapai",
+        "D": "Membeli jamu"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Pesan ada di isi pantun baris 3-4, yaitu rajin belajar agar cita-cita tercapai. Baris 1-2 hanya sampiran."
+    },
+    {
+      "no": 9,
+      "soal": "Kata berimbuhan yang tepat untuk melengkapi kalimat: Adik sedang ... buku cerita di kamar adalah ...",
+      "opsi": {
+        "A": "Membacakan",
+        "B": "Dibaca",
+        "C": "Terbaca",
+        "D": "Membaca"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "Adik sedang membaca buku cerita, jadi bentuk membaca tepat. Membacakan untuk orang lain, dibaca pasif, terbaca tidak sesuai pelaku."
+    },
+    {
+      "no": 10,
+      "soal": "Susunlah kalimat acak menjadi kalimat yang tepat: (1) ke Surabaya (2) bersama keluarga (3) Beni berlibur (4) pada hari Minggu. Urutan yang benar adalah ...",
+      "opsi": {
+        "A": "(3) - (1) - (2) - (4)",
+        "B": "(1) - (2) - (3) - (4)",
+        "C": "(2) - (1) - (4) - (3)",
+        "D": "(4) - (3) - (2) - (1)"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Urutan yang benar adalah Beni berlibur ke Surabaya bersama keluarga pada hari Minggu. Opsi lain susunan subjek dan keterangan terbalik."
+    },
+    {
+      "no": 11,
+      "soal": "Kalimat yang menggunakan kata baku adalah ...",
+      "opsi": {
+        "A": "Aku mau ke apotik membeli obat.",
+        "B": "Aku mau ke apotek membeli obat.",
+        "C": "Aku mau ke apotik membeli obat-obatan.",
+        "D": "Aku mau ke apotik membeli obat yang banyak sekali."
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Bentuk baku adalah apotek, bukan apotik. Opsi A, C, dan D salah tulis apotik."
+    },
+    {
+      "no": 12,
+      "soal": "Tentukan gagasan pokok paragraf: Mangrove di Wonorejo sangat bermanfaat. Akarnya menahan abrasi. Daunnya menjadi tempat ikan kecil berlindung. Hutan ini juga menjadi tempat belajar siswa. Gagasan pokok paragraf tersebut adalah ...",
+      "opsi": {
+        "A": "Siswa belajar di Wonorejo",
+        "B": "Ikan kecil berlindung di daun mangrove",
+        "C": "Mangrove di Wonorejo sangat bermanfaat",
+        "D": "Akar mangrove menahan abrasi"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Gagasan pokok ada di kalimat pertama, yaitu mangrove sangat bermanfaat. Opsi lain hanya kalimat penjelas."
+    },
+    {
+      "no": 13,
+      "soal": "Kalimat efektif yang tepat adalah ...",
+      "opsi": {
+        "A": "Para siswa-siswa sedang belajar di kelas.",
+        "B": "Siswa-siswa itu sedang belajar di kelas yang bersih itu.",
+        "C": "Para siswa itu sedang belajar di kelas dengan rajin sekali.",
+        "D": "Para siswa sedang belajar di kelas."
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Kalimat efektif tidak mengulang kata para dan siswa-siswa. Opsi A, B, C boros kata dan pengulangan."
+    },
+    {
+      "no": 14,
+      "soal": "Bacalah teks: Tugu Pahlawan berdiri gagah di tengah kota Surabaya. Tugu ini mengingatkan kita pada perjuangan arek-arek Suroboyo. Setiap hari banyak pengunjung datang untuk belajar sejarah. Jenis teks tersebut adalah ...",
+      "opsi": {
+        "A": "Deskripsi, karena menggambarkan Tugu Pahlawan",
+        "B": "Persuasi, karena mengajak berlibur",
+        "C": "Narasi, karena menceritakan urutan waktu",
+        "D": "Prosedur, karena memberi langkah-langkah"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Teks menggambarkan Tugu Pahlawan, jadi deskripsi. Bukan ajakan, bukan urutan cerita, bukan langkah-langkah."
+    },
+    {
+      "no": 15,
+      "soal": "Perbaikilah kalimat: Karena hujan deras, maka upacara ditunda. Perbaikan yang tepat adalah ...",
+      "opsi": {
+        "A": "Karena hujan deras maka upacara ditunda.",
+        "B": "Hujan deras, maka upacara ditunda.",
+        "C": "Karena hujan deras, upacara ditunda.",
+        "D": "Karena hujan deras, maka upacara ditunda karena hujan."
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Kata karena dan maka tidak boleh dipakai bersamaan. Yang tepat adalah karena hujan deras, upacara ditunda."
+    },
+    {
+      "no": 16,
+      "soal": "Perhatikan dua kalimat: (1) Rina rajin membaca buku setiap malam. (2) Nilai Rina meningkat. Hubungan kedua kalimat tersebut adalah ...",
+      "opsi": {
+        "A": "Kalimat 1 akibat dari kalimat 2",
+        "B": "Kalimat 1 sebab dari kalimat 2",
+        "C": "Kedua kalimat tidak berhubungan",
+        "D": "Kalimat 1 dan 2 bertentangan"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Rajin membaca menjadi sebab, nilai meningkat menjadi akibat. Opsi A terbalik, C dan D salah karena jelas berhubungan."
+    },
+    {
+      "no": 17,
+      "soal": "Perhatikan pernyataan tentang teks laporan: (1) Berdasarkan fakta hasil pengamatan. (2) Menggunakan bahasa khayalan. (3) Disusun secara sistematis. Yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(2) saja",
+        "C": "(1) dan (2) saja",
+        "D": "(1) dan (3) saja"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Teks laporan berdasarkan fakta dan sistematis. Bahasa khayalan untuk cerita fiksi, bukan laporan."
+    },
+    {
+      "no": 18,
+      "soal": "Bacalah puisi: Di pagi yang cerah, / Burung-burung bernyanyi riang. / Hatiku pun ikut senang, / Menyambut hari penuh harapan. Suasana puisi tersebut adalah ...",
+      "opsi": {
+        "A": "Sedih",
+        "B": "Takut",
+        "C": "Senang dan penuh harapan",
+        "D": "Marah"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Kata cerah, riang, senang, harapan menunjukkan suasana senang. Opsi lain berlawanan dengan isi puisi."
+    },
+    {
+      "no": 19,
+      "soal": "Perhatikan kalimat: (1) Sinta membeli buku. (2) Sinta membaca buku itu di rumah. (3) Sinta memahami isi buku itu. Urutan yang menunjukkan sebab-akibat yang tepat adalah ...",
+      "opsi": {
+        "A": "(1) - (2) - (3)",
+        "B": "(3) - (2) - (1)",
+        "C": "(2) - (3) - (1)",
+        "D": "(1) - (3) - (2)"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Urutan logis adalah membeli, lalu membaca, lalu memahami. Opsi lain membalik urutan sebab-akibat."
+    },
+    {
+      "no": 20,
+      "soal": "Dua siswa berpendapat tentang kalimat: Budi tidak masuk sekolah karena sakit. Siswa X berkata kalimat itu kalimat sebab-akibat. Siswa Y berkata kalimat itu kalimat tanya. Yang benar adalah ...",
+      "opsi": {
+        "A": "Siswa Y benar",
+        "B": "Siswa X benar, karena karena menunjukkan sebab",
+        "C": "Keduanya benar",
+        "D": "Keduanya salah"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Kata karena menunjukkan sebab-akibat. Kalimat itu bukan kalimat tanya karena tidak ada tanda tanya."
+    },
+    {
+      "no": 21,
+      "soal": "Perhatikan iklan: Ayo, buang sampah pada tempatnya! Lingkungan bersih, hidup sehat. Penilaian yang tepat terhadap iklan tersebut adalah ...",
+      "opsi": {
+        "A": "Iklan itu hanya cerita lucu",
+        "B": "Iklan itu tidak jelas tujuannya",
+        "C": "Iklan itu mengajak membuang sampah sembarangan",
+        "D": "Iklan itu mengajak membuang sampah pada tempatnya agar lingkungan bersih"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Iklan mengajak membuang sampah pada tempatnya agar lingkungan bersih. Opsi lain salah membaca ajakan iklan."
+    },
+    {
+      "no": 22,
+      "soal": "Seorang siswa menulis: Perpustakaan adalah tempat yang sangat sangat sangat ramai dan sangat sangat berisik. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Kalimat sudah efektif",
+        "B": "Kalimat sudah baku",
+        "C": "Kalimat belum efektif karena pengulangan sangat yang berlebihan",
+        "D": "Kalimat sudah tepat untuk teks laporan"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Pengulangan sangat berkali-kali membuat kalimat tidak efektif. Untuk teks laporan perlu kalimat jelas dan tidak berlebihan."
+    },
+    {
+      "no": 23,
+      "soal": "Perhatikan dua judul: (1) Pengaruh Game terhadap Belajar Siswa. (2) Aku Suka Bermain Game. Judul yang lebih tepat untuk teks eksposisi adalah ...",
+      "opsi": {
+        "A": "(1), karena membahas pengaruh secara umum dan dapat dijelaskan dengan data",
+        "B": "(2), karena lebih pendek",
+        "C": "Keduanya sama tepat",
+        "D": "Keduanya tidak tepat"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Teks eksposisi membahas topik umum dengan penjelasan dan data, jadi judul (1) tepat. Judul (2) lebih ke pengalaman pribadi."
+    },
+    {
+      "no": 24,
+      "soal": "Buatlah kalimat ajakan yang paling tepat untuk kampanye hemat air di sekolah!",
+      "opsi": {
+        "A": "Air itu basah.",
+        "B": "Mari kita hemat air dengan menutup keran setelah digunakan!",
+        "C": "Siapa yang membuang air?",
+        "D": "Air di sekolah sangat banyak."
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Kalimat ajakan harus ada ajakan dan tindakan jelas, yaitu mari hemat air dengan menutup keran. Opsi lain bukan ajakan."
+    },
+    {
+      "no": 25,
+      "soal": "Rancanglah urutan menulis teks laporan hasil pengamatan kebun sekolah yang paling tepat!",
+      "opsi": {
+        "A": "Menulis kesimpulan dulu, lalu mengamati",
+        "B": "Mengarang data tanpa mengamati",
+        "C": "Menulis judul lalu langsung menyimpulkan",
+        "D": "Mengamati, mencatat data, menyusun kerangka, menulis laporan, menyunting"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Urutan menulis laporan adalah mengamati, mencatat data, menyusun kerangka, menulis, lalu menyunting. Opsi lain melompat atau mengarang data."
+    }
+  ]
+}

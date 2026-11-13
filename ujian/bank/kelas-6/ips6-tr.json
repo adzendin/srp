@@ -1,0 +1,364 @@
+{
+  "judul": "IPS Kelas 6 — Transisi",
+  "mapel": "IPS",
+  "kelas": 6,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Keluarga adalah tempat pertama anak belajar sopan santun dan aturan. Proses belajar nilai dan aturan dari keluarga ini disebut ...",
+      "opsi": {
+        "A": "Sosialisasi sekunder",
+        "B": "Sosialisasi primer",
+        "C": "Akulturasi",
+        "D": "Migrasi"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Sosialisasi primer adalah belajar nilai pertama kali dari keluarga. Sosialisasi sekunder dari sekolah dan masyarakat.",
+      "level": "Mudah"
+    },
+    {
+      "no": 2,
+      "soal": "Di peta, warna hijau biasanya menunjukkan ...",
+      "opsi": {
+        "A": "Pegunungan tinggi",
+        "B": "Dataran rendah",
+        "C": "Laut dalam",
+        "D": "Gurun pasir"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Hijau di peta umum untuk dataran rendah. Cokelat untuk pegunungan, biru untuk perairan.",
+      "level": "Mudah"
+    },
+    {
+      "no": 3,
+      "soal": "Benua terkecil di dunia yang juga satu negara adalah ...",
+      "opsi": {
+        "A": "Australia",
+        "B": "Asia",
+        "C": "Afrika",
+        "D": "Eropa"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Australia adalah benua terkecil dan satu negara. Asia terbesar, Afrika dan Eropa terdiri banyak negara.",
+      "level": "Mudah"
+    },
+    {
+      "no": 4,
+      "soal": "Negara Asia Tenggara yang ibu kotanya Bangkok adalah ...",
+      "opsi": {
+        "A": "Vietnam",
+        "B": "Filipina",
+        "C": "Thailand",
+        "D": "Malaysia"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Bangkok ibu kota Thailand. Vietnam Hanoi, Filipina Manila, Malaysia Kuala Lumpur.",
+      "level": "Mudah"
+    },
+    {
+      "no": 5,
+      "soal": "Bencana yang terjadi karena gunung berapi meletus disebut bencana ...",
+      "opsi": {
+        "A": "Tektonik",
+        "B": "Banjir",
+        "C": "Kekeringan",
+        "D": "Vulkanik"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "Vulkanik berasal dari gunung api. Tektonik dari pergeseran lempeng, banjir dari air, kekeringan kekurangan air.",
+      "level": "Mudah"
+    },
+    {
+      "no": 6,
+      "soal": "Komponen peta yang menunjukkan arah utara, selatan, timur, barat disebut ...",
+      "opsi": {
+        "A": "Mata angin",
+        "B": "Skala",
+        "C": "Legenda",
+        "D": "Judul peta"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Mata angin menunjukkan arah. Skala perbandingan jarak, legenda keterangan simbol, judul nama peta.",
+      "level": "Mudah"
+    },
+    {
+      "no": 7,
+      "soal": "Sikap yang menunjukkan menghargai keberagaman di sekolah adalah ...",
+      "opsi": {
+        "A": "Hanya berteman dengan suku yang sama",
+        "B": "Mengejek bahasa daerah teman",
+        "C": "Berteman tanpa membedakan asal daerah",
+        "D": "Melarang teman memakai bahasa daerah"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Berteman tanpa membedakan asal daerah adalah menghargai keberagaman. Opsi lain diskriminatif.",
+      "level": "Mudah"
+    },
+    {
+      "no": 8,
+      "soal": "Peta Surabaya skala 1 : 5.000.000. Jarak Surabaya — Malang di peta 2 cm. Jarak sebenarnya adalah ...",
+      "opsi": {
+        "A": "10 km",
+        "B": "50 km",
+        "C": "500 km",
+        "D": "100 km"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "1 cm = 5.000.000 cm = 50 km, jadi 2 cm = 100 km. Opsi lain salah hitung satuan cm ke km.",
+      "level": "Sedang"
+    },
+    {
+      "no": 9,
+      "soal": "Perhatikan pernyataan: (1) Surabaya menjual kerupuk ke Malang, (2) Malang menjual apel ke Surabaya. Yang menunjukkan saling melengkapi adalah ...",
+      "opsi": {
+        "A": "Hanya (1)",
+        "B": "(1) dan (2), karena tiap daerah punya kelebihan beda",
+        "C": "Hanya (2)",
+        "D": "Keduanya salah, karena dagang harus satu arah"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Saling melengkapi terjadi saat tiap daerah menjual kelebihannya. Surabaya dan Malang beda hasil, jadi keduanya benar.",
+      "level": "Sedang"
+    },
+    {
+      "no": 10,
+      "soal": "Di keluarga, ayah bekerja, ibu mengurus rumah, anak belajar. Ini menunjukkan keluarga punya ...",
+      "opsi": {
+        "A": "Garis Wallace",
+        "B": "Skala peta",
+        "C": "Nilai dan norma serta pembagian peran",
+        "D": "Zona ekonomi"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Keluarga punya nilai, norma, dan pembagian peran. Garis Wallace fauna, skala peta jarak, zona ekonomi laut.",
+      "level": "Sedang"
+    },
+    {
+      "no": 11,
+      "soal": "Perhatikan ciri: (1) Banyak sawah, (2) Banyak gedung tinggi, (3) Banyak hutan. Ciri pedesaan adalah ...",
+      "opsi": {
+        "A": "(1) dan (3) saja",
+        "B": "(2) saja",
+        "C": "(1) dan (2) saja",
+        "D": "(2) dan (3) saja"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Pedesaan cirinya sawah dan hutan, bukan gedung tinggi. Gedung tinggi ciri perkotaan.",
+      "level": "Sedang"
+    },
+    {
+      "no": 12,
+      "soal": "Saat banjir di sekolah, siswa harus ...",
+      "opsi": {
+        "A": "Berlari ke arah air yang deras",
+        "B": "Bersembunyi di ruang bawah tanah",
+        "C": "Menunggu di atap tanpa memberi tahu guru",
+        "D": "Ikut jalur evakuasi yang sudah ditentukan dan ikuti arahan guru"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Ikut jalur evakuasi dan arahan guru adalah cara aman. Opsi lain membahayakan diri.",
+      "level": "Sedang"
+    },
+    {
+      "no": 13,
+      "soal": "Perhatikan pernyataan tentang globalisasi: (1) Makanan asing masuk, (2) Budaya lokal hilang semua, (3) Budaya lokal bisa dikenal dunia. Yang benar adalah ...",
+      "opsi": {
+        "A": "(1) dan (2) saja",
+        "B": "(2) saja",
+        "C": "(1) dan (3) saja",
+        "D": "(1), (2), dan (3)"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Makanan asing masuk benar, budaya lokal bisa dikenal dunia benar. Budaya lokal hilang semua salah, karena masih bisa dilestarikan.",
+      "level": "Sedang"
+    },
+    {
+      "no": 14,
+      "soal": "Pak Budi membeli cabai dari petani Rp20.000 per kg, menjual Rp30.000 per kg. Tujuan Pak Budi adalah ...",
+      "opsi": {
+        "A": "Menghabiskan cabai tanpa untung",
+        "B": "Memperoleh keuntungan untuk memenuhi kebutuhan hidup",
+        "C": "Membantu petani agar tidak panen",
+        "D": "Mengurangi konsumsi cabai warga"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Selisih harga beli dan jual adalah keuntungan untuk kebutuhan hidup. Opsi lain tidak masuk akal sebagai motif dagang.",
+      "level": "Sedang"
+    },
+    {
+      "no": 15,
+      "soal": "Perhatikan: (1) Keluarga, (2) Sekolah, (3) Teman sebaya. Yang termasuk agen sosialisasi adalah ...",
+      "opsi": {
+        "A": "(1), (2), dan (3)",
+        "B": "(1) saja",
+        "C": "(2) saja",
+        "D": "(3) saja"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Keluarga, sekolah, dan teman sebaya semua agen sosialisasi. Anak belajar nilai dari ketiganya.",
+      "level": "Sedang"
+    },
+    {
+      "no": 16,
+      "soal": "Di daerah pegunungan, mata pencaharian yang cocok adalah ...",
+      "opsi": {
+        "A": "Nelayan laut dalam",
+        "B": "Petani garam",
+        "C": "Penyelam mutiara",
+        "D": "Petani sayur dan teh"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Pegunungan dingin cocok untuk sayur dan teh. Nelayan, garam, dan mutiara cocok di pesisir.",
+      "level": "Sedang"
+    },
+    {
+      "no": 17,
+      "soal": "Perhatikan peta dunia: Indonesia di Asia, Mesir di Afrika. Kesimpulan yang tepat adalah ...",
+      "opsi": {
+        "A": "Indonesia dan Mesir satu benua",
+        "B": "Semua negara Asia sama dengan Afrika",
+        "C": "Tiap benua punya negara dan ciri yang beda",
+        "D": "Peta tidak berguna untuk melihat benua"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Tiap benua punya negara dan ciri beda. Indonesia Asia, Mesir Afrika, jadi beda benua.",
+      "level": "Sedang"
+    },
+    {
+      "no": 18,
+      "soal": "Dua usulan hadapi banjir: (1) Buang sampah ke sungai, (2) Bersihkan selokan + tanam pohon + jalur evakuasi. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "(1) benar, karena sungai jadi bersih",
+        "B": "(2) benar, karena cegah sebab banjir dan siapkan evakuasi",
+        "C": "Keduanya benar",
+        "D": "Keduanya salah"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Buang sampah ke sungai justru menyebabkan banjir, jadi (1) salah. Bersihkan selokan + tanam pohon + jalur evakuasi cegah dan siapkan, jadi (2) benar.",
+      "level": "Sedang"
+    },
+    {
+      "no": 19,
+      "soal": "Sekolah mengusulkan melarang semua pedagang kaki lima di depan gerbang tanpa memberi tempat baru. Pedagang berkata kehilangan mata pencaharian, warga berkata jalan lebih lancar. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Hanya jalan lancar yang penting, pedagang tidak perlu dipikirkan",
+        "B": "Hanya pedagang yang penting, jalan boleh macet",
+        "C": "Larang saja tanpa timbang, pedagang cari tempat sendiri",
+        "D": "Keduanya ditimbang: jalan lancar penting, tapi pedagang juga butuh hidup, perlu tempat jualan tertib + jadwal yang disepakati"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Jalan lancar dan mata pencaharian sama-sama penting. Larangan tanpa tempat baru merugikan pedagang. Perlu tempat tertib dan jadwal yang disepakati.",
+      "level": "Sulit"
+    },
+    {
+      "no": 20,
+      "soal": "Seorang siswa berkata: Globalisasi hanya buruk karena makanan asing masuk. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Kurang tepat, karena globalisasi ada peluang dan tantangan: makanan asing masuk, tapi makanan lokal juga bisa dikenal dunia jika dikemas baik",
+        "B": "Benar, globalisasi hanya buruk",
+        "C": "Benar, makanan lokal harus dilarang",
+        "D": "Kurang tepat, karena globalisasi tidak ada pengaruhnya"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Globalisasi membuka pasar sekaligus persaingan. Makanan lokal bisa dikenal dunia jika dikemas baik. Kata hanya terlalu mutlak.",
+      "level": "Sulit"
+    },
+    {
+      "no": 21,
+      "soal": "Perhatikan data: Desa A surplus beras, kekurangan ikan. Desa B surplus ikan, kekurangan beras. Keputusan yang tepat adalah ...",
+      "opsi": {
+        "A": "Desa A dan B berhenti dagang",
+        "B": "Desa A memaksa Desa B pindah",
+        "C": "Desa A dan B saling berdagang beras dan ikan agar saling melengkapi",
+        "D": "Desa A dan B mengimpor semua dari luar negeri"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Saling melengkapi terjadi karena beda kelebihan. Dagang beras dan ikan menguntungkan keduanya. Berhenti dagang atau memaksa pindah salah.",
+      "level": "Sulit"
+    },
+    {
+      "no": 22,
+      "soal": "Di sekolah, siswa dari berbagai suku sering bertengkar karena mengejek bahasa daerah. Penilaian program: (1) Melarang bahasa daerah, (2) Festival budaya + kesepakatan saling menghargai. Yang tepat adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(2) saja, karena mengenal lalu menyepakati aturan bersama",
+        "C": "Keduanya benar",
+        "D": "Keduanya salah"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Melarang bahasa daerah menghapus identitas, jadi (1) salah. Festival + kesepakatan membuat siswa mengenal lalu menyepakati, jadi (2) benar.",
+      "level": "Sulit"
+    },
+    {
+      "no": 23,
+      "soal": "Perhatikan pernyataan: (1) Semua bencana bisa dicegah total, (2) Banjir bisa dikurangi dengan jaga sungai, (3) Gempa tidak bisa dicegah tapi dampaknya bisa dikurangi. Yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(1) dan (2) saja",
+        "C": "(2) dan (3) saja",
+        "D": "(1), (2), dan (3)"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Tidak semua bencana bisa dicegah total, jadi (1) salah. Banjir bisa dikurangi dengan jaga sungai benar, gempa tidak bisa dicegah tapi dampaknya bisa dikurangi benar.",
+      "level": "Sulit"
+    },
+    {
+      "no": 24,
+      "soal": "Kamu diminta membuat poster ajakan hemat air di sekolah. Rancanglah isi poster yang paling mengajak, bukan hanya melarang!",
+      "opsi": {
+        "A": "Poster berisi hukuman bagi yang boros air",
+        "B": "Hanya tulisan DILARANG BOROS AIR besar-besar",
+        "C": "Hanya gambar keran tanpa tulisan",
+        "D": "Judul ajakan + 3 cara hemat air yang bisa dilakukan + gambar sebelum-sesudah + ajakan ikut piket hemat air"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Poster yang mengajak memberi cara dan ajakan ikut, bukan hanya larangan. Judul + 3 cara + gambar + ajakan piket paling mengajak. Opsi lain hanya larangan, tanpa pesan, atau hanya hukuman.",
+      "level": "Sulit"
+    },
+    {
+      "no": 25,
+      "soal": "Kamu diminta membuat denah pameran sejarah di sekolah dekat Tugu Pahlawan. Pengunjung harus paham urutan: pergerakan - Sumpah Pemuda - proklamasi - mempertahankan kemerdekaan. Rancanglah urutan denah yang paling mudah dipahami!",
+      "opsi": {
+        "A": "Buat jalur satu arah sesuai urutan waktu + keterangan singkat tiap tahap + satu pertanyaan refleksi di akhir tiap tahap",
+        "B": "Kelompokkan foto berdasarkan warna bingkai saja",
+        "C": "Pajang hanya foto proklamasi",
+        "D": "Acak semua foto tanpa keterangan"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Jalur satu arah + keterangan + refleksi membuat pengunjung paham urutan waktu. Opsi lain hanya warna, hanya satu tahap, atau acak.",
+      "level": "Sulit"
+    }
+  ]
+}

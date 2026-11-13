@@ -1,0 +1,364 @@
+{
+  "judul": "Bahasa Inggris Kelas 6 — Transisi",
+  "mapel": "Bahasa Inggris",
+  "kelas": 6,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Which one is a superlative adjective?",
+      "opsi": {
+        "A": "Big",
+        "B": "Biggest",
+        "C": "Bigger",
+        "D": "Bigly"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Biggest adalah superlative, paling besar. Big dasar, bigger comparative, bigly bukan bentuk benar.",
+      "level": "Mudah"
+    },
+    {
+      "no": 2,
+      "soal": "I ... swim very well.",
+      "opsi": {
+        "A": "Can",
+        "B": "Must go",
+        "C": "Should not",
+        "D": "Am not"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Can menunjukkan kemampuan berenang. Must go kewajiban pergi, should not larangan, am not penyangkalan.",
+      "level": "Mudah"
+    },
+    {
+      "no": 3,
+      "soal": "You ... drink water when you are thirsty.",
+      "opsi": {
+        "A": "Must not",
+        "B": "Should",
+        "C": "Cannot",
+        "D": "Never"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Should untuk saran minum air saat haus. Must not dan cannot larangan, never tidak pernah.",
+      "level": "Mudah"
+    },
+    {
+      "no": 4,
+      "soal": "Which word means a place to read books?",
+      "opsi": {
+        "A": "Market",
+        "B": "Kitchen",
+        "C": "Playground",
+        "D": "Library"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "Tempat membaca buku adalah library. Market pasar, kitchen dapur, playground tempat bermain.",
+      "level": "Mudah"
+    },
+    {
+      "no": 5,
+      "soal": "A car is ... than a bicycle.",
+      "opsi": {
+        "A": "Slow",
+        "B": "Slower",
+        "C": "Faster",
+        "D": "Slowest"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Mobil lebih cepat dari sepeda, jadi faster. Slow dasar, slower lebih lambat, slowest paling lambat.",
+      "level": "Mudah"
+    },
+    {
+      "no": 6,
+      "soal": "She ... to the library yesterday.",
+      "opsi": {
+        "A": "Went",
+        "B": "Go",
+        "C": "Goes",
+        "D": "Going"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Yesterday lampau, jadi went. Go dan goes sekarang, going butuh to be.",
+      "level": "Mudah"
+    },
+    {
+      "no": 7,
+      "soal": "Which sentence asks permission politely?",
+      "opsi": {
+        "A": "Give me that!",
+        "B": "May I borrow your pencil, please?",
+        "C": "Go away!",
+        "D": "Do it now!"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "May I borrow your pencil, please paling sopan untuk minta izin. Opsi lain memerintah atau mengusir.",
+      "level": "Mudah"
+    },
+    {
+      "no": 8,
+      "soal": "Choose the correct comparative: The elephant is ... than the cat.",
+      "opsi": {
+        "A": "Small",
+        "B": "Smaller",
+        "C": "Bigger",
+        "D": "Biggest"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Gajah lebih besar dari kucing, jadi bigger. Smaller berlawanan, biggest superlative butuh the, small dasar.",
+      "level": "Sedang"
+    },
+    {
+      "no": 9,
+      "soal": "Read: Tugu Pahlawan is in Surabaya. It is tall and historic. Many visitors come to learn history. The text is ...",
+      "opsi": {
+        "A": "A recipe",
+        "B": "A song",
+        "C": "A dialogue",
+        "D": "A descriptive text"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Teks menggambarkan Tugu Pahlawan, jadi descriptive text. Bukan resep, lagu, atau dialog.",
+      "level": "Sedang"
+    },
+    {
+      "no": 10,
+      "soal": "Which suggestion is correct for a friend who is sick?",
+      "opsi": {
+        "A": "You should rest and drink warm water.",
+        "B": "You should play football all day.",
+        "C": "You should not eat at all.",
+        "D": "You should stay in the rain."
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Saran untuk sakit adalah istirahat dan minum air hangat. Opsi lain memperparah sakit.",
+      "level": "Sedang"
+    },
+    {
+      "no": 11,
+      "soal": "Complete: You ... borrow books in the library.",
+      "opsi": {
+        "A": "Must not",
+        "B": "Never",
+        "C": "Can",
+        "D": "Cannot"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Meminjam buku di perpustakaan boleh, jadi can. Must not dan cannot larangan, never tidak pernah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 12,
+      "soal": "Arrange: (1) Turn on the tap (2) Wash your hands (3) Dry your hands (4) Turn off the tap. Correct order:",
+      "opsi": {
+        "A": "(2) - (1) - (4) - (3)",
+        "B": "(3) - (2) - (1) - (4)",
+        "C": "(1) - (2) - (4) - (3)",
+        "D": "(4) - (3) - (2) - (1)"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Urutan benar nyalakan keran, cuci tangan, matikan keran, keringkan tangan. Opsi lain membalik urutan.",
+      "level": "Sedang"
+    },
+    {
+      "no": 13,
+      "soal": "Read: Kenjeran beach is busy on Sunday. People sell fish and souvenirs. Children play on the sand. The main idea is ...",
+      "opsi": {
+        "A": "Children play on the sand",
+        "B": "People sell fish",
+        "C": "Kenjeran is in Surabaya",
+        "D": "Kenjeran beach is busy on Sunday"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Gagasan utama di kalimat pertama, pantai Kenjeran ramai hari Minggu. Opsi lain kalimat penjelas.",
+      "level": "Sedang"
+    },
+    {
+      "no": 14,
+      "soal": "Which sentence has a wrong verb after can?",
+      "opsi": {
+        "A": "She can sings well.",
+        "B": "She can sing well.",
+        "C": "She sings well.",
+        "D": "She is singing well."
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Can + verb dasar, jadi can sings salah. Can sing, sings, dan is singing sudah benar.",
+      "level": "Sedang"
+    },
+    {
+      "no": 15,
+      "soal": "Two sentences: (1) Rina studied hard. (2) She got a good score. The relation is ...",
+      "opsi": {
+        "A": "(1) result, (2) cause",
+        "B": "No relation",
+        "C": "(1) cause, (2) result",
+        "D": "Opposite"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Belajar giat menjadi sebab, nilai bagus menjadi akibat. Opsi A terbalik, B dan D salah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 16,
+      "soal": "Choose the correct superlative: Mount Bromo is one of the ... mountains in East Java.",
+      "opsi": {
+        "A": "Famous",
+        "B": "Most famous",
+        "C": "More famous",
+        "D": "Famously"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "One of the + most famous adalah superlative. Famous dasar, more famous comparative, famously keterangan cara.",
+      "level": "Sedang"
+    },
+    {
+      "no": 17,
+      "soal": "Read: Please do not litter in the park. Keep it clean. The notice means ...",
+      "opsi": {
+        "A": "Litter in the park",
+        "B": "Play in the park",
+        "C": "Run in the park",
+        "D": "Do not throw rubbish in the park"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Do not litter berarti jangan buang sampah di taman. Opsi lain berlawanan atau tidak sesuai notice.",
+      "level": "Sedang"
+    },
+    {
+      "no": 18,
+      "soal": "Two titles: (1) How to Make a Paper Boat. (2) I Like Paper Boats. Which is better for a procedure text?",
+      "opsi": {
+        "A": "(2), because it is shorter",
+        "B": "Both are same",
+        "C": "(1), because it shows steps how to make",
+        "D": "Both are wrong"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Teks prosedur butuh cara membuat, jadi judul (1) tepat. Judul (2) pengalaman pribadi, bukan prosedur.",
+      "level": "Sedang"
+    },
+    {
+      "no": 19,
+      "soal": "A student writes a descriptive text without any adjectives, only names. Evaluation:",
+      "opsi": {
+        "A": "Less good, because descriptive text needs adjectives to describe",
+        "B": "Good, because names are enough",
+        "C": "Good, because adjectives are not important",
+        "D": "Less good, because descriptive text must be a song"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Teks deskripsi butuh kata sifat untuk menggambarkan. Hanya nama tidak cukup. Opsi lain salah memahami deskripsi.",
+      "level": "Sulit"
+    },
+    {
+      "no": 20,
+      "soal": "Read the poster: Let's save water! Turn off the tap after use. Evaluation:",
+      "opsi": {
+        "A": "The poster asks to waste water",
+        "B": "The poster asks to save water by turning off the tap",
+        "C": "The poster has no purpose",
+        "D": "The poster is only a story"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Poster mengajak hemat air dengan mematikan keran. Opsi lain salah membaca ajakan poster.",
+      "level": "Sulit"
+    },
+    {
+      "no": 21,
+      "soal": "Two students: X: All long texts are good. Y: A good text is judged by content, clarity, and correct language, not length. Who is right?",
+      "opsi": {
+        "A": "X is right",
+        "B": "Both are right",
+        "C": "Both are wrong",
+        "D": "Y is right, because length is not the measure of a good text"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Teks bagus dinilai isi, kejelasan, dan bahasa, bukan panjang. Kata all pada X terlalu mutlak.",
+      "level": "Sulit"
+    },
+    {
+      "no": 22,
+      "soal": "Read: The book is thick and full of pictures. The price is cheap. Many students buy it. Conclusion:",
+      "opsi": {
+        "A": "The book is not popular",
+        "B": "The book is expensive",
+        "C": "The book is interesting and affordable so many students buy it",
+        "D": "The book has no pictures"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Buku tebal, bergambar, murah, banyak dibeli menunjukkan menarik dan terjangkau. Opsi lain berlawanan dengan teks.",
+      "level": "Sulit"
+    },
+    {
+      "no": 23,
+      "soal": "A student says: Because the text is in English, it must be difficult. Evaluation:",
+      "opsi": {
+        "A": "Less correct, because difficulty depends on vocabulary and content, not language alone",
+        "B": "Correct, because English is always difficult",
+        "C": "Correct, because Indonesian is always easy",
+        "D": "Less correct, because text does not need content"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Sulit tidaknya teks tergantung kosakata dan isi, bukan bahasa saja. Kata always pada B dan C terlalu mutlak.",
+      "level": "Sulit"
+    },
+    {
+      "no": 24,
+      "soal": "Make the best opening for a speech about keeping the school clean!",
+      "opsi": {
+        "A": "School is there.",
+        "B": "Friends, imagine if our school is clean and comfortable every day!",
+        "C": "Who throws rubbish?",
+        "D": "Our school is dirty."
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Pembuka pidato yang menarik mengajak membayangkan dan menyapa teman. Opsi lain datar, menuduh, atau negatif saja.",
+      "level": "Sulit"
+    },
+    {
+      "no": 25,
+      "soal": "Make the best plan to make a class reading corner!",
+      "opsi": {
+        "A": "Wait for a new building",
+        "B": "Buy expensive books all at once",
+        "C": "Make a reading corner but forbid borrowing",
+        "D": "Use a corner of the class + a shelf from a used box + a borrowing list + a picket schedule"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Rencana terbaik memakai sudut kelas, rak bekas, daftar pinjam, dan jadwal piket. Opsi lain menunggu gedung, membeli mahal, atau melarang pinjam.",
+      "level": "Sulit"
+    }
+  ]
+}

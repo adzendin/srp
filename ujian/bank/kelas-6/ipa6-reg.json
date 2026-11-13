@@ -1,0 +1,339 @@
+{
+  "judul": "IPA Kelas 6 — Reguler",
+  "mapel": "IPA",
+  "kelas": 6,
+  "jenis": "Reguler",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Bagian rangka manusia yang berfungsi melindungi otak adalah ...",
+      "opsi": {
+        "A": "Tulang tengkorak",
+        "B": "Tulang rusuk",
+        "C": "Tulang paha",
+        "D": "Tulang lengan"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Tulang tengkorak membentuk rongga yang melindungi otak. Tulang rusuk melindungi jantung dan paru-paru, bukan otak. Tulang paha dan lengan adalah alat gerak."
+    },
+    {
+      "no": 2,
+      "soal": "Negara Indonesia terletak di benua ...",
+      "opsi": {
+        "A": "Afrika",
+        "B": "Asia",
+        "C": "Eropa",
+        "D": "Australia"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Indonesia terletak di Benua Asia, di wilayah Asia Tenggara. Afrika, Eropa, dan Australia adalah benua yang berbeda letaknya."
+    },
+    {
+      "no": 3,
+      "soal": "Di Surabaya sudah malam, sedangkan di kota lain masih siang. Hal ini terjadi karena ...",
+      "opsi": {
+        "A": "Bumi mengelilingi Matahari",
+        "B": "Bulan mengelilingi Bumi",
+        "C": "Bumi berputar pada porosnya",
+        "D": "Matahari mengelilingi Bumi"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Rotasi Bumi membuat bagian Bumi bergantian menghadap Matahari, sehingga terjadi siang dan malam. Revolusi Bumi menyebabkan musim dan tahun, bukan siang-malam."
+    },
+    {
+      "no": 4,
+      "soal": "Sumber energi listrik diubah jadi gerak oleh alat ...",
+      "opsi": {
+        "A": "Lampu",
+        "B": "Setrika",
+        "C": "Rice cooker",
+        "D": "Kipas angin"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Kipas angin mengubah energi listrik jadi gerak memutar baling-baling. Lampu mengubah listrik jadi cahaya, setrika dan rice cooker mengubah listrik jadi panas."
+    },
+    {
+      "no": 5,
+      "soal": "Cara yang paling tepat menjaga Kali Mas tetap bersih adalah ...",
+      "opsi": {
+        "A": "Membuang sampah pada tempatnya dan memilah sampah organik dan anorganik",
+        "B": "Membuang sampah ke sungai agar hanyut",
+        "C": "Membakar sampah plastik di pinggir sungai",
+        "D": "Menimbun sampah di halaman rumah"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Membuang dan memilah sampah pada tempatnya mencegah sungai tercemar dan memudahkan daur ulang. Membuang ke sungai, membakar plastik, dan menimbun sampah justru mencemari air, udara, dan tanah."
+    },
+    {
+      "no": 6,
+      "soal": "Tokoh yang membacakan teks Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945 adalah ...",
+      "opsi": {
+        "A": "Mohammad Hatta",
+        "B": "Soekarno",
+        "C": "Ki Hajar Dewantara",
+        "D": "Jenderal Sudirman"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Soekarno membacakan teks Proklamasi di Jakarta. Mohammad Hatta mendampingi sebagai wakil. Dua nama lain bukan pembaca teks Proklamasi."
+    },
+    {
+      "no": 7,
+      "soal": "Otot yang menempel pada tulang dan menggerakkan rangka disebut otot ...",
+      "opsi": {
+        "A": "Otot jantung",
+        "B": "Otot polos",
+        "C": "Otot rangka",
+        "D": "Otot usus"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "pembahasan": "Otot rangka menempel pada tulang dan bekerja saat kita bergerak. Otot jantung hanya di jantung, otot polos di organ dalam seperti usus."
+    },
+    {
+      "no": 8,
+      "soal": "Planet yang letaknya paling dekat dengan Matahari adalah ...",
+      "opsi": {
+        "A": "Venus",
+        "B": "Bumi",
+        "C": "Mars",
+        "D": "Merkurius"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "Urutan dari Matahari adalah Merkurius, Venus, Bumi, Mars. Jadi planet terdekat adalah Merkurius, bukan Venus atau Bumi."
+    },
+    {
+      "no": 9,
+      "soal": "Contoh kerja sama Indonesia dengan negara lain di Asia Tenggara adalah ...",
+      "opsi": {
+        "A": "Bertukar pelajar antarnegara ASEAN",
+        "B": "Menutup perbatasan untuk semua negara",
+        "C": "Melarang kapal asing masuk pelabuhan",
+        "D": "Menghentikan ekspor semua barang"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Bertukar pelajar adalah kerja sama yang saling menguntungkan. Menutup perbatasan, melarang kapal, dan menghentikan ekspor justru memutus kerja sama."
+    },
+    {
+      "no": 10,
+      "soal": "Dampak sampah plastik yang dibuang sembarangan ke tanah adalah ...",
+      "opsi": {
+        "A": "Tanah menjadi lebih subur",
+        "B": "Tanah tercemar dan sulit ditanami",
+        "C": "Air tanah menjadi lebih bersih",
+        "D": "Cacing tanah bertambah banyak"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Plastik sulit terurai sehingga mencemari tanah dan menghambat tanaman. Tanah tidak menjadi subur, air tidak menjadi bersih, dan cacing tidak bertambah karena racun plastik."
+    },
+    {
+      "no": 11,
+      "soal": "Sendi yang hanya bisa bergerak satu arah seperti engsel pintu terdapat pada ...",
+      "opsi": {
+        "A": "Bahu",
+        "B": "Leher",
+        "C": "Lutut",
+        "D": "Pergelangan tangan"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Lutut bergerak satu arah seperti engsel pintu. Bahu bergerak banyak arah, leher bisa menoleh, pergelangan tangan bisa memutar."
+    },
+    {
+      "no": 12,
+      "soal": "Hewan yang berkembang biak dengan cara bertelur adalah ...",
+      "opsi": {
+        "A": "Kucing",
+        "B": "Sapi",
+        "C": "Kambing",
+        "D": "Ayam"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "Ayam bertelur lalu mengerami telurnya. Kucing, sapi, dan kambing melahirkan anaknya, bukan bertelur."
+    },
+    {
+      "no": 13,
+      "soal": "Siswa ingin meneladani semangat pahlawan Surabaya pada 10 November 1945. Tindakan yang tepat adalah ...",
+      "opsi": {
+        "A": "Belajar sungguh-sungguh dan menjaga persatuan dengan teman",
+        "B": "Mengejek teman yang berbeda suku",
+        "C": "Merusak fasilitas sekolah",
+        "D": "Membolos saat upacara bendera"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Semangat pahlawan adalah berjuang dan menjaga persatuan. Mengejek, merusak, dan membolos justru melawan semangat pahlawan."
+    },
+    {
+      "no": 14,
+      "soal": "Pada peta dunia, warna biru menutupi sebagian besar permukaan Bumi. Warna biru itu menunjukkan ...",
+      "opsi": {
+        "A": "Benua",
+        "B": "Lautan",
+        "C": "Pegunungan",
+        "D": "Gurun pasir"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Warna biru pada peta menunjukkan lautan yang menutupi sebagian besar Bumi. Benua berwarna hijau atau cokelat, pegunungan dan gurun bukan warna biru."
+    },
+    {
+      "no": 15,
+      "soal": "Gerhana Bulan terjadi ketika posisi benda langit berurutan ...",
+      "opsi": {
+        "A": "Matahari — Bulan — Bumi",
+        "B": "Bulan — Matahari — Bumi",
+        "C": "Matahari — Bumi — Bulan",
+        "D": "Bulan — Bumi — Matahari"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Gerhana Bulan terjadi saat Bumi di antara Matahari dan Bulan, sehingga bayangan Bumi menutupi Bulan. Urutan Matahari — Bulan — Bumi adalah gerhana Matahari."
+    },
+    {
+      "no": 16,
+      "soal": "Cara menghemat energi listrik di rumah adalah ...",
+      "opsi": {
+        "A": "Menyalakan semua lampu siang hari",
+        "B": "Membiarkan televisi menyala tanpa ditonton",
+        "C": "Mengisi daya ponsel semalaman",
+        "D": "Mematikan lampu saat tidak dipakai"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Mematikan lampu yang tidak dipakai menghemat listrik. Menyalakan semua lampu, membiarkan televisi, dan mengisi daya semalaman justru memboroskan listrik."
+    },
+    {
+      "no": 17,
+      "soal": "Air laut berubah menjadi uap lalu menjadi awan. Tahapan tersebut disebut ...",
+      "opsi": {
+        "A": "Penguapan lalu pengembunan",
+        "B": "Pengembunan lalu penguapan",
+        "C": "Pembekuan lalu pencairan",
+        "D": "Pencairan lalu pembekuan"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Air laut menguap karena panas Matahari, lalu uap mendingin dan mengembun menjadi awan. Urutan terbalik salah, sedangkan pembekuan dan pencairan tidak terjadi di tahapan ini."
+    },
+    {
+      "no": 18,
+      "soal": "Warisan budaya Indonesia yang sudah dikenal di dunia adalah ...",
+      "opsi": {
+        "A": "Menara Eiffel",
+        "B": "Batik",
+        "C": "Piramida",
+        "D": "Tembok Besar"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Batik berasal dari Indonesia dan diakui dunia. Menara Eiffel dari Prancis, Piramida dari Mesir, Tembok Besar dari Tiongkok."
+    },
+    {
+      "no": 19,
+      "soal": "Negara yang musim dinginnya bersalju membutuhkan pakaian yang ...",
+      "opsi": {
+        "A": "Tipis dan pendek",
+        "B": "Sama seperti di Surabaya",
+        "C": "Tebal dan hangat",
+        "D": "Tipis dan ringan dari kain katun"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Negara bersalju sangat dingin sehingga butuh pakaian tebal dan hangat. Pakaian tipis, pakaian Surabaya, dan pakaian katun tipis tidak melindungi dari dingin."
+    },
+    {
+      "no": 20,
+      "soal": "Tulang yang mudah patah karena kurang kalsium dan kurang gerak disebut mengalami ...",
+      "opsi": {
+        "A": "Keseleo",
+        "B": "Kram otot",
+        "C": "Luka memar",
+        "D": "Pengeroposan tulang"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Pengeroposan tulang membuat tulang rapuh dan mudah patah. Keseleo di sendi, kram di otot, luka memar di kulit — ketiganya bukan pengeroposan tulang."
+    },
+    {
+      "no": 21,
+      "soal": "Pergantian musim dan pergantian tahun terjadi karena ...",
+      "opsi": {
+        "A": "Bumi mengelilingi Matahari",
+        "B": "Bumi berputar pada porosnya",
+        "C": "Bulan mengelilingi Bumi",
+        "D": "Matahari mengelilingi Bumi"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Revolusi Bumi mengelilingi Matahari menyebabkan musim dan tahun. Rotasi Bumi menyebabkan siang dan malam, bukan musim."
+    },
+    {
+      "no": 22,
+      "soal": "Cara paling tepat menjaga ketersediaan air bersih di sekolah adalah ...",
+      "opsi": {
+        "A": "Membiarkan keran bocor terus-menerus",
+        "B": "Menutup keran setelah dipakai dan menampung air hujan untuk menyiram tanaman",
+        "C": "Menyiram halaman setiap jam tanpa henti",
+        "D": "Membuang sampah ke selokan sekolah"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Menutup keran dan menampung air hujan menghemat air bersih. Keran bocor, menyiram tanpa henti, dan membuang sampah ke selokan justru memboroskan dan mencemari air."
+    },
+    {
+      "no": 23,
+      "soal": "Tindakan yang paling tepat memulihkan hutan gundul adalah ...",
+      "opsi": {
+        "A": "Menebang semua pohon yang tersisa",
+        "B": "Membakar semak untuk membuka lahan",
+        "C": "Menanam kembali pohon dan merawatnya",
+        "D": "Membiarkan tanah gundul tanpa ditanami"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Menanam kembali dan merawat pohon memulihkan hutan. Menebang, membakar, dan membiarkan gundul justru memperparah kerusakan hutan."
+    },
+    {
+      "no": 24,
+      "soal": "Rancangan percobaan yang tepat untuk membuktikan tanaman butuh cahaya Matahari adalah ...",
+      "opsi": {
+        "A": "Menyiram satu tanaman dan membiarkan satu tanaman kering tanpa cahaya",
+        "B": "Meletakkan semua tanaman di tempat gelap tanpa air",
+        "C": "Memberi pupuk berbeda tanpa mengukur pertumbuhan",
+        "D": "Satu tanaman di terang, satu di gelap, ukur pertumbuhannya tiap hari"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Percobaan yang baik membandingkan terang dan gelap dengan perlakuan lain sama, lalu mengukur pertumbuhan. Pilihan lain mencampur dua perlakuan, tidak ada pembanding, atau tidak mengukur hasil."
+    },
+    {
+      "no": 25,
+      "soal": "Rencana kampanye menjaga sekolah tetap bersih yang paling lengkap adalah ...",
+      "opsi": {
+        "A": "Menempel poster sekali lalu tidak pernah dibersihkan lagi",
+        "B": "Menyuruh satu kelas saja membersihkan setiap hari",
+        "C": "Membuat jadwal piket, memilah sampah, dan mengajak semua kelas menjaga kebersihan setiap hari",
+        "D": "Melarang siswa membuang sampah tanpa menyediakan tempat sampah"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Jadwal piket, memilah sampah, dan mengajak semua kelas membuat kampanye berjalan setiap hari. Poster sekali, satu kelas saja, dan larangan tanpa tempat sampah tidak membuat sekolah bersih."
+    }
+  ]
+}

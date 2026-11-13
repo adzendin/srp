@@ -1,0 +1,364 @@
+{
+  "judul": "IPA Kelas 6 — Transisi",
+  "mapel": "IPA",
+  "kelas": 6,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Besaran pokok panjang dalam Sistem Internasional (SI) diukur dengan satuan ...",
+      "opsi": {
+        "A": "Meter",
+        "B": "Gram",
+        "C": "Detik",
+        "D": "Liter"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Panjang satuannya meter, massa gram/kilogram, waktu detik, volume liter. Satuan SI panjang adalah meter.",
+      "level": "Mudah"
+    },
+    {
+      "no": 2,
+      "soal": "Contoh zat yang berwujud gas adalah ...",
+      "opsi": {
+        "A": "Air laut",
+        "B": "Udara",
+        "C": "Pasir pantai",
+        "D": "Batu karang"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Udara tidak terlihat tetapi berwujud gas dan mengisi ruang. Air laut berwujud cair, pasir dan batu karang berwujud padat.",
+      "level": "Mudah"
+    },
+    {
+      "no": 3,
+      "soal": "Alat yang digunakan untuk mengukur massa benda adalah ...",
+      "opsi": {
+        "A": "Mistar",
+        "B": "Stopwatch",
+        "C": "Timbangan",
+        "D": "Termometer"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Timbangan mengukur massa, mistar mengukur panjang, stopwatch mengukur waktu, termometer mengukur suhu.",
+      "level": "Mudah"
+    },
+    {
+      "no": 4,
+      "soal": "Contoh gaya dorong adalah ...",
+      "opsi": {
+        "A": "Buah jatuh dari pohon",
+        "B": "Magnet menarik paku",
+        "C": "Karet gelang ditarik",
+        "D": "Anak mendorong gerobak sampai bergerak"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "Mendorong gerobak adalah gaya dorong. Buah jatuh karena gaya gravitasi, magnet karena gaya magnet, karet ditarik karena gaya tarik.",
+      "level": "Mudah"
+    },
+    {
+      "no": 5,
+      "soal": "Alat gerak pasif pada tubuh manusia adalah ...",
+      "opsi": {
+        "A": "Tulang",
+        "B": "Otot",
+        "C": "Sendi",
+        "D": "Saraf"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Tulang adalah alat gerak pasif karena digerakkan otot. Otot adalah alat gerak aktif, sendi adalah penghubung, saraf adalah pengatur gerak.",
+      "level": "Mudah"
+    },
+    {
+      "no": 6,
+      "soal": "Urutan langkah metode ilmiah yang benar adalah ...",
+      "opsi": {
+        "A": "Menyimpulkan - mengamati - bertanya - mencoba",
+        "B": "Mengamati - bertanya - mencoba - menyimpulkan",
+        "C": "Mencoba - menyimpulkan - mengamati - bertanya",
+        "D": "Bertanya - menyimpulkan - mencoba - mengamati"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Metode ilmiah dimulai dari mengamati, lalu bertanya, mencoba, dan menyimpulkan. Urutan lain melompat sehingga kesimpulan tidak punya bukti.",
+      "level": "Mudah"
+    },
+    {
+      "no": 7,
+      "soal": "Contoh peristiwa mengembun adalah ...",
+      "opsi": {
+        "A": "Es mencair jadi air",
+        "B": "Air mendidih jadi uap",
+        "C": "Uap air jadi titik air di gelas dingin",
+        "D": "Kapur barus habis di lemari"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Mengembun adalah gas jadi cair, contoh uap jadi titik air di gelas dingin. Es mencair itu mencair, air mendidih itu menguap, kapur barus habis itu menyublim.",
+      "level": "Mudah"
+    },
+    {
+      "no": 8,
+      "soal": "Rel kereta diberi celah di sambungannya agar ...",
+      "opsi": {
+        "A": "Rel tidak berkarat",
+        "B": "Kereta berjalan lebih pelan",
+        "C": "Rel tidak bergeser saat hujan",
+        "D": "Rel yang memuai karena panas tidak melengkung"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Logam memuai saat panas. Celah memberi ruang bagi rel yang memanjang, sehingga rel tidak melengkung dan kereta tetap aman.",
+      "level": "Sedang"
+    },
+    {
+      "no": 9,
+      "soal": "Air panas 1 liter dicampur air dingin 1 liter. Suhu campuran akan ...",
+      "opsi": {
+        "A": "Di antara suhu air panas dan air dingin",
+        "B": "Lebih panas dari air panas",
+        "C": "Lebih dingin dari air dingin",
+        "D": "Sama dengan suhu air panas"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Kalor berpindah dari air panas ke air dingin sampai seimbang. Suhu campuran berada di antara kedua suhu awal, tidak melampaui keduanya.",
+      "level": "Sedang"
+    },
+    {
+      "no": 10,
+      "soal": "Raka bersepeda 6 km dalam 30 menit. Kecepatan Raka adalah ...",
+      "opsi": {
+        "A": "3 km/jam",
+        "B": "12 km/jam",
+        "C": "6 km/jam",
+        "D": "18 km/jam"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "30 menit = 0,5 jam. Kecepatan = jarak : waktu = 6 : 0,5 = 12 km/jam. Yang lupa mengubah menit ke jam akan salah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 11,
+      "soal": "Rem sepeda bekerja karena ...",
+      "opsi": {
+        "A": "Gaya gravitasi menarik roda",
+        "B": "Gaya magnet menarik rem",
+        "C": "Gaya gesek antara kampas rem dan roda memperlambat roda",
+        "D": "Gaya otot menahan angin"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Kampas rem bergesekan dengan roda sehingga roda melambat. Gravitasi menarik ke bawah, bukan memperlambat roda, dan rem bukan magnet.",
+      "level": "Sedang"
+    },
+    {
+      "no": 12,
+      "soal": "Batu bermassa 100 gram, volumenya 50 cm kubik. Massa jenis batu adalah ...",
+      "opsi": {
+        "A": "0,5 g/cm kubik",
+        "B": "5 g/cm kubik",
+        "C": "150 g/cm kubik",
+        "D": "2 g/cm kubik"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Massa jenis = massa : volume = 100 : 50 = 2 g/cm kubik. Yang menjumlah massa dan volume akan dapat 150 dan salah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 13,
+      "soal": "Sendok logam terasa panas saat dipakai mengaduk sup panas, sendok kayu tidak. Hal ini menunjukkan ...",
+      "opsi": {
+        "A": "Logam konduktor kalor, kayu isolator kalor",
+        "B": "Kayu konduktor kalor, logam isolator kalor",
+        "C": "Keduanya konduktor kalor",
+        "D": "Keduanya isolator kalor"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Logam cepat menghantarkan kalor sehingga terasa panas, kayu lambat menghantarkan kalor sehingga tidak panas. Perbedaan ini membedakan konduktor dan isolator.",
+      "level": "Sedang"
+    },
+    {
+      "no": 14,
+      "soal": "Mobil yang melaju lurus dan kipas angin yang berputar menunjukkan ...",
+      "opsi": {
+        "A": "Keduanya gerak lurus",
+        "B": "Mobil gerak lurus, kipas gerak melingkar",
+        "C": "Mobil gerak melingkar, kipas gerak lurus",
+        "D": "Keduanya gerak melingkar"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Mobil melaju lurus lintasannya lurus, kipas berputar lintasannya melingkar. Lintasan membedakan jenis gerak, bukan bendanya.",
+      "level": "Sedang"
+    },
+    {
+      "no": 15,
+      "soal": "Data: panel surya memakai cahaya Matahari dan tidak habis, batu bara dipakai sekali lalu habis. Kesimpulan yang benar adalah ...",
+      "opsi": {
+        "A": "Keduanya tidak terbarukan",
+        "B": "Keduanya terbarukan",
+        "C": "Panel surya terbarukan, batu bara tidak terbarukan",
+        "D": "Panel surya tidak terbarukan, batu bara terbarukan"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Cahaya Matahari terus tersedia sehingga terbarukan, batu bara habis dan terbentuk jutaan tahun sehingga tidak terbarukan. Data dipakai untuk membedakan, bukan nama alatnya.",
+      "level": "Sedang"
+    },
+    {
+      "no": 16,
+      "soal": "Rantai sawah: padi - belalang - katak. Rantai kebun: sawi - ulat - burung. Persamaan kedua rantai adalah ...",
+      "opsi": {
+        "A": "Produsennya sama",
+        "B": "Konsumen I-nya sama",
+        "C": "Konsumen II-nya sama",
+        "D": "Keduanya punya produsen, konsumen I, dan konsumen II dengan jenis yang beda"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Padi dan sawi sama-sama produsen, belalang dan ulat konsumen I, katak dan burung konsumen II. Jenisnya beda, tingkat trofiknya sama.",
+      "level": "Sedang"
+    },
+    {
+      "no": 17,
+      "soal": "Larutan X mengubah lakmus merah jadi biru, larutan Y mengubah lakmus biru jadi merah. Larutan X dan Y berturut-turut adalah ...",
+      "opsi": {
+        "A": "Basa dan asam",
+        "B": "Asam dan basa",
+        "C": "Netral dan asam",
+        "D": "Basa dan netral"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Merah ke biru artinya basa, biru ke merah artinya asam. Urutan tidak boleh tertukar karena kertas lakmusnya beda.",
+      "level": "Sedang"
+    },
+    {
+      "no": 18,
+      "soal": "Cara Nisa: keping bimetal dipanaskan, diamati melengkungnya. Cara Fajar: keping bimetal didinginkan, diamati tetap lurus. Yang membuktikan pemuaian adalah ...",
+      "opsi": {
+        "A": "Cara Fajar, karena didinginkan",
+        "B": "Cara Nisa, karena panas membuat logam memuai dan melengkung",
+        "C": "Keduanya membuktikan pemuaian",
+        "D": "Keduanya tidak membuktikan pemuaian"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Pemuaian dibuktikan dengan perubahan saat dipanaskan. Nisa memanaskan dan melihat melengkung, Fajar mendinginkan dan tidak melihat perubahan. Hanya Nisa yang menguji pemuaian.",
+      "level": "Sulit"
+    },
+    {
+      "no": 19,
+      "soal": "Klaim: sepeda yang kecepatannya naik dari 10 km/jam jadi 20 km/jam dalam 1 jam mengalami percepatan. Klaim itu ...",
+      "opsi": {
+        "A": "Salah, karena kecepatannya tetap",
+        "B": "Salah, karena sepeda tidak punya mesin",
+        "C": "Benar, karena kecepatan berubah, percepatan adalah perubahan kecepatan",
+        "D": "Tidak bisa ditentukan"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Percepatan adalah perubahan kecepatan. Kecepatan naik dari 10 ke 20 berarti berubah, jadi klaim benar. Mesin bukan syarat percepatan, perubahan kecepatanlah buktinya.",
+      "level": "Sulit"
+    },
+    {
+      "no": 20,
+      "soal": "Klaim: memanaskan 2 kg air butuh kalor 2 kali lipat dari memanaskan 1 kg air pada kenaikan suhu yang sama. Klaim itu ...",
+      "opsi": {
+        "A": "Salah, kalornya sama",
+        "B": "Salah, kalornya 4 kali lipat",
+        "C": "Benar, karena suhu naik 2 kali lipat",
+        "D": "Benar, karena kalor sebanding dengan massa, Q = m x c x delta T"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Kalor sebanding dengan massa. Massa 2 kali lipat, kalor 2 kali lipat, jika kenaikan suhu sama. Alasan harus massa, bukan suhu yang naik 2 kali lipat.",
+      "level": "Sulit"
+    },
+    {
+      "no": 21,
+      "soal": "Klaim: minyak dan air tidak bercampur karena minyak lebih ringan dan tidak larut dalam air. Klaim itu ...",
+      "opsi": {
+        "A": "Benar, karena minyak mengapung di atas air dan tetap terpisah",
+        "B": "Salah, karena minyak lebih berat dari air",
+        "C": "Salah, karena minyak larut dalam air",
+        "D": "Tidak bisa ditentukan"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Minyak mengapung di atas air karena massa jenisnya lebih kecil dan tidak larut. Campuran yang terpisah membuktikan klaim benar. Yang mengendap di bawah adalah zat yang lebih berat.",
+      "level": "Sulit"
+    },
+    {
+      "no": 22,
+      "soal": "Klaim: bunyi bel tidak terdengar di ruang hampa karena bunyi butuh medium untuk merambat. Klaim itu ...",
+      "opsi": {
+        "A": "Salah, bunyi bisa merambat tanpa medium",
+        "B": "Benar, karena bunyi merambat lewat getaran zat, ruang hampa tidak ada zatnya",
+        "C": "Salah, bunyi lebih keras di ruang hampa",
+        "D": "Tidak bisa ditentukan"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Bunyi adalah getaran yang merambat lewat zat padat, cair, atau gas. Ruang hampa tidak ada zatnya, jadi bel tidak terdengar. Yang merambat tanpa medium itu cahaya, bukan bunyi.",
+      "level": "Sulit"
+    },
+    {
+      "no": 23,
+      "soal": "Klaim: percobaan yang mengubah cahaya dan siraman sekaligus tetap bisa membuktikan pengaruh cahaya. Klaim itu ...",
+      "opsi": {
+        "A": "Benar, karena ada tanaman pembanding",
+        "B": "Benar, karena diukur tiap hari",
+        "C": "Salah, karena dua hal berubah sekaligus, tidak tahu mana penyebabnya",
+        "D": "Tidak bisa ditentukan"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Percobaan yang baik hanya mengubah satu hal. Cahaya dan siraman berubah bersamaan, hasilnya tidak bisa dipakai membuktikan cahaya saja. Pembanding tidak menolong kalau variabelnya dua.",
+      "level": "Sulit"
+    },
+    {
+      "no": 24,
+      "soal": "Rancangan percobaan yang tepat untuk membuktikan gaya gesek menghambat gerak adalah ...",
+      "opsi": {
+        "A": "Satu balok di bidang miring kasar, tidak diukur",
+        "B": "Dua balok di bidang miring kasar dan halus, didorong beda gaya, tidak diukur",
+        "C": "Satu balok di bidang miring halus, diukur sekali",
+        "D": "Dua balok sama, satu di bidang miring kasar, satu di bidang miring halus, gaya dorong sama, ukur jarak yang ditempuh"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Hanya permukaan yang diubah, balok dan gaya dorong sama, jarak diukur. Hasilnya membandingkan kasar dan halus. Cara lain mengubah dua hal atau tidak mengukur sehingga tidak membuktikan.",
+      "level": "Sulit"
+    },
+    {
+      "no": 25,
+      "soal": "Rancangan penyelidikan yang tepat untuk membuktikan warna gelap menyerap kalor lebih banyak adalah ...",
+      "opsi": {
+        "A": "Satu gelas hitam di panas, tidak ada pembanding, tidak diukur",
+        "B": "Dua gelas hitam di panas, siram beda, tidak diukur",
+        "C": "Dua gelas sama, satu hitam, satu putih, di panas sama, ukur suhu tiap 5 menit",
+        "D": "Dua gelas sama, satu hitam, satu putih, di panas beda, tidak diukur"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Hanya warna yang diubah, gelas dan panas sama, suhu diukur tiap 5 menit. Hasilnya membandingkan hitam dan putih. Cara lain mengubah panas atau tidak mengukur sehingga tidak membuktikan.",
+      "level": "Sulit"
+    }
+  ]
+}

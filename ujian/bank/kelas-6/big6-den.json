@@ -1,0 +1,339 @@
+{
+  "judul": "Bahasa Inggris Kelas 6 — Transenden",
+  "mapel": "Bahasa Inggris",
+  "kelas": 6,
+  "jenis": "Transenden",
+  "waktu": 50,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Announcement at Kenjeran: Do not throw rubbish into the sea. Statements: (1) The announcement asks people to keep the sea clean. (2) The announcement forbids people from eating at the stall. (3) The announcement is for all visitors. Which is correct?",
+      "opsi": {
+        "A": "(1) and (2) only",
+        "B": "(2) and (3) only",
+        "C": "(1) and (3) only",
+        "D": "(1), (2), and (3)"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang pengumuman di Kenjeran. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) salah karena pengumuman tidak melarang makan, (3) benar. Pelajaran Nalar: Baca pengumuman sesuai isinya, jangan menambah larangan. Penutup Tips: Uji tiap pernyataan dengan isi pengumuman. Kenapa Opsi Lain Salah: A memakai (2) yang salah, B memakai (2), D memakai (2). Di Mana Jebakannya: Kata do not membuat kita mengira semua dilarang. Cara Cek Cepat: Tanya, apa yang dilarang di pengumuman?"
+    },
+    {
+      "no": 2,
+      "soal": "Data of library visitors: Monday 40, Tuesday 38, Wednesday 15 (heavy rain), Thursday 42. A student concludes reading interest drops because Wednesday is only 15. Evaluate!",
+      "opsi": {
+        "A": "Less correct, because the drop on Wednesday matches heavy rain and other days stay high. One rainy day is not enough to conclude reading interest drops",
+        "B": "Correct, because Wednesday number is the smallest",
+        "C": "Correct, because rain does not affect visitors",
+        "D": "Wrong, because the library must be closed"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai kesimpulan minat baca turun hanya dari data Rabu. Cara Hitung/Uji: Cek data 4 hari dan faktor hujan pada Rabu. Pelajaran Nalar: Satu hari yang hujan tidak bisa mewakili minat baca. Penutup Tips: Cek faktor luar sebelum menyimpulkan tren. Kenapa Opsi Lain Salah: B hanya melihat angka terkecil, C mengabaikan hujan, D menutup perpustakaan. Di Mana Jebakannya: Angka 15 paling kecil menarik kesimpulan cepat. Cara Cek Cepat: Cek hari lain, apakah tetap tinggi?"
+    },
+    {
+      "no": 3,
+      "soal": "Statements: (1) A persuasive text has an invitation. (2) A persuasive text can contain an invitation and reasons. (3) A persuasive text does not need evidence. Which is correct?",
+      "opsi": {
+        "A": "Only (1) is correct",
+        "B": "(1) and (2) are correct, (3) is wrong because strong persuasion needs reasons and evidence",
+        "C": "Only (3) is correct",
+        "D": "All are correct"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang teks persuasi. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) benar, (3) salah. Pelajaran Nalar: Ajakan tanpa alasan dan bukti mudah ditolak. Penutup Tips: Cari alasan dan bukti di teks persuasi. Kenapa Opsi Lain Salah: A melewatkan (2), C membenarkan (3), D membenarkan semua. Di Mana Jebakannya: Kata has membuat (1) kelihatan terlalu sederhana. Cara Cek Cepat: Tanya, apakah ada ajakan dan alasannya?"
+    },
+    {
+      "no": 4,
+      "soal": "Two groups debate: Group X says a report text must be an imaginative story to be interesting. Group Y says a report text must be based on facts from observation. Which matches report text?",
+      "opsi": {
+        "A": "Group X is correct",
+        "B": "Both are wrong",
+        "C": "Both are correct",
+        "D": "Group Y is correct, because a report text is based on facts, not imagination"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai dua pendapat tentang teks laporan. Cara Hitung/Uji: Cek ciri teks laporan, fakta hasil pengamatan, bukan khayalan. Pelajaran Nalar: Menarik bukan berarti mengarang. Penutup Tips: Ingat laporan = fakta. Kenapa Opsi Lain Salah: A membenarkan khayalan, B menolak yang benar, C membenarkan keduanya. Di Mana Jebakannya: Kata interesting membuat khayalan kelihatan benar. Cara Cek Cepat: Tanya, datanya dari pengamatan atau karangan?"
+    },
+    {
+      "no": 5,
+      "soal": "Read: Rubbish in Kalimas piles up. Fish cannot breathe well. People start cleaning the river. Conclusion:",
+      "opsi": {
+        "A": "Rubbish makes fish healthy",
+        "B": "People do not care about Kalimas",
+        "C": "Rubbish pollutes Kalimas so people need to clean it so fish can live",
+        "D": "Kalimas does not need cleaning"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai teks tentang sampah di Kalimas. Cara Hitung/Uji: Hubungkan sebab sampah menumpuk, akibat ikan sulit bernapas, dan tindakan warga membersihkan. Pelajaran Nalar: Sebab-akibat dan tindakan harus nyambung. Penutup Tips: Cari sebab, akibat, lalu tindakan. Kenapa Opsi Lain Salah: A berlawanan dengan teks, B menolak tindakan warga, D menolak pembersihan. Di Mana Jebakannya: Kalimat terakhir membuat kita hanya fokus membersihkan tanpa sebab. Cara Cek Cepat: Tanya, mengapa warga membersihkan?"
+    },
+    {
+      "no": 6,
+      "soal": "A student says: Because the poster has many colours, it must be a good poster. Evaluate!",
+      "opsi": {
+        "A": "Less correct, because a good poster is judged by clear message and correct words, not number of colours",
+        "B": "Correct, because a poster with many colours is always good",
+        "C": "Correct, because a poster with few colours is always not good",
+        "D": "Less correct, because a poster does not need a clear message"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai pernyataan poster banyak warna pasti bagus. Cara Hitung/Uji: Cek apakah poster itu pesannya jelas dan kata-katanya benar. Pelajaran Nalar: Banyak warna bukan ukuran poster bagus. Penutup Tips: Waspada kata must dalam pernyataan umum. Kenapa Opsi Lain Salah: B dan C memakai kata always, D menolak pesan jelas. Di Mana Jebakannya: Poster warna-warni kelihatan hebat. Cara Cek Cepat: Tutup warna, apakah pesannya masih jelas?"
+    },
+    {
+      "no": 7,
+      "soal": "Statements about an English poem: (1) A poem can express feelings. (2) A poem can use rhyming words. (3) A poem must be long to be good. Which is correct?",
+      "opsi": {
+        "A": "All are correct",
+        "B": "Only (3) is correct",
+        "C": "(1) and (2) are correct, (3) is wrong because a short poem can be good if its feelings and words are clear",
+        "D": "All are wrong"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang puisi Inggris. Cara Hitung/Uji: Uji satu per satu, (1) benar, (2) benar, (3) salah. Pelajaran Nalar: Puisi dinilai dari perasaan dan kata, bukan panjangnya. Penutup Tips: Uji kata must terlebih dulu. Kenapa Opsi Lain Salah: A membenarkan (3), B hanya (3), D menolak yang benar. Di Mana Jebakannya: Puisi panjang kelihatan lebih bagus. Cara Cek Cepat: Cari satu puisi pendek yang bagus."
+    },
+    {
+      "no": 8,
+      "soal": "Book borrowing data: Monday 8 books, Tuesday 10 books, Wednesday 18 books (there is a book fair). The principal suggests adding books only on Wednesday. Evaluate!",
+      "opsi": {
+        "A": "Enough, because borrowing is only high on Wednesday",
+        "B": "No books are needed at all",
+        "C": "The school must ban all book fairs",
+        "D": "Not enough, because data rises every day and fairs can happen anytime, need adding books + reading corners every day, not only adding books on Wednesday"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai usulan tambah buku hanya Rabu dari data 3 hari. Cara Hitung/Uji: Hitung tren 8 ke 10 ke 18, naik terus. Pelajaran Nalar: Tren naik butuh penambahan setiap hari, bukan hanya hari tertinggi. Penutup Tips: Baca tren data, bukan hanya hari tertinggi. Kenapa Opsi Lain Salah: A hanya melihat Rabu, B menghilangkan fasilitas, C melarang pameran buku. Di Mana Jebakannya: Angka Rabu paling besar membuat kita fokus hanya Rabu. Cara Cek Cepat: Cek apakah Senin dan Selasa juga naik?"
+    },
+    {
+      "no": 9,
+      "soal": "Two news: News 1: Flood happens because heavy rain falls. News 2: Flood happens because drains are blocked by rubbish. Which conclusion is most careful?",
+      "opsi": {
+        "A": "The rain must be wrong",
+        "B": "Flood can come from heavy rain, blocked drains, or both. Need to check rain data and drain condition before blaming one side",
+        "C": "Drains must be wrong, rain is never wrong",
+        "D": "Flood happens because people are wasteful"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai dua berita penyebab banjir secara hati-hati. Cara Hitung/Uji: Cek apakah kesimpulan memeriksa data hujan dan kondisi selokan. Pelajaran Nalar: Banjir bisa terjadi karena banyak sebab, perlu bukti. Penutup Tips: Jangan menyimpulkan dari satu berita saja. Kenapa Opsi Lain Salah: A, C, D langsung menyalahkan satu pihak tanpa bukti. Di Mana Jebakannya: Dua berita yang bertentangan membuat kita pilih satu. Cara Cek Cepat: Tanya, data hujan dan selokan sudah dicek?"
+    },
+    {
+      "no": 10,
+      "soal": "A seller says: If all buyers bargain until very cheap, the seller still profits because the books are many. Evaluate!",
+      "opsi": {
+        "A": "Wrong, because if selling price is below capital + cost, the seller loses even if books are many",
+        "B": "Correct, because many books always mean profit",
+        "C": "Correct, because bargaining does not affect profit",
+        "D": "Wrong, because sellers are forbidden to profit"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai pernyataan buku banyak menjamin untung walau ditawar sangat murah. Cara Hitung/Uji: Cek hubungan harga jual, modal, dan ongkos. Profit = sell - capital - cost. Pelajaran Nalar: Jika jual di bawah modal, rugi walau barang banyak. Penutup Tips: Hitung modal + ongkos dulu sebelum menilai untung. Kenapa Opsi Lain Salah: B dan C mengabaikan modal, D melarang untung. Di Mana Jebakannya: Buku banyak kelihatan pasti untung. Cara Cek Cepat: Hitung satu buku, jual di bawah modal untung atau rugi?"
+    },
+    {
+      "no": 11,
+      "soal": "Mangrove data in Pamurbaya: Remaining mangrove 40 hectares. Mangrove 10 years ago 100 hectares. Eco-tour visitors per month 2,000 people. Suggestion to open a wide concrete road in the middle of mangrove so visitors increase. Evaluate!",
+      "opsi": {
+        "A": "Accepted, because concrete road makes visitors walk less",
+        "B": "Rejected, because mangrove already shrinks 60% and concrete road speeds up damage and kills the eco-tour attraction itself",
+        "C": "Accepted, because remaining mangrove is still enough for photos",
+        "D": "Rejected, because all visitors must be banned from mangrove forever"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai usulan jalan beton di mangrove dengan data penyusutan luas dan pengunjung. Cara Hitung/Uji: Hitung penyusutan: 100 - 40 = 60 hectares lost, artinya 60% sudah hilang. Lalu nilai apakah jalan beton menambah atau mengurangi kerusakan. Pelajaran Nalar: Data bukan sekadar angka, data menunjukkan mangrove sudah kritis, jadi keputusan harus melindungi yang tersisa. Penutup Tips: Hitung dulu selisih luasnya, baru nilai usulannya. Kenapa Opsi Lain Salah: A dan C mengabaikan data penyusutan, D terlalu ekstrem dan mematikan ekonomi warga. Di Mana Jebakannya: Jalan beton kelihatan memudahkan pengunjung. Cara Cek Cepat: Hitung dulu, 100 ke 40 hilang berapa persen?"
+    },
+    {
+      "no": 12,
+      "soal": "Tanjung Perak port receives two deliveries in the same week: books from Solo and clothes from Jakarta. Book delivery cost rises because of bad weather, while clothes delivery cost stays. A Surabaya shop must choose which to prioritize. Evaluate the most reasonable decision!",
+      "opsi": {
+        "A": "Prioritize clothes because they are lighter and easier to display",
+        "B": "Delay all sales until weather is really clear",
+        "C": "Sell books at a very high price to profit from scarcity",
+        "D": "Prioritize books with limited stock + fair price, while telling buyers the next delivery schedule so they do not panic buy"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai prioritas barang saat biaya kirim satu barang naik akibat cuaca. Cara Hitung/Uji: Cek mana barang yang menyangkut kebutuhan belajar, bagaimana stok diatur, dan bagaimana pembeli diberi informasi agar tidak panik. Pelajaran Nalar: Saat barang belajar langka, toko yang adil mengatur stok dan memberi info, bukan menaikkan harga seenaknya. Penutup Tips: Dahulukan kebutuhan belajar + stok terbatas + info jujur ke pembeli. Kenapa Opsi Lain Salah: A mendahulukan yang bukan kebutuhan belajar, B mematikan penghasilan, C memanfaatkan kelangkaan secara tidak adil. Di Mana Jebakannya: Pakaian lebih mudah dijual, jadi kelihatan didahulukan. Cara Cek Cepat: Tanya, mana yang dibutuhkan siswa setiap hari?"
+    },
+    {
+      "no": 13,
+      "soal": "Statements: (1) All imported books are bad. (2) Some imported books can help learning. (3) Local books must be protected so writers keep working. Which is correct?",
+      "opsi": {
+        "A": "Only (1) is correct",
+        "B": "All are correct",
+        "C": "(2) and (3) are correct, (1) is wrong because the word all is too absolute",
+        "D": "All are wrong"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Bedah: Nilai tiga pernyataan tentang buku impor dan buku lokal. Cara Hitung/Uji: Cek satu per satu, kata all pada (1) terlalu mutlak, (2) dan (3) masuk akal. Pelajaran Nalar: Tidak semua impor buruk, dan melindungi lokal tetap penting. Penutup Tips: Uji kata all terlebih dulu. Kenapa Opsi Lain Salah: A membenarkan (1), B membenarkan semua, D menolak yang benar. Di Mana Jebakannya: (1) dan (3) kelihatan sama-sama membela lokal. Cara Cek Cepat: Cari satu buku impor yang membantu belajar."
+    },
+    {
+      "no": 14,
+      "soal": "A school near Kalimas, Surabaya, is prone to flooding when heavy rain comes. What is the best communication strategy to face the flood?",
+      "opsi": {
+        "A": "Spread flood news without a clear source",
+        "B": "Make an announcement: evacuation route + picket schedule + flood emergency bag, then read it in class and stick it on the wall magazine",
+        "C": "Make an announcement only in one class",
+        "D": "Close all school doors when flood comes so water does not enter"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Bedah: Buat strategi komunikasi hadapi banjir di Kalimas. Cara Hitung/Uji: Cek apakah strategi itu memberi jalur evakuasi, jadwal piket, dan tas siaga, serta disebarkan ke semua kelas. Pelajaran Nalar: Komunikasi banjir harus jelas, lengkap, dan sampai ke semua. Penutup Tips: Tanya, apakah pengumumannya ada jalur + jadwal + tas siaga dan sampai ke semua kelas? Kenapa Opsi Lain Salah: A tanpa sumber, C hanya satu kelas, D tidak menghentikan banjir. Di Mana Jebakannya: Tutup pintu kelihatan melindungi sekolah. Cara Cek Cepat: Cek apakah ada jalur evakuasi dan jadwal piket?"
+    },
+    {
+      "no": 15,
+      "soal": "A village in Kenjeran wants to make a clean fish auction place. Two announcement drafts: (1) Build a big new building on the beach, (2) Repair the old hall + make an auction schedule + a fish washing place. Design the best announcement choice for small fishermen with limited capital!",
+      "opsi": {
+        "A": "Draft 2, because it uses the existing building, clear schedule, and small fishermen are not burdened by high rent of a big building",
+        "B": "Draft 1, because a big building must make fish fresher even if the cost is high",
+        "C": "Close the auction and sell fish directly to middlemen at a cheap price",
+        "D": "Move all fishermen to another city so no auction is needed"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang pilihan pengumuman pelelangan ikan untuk nelayan kecil bermodal terbatas. Cara Hitung/Uji: Cek mana yang memakai aset yang ada, biaya rendah, dan memberi kepastian jadwal. Pelajaran Nalar: Perbaikan + jadwal lebih masuk akal daripada gedung baru yang mahal. Penutup Tips: Cari opsi yang hemat + pakai yang sudah ada + jadwal jelas. Kenapa Opsi Lain Salah: B membebani biaya, C merugikan nelayan, D mengusir nelayan. Di Mana Jebakannya: Gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, siapa yang bayar sewa gedung besar?"
+    },
+    {
+      "no": 16,
+      "soal": "Pamurbaya people want to make mangrove eco-tour but fear roots will be damaged by stepping. Design a visitor guide text that protects mangrove and still lets visitors learn!",
+      "opsi": {
+        "A": "Let visitors walk freely among roots",
+        "B": "Cut mangrove to make an asphalt road",
+        "C": "Forbid everyone from seeing mangrove",
+        "D": "Make a guide: a wooden bridge over roots + explanation boards + local guides + limit of visitors per group"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang panduan ekowisata mangrove yang melindungi akar dan tetap memberi pembelajaran. Cara Hitung/Uji: Cek apakah pengunjung tidak menginjak akar, ada penjelasan, ada pemandu, dan ada batas rombongan. Pelajaran Nalar: Jembatan kayu + pemandu + batas rombongan melindungi sekaligus mendidik. Penutup Tips: Cari opsi yang ada jembatan + papan + pemandu + batas. Kenapa Opsi Lain Salah: A merusak akar, B menebang, C mematikan wisata. Di Mana Jebakannya: Jalan bebas kelihatan paling alami. Cara Cek Cepat: Cek apakah kaki pengunjung menyentuh akar?"
+    },
+    {
+      "no": 17,
+      "soal": "At a school near Tugu Pahlawan, students from different tribes often fight because they mock local languages and special foods. Design a literacy program that makes differences a shared pride!",
+      "opsi": {
+        "A": "Forbid students from using local languages and bringing special foods to school",
+        "B": "Separate classes by tribe so they do not meet",
+        "C": "Make Festival Satu Pahlawan: each class shows language, food, and hero story from different regions, then makes a class agreement on how to respect each other",
+        "D": "Punish students who mock by cleaning the school for a month without explanation"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang program literasi yang mengubah ejekan perbedaan menjadi kebanggaan bersama lewat pengalaman langsung. Cara Hitung/Uji: Cek apakah program itu membuat siswa mengalami budaya lain, bukan hanya dilarang, dan menghasilkan kesepakatan bersama. Pelajaran Nalar: Menghargai perbedaan tidak tumbuh dari larangan saja, tapi dari mengenal lalu menyepakati aturan bersama. Penutup Tips: Cari opsi yang ada tampil + kenal + kesepakatan bersama. Kenapa Opsi Lain Salah: A menghapus identitas, B mempertebal sekat, D menghukum tanpa memberi pemahaman. Di Mana Jebakannya: Melarang kelihatan cepat menyelesaikan pertengkaran. Cara Cek Cepat: Cek apakah siswa mengalami budaya lain atau hanya dilarang?"
+    },
+    {
+      "no": 18,
+      "soal": "Sellers at Pasar Turi complain buyers decrease because many shop by phone. Sellers have small capital, cannot make their own app. Design the most realistic promotion text so Pasar Turi sellers survive without leaving their stalls!",
+      "opsi": {
+        "A": "Close the stall and wait for buyers to come alone",
+        "B": "Make a photo catalogue of goods in the residents' chat group + a delivery schedule around the village with a shared cart",
+        "C": "Sell all goods at a loss so they sell out quickly",
+        "D": "Forbid buyers from shopping by phone in all Surabaya"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang teks promosi adaptasi pedagang pasar tradisional menghadapi belanja lewat ponsel dengan modal kecil. Cara Hitung/Uji: Cek apakah promosi itu memakai alat yang sudah dimiliki pedagang, menjangkau pembeli baru, dan tidak meninggalkan lapak. Pelajaran Nalar: Bertahan bukan berarti melawan zaman, tapi memakai cara baru yang sesuai kemampuan. Penutup Tips: Cari opsi yang menggabungkan katalog sederhana + antar pesanan + kerja bersama. Kenapa Opsi Lain Salah: A pasif dan menunggu, C menghabiskan modal, D tidak mungkin ditegakkan. Di Mana Jebakannya: Melarang belanja lewat ponsel kelihatan membela pedagang. Cara Cek Cepat: Tanya, apakah promosi itu memakai ponsel yang sudah dimiliki?"
+    },
+    {
+      "no": 19,
+      "soal": "An RT in Surabaya often floods because drains are blocked by rubbish. People did gotong royong once, but flood returns. Design the most sustainable drain announcement text!",
+      "opsi": {
+        "A": "Gotong royong only when flood already comes",
+        "B": "Ask one person to clean the drain every day without rotation",
+        "C": "Close all drains with cement",
+        "D": "Make an announcement: weekly picket schedule per alley + rubbish bins at the end of the alley + photo reports to the RT group after each picket"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang pengumuman perawatan selokan agar tidak banjir berulang. Cara Hitung/Uji: Cek apakah ada jadwal rutin, pembagian giliran, tempat sampah, dan bukti laporan. Pelajaran Nalar: Banjir berulang butuh perawatan rutin, bukan kerja sekali. Penutup Tips: Cari opsi yang ada jadwal + giliran + bak sampah + laporan. Kenapa Opsi Lain Salah: A menunggu banjir, B membebani satu orang, C membuat air tidak mengalir. Di Mana Jebakannya: Gotong royong sekali kelihatan sudah cukup. Cara Cek Cepat: Cek apakah ada jadwal setelah gotong royong pertama?"
+    },
+    {
+      "no": 20,
+      "soal": "A school wants to make a wall magazine about Surabaya heroes. So students do not only memorize names, design the wall magazine content that trains reasoning the most!",
+      "opsi": {
+        "A": "Short hero struggle story + question why the hero chose that way + a column for students to write what they would do if in that position",
+        "B": "Only a list of hero names without story",
+        "C": "Only hero photos without captions",
+        "D": "A wall magazine with punishment for those who do not memorize hero names"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang mading pahlawan yang melatih nalar, bukan hanya hafalan. Cara Hitung/Uji: Cek apakah ada cerita, pertanyaan mengapa, dan kolom refleksi siswa. Pelajaran Nalar: Cerita + mengapa + refleksi melatih nalar. Penutup Tips: Cari opsi yang ada cerita + mengapa + refleksi. Kenapa Opsi Lain Salah: B hanya daftar, C hanya foto, D hanya hukuman. Di Mana Jebakannya: Daftar nama kelihatan lengkap. Cara Cek Cepat: Tanya, apakah siswa diajak berpikir mengapa atau hanya menghafal?"
+    },
+    {
+      "no": 21,
+      "soal": "You become a little tour guide at Tugu Pahlawan. A group comes from out of town and only has 30 minutes. Design a 30-minute guide script that is most memorable!",
+      "opsi": {
+        "A": "Ask the group to sit outside without explanation",
+        "B": "Ask the group to run around the monument without stopping",
+        "C": "Make a script: 5 minutes opening story + 15 minutes see 3 important points with stories + 10 minutes Q and A + group photo with a struggle message",
+        "D": "Ask the group to go home directly"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang naskah pemandu wisata 30 menit di Tugu Pahlawan yang berkesan. Cara Hitung/Uji: Cek apakah ada pembuka, titik penting, tanya jawab, dan penutup. Pelajaran Nalar: Naskah dengan cerita + titik penting + tanya jawab + penutup lebih berkesan. Penutup Tips: Cari opsi yang ada pembuka + titik + tanya jawab + penutup. Kenapa Opsi Lain Salah: A tanpa penjelasan, B tanpa cerita, D pulang. Di Mana Jebakannya: Lari keliling kelihatan menghemat waktu. Cara Cek Cepat: Cek apakah ada cerita di tiap titik?"
+    },
+    {
+      "no": 22,
+      "soal": "A village near Surabaya wants to sell handicrafts to the city, but delivery cost is expensive if alone. Design a fair joint delivery agreement text!",
+      "opsi": {
+        "A": "Each delivers alone with full cost",
+        "B": "Make an agreement text: joint delivery schedule once a week + cost shared by weight of goods + one coordinator recorded in a cash book",
+        "C": "Leave goods to passers-by without notes",
+        "D": "Do not sell anymore so no delivery is needed"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang teks kesepakatan kirim bersama kerajinan agar ongkos hemat dan adil. Cara Hitung/Uji: Cek apakah ada jadwal bersama, pembagian ongkos sesuai berat, dan catatan. Pelajaran Nalar: Kirim bersama + bagi sesuai berat + catatan mencegah curiga. Penutup Tips: Cari opsi yang ada jadwal + bagi berat + catatan. Kenapa Opsi Lain Salah: A mahal, C tanpa catatan rawan hilang, D menyerah. Di Mana Jebakannya: Titip tanpa catatan kelihatan praktis. Cara Cek Cepat: Cek apakah ada catatan berat dan ongkos?"
+    },
+    {
+      "no": 23,
+      "soal": "You are asked to make a Save Electricity campaign in class. Design a campaign text whose result can be measured!",
+      "opsi": {
+        "A": "Only stick a SAVE ELECTRICITY writing",
+        "B": "Ask all students to turn off electricity at home without notes",
+        "C": "Make a campaign text: picket list to turn off lamps/fans + record class meter every Friday + weekly chart + award for the most saving class",
+        "D": "Forbid students from turning on lamps at all"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang teks kampanye hemat listrik yang bisa diukur. Cara Hitung/Uji: Cek apakah ada piket, catatan meteran, grafik, dan penghargaan. Pelajaran Nalar: Tanpa catatan dan grafik, hemat tidak bisa diukur. Penutup Tips: Cari opsi yang ada piket + catat + grafik + penghargaan. Kenapa Opsi Lain Salah: A hanya tulisan, B tanpa catatan, D melarang total. Di Mana Jebakannya: Tulisan SAVE ELECTRICITY kelihatan sudah kampanye. Cara Cek Cepat: Tanya, bagaimana cara mengukur hematnya?"
+    },
+    {
+      "no": 24,
+      "soal": "A village wants to make a rubbish bank. People agree, but are confused how to sort. Design the easiest sorting guide text for residents!",
+      "opsi": {
+        "A": "One big bin for all rubbish",
+        "B": "Ask residents to memorize 20 types of rubbish",
+        "C": "Burn all rubbish at the rubbish bank",
+        "D": "Make a guide: 3 coloured bins: green for food leftovers, yellow for plastic/bottles, red for dangerous ones + sample pictures on each bin + weighing schedule once a week"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang teks panduan pilah bank sampah yang mudah untuk warga. Cara Hitung/Uji: Cek apakah jumlah bak sedikit, ada warna, ada contoh gambar, dan ada jadwal timbang. Pelajaran Nalar: 3 bak + warna + gambar lebih mudah daripada hafalan 20 jenis. Penutup Tips: Cari opsi yang sederhana + warna + gambar + jadwal. Kenapa Opsi Lain Salah: A tidak memilah, B terlalu sulit, C membakar. Di Mana Jebakannya: Satu bak kelihatan paling mudah. Cara Cek Cepat: Cek apakah warga tahu sampah masuk bak mana tanpa menghafal?"
+    },
+    {
+      "no": 25,
+      "soal": "Residents want to make a reading garden in the village, but there is no building and little money. Design the most possible reading garden announcement text!",
+      "opsi": {
+        "A": "Use the RT hall terrace + a bookshelf from used crates + an afternoon opening schedule + a book borrowing list + rotating volunteer guards",
+        "B": "Wait for a big new building",
+        "C": "Buy expensive books of all kinds at once",
+        "D": "Make a reading garden but forbid anyone from borrowing books"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Bedah: Rancang teks pengumuman taman baca kampung tanpa gedung dan dana kecil. Cara Hitung/Uji: Cek apakah memakai tempat yang ada, rak bekas, jadwal, daftar pinjaman, dan relawan. Pelajaran Nalar: Teras + rak bekas + jadwal + relawan membuat taman baca jalan dengan dana kecil. Penutup Tips: Cari opsi yang ada tempat + rak bekas + jadwal + relawan. Kenapa Opsi Lain Salah: B menunggu gedung, C membeli mahal, D melarang pinjam. Di Mana Jebakannya: Menunggu gedung baru kelihatan lebih bagus. Cara Cek Cepat: Tanya, apakah taman baca bisa buka minggu ini dengan yang sudah ada?"
+    }
+  ]
+}

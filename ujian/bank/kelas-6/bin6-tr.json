@@ -1,0 +1,364 @@
+{
+  "judul": "Bahasa Indonesia Kelas 6 — Transisi",
+  "mapel": "Bahasa Indonesia",
+  "kelas": 6,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.0",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Kalimat yang diakhiri tanda titik dan berisi kabar disebut kalimat ...",
+      "opsi": {
+        "A": "Tanya",
+        "B": "Berita",
+        "C": "Ajakan",
+        "D": "Seruan"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Kalimat berita diakhiri tanda titik dan berisi kabar. Kalimat tanya bertanya, ajakan dan seruan mengajak.",
+      "level": "Mudah"
+    },
+    {
+      "no": 2,
+      "soal": "Bagian teks laporan yang berisi kesimpulan disebut ...",
+      "opsi": {
+        "A": "Penutup",
+        "B": "Judul",
+        "C": "Sampiran",
+        "D": "Amanat"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Penutup berisi kesimpulan laporan. Judul di awal, sampiran dan amanat bagian pantun.",
+      "level": "Mudah"
+    },
+    {
+      "no": 3,
+      "soal": "Kata yang berlawanan dengan kata tinggi adalah ...",
+      "opsi": {
+        "A": "Besar",
+        "B": "Rendah",
+        "C": "Panjang",
+        "D": "Lebar"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "pembahasan": "Lawan kata tinggi adalah rendah. Besar, panjang, lebar bukan lawan tinggi.",
+      "level": "Mudah"
+    },
+    {
+      "no": 4,
+      "soal": "Tujuan membaca teks deskripsi adalah ...",
+      "opsi": {
+        "A": "Mengajak pembeli",
+        "B": "Memberi langkah-langkah",
+        "C": "Menakut-nakuti pembaca",
+        "D": "Menggambarkan sesuatu agar pembaca seolah melihatnya"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "Teks deskripsi menggambarkan sesuatu agar pembaca seolah melihatnya. Opsi lain tujuan persuasi, prosedur, dan cerita horor.",
+      "level": "Mudah"
+    },
+    {
+      "no": 5,
+      "soal": "Kalimat berikut yang menggunakan kata tidak baku adalah ...",
+      "opsi": {
+        "A": "Ibu membeli sayur di pasar.",
+        "B": "Adik membaca buku cerita.",
+        "C": "Kami pergi ke sistim dekat rumah.",
+        "D": "Ayah bekerja di kantor."
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Bentuk tidak baku adalah sistim, yang baku sistem. Opsi lain semua kata baku.",
+      "level": "Mudah"
+    },
+    {
+      "no": 6,
+      "soal": "Tokoh utama dalam cerita adalah ...",
+      "opsi": {
+        "A": "Tokoh yang paling banyak diceritakan dan menggerakkan cerita",
+        "B": "Tokoh yang hanya muncul sekali",
+        "C": "Tokoh yang tidak penting",
+        "D": "Tokoh yang menjadi latar"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Tokoh utama paling banyak diceritakan dan menggerakkan cerita. Opsi lain tokoh tambahan, tidak penting, atau latar.",
+      "level": "Mudah"
+    },
+    {
+      "no": 7,
+      "soal": "Gagasan utama paragraf biasanya terletak di ...",
+      "opsi": {
+        "A": "Akhir kalimat tanya",
+        "B": "Awal atau akhir paragraf",
+        "C": "Tengah kata",
+        "D": "Judul buku lain"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Gagasan utama biasanya di awal atau akhir paragraf. Opsi lain bukan tempat gagasan utama.",
+      "level": "Mudah"
+    },
+    {
+      "no": 8,
+      "soal": "Perbaikilah kalimat: Anak-anak itu sedang bermain bola di lapangan. Kalimat yang lebih efektif adalah ...",
+      "opsi": {
+        "A": "Anak-anak itu sedang bermain bola di lapangan yang luas itu.",
+        "B": "Anak-anak itu sedang bermain bola di lapangan dengan sangat semangat sekali.",
+        "C": "Anak-anak sedang bermain bola di lapangan.",
+        "D": "Anak-anak itu sedang bermain bola di lapangan bola."
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Kalimat efektif tidak mengulang anak-anak dan tidak bertele-tele. Opsi A, B, D boros kata dan pengulangan.",
+      "level": "Sedang"
+    },
+    {
+      "no": 9,
+      "soal": "Bacalah teks: Pasar Turi ramai setiap pagi. Pedagang menawarkan dagangannya. Pembeli memilih sayur dan buah segar. Gagasan utama teks tersebut adalah ...",
+      "opsi": {
+        "A": "Pembeli memilih buah segar",
+        "B": "Pedagang menawarkan dagangan",
+        "C": "Pasar Turi ada di Surabaya",
+        "D": "Pasar Turi ramai setiap pagi"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Gagasan utama ada di kalimat pertama, Pasar Turi ramai setiap pagi. Opsi lain kalimat penjelas.",
+      "level": "Sedang"
+    },
+    {
+      "no": 10,
+      "soal": "Tentukan kalimat majemuk yang tepat!",
+      "opsi": {
+        "A": "Ibu memasak nasi, sedangkan ayah membersihkan rumah.",
+        "B": "Ibu memasak nasi.",
+        "C": "Ayah membersihkan rumah.",
+        "D": "Ibu memasak."
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Kalimat majemuk gabungan dua kalimat dengan sedangkan. Opsi lain kalimat tunggal.",
+      "level": "Sedang"
+    },
+    {
+      "no": 11,
+      "soal": "Kata imbuhan me- yang tepat untuk kata masak adalah ...",
+      "opsi": {
+        "A": "Memasakan",
+        "B": "Dimasakkan",
+        "C": "Memasak",
+        "D": "Termasak"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Me- + masak menjadi memasak. Opsi lain mengubah makna atau bentuk tidak tepat.",
+      "level": "Sedang"
+    },
+    {
+      "no": 12,
+      "soal": "Bacalah puisi: Mentari pagi menyapa bumi, / Embun menetes di daun padi. / Petani tersenyum penuh syukur, / Hasil panen melimpah dan subur. Tema puisi tersebut adalah ...",
+      "opsi": {
+        "A": "Liburan ke pantai",
+        "B": "Perjuangan di kota",
+        "C": "Syukur petani atas panen",
+        "D": "Bermain di taman"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Puisi bercerita petani bersyukur atas panen. Opsi lain tidak sesuai isi puisi.",
+      "level": "Sedang"
+    },
+    {
+      "no": 13,
+      "soal": "Perhatikan pernyataan tentang teks eksposisi: (1) Menjelaskan suatu topik. (2) Menggunakan data dan fakta. (3) Berisi cerita khayalan. Yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(3) saja",
+        "C": "(1) dan (3) saja",
+        "D": "(1) dan (2) saja"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Teks eksposisi menjelaskan topik dengan data dan fakta. Cerita khayalan untuk fiksi, bukan eksposisi.",
+      "level": "Sedang"
+    },
+    {
+      "no": 14,
+      "soal": "Perhatikan dua kalimat: (1) Dita rajin berlatih menulis. (2) Tulisan Dita semakin bagus. Hubungan kedua kalimat adalah ...",
+      "opsi": {
+        "A": "(1) sebab, (2) akibat",
+        "B": "(1) akibat, (2) sebab",
+        "C": "(1) dan (2) bertentangan",
+        "D": "(1) dan (2) tidak berhubungan"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "Rajin berlatih menjadi sebab, tulisan bagus menjadi akibat. Opsi B terbalik, C dan D salah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 15,
+      "soal": "Bacalah teks: Kalimas adalah sungai di Surabaya. Airnya dimanfaatkan warga. Sampah membuat air kotor. Warga bergotong royong membersihkannya. Pesan teks tersebut adalah ...",
+      "opsi": {
+        "A": "Sampah membuat sungai bagus",
+        "B": "Warga tidak perlu membersihkan sungai",
+        "C": "Warga harus menjaga Kalimas agar tetap bersih",
+        "D": "Kalimas tidak bermanfaat"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Pesan teks adalah menjaga Kalimas agar tetap bersih. Opsi lain berlawanan dengan isi teks.",
+      "level": "Sedang"
+    },
+    {
+      "no": 16,
+      "soal": "Perhatikan kalimat: Karena malas belajar, nilai Andi menurun. Kata karena menunjukkan hubungan ...",
+      "opsi": {
+        "A": "Waktu",
+        "B": "Sebab-akibat",
+        "C": "Tempat",
+        "D": "Pilihan"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Kata karena menunjukkan sebab-akibat. Bukan waktu, tempat, atau pilihan.",
+      "level": "Sedang"
+    },
+    {
+      "no": 17,
+      "soal": "Perhatikan pernyataan tentang puisi: (1) Puisi menggunakan kata-kata indah. (2) Puisi dapat mengungkapkan perasaan. (3) Puisi tidak mempunyai tema. Yang benar adalah ...",
+      "opsi": {
+        "A": "(1) saja",
+        "B": "(3) saja",
+        "C": "(1) dan (3) saja",
+        "D": "(1) dan (2) saja"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "Puisi memakai kata indah dan dapat mengungkapkan perasaan, serta mempunyai tema. Jadi (1) dan (2) benar, (3) salah.",
+      "level": "Sedang"
+    },
+    {
+      "no": 18,
+      "soal": "Dua judul: (1) Cara Menjaga Kebersihan Sungai Kalimas. (2) Aku Senang Bermain di Sungai. Judul yang lebih tepat untuk teks prosedur adalah ...",
+      "opsi": {
+        "A": "(2), karena lebih pendek",
+        "B": "Keduanya sama tepat",
+        "C": "(1), karena berisi cara atau langkah-langkah",
+        "D": "Keduanya tidak tepat"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Teks prosedur berisi cara atau langkah, jadi judul (1) tepat. Judul (2) pengalaman pribadi, bukan prosedur.",
+      "level": "Sedang"
+    },
+    {
+      "no": 19,
+      "soal": "Seorang siswa menulis teks laporan tanpa data pengamatan, hanya mengarang. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Kurang tepat, karena teks laporan harus berdasarkan fakta hasil pengamatan",
+        "B": "Tepat, karena mengarang lebih cepat",
+        "C": "Tepat, karena data tidak penting",
+        "D": "Kurang tepat, karena teks laporan harus berupa puisi"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Teks laporan harus berdasarkan fakta hasil pengamatan, bukan karangan. Opsi lain salah memahami laporan.",
+      "level": "Sulit"
+    },
+    {
+      "no": 20,
+      "soal": "Perhatikan iklan: Mari buang sampah pada tempatnya! Sungai bersih, Surabaya sehat. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Iklan mengajak membuang sampah ke sungai",
+        "B": "Iklan mengajak membuang sampah pada tempatnya agar Surabaya sehat",
+        "C": "Iklan hanya cerita lucu",
+        "D": "Iklan tidak punya tujuan"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Iklan mengajak membuang sampah pada tempatnya agar Surabaya sehat. Opsi lain salah membaca ajakan.",
+      "level": "Sulit"
+    },
+    {
+      "no": 21,
+      "soal": "Dua siswa berdebat: X berkata semua teks yang ada gambarnya pasti bagus. Y berkata gambar membantu, tetapi teks bagus dinilai dari isi dan kejelasan. Yang benar adalah ...",
+      "opsi": {
+        "A": "X benar",
+        "B": "Keduanya benar",
+        "C": "Keduanya salah",
+        "D": "Y benar, karena kalimat efektif harus jelas dan tidak boros kata"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Teks bagus dinilai isi dan kejelasan, gambar hanya membantu. Teks bergambar bisa tetap tidak jelas, jadi X salah.",
+      "level": "Sulit"
+    },
+    {
+      "no": 22,
+      "soal": "Perhatikan teks: Buku itu tebal dan penuh gambar. Harganya murah. Banyak siswa membelinya. Kesimpulan yang tepat adalah ...",
+      "opsi": {
+        "A": "Buku itu tidak laku",
+        "B": "Buku itu mahal",
+        "C": "Buku itu menarik dan terjangkau sehingga banyak siswa membelinya",
+        "D": "Buku itu tidak ada gambarnya"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Buku tebal, bergambar, murah, banyak dibeli menunjukkan menarik dan terjangkau. Opsi lain berlawanan dengan teks.",
+      "level": "Sulit"
+    },
+    {
+      "no": 23,
+      "soal": "Seorang siswa berkata: Karena teksnya panjang, maka teks itu pasti bagus. Penilaian yang tepat adalah ...",
+      "opsi": {
+        "A": "Kurang tepat, karena teks bagus dinilai dari isi, kejelasan, dan ketepatan bahasa, bukan panjangnya",
+        "B": "Benar, karena teks panjang selalu bagus",
+        "C": "Benar, karena teks pendek selalu jelek",
+        "D": "Kurang tepat, karena teks tidak perlu isi"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Teks bagus dinilai isi, kejelasan, dan bahasa, bukan panjang. Kata selalu pada B dan C terlalu mutlak.",
+      "level": "Sulit"
+    },
+    {
+      "no": 24,
+      "soal": "Rancanglah kalimat pembuka pidato tentang menjaga kebersihan sekolah yang paling menarik!",
+      "opsi": {
+        "A": "Sekolah itu ada.",
+        "B": "Teman-teman, bayangkan jika sekolah kita bersih dan nyaman setiap hari!",
+        "C": "Siapa yang membuang sampah?",
+        "D": "Sekolah kita kotor."
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Pembuka pidato yang menarik mengajak membayangkan dan menyapa teman. Opsi lain datar, menuduh, atau negatif saja.",
+      "level": "Sulit"
+    },
+    {
+      "no": 25,
+      "soal": "Rancanglah urutan menulis teks eksposisi tentang mangrove yang paling tepat!",
+      "opsi": {
+        "A": "Menulis kesimpulan dulu, lalu mencari data",
+        "B": "Mengarang data tanpa membaca",
+        "C": "Menulis judul lalu langsung menyimpulkan",
+        "D": "Menentukan topik, mencari data, menyusun kerangka, menulis, menyunting"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "pembahasan": "Urutan eksposisi adalah menentukan topik, mencari data, menyusun kerangka, menulis, menyunting. Opsi lain melompat atau mengarang data.",
+      "level": "Sulit"
+    }
+  ]
+}
