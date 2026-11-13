@@ -21,16 +21,7 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: uji tiap pernyataan dari data, jangan percaya sebelum dihitung. Cara Hitung: total = 24 + 30 + 36 = 90, rata-rata = 90 : 3 = 30, kenaikan = 30 - 24 = 6 dan 36 - 30 = 6. Uji: (1) benar, (2) benar, (3) salah karena kenaikannya 6, bukan 5. Pelajaran Nalar: pola naik tetap harus dihitung selisihnya, bukan ditebak dari angka yang kelihatan rapi. Tips: tulis selisih antar hari dulu sebelum menilai pernyataan pola. Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah.",
-      "q": "Kampung Tambak mencatat sampah terpilah: Senin 24 kg, Selasa 30 kg, Rabu 36 kg. Pernyataan: (1) Total 3 hari 90 kg. (2) Rata-rata 30 kg per hari. (3) Kenaikan tiap hari 5 kg. Pernyataan yang benar adalah ...",
-      "o": [
-        "(1) dan (2) saja",
-        "(1) dan (3) saja",
-        "(2) dan (3) saja",
-        "(1), (2), dan (3)"
-      ],
-      "a": 0,
-      "e": "Bedah: uji tiap pernyataan dari data, jangan percaya sebelum dihitung. Cara Hitung: total = 24 + 30 + 36 = 90, rata-rata = 90 : 3 = 30, kenaikan = 30 - 24 = 6 dan 36 - 30 = 6. Uji: (1) benar, (2) benar, (3) salah karena kenaikannya 6, bukan 5. Pelajaran Nalar: pola naik tetap harus dihitung selisihnya, bukan ditebak dari angka yang kelihatan rapi. Tips: tulis selisih antar hari dulu sebelum menilai pernyataan pola. Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah."
+      "pembahasan": "Coba uji satu per satu, jangan percaya sebelum dihitung. Total = 24 + 30 + 36 = 90, rata-rata = 90 : 3 = 30, kenaikan = 30 - 24 = 6 dan 36 - 30 = 6, jadi (1) dan (2) benar, (3) salah. Pola naik tetap harus dihitung selisihnya, bukan ditebak dari angka yang kelihatan rapi. Tulis selisih antar hari dulu sebelum menilai pernyataan pola. Jebakannya di angka 5 yang kelihatan rapi, padahal selisih sebenarnya 6. Cek cepat: hitung selisih dua hari pertama saja, kalau bukan 5, langsung buang pernyataan (3). Opsi B, C, D salah karena memakai (3) yang sudah terbukti salah."
     },
     {
       "no": 2,
@@ -43,16 +34,7 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: total dan waktu harus dihitung dua-duanya, rajin saja bukan bukti. Cara Hitung: Wulan = 3.000 x 20 = 60.000 dalam 20 hari, Bayu = 4.000 x 15 = 60.000 dalam 15 hari. Uji: total sama, Bayu 5 hari lebih cepat. Pelajaran Nalar: total sama belum tentu waktunya sama, yang dibandingkan adalah waktu saat total sudah sama. Tips: hitung total dulu, baru bandingkan hari. Opsi A dan D salah karena Wulan tidak lebih cepat dan totalnya tidak lebih besar. Opsi C salah karena harinya beda.",
-      "q": "Target tabungan Rp60.000,00. Cara Wulan: menabung Rp3.000,00 tiap hari selama 20 hari. Cara Bayu: menabung Rp4.000,00 tiap hari selama 15 hari. Strategi yang lebih cepat mencapai target adalah ...",
-      "o": [
-        "Cara Wulan, karena tiap hari menabung lebih rajin",
-        "Cara Bayu, karena totalnya sama Rp60.000,00 tapi 5 hari lebih cepat",
-        "Sama cepat, karena sama-sama menabung tiap hari",
-        "Cara Wulan, karena totalnya lebih besar"
-      ],
-      "a": 1,
-      "e": "Bedah: total dan waktu harus dihitung dua-duanya, rajin saja bukan bukti. Cara Hitung: Wulan = 3.000 x 20 = 60.000 dalam 20 hari, Bayu = 4.000 x 15 = 60.000 dalam 15 hari. Uji: total sama, Bayu 5 hari lebih cepat. Pelajaran Nalar: total sama belum tentu waktunya sama, yang dibandingkan adalah waktu saat total sudah sama. Tips: hitung total dulu, baru bandingkan hari. Opsi A dan D salah karena Wulan tidak lebih cepat dan totalnya tidak lebih besar. Opsi C salah karena harinya beda."
+      "pembahasan": "Jangan terkecoh kata rajin, yang ditanya adalah siapa yang lebih cepat sampai target. Wulan = 3.000 x 20 = 60.000 dalam 20 hari, Bayu = 4.000 x 15 = 60.000 dalam 15 hari, jadi total sama tapi Bayu 5 hari lebih cepat. Total sama belum tentu waktunya sama, yang dibandingkan adalah waktu saat total sudah sama. Hitung total dulu, baru bandingkan hari. Jebakannya di kata rajin, padahal rajin tiap hari belum tentu lebih cepat kalau nominalnya lebih kecil. Cek cepat: samakan dulu totalnya, baru lihat harinya. Opsi A dan D salah karena Wulan tidak lebih cepat dan totalnya tidak lebih besar, opsi C salah karena harinya beda."
     },
     {
       "no": 3,
@@ -65,16 +47,7 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: persen harus diubah ke rupiah dulu baru bisa dibandingkan dengan potong rupiah. Cara Hitung: 25% x 40.000 = 10.000, jadi potong persen = 10.000, potong rupiah = 15.000. Uji: 15.000 > 10.000, klaim benar. Pelajaran Nalar: persen dan rupiah tidak bisa dibandingkan langsung, samakan dulu satuannya ke rupiah. Tips: ubah persen ke rupiah sebelum membandingkan promo. Opsi A salah karena persen tidak selalu lebih besar. Opsi B salah karena nilainya beda. Opsi D salah karena datanya cukup.",
-      "q": "Sepatu Rp40.000,00. Promo potong Rp15.000,00 dan promo diskon 25%. Klaim: promo potong rupiah lebih untung daripada promo diskon persen. Klaim itu ...",
-      "o": [
-        "Salah, karena diskon persen selalu lebih besar",
-        "Salah, karena potongannya sama saja",
-        "Benar, karena 25% x 40.000 = 10.000, dan 15.000 > 10.000",
-        "Tidak bisa ditentukan"
-      ],
-      "a": 2,
-      "e": "Bedah: persen harus diubah ke rupiah dulu baru bisa dibandingkan dengan potong rupiah. Cara Hitung: 25% x 40.000 = 10.000, jadi potong persen = 10.000, potong rupiah = 15.000. Uji: 15.000 > 10.000, klaim benar. Pelajaran Nalar: persen dan rupiah tidak bisa dibandingkan langsung, samakan dulu satuannya ke rupiah. Tips: ubah persen ke rupiah sebelum membandingkan promo. Opsi A salah karena persen tidak selalu lebih besar. Opsi B salah karena nilainya beda. Opsi D salah karena datanya cukup."
+      "pembahasan": "Persen dan rupiah tidak bisa dibandingkan langsung, samakan dulu ke rupiah. 25% x 40.000 = 10.000, jadi potong persen = 10.000 dan potong rupiah = 15.000, jadi klaim benar karena 15.000 > 10.000. Persen harus diubah ke rupiah dulu sebelum dibandingkan dengan potong rupiah. Ubah persen ke rupiah sebelum membandingkan promo. Jebakannya di anggapan persen selalu lebih besar, padahal 25% dari harga kecil bisa lebih kecil dari potong rupiah. Cek cepat: ubah persennya ke rupiah, lalu bandingkan angkanya. Opsi A salah karena persen tidak selalu lebih besar, opsi B salah karena nilainya beda, opsi D salah karena datanya cukup."
     },
     {
       "no": 4,
@@ -82,21 +55,12 @@
       "opsi": {
         "A": "Toko Beras Arum, karena ongkirnya paling kecil",
         "B": "Toko Beras Cinta, karena harga per kg paling kecil",
-        "C": "Toko Beras Fani, karena harga berasnya 12.500 tanpa ongkir",
-        "D": "Toko Beras Fani, karena totalnya 125.000 paling kecil"
+        "C": "Toko Beras Fani, karena harga berasnya Rp12.500,00 tanpa ongkir",
+        "D": "Toko Beras Fani, karena totalnya Rp125.000,00 paling kecil"
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: harga per kg saja menipu kalau ongkirnya beda, yang dibandingkan adalah total bayar. Cara Hitung: Arum = 12.000 x 10 + 10.000 = 130.000, Cinta = 11.000 x 10 + 25.000 = 135.000, Fani = 12.500 x 10 + 0 = 125.000. Uji: Fani paling kecil. Pelajaran Nalar: murah per kg belum tentu murah total, ongkir adalah bagian dari harga. Tips: hitung total tiap toko dulu, baru bandingkan. Opsi A salah karena total Arum 130.000. Opsi B salah karena total Cinta 135.000, paling mahal. Opsi C salah alasan karena menyebut harga beras saja tanpa total, walau tokonya kebetulan benar.",
-      "q": "Butuh 10 kg beras. Toko Beras Arum: Rp12.000,00 per kg + ongkir Rp10.000,00. Toko Beras Cinta: Rp11.000,00 per kg + ongkir Rp25.000,00. Toko Beras Fani: Rp12.500,00 per kg, gratis ongkir. Pemasok yang totalnya paling murah adalah ...",
-      "o": [
-        "Toko Beras Arum, karena ongkirnya paling kecil",
-        "Toko Beras Cinta, karena harga per kg paling kecil",
-        "Toko Beras Fani, karena harga berasnya 12.500 tanpa ongkir",
-        "Toko Beras Fani, karena totalnya 125.000 paling kecil"
-      ],
-      "a": 3,
-      "e": "Bedah: harga per kg saja menipu kalau ongkirnya beda, yang dibandingkan adalah total bayar. Cara Hitung: Arum = 12.000 x 10 + 10.000 = 130.000, Cinta = 11.000 x 10 + 25.000 = 135.000, Fani = 12.500 x 10 + 0 = 125.000. Uji: Fani paling kecil. Pelajaran Nalar: murah per kg belum tentu murah total, ongkir adalah bagian dari harga. Tips: hitung total tiap toko dulu, baru bandingkan. Opsi A salah karena total Arum 130.000. Opsi B salah karena total Cinta 135.000, paling mahal. Opsi C salah alasan karena menyebut harga beras saja tanpa total, walau tokonya kebetulan benar."
+      "pembahasan": "Harga per kg saja menipu kalau ongkirnya beda, yang dibandingkan adalah total bayar. Arum = 12.000 x 10 + 10.000 = 130.000, Cinta = 11.000 x 10 + 25.000 = 135.000, Fani = 12.500 x 10 + 0 = 125.000, jadi Fani paling kecil. Murah per kg belum tentu murah total, ongkir adalah bagian dari harga. Hitung total tiap toko dulu, baru bandingkan. Jebakannya di Cinta yang harga per kg-nya paling kecil, padahal ongkirnya membuat totalnya paling mahal. Cek cepat: hitung total satu toko yang ongkirnya besar dulu, jangan langsung pilih harga per kg terkecil. Opsi A salah karena total Arum 130.000, opsi B salah karena total Cinta 135.000 paling mahal, opsi C salah alasan karena hanya menyebut harga beras tanpa total, walau tokonya kebetulan benar."
     },
     {
       "no": 5,
@@ -109,20 +73,11 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: baca data satu per satu, jangan loncat ke kesimpulan. Cara Hitung: total = 25 + 35 + 30 + 40 = 130, paling banyak Kamis 40, paling sedikit Senin 25. Uji: hanya A yang cocok dua-duanya. Pelajaran Nalar: kesimpulan harus cocok dengan semua data, bukan hanya satu angka yang kelihatan besar. Tips: hitung total dulu, baru cari paling banyak dan paling sedikit. Opsi B salah karena Selasa 35 bukan paling banyak. Opsi C salah karena Rabu 30 bukan paling sedikit. Opsi D salah totalnya.",
-      "q": "Data penjualan es dawet Pak Hadi: Senin 25 gelas, Selasa 35 gelas, Rabu 30 gelas, Kamis 40 gelas. Kesimpulan yang benar adalah ...",
-      "o": [
-        "Kamis paling banyak dan total 4 hari 130 gelas",
-        "Selasa paling banyak dan total 4 hari 130 gelas",
-        "Rabu paling sedikit dan total 4 hari 130 gelas",
-        "Kamis paling banyak dan total 4 hari 120 gelas"
-      ],
-      "a": 0,
-      "e": "Bedah: baca data satu per satu, jangan loncat ke kesimpulan. Cara Hitung: total = 25 + 35 + 30 + 40 = 130, paling banyak Kamis 40, paling sedikit Senin 25. Uji: hanya A yang cocok dua-duanya. Pelajaran Nalar: kesimpulan harus cocok dengan semua data, bukan hanya satu angka yang kelihatan besar. Tips: hitung total dulu, baru cari paling banyak dan paling sedikit. Opsi B salah karena Selasa 35 bukan paling banyak. Opsi C salah karena Rabu 30 bukan paling sedikit. Opsi D salah totalnya."
+      "pembahasan": "Baca datanya satu per satu, jangan loncat ke kesimpulan. Total = 25 + 35 + 30 + 40 = 130, paling banyak Kamis 40, paling sedikit Senin 25, jadi hanya A yang cocok dua-duanya. Kesimpulan harus cocok dengan semua data, bukan hanya satu angka yang kelihatan besar. Hitung total dulu, baru cari paling banyak dan paling sedikit. Jebakannya di Selasa 35 yang kelihatan besar, padahal Kamis 40 lebih besar. Cek cepat: lingkari angka paling besar dan paling kecil dulu, baru cek totalnya. Opsi B salah karena Selasa 35 bukan paling banyak, opsi C salah karena Rabu 30 bukan paling sedikit, opsi D salah totalnya."
     },
     {
       "no": 6,
-      "soal": "Soal: ubah 3/5 ke desimal. Cara Kirana: 3/5 = 6/10 = 0,6. Cara Dewa: 3/5 = 0,35. Pernyataan yang benar adalah ...",
+      "soal": "Ubah 3/5 ke desimal. Cara Kirana: 3/5 = 6/10 = 0,6. Cara Dewa: 3/5 = 0,35. Pernyataan yang benar adalah ...",
       "opsi": {
         "A": "Cara Dewa benar, Cara Kirana salah",
         "B": "Cara Kirana benar, Cara Dewa salah",
@@ -131,16 +86,7 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: pecahan harus diubah penyebutnya dulu, bukan ditempel angkanya. Cara Hitung: 3/5 = (3 x 2)/(5 x 2) = 6/10 = 0,6. Uji: Kirana benar, Dewa salah karena menempel 3 dan 5 jadi 0,35. Pelajaran Nalar: angka 3 dan 5 di pecahan bukan angka desimal yang bisa ditempel. Tips: samakan penyebut ke 10 dulu. Opsi A salah karena Dewa salah. Opsi C salah karena keduanya tidak bisa benar saat hasilnya beda. Opsi D salah karena Kirana benar.",
-      "q": "Soal: ubah 3/5 ke desimal. Cara Kirana: 3/5 = 6/10 = 0,6. Cara Dewa: 3/5 = 0,35. Pernyataan yang benar adalah ...",
-      "o": [
-        "Cara Dewa benar, Cara Kirana salah",
-        "Cara Kirana benar, Cara Dewa salah",
-        "Cara Kirana benar, Cara Dewa benar",
-        "Cara Kirana salah, Cara Dewa salah"
-      ],
-      "a": 1,
-      "e": "Bedah: pecahan harus diubah penyebutnya dulu, bukan ditempel angkanya. Cara Hitung: 3/5 = (3 x 2)/(5 x 2) = 6/10 = 0,6. Uji: Kirana benar, Dewa salah karena menempel 3 dan 5 jadi 0,35. Pelajaran Nalar: angka 3 dan 5 di pecahan bukan angka desimal yang bisa ditempel. Tips: samakan penyebut ke 10 dulu. Opsi A salah karena Dewa salah. Opsi C salah karena keduanya tidak bisa benar saat hasilnya beda. Opsi D salah karena Kirana benar."
+      "pembahasan": "Pecahan harus diubah penyebutnya dulu, bukan ditempel angkanya. 3/5 = (3 x 2)/(5 x 2) = 6/10 = 0,6, jadi Kirana benar dan Dewa salah karena menempel 3 dan 5 jadi 0,35. Angka 3 dan 5 di pecahan bukan angka desimal yang bisa ditempel. Samakan penyebut ke 10 dulu. Jebakannya di cara Dewa yang kelihatan cepat karena tinggal menempel angka, padahal itu bukan cara mengubah pecahan. Cek cepat: tanya, apakah penyebutnya sudah 10? Kalau belum, cara itu salah. Opsi A salah karena Dewa salah, opsi C salah karena keduanya tidak bisa benar saat hasilnya beda, opsi D salah karena Kirana benar."
     },
     {
       "no": 7,
@@ -153,16 +99,7 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: peluang dibandingkan setelah disederhanakan, bukan dari angka mentahnya. Cara Hitung: Merah = 4/12 = 1/3, Biru = 5/15 = 1/3. Uji: keduanya 1/3, klaim benar. Pelajaran Nalar: angka yang lebih besar belum tentu peluangnya lebih besar kalau totalnya juga lebih besar. Tips: sederhanakan kedua peluang dulu. Opsi A dan B salah karena keduanya 1/3. Opsi D salah karena datanya cukup.",
-      "q": "Kantong Merah berisi 4 kelereng merah dari 12 kelereng. Kantong Biru berisi 5 kelereng merah dari 15 kelereng. Klaim: peluang dapat merah dari kedua kantong sama. Klaim itu ...",
-      "o": [
-        "Salah, Kantong Merah lebih besar",
-        "Salah, Kantong Biru lebih besar",
-        "Benar, keduanya 1/3",
-        "Tidak bisa ditentukan"
-      ],
-      "a": 2,
-      "e": "Bedah: peluang dibandingkan setelah disederhanakan, bukan dari angka mentahnya. Cara Hitung: Merah = 4/12 = 1/3, Biru = 5/15 = 1/3. Uji: keduanya 1/3, klaim benar. Pelajaran Nalar: angka yang lebih besar belum tentu peluangnya lebih besar kalau totalnya juga lebih besar. Tips: sederhanakan kedua peluang dulu. Opsi A dan B salah karena keduanya 1/3. Opsi D salah karena datanya cukup."
+      "pembahasan": "Peluang dibandingkan setelah disederhanakan, bukan dari angka mentahnya. Merah = 4/12 = 1/3, Biru = 5/15 = 1/3, jadi keduanya 1/3 dan klaim benar. Angka yang lebih besar belum tentu peluangnya lebih besar kalau totalnya juga lebih besar. Sederhanakan kedua peluang dulu. Jebakannya di angka 5 yang kelihatan lebih besar dari 4, padahal totalnya juga lebih besar. Cek cepat: sederhanakan dulu, baru bandingkan. Opsi A dan B salah karena keduanya 1/3, opsi D salah karena datanya cukup."
     },
     {
       "no": 8,
@@ -175,16 +112,7 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: rata-rata dihitung dari total dibagi banyak data, bukan dari modus. Cara Hitung: total = 6 + 8 + 8 + 9 + 9 = 40, rata-rata = 40 : 5 = 8. Uji: klaim benar, tapi alasan harus total, bukan modus. Pelajaran Nalar: jawaban benar dengan alasan salah tetap belum membuktikan, alasan harus dicek juga. Tips: hitung total dulu, baru bagi. Opsi A dan B salah hitung totalnya. Opsi C salah alasan karena modus 8 bukan bukti rata-rata 8.",
-      "q": "Data nilai kuis: 6, 8, 8, 9, 9. Klaim: rata-ratanya 8. Klaim itu ...",
-      "o": [
-        "Salah, rata-ratanya 7",
-        "Salah, rata-ratanya 9",
-        "Benar, karena modus 8",
-        "Benar, karena total 40 : 5 = 8"
-      ],
-      "a": 3,
-      "e": "Bedah: rata-rata dihitung dari total dibagi banyak data, bukan dari modus. Cara Hitung: total = 6 + 8 + 8 + 9 + 9 = 40, rata-rata = 40 : 5 = 8. Uji: klaim benar, tapi alasan harus total, bukan modus. Pelajaran Nalar: jawaban benar dengan alasan salah tetap belum membuktikan, alasan harus dicek juga. Tips: hitung total dulu, baru bagi. Opsi A dan B salah hitung totalnya. Opsi C salah alasan karena modus 8 bukan bukti rata-rata 8."
+      "pembahasan": "Rata-rata dihitung dari total dibagi banyak data, bukan dari modus. Total = 6 + 8 + 8 + 9 + 9 = 40, rata-rata = 40 : 5 = 8, jadi klaim benar, tapi alasan harus total, bukan modus. Jawaban benar dengan alasan salah tetap belum membuktikan, alasan harus dicek juga. Hitung total dulu, baru bagi. Jebakannya di opsi C yang jawabannya kebetulan benar tapi alasannya salah, karena modus 8 bukan bukti rata-rata 8. Cek cepat: tanya, apakah alasannya memakai total dibagi banyak data? Kalau tidak, buang opsi itu. Opsi A dan B salah hitung totalnya, opsi C salah alasan karena modus 8 bukan bukti rata-rata 8."
     },
     {
       "no": 9,
@@ -197,16 +125,7 @@
       },
       "kunci": "A",
       "cog": "C5",
-      "pembahasan": "Bedah: hemat dihitung dari watt dikali jumlah dikali jam, bukan dari satu angka saja. Cara Hitung: Ayu = 2 x 5 x 4 = 40, Bima = 1 x 10 x 3 = 30. Uji: Ayu lebih hemat 10. Pelajaran Nalar: besar watt saja menipu kalau jamnya lebih pendek. Tips: kalikan tiga angka sekaligus sebelum membandingkan. Opsi B salah karena watt besar tapi jam pendek. Opsi C salah karena hasilnya beda. Opsi D salah karena datanya cukup.",
-      "q": "Strategi Ayu: matikan 2 lampu 5 watt selama 4 jam. Strategi Bima: matikan 1 lampu 10 watt selama 3 jam. Strategi yang hematnya lebih banyak adalah ...",
-      "o": [
-        "Strategi Ayu, karena 2 x 5 x 4 = 40 lebih besar dari 30",
-        "Strategi Bima, karena lampunya lebih besar watt-nya",
-        "Sama hemat, karena sama-sama mematikan lampu",
-        "Tidak bisa ditentukan"
-      ],
-      "a": 0,
-      "e": "Bedah: hemat dihitung dari watt dikali jumlah dikali jam, bukan dari satu angka saja. Cara Hitung: Ayu = 2 x 5 x 4 = 40, Bima = 1 x 10 x 3 = 30. Uji: Ayu lebih hemat 10. Pelajaran Nalar: besar watt saja menipu kalau jamnya lebih pendek. Tips: kalikan tiga angka sekaligus sebelum membandingkan. Opsi B salah karena watt besar tapi jam pendek. Opsi C salah karena hasilnya beda. Opsi D salah karena datanya cukup."
+      "pembahasan": "Hemat dihitung dari watt dikali jumlah dikali jam, bukan dari satu angka saja. Ayu = 2 x 5 x 4 = 40, Bima = 1 x 10 x 3 = 30, jadi Ayu lebih hemat 10. Besar watt saja menipu kalau jamnya lebih pendek. Kalikan tiga angka sekaligus sebelum membandingkan. Jebakannya di lampu Bima yang watt-nya lebih besar, padahal jamnya lebih pendek. Cek cepat: kalikan watt, jumlah, dan jam sekaligus, jangan hanya lihat watt-nya. Opsi B salah karena watt besar tapi jam pendek, opsi C salah karena hasilnya beda, opsi D salah karena datanya cukup."
     },
     {
       "no": 10,
@@ -219,16 +138,7 @@
       },
       "kunci": "B",
       "cog": "C5",
-      "pembahasan": "Bedah: skala dibaca sebagai kali, lalu satuan diubah di akhir. Cara Hitung: 6 x 200 = 1.200 cm, 1.200 cm = 12 m. Uji: klaim benar. Pelajaran Nalar: angka 1.200 saja belum jadi jawaban kalau satuannya belum diubah ke meter. Tips: kalikan dulu, baru ubah cm ke m. Opsi A salah karena tidak mengalikan skala. Opsi C salah karena tidak mengubah satuan. Opsi D salah karena datanya cukup.",
-      "q": "Skala peta 1 : 200. Jarak di peta 6 cm. Klaim: jarak sebenarnya 12 m. Klaim itu ...",
-      "o": [
-        "Salah, jarak sebenarnya 6 m",
-        "Benar, karena 6 x 200 = 1.200 cm = 12 m",
-        "Salah, jarak sebenarnya 120 m",
-        "Tidak bisa ditentukan"
-      ],
-      "a": 1,
-      "e": "Bedah: skala dibaca sebagai kali, lalu satuan diubah di akhir. Cara Hitung: 6 x 200 = 1.200 cm, 1.200 cm = 12 m. Uji: klaim benar. Pelajaran Nalar: angka 1.200 saja belum jadi jawaban kalau satuannya belum diubah ke meter. Tips: kalikan dulu, baru ubah cm ke m. Opsi A salah karena tidak mengalikan skala. Opsi C salah karena tidak mengubah satuan. Opsi D salah karena datanya cukup."
+      "pembahasan": "Skala dibaca sebagai kali, lalu satuan diubah di akhir. 6 x 200 = 1.200 cm, 1.200 cm = 12 m, jadi klaim benar. Angka 1.200 saja belum jadi jawaban kalau satuannya belum diubah ke meter. Kalikan dulu, baru ubah cm ke m. Jebakannya di angka 1.200 yang kalau tidak diubah satuannya bisa dikira 120 m atau 1.200 m. Cek cepat: setelah mengalikan, tanya satuannya sudah meter atau masih cm? Opsi A salah karena tidak mengalikan skala, opsi C salah karena tidak mengubah satuan, opsi D salah karena datanya cukup."
     },
     {
       "no": 11,
@@ -241,16 +151,7 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: naik persen artinya tambah, bukan ganti harga jadi persennya. Cara Hitung: 20% x 50.000 = 10.000, harga baru = 50.000 + 10.000 = 60.000. Uji: klaim benar. Pelajaran Nalar: persen naik harus ditambahkan ke harga awal, bukan dijadikan harga baru. Tips: hitung kenaikannya dulu, baru tambah. Opsi A salah karena menambah 20.000. Opsi B salah karena menambah 5.000. Opsi D salah karena datanya cukup.",
-      "q": "Harga buku Rp50.000,00 naik 20%. Klaim: harga baru Rp60.000,00. Klaim itu ...",
-      "o": [
-        "Salah, harga baru Rp70.000,00",
-        "Salah, harga baru Rp55.000,00",
-        "Benar, karena 20% x 50.000 = 10.000, lalu 50.000 + 10.000 = 60.000",
-        "Tidak bisa ditentukan"
-      ],
-      "a": 2,
-      "e": "Bedah: naik persen artinya tambah, bukan ganti harga jadi persennya. Cara Hitung: 20% x 50.000 = 10.000, harga baru = 50.000 + 10.000 = 60.000. Uji: klaim benar. Pelajaran Nalar: persen naik harus ditambahkan ke harga awal, bukan dijadikan harga baru. Tips: hitung kenaikannya dulu, baru tambah. Opsi A salah karena menambah 20.000. Opsi B salah karena menambah 5.000. Opsi D salah karena datanya cukup."
+      "pembahasan": "Naik persen artinya tambah, bukan ganti harga jadi persennya. 20% x 50.000 = 10.000, harga baru = 50.000 + 10.000 = 60.000, jadi klaim benar. Persen naik harus ditambahkan ke harga awal, bukan dijadikan harga baru. Hitung kenaikannya dulu, baru tambah. Jebakannya di cara yang langsung menjadikan 20% sebagai harga baru, padahal 20% itu hanya kenaikannya. Cek cepat: tanya, apakah persennya sudah ditambahkan ke harga awal? Kalau belum, hitung ulang. Opsi A salah karena menambah 20.000, opsi B salah karena menambah 5.000, opsi D salah karena datanya cukup."
     },
     {
       "no": 12,
@@ -263,16 +164,7 @@
       },
       "kunci": "D",
       "cog": "C5",
-      "pembahasan": "Bedah: rata-rata dibagi banyak data, banyak data di sini 3, bukan 2. Cara Hitung: total = 36, cara pertama 36 : 2 = 18, cara kedua 36 : 3 = 12. Uji: cara pertama salah, cara kedua benar. Pelajaran Nalar: pembagi rata-rata adalah banyak data, bukan angka yang kelihatan. Tips: hitung dulu ada berapa data sebelum membagi. Opsi A salah karena cara pertama salah. Opsi B salah karena keduanya tidak bisa benar saat hasilnya beda. Opsi C salah karena cara kedua benar.",
-      "q": "Data: 10, 12, 14. Cara pertama: (10 + 12 + 14) : 2 = 18. Cara kedua: (10 + 12 + 14) : 3 = 12. Pernyataan yang benar adalah ...",
-      "o": [
-        "Cara pertama benar, cara kedua salah",
-        "Cara pertama benar, cara kedua benar",
-        "Cara pertama salah, cara kedua salah",
-        "Cara pertama salah, cara kedua benar"
-      ],
-      "a": 3,
-      "e": "Bedah: rata-rata dibagi banyak data, banyak data di sini 3, bukan 2. Cara Hitung: total = 36, cara pertama 36 : 2 = 18, cara kedua 36 : 3 = 12. Uji: cara pertama salah, cara kedua benar. Pelajaran Nalar: pembagi rata-rata adalah banyak data, bukan angka yang kelihatan. Tips: hitung dulu ada berapa data sebelum membagi. Opsi A salah karena cara pertama salah. Opsi B salah karena keduanya tidak bisa benar saat hasilnya beda. Opsi C salah karena cara kedua benar."
+      "pembahasan": "Pembagi rata-rata adalah banyak data, banyak data di sini 3, bukan 2. Total = 36, cara pertama 36 : 2 = 18, cara kedua 36 : 3 = 12, jadi cara pertama salah dan cara kedua benar. Banyak data harus dihitung dulu, bukan ditebak dari angka yang kelihatan. Hitung dulu ada berapa data sebelum membagi. Jebakannya di angka 2 yang kelihatan seperti pembagi, padahal datanya ada 3. Cek cepat: hitung dulu ada berapa data, baru bagi. Opsi A salah karena cara pertama salah, opsi B salah karena keduanya tidak bisa benar saat hasilnya beda, opsi C salah karena cara kedua benar."
     },
     {
       "no": 13,
@@ -285,16 +177,7 @@
       },
       "kunci": "C",
       "cog": "C5",
-      "pembahasan": "Bedah: kotak terbanyak artinya FPB, isi tiap kotak artinya bagi rata. Cara Hitung: FPB 36 dan 48 = 12, tiap kotak 36 : 12 = 3 botol, 48 : 12 = 4 tutup. Uji: 3 x 12 = 36 dan 4 x 12 = 48, pas tanpa sisa. Pelajaran Nalar: terbanyak bukan asal besar, tapi pembagi bersama terbesar yang tidak menyisakan. Tips: cek dengan perkalian balik. Opsi A dan B bukan terbanyak. Opsi D salah karena botol dan tutup sama-sama bersisa.",
-      "q": "Kelas 6 Melur punya 36 botol bekas dan 48 tutup botol. Mau dibuat kotak sama banyak tanpa sisa agar kotak terbanyak dan tiap kotak isinya seimbang. Rancangan yang tepat adalah ...",
-      "o": [
-        "Buat 6 kotak, tiap kotak 6 botol dan 8 tutup",
-        "Buat 8 kotak, tiap kotak 4 botol dan 6 tutup",
-        "Buat 12 kotak, tiap kotak 3 botol dan 4 tutup",
-        "Buat 24 kotak, tiap kotak 1 botol dan 1 tutup"
-      ],
-      "a": 2,
-      "e": "Bedah: kotak terbanyak artinya FPB, isi tiap kotak artinya bagi rata. Cara Hitung: FPB 36 dan 48 = 12, tiap kotak 36 : 12 = 3 botol, 48 : 12 = 4 tutup. Uji: 3 x 12 = 36 dan 4 x 12 = 48, pas tanpa sisa. Pelajaran Nalar: terbanyak bukan asal besar, tapi pembagi bersama terbesar yang tidak menyisakan. Tips: cek dengan perkalian balik. Opsi A dan B bukan terbanyak. Opsi D salah karena botol dan tutup sama-sama bersisa."
+      "pembahasan": "Kotak terbanyak artinya FPB, isi tiap kotak artinya bagi rata. FPB 36 dan 48 = 12, tiap kotak 36 : 12 = 3 botol, 48 : 12 = 4 tutup, dan 3 x 12 = 36 serta 4 x 12 = 48, pas tanpa sisa. Terbanyak bukan asal besar, tapi pembagi bersama terbesar yang tidak menyisakan. Cek dengan perkalian balik. Jebakannya di opsi D yang kelihatan rapi karena 1 botol dan 1 tutup, padahal botol dan tutupnya bersisa. Cek cepat: kalikan balik isi kotak dengan jumlah kotak, kalau tidak pas dengan total, buang opsi itu. Opsi A dan B bukan terbanyak, opsi D salah karena botol dan tutup sama-sama bersisa."
     },
     {
       "no": 14,
@@ -307,16 +190,7 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: jadwal harus memenuhi total DAN syarat, bukan hanya satu. Cara Hitung: A total 90 tapi Matematika bukan paling banyak, B total 90 tapi sama rata, C total 80 bukan 90, D total 40 + 25 + 25 = 90 dan Matematika paling banyak. Uji: hanya D memenuhi dua syarat. Pelajaran Nalar: sama rata tidak selalu memenuhi syarat yang minta paling banyak. Tips: cek total dulu, baru cek syarat. Opsi A salah karena Matematika paling sedikit. Opsi B salah karena sama rata. Opsi C salah karena totalnya kurang.",
-      "q": "Citra punya 90 menit untuk 3 tugas: Matematika paling banyak, IPA minimal 20 menit, IPS minimal 20 menit, total 90 menit. Jadwal yang tepat adalah ...",
-      "o": [
-        "Matematika 20 menit, IPA 35 menit, IPS 35 menit",
-        "Matematika 30 menit, IPA 30 menit, IPS 30 menit",
-        "Matematika 40 menit, IPA 20 menit, IPS 20 menit",
-        "Matematika 40 menit, IPA 25 menit, IPS 25 menit"
-      ],
-      "a": 3,
-      "e": "Bedah: jadwal harus memenuhi total DAN syarat, bukan hanya satu. Cara Hitung: A total 90 tapi Matematika bukan paling banyak, B total 90 tapi sama rata, C total 80 bukan 90, D total 40 + 25 + 25 = 90 dan Matematika paling banyak. Uji: hanya D memenuhi dua syarat. Pelajaran Nalar: sama rata tidak selalu memenuhi syarat yang minta paling banyak. Tips: cek total dulu, baru cek syarat. Opsi A salah karena Matematika paling sedikit. Opsi B salah karena sama rata. Opsi C salah karena totalnya kurang."
+      "pembahasan": "Jadwal harus memenuhi total DAN syarat, bukan hanya satu. A total 90 tapi Matematika bukan paling banyak, B total 90 tapi sama rata, C total 80 bukan 90, D total 40 + 25 + 25 = 90 dan Matematika paling banyak, jadi hanya D yang memenuhi dua syarat. Sama rata tidak selalu memenuhi syarat yang minta paling banyak. Cek total dulu, baru cek syarat. Jebakannya di opsi B yang kelihatan adil karena sama rata, padahal syaratnya minta Matematika paling banyak. Cek cepat: cek total dulu, lalu tanya apakah Matematika paling banyak? Kalau tidak, buang. Opsi A salah karena Matematika paling sedikit, opsi B salah karena sama rata, opsi C salah karena totalnya kurang."
     },
     {
       "no": 15,
@@ -329,16 +203,7 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: peluang 1/4 dari 20 artinya 1/4 bagian dari total, bukan angka 1 atau 4 mentah. Cara Hitung: 1/4 x 20 = 5 kuning, sisanya 15 biru. Uji: 5/20 = 1/4. Pelajaran Nalar: angka di peluang harus dikalikan total dulu, bukan dipakai langsung. Tips: kalikan peluang dengan total. Opsi B salah karena 4/20 = 1/5. Opsi C salah karena 10/20 = 1/2. Opsi D salah karena memakai angka 1 dari 1/4 langsung.",
-      "q": "Kelas 6 Bintang mau buat kantong 20 kelereng agar peluang dapat kuning 1/4. Rancangan yang tepat adalah ...",
-      "o": [
-        "5 kuning dan 15 biru",
-        "4 kuning dan 16 biru",
-        "10 kuning dan 10 biru",
-        "1 kuning dan 19 biru"
-      ],
-      "a": 0,
-      "e": "Bedah: peluang 1/4 dari 20 artinya 1/4 bagian dari total, bukan angka 1 atau 4 mentah. Cara Hitung: 1/4 x 20 = 5 kuning, sisanya 15 biru. Uji: 5/20 = 1/4. Pelajaran Nalar: angka di peluang harus dikalikan total dulu, bukan dipakai langsung. Tips: kalikan peluang dengan total. Opsi B salah karena 4/20 = 1/5. Opsi C salah karena 10/20 = 1/2. Opsi D salah karena memakai angka 1 dari 1/4 langsung."
+      "pembahasan": "Peluang 1/4 dari 20 artinya 1/4 bagian dari total, bukan angka 1 atau 4 mentah. 1/4 x 20 = 5 kuning, sisanya 15 biru, dan 5/20 = 1/4. Angka di peluang harus dikalikan total dulu, bukan dipakai langsung. Kalikan peluang dengan total. Jebakannya di opsi D yang memakai angka 1 dari 1/4 langsung, padahal 1/4 itu bagian, bukan jumlah. Cek cepat: kalikan peluang dengan total dulu, baru lihat jumlah kuningnya. Opsi B salah karena 4/20 = 1/5, opsi C salah karena 10/20 = 1/2, opsi D salah karena memakai angka 1 dari 1/4 langsung."
     },
     {
       "no": 16,
@@ -351,16 +216,7 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: bedakan soal baca data dan soal nalar yang memakai pola. Cara Hitung: selisih 22 - 15 = 7, 29 - 22 = 7, total = 66, Kamis = 29 + 7 = 36. Uji: A dan D hanya baca data, C hanya jumlah, B memakai pola untuk prediksi dan menilai. Pelajaran Nalar: soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Tips: cari soal yang minta prediksi. Opsi A dan D salah karena hanya membaca. Opsi C salah karena hanya menjumlah.",
-      "q": "Data penjualan batik tulis Bu Gita: Senin 15, Selasa 22, Rabu 29. Soal baru yang paling tepat untuk menguji nalar adalah ...",
-      "o": [
-        "Berapa penjualan Senin?",
-        "Jika Kamis naik 7 lagi, berapa penjualan Kamis dan apakah pola naik 7 terus?",
-        "Berapa total 3 hari?",
-        "Berapa penjualan Selasa?"
-      ],
-      "a": 1,
-      "e": "Bedah: bedakan soal baca data dan soal nalar yang memakai pola. Cara Hitung: selisih 22 - 15 = 7, 29 - 22 = 7, total = 66, Kamis = 29 + 7 = 36. Uji: A dan D hanya baca data, C hanya jumlah, B memakai pola untuk prediksi dan menilai. Pelajaran Nalar: soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Tips: cari soal yang minta prediksi. Opsi A dan D salah karena hanya membaca. Opsi C salah karena hanya menjumlah."
+      "pembahasan": "Bedakan soal baca data dan soal nalar yang memakai pola. Selisih 22 - 15 = 7, 29 - 22 = 7, total = 66, Kamis = 29 + 7 = 36, jadi A dan D hanya baca data, C hanya jumlah, B memakai pola untuk prediksi dan menilai. Soal nalar meminta memakai pola, bukan hanya membaca angka yang sudah ada. Cari soal yang minta prediksi. Jebakannya di opsi C yang kelihatan butuh hitung, padahal hanya menjumlah, bukan memakai pola. Cek cepat: tanya, apakah soalnya minta prediksi? Kalau hanya minta angka yang sudah ada, itu bukan soal nalar. Opsi A dan D salah karena hanya membaca, opsi C salah karena hanya menjumlah."
     },
     {
       "no": 17,
@@ -373,16 +229,7 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: bandingkan jarak, ongkir, dan waktu bersamaan, bukan satu saja. Cara Hitung: Pemuda dan Darmo jarak sama 6 km dan waktu sama 20 menit, Darmo Rp10.000,00 lebih murah dari Pemuda Rp12.000,00. Uji: Darmo paling hemat untuk jarak dan waktu yang sama. Pelajaran Nalar: murah saja belum tentu hemat kalau jaraknya jauh dan waktunya lama. Tips: bandingkan yang jarak dan waktunya sama dulu. Opsi A dan D salah karena Pemuda bukan paling murah. Opsi B salah karena Raya memang murah tapi jarak 9 km dan waktu 35 menit.",
-      "q": "Tiga rute antar paket: via Jalan Pemuda jarak 6 km ongkir Rp12.000,00 waktu 20 menit, via Jalan Raya jarak 9 km ongkir Rp9.000,00 waktu 35 menit, via Jalan Darmo jarak 6 km ongkir Rp10.000,00 waktu 20 menit. Rute yang paling hemat adalah ...",
-      "o": [
-        "Via Jalan Pemuda, karena ongkirnya Rp12.000,00",
-        "Via Jalan Raya, karena ongkirnya paling murah",
-        "Via Jalan Darmo, karena jarak dan waktunya sama dengan Pemuda tapi ongkirnya lebih murah",
-        "Via Jalan Pemuda, karena ongkirnya paling murah"
-      ],
-      "a": 2,
-      "e": "Bedah: bandingkan jarak, ongkir, dan waktu bersamaan, bukan satu saja. Cara Hitung: Pemuda dan Darmo jarak sama 6 km dan waktu sama 20 menit, Darmo Rp10.000,00 lebih murah dari Pemuda Rp12.000,00. Uji: Darmo paling hemat untuk jarak dan waktu yang sama. Pelajaran Nalar: murah saja belum tentu hemat kalau jaraknya jauh dan waktunya lama. Tips: bandingkan yang jarak dan waktunya sama dulu. Opsi A dan D salah karena Pemuda bukan paling murah. Opsi B salah karena Raya memang murah tapi jarak 9 km dan waktu 35 menit."
+      "pembahasan": "Bandingkan jarak, ongkir, dan waktu bersamaan, bukan satu saja. Pemuda dan Darmo jarak sama 6 km dan waktu sama 20 menit, Darmo Rp10.000,00 lebih murah dari Pemuda Rp12.000,00, jadi Darmo paling hemat untuk jarak dan waktu yang sama. Murah saja belum tentu hemat kalau jaraknya jauh dan waktunya lama. Bandingkan yang jarak dan waktunya sama dulu. Jebakannya di Raya yang ongkirnya paling murah, padahal jaraknya 9 km dan waktunya 35 menit. Cek cepat: cari dulu rute yang jarak dan waktunya sama, baru bandingkan ongkirnya. Opsi A dan D salah karena Pemuda bukan paling murah, opsi B salah karena Raya memang murah tapi jarak 9 km dan waktu 35 menit."
     },
     {
       "no": 18,
@@ -395,38 +242,20 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: target sisa = target total dikurangi yang sudah terkumpul, baru cek totalnya. Cara Hitung: sudah terkumpul = 30 + 35 + 40 = 105, sisa = 150 - 105 = 45, total = 105 + 45 = 150. Uji: hanya D yang target sisa dan totalnya cocok. Pelajaran Nalar: target yang sudah tercapai sebagian harus dikurangkan dulu, bukan ditebak dari pola saja. Tips: hitung yang sudah terkumpul dulu, baru cari sisanya. Opsi A salah karena Minggu 4 = 30 berarti target tidak naik. Opsi B salah karena totalnya 145, bukan 150. Opsi C salah totalnya karena 105 + 45 bukan 140.",
-      "q": "SD Pahlawan mengumpulkan botol: Minggu 1 = 30 botol, Minggu 2 = 35 botol, Minggu 3 = 40 botol. Target total 4 minggu = 150 botol. Buat target Minggu 4 dan totalnya!",
-      "o": [
-        "Minggu 4 = 30 botol, total 135 botol",
-        "Minggu 4 = 40 botol, total 145 botol",
-        "Minggu 4 = 45 botol, total 140 botol",
-        "Minggu 4 = 45 botol, total 150 botol"
-      ],
-      "a": 3,
-      "e": "Bedah: target sisa = target total dikurangi yang sudah terkumpul, baru cek totalnya. Cara Hitung: sudah terkumpul = 30 + 35 + 40 = 105, sisa = 150 - 105 = 45, total = 105 + 45 = 150. Uji: hanya D yang target sisa dan totalnya cocok. Pelajaran Nalar: target yang sudah tercapai sebagian harus dikurangkan dulu, bukan ditebak dari pola saja. Tips: hitung yang sudah terkumpul dulu, baru cari sisanya. Opsi A salah karena Minggu 4 = 30 berarti target tidak naik. Opsi B salah karena totalnya 145, bukan 150. Opsi C salah totalnya karena 105 + 45 bukan 140."
+      "pembahasan": "Target sisa = target total dikurangi yang sudah terkumpul, baru cek totalnya. Sudah terkumpul = 30 + 35 + 40 = 105, sisa = 150 - 105 = 45, total = 105 + 45 = 150, jadi hanya D yang target sisa dan totalnya cocok. Target yang sudah tercapai sebagian harus dikurangkan dulu, bukan ditebak dari pola saja. Hitung yang sudah terkumpul dulu, baru cari sisanya. Jebakannya di opsi C yang jumlah Minggu 4-nya benar 45, tapi totalnya salah tulis 140. Cek cepat: jumlahkan lagi Minggu 1 sampai 4, kalau bukan 150, buang opsi itu. Opsi A salah karena Minggu 4 = 30 berarti target tidak naik, opsi B salah karena totalnya 145 bukan 150, opsi C salah totalnya karena 105 + 45 bukan 140."
     },
     {
       "no": 19,
-      "soal": "Gudang Sekolah mau buat kotak volume 96 cm3. Pilih kotak yang kardusnya paling hemat, yaitu luas permukaannya paling kecil!",
+      "soal": "Tono merancang kebun sayur di Surabaya dengan bentuk trapesium siku-siku. Sisi sejajarnya adalah 10 meter dan 20 meter, serta tinggi 8 meter. Ia ingin membagi kebun itu menjadi dua bagian sama luas untuk ditanam cabai dan tomat dengan jalur pembatas efisien. Strategi penentuan garis potong yang paling tepat adalah ...",
       "opsi": {
-        "A": "Panjang 6 cm, lebar 4 cm, tinggi 4 cm, luas permukaan 128 cm2",
-        "B": "Panjang 8 cm, lebar 4 cm, tinggi 3 cm, luas permukaan 136 cm2",
-        "C": "Panjang 8 cm, lebar 6 cm, tinggi 2 cm, luas permukaan 152 cm2",
-        "D": "Panjang 12 cm, lebar 4 cm, tinggi 2 cm, luas permukaan 160 cm2"
+        "A": "Memotong sejajar sisi sejajar pada jarak tertentu sehingga luas masing-masing bagian persis 60 meter persegi.",
+        "B": "Memotong tegak lurus di tengah tanpa memperhitungkan luas masing-masing bagian.",
+        "C": "Memotong diagonal sudut sembarang.",
+        "D": "Memotong dari sudut tumpul ke titik tengah sisi miring."
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: cek volume dulu, baru luas permukaan, jangan pilih dari panjang saja. Cara Hitung: semua volume 96, luas A = 2 x (24 + 16 + 24) = 128, B = 136, C = 152, D = 160. Uji: A paling kecil. Pelajaran Nalar: volume sama belum tentu luas permukaan sama, bentuk yang mendekati kubus biasanya lebih hemat. Tips: hitung luas semua pilihan. Opsi B, C, D salah karena luasnya lebih besar.",
-      "q": "Gudang Sekolah mau buat kotak volume 96 cm3. Pilih kotak yang kardusnya paling hemat, yaitu luas permukaannya paling kecil!",
-      "o": [
-        "Panjang 6 cm, lebar 4 cm, tinggi 4 cm, luas permukaan 128 cm2",
-        "Panjang 8 cm, lebar 4 cm, tinggi 3 cm, luas permukaan 136 cm2",
-        "Panjang 8 cm, lebar 6 cm, tinggi 2 cm, luas permukaan 152 cm2",
-        "Panjang 12 cm, lebar 4 cm, tinggi 2 cm, luas permukaan 160 cm2"
-      ],
-      "a": 0,
-      "e": "Bedah: cek volume dulu, baru luas permukaan, jangan pilih dari panjang saja. Cara Hitung: semua volume 96, luas A = 2 x (24 + 16 + 24) = 128, B = 136, C = 152, D = 160. Uji: A paling kecil. Pelajaran Nalar: volume sama belum tentu luas permukaan sama, bentuk yang mendekati kubus biasanya lebih hemat. Tips: hitung luas semua pilihan. Opsi B, C, D salah karena luasnya lebih besar."
+      "pembahasan": "Luas total harus dihitung dulu, baru garis potongnya ditentukan. Luas total trapesium = ((10 + 20) ÷ 2) × 8 = 120 m², dibagi dua sama luas berarti masing-masing 60 m², jadi hanya pemotongan sejajar yang bisa diatur jaraknya sampai persis 60 m². Pembagian bidang geometris menuntut perhitungan luas total terlebih dahulu. Gunakan prinsip rata-rata sisi sejajar untuk menentukan garis potong yang adil. Jebakannya di potongan tegak lurus yang kelihatan adil, padahal belum tentu membagi luas sama besar. Cek cepat: hitung dulu luas totalnya, lalu tanya apakah kedua bagian sama-sama 60 m²? Opsi B, C, D salah karena tidak menghasilkan pembagian luas 60 m² secara presisi dan adil."
     },
     {
       "no": 20,
@@ -439,16 +268,7 @@
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: aturan baru mengubah isi kelompok, bukan hanya membagi 72. Cara Hitung: 72 : 9 = 8 kelompok, cek 8 x 9 = 72, lalu tiap kelompok + 1 ketua = 10 orang per kelompok. Uji: hanya B yang kelompok dan isinya cocok. Pelajaran Nalar: aturan yang diubah harus dihitung ulang dari awal, bukan ditempel di akhir. Tips: bagi dulu, baru tambah ketua. Opsi A salah karena lupa ketua. Opsi C salah karena 9 x 9 = 81 bukan 72. Opsi D salah karena 12 x 9 = 108.",
-      "q": "72 siswa mau dibagi ke kelompok sama banyak, tiap kelompok 9 siswa. Lalu setiap kelompok ditambah 1 ketua dari luar (bukan dari 72 siswa). Rancangan yang tepat adalah ...",
-      "o": [
-        "8 kelompok, 9 orang per kelompok",
-        "8 kelompok, 10 orang per kelompok",
-        "9 kelompok, 10 orang per kelompok",
-        "12 kelompok, 10 orang per kelompok"
-      ],
-      "a": 1,
-      "e": "Bedah: aturan baru mengubah isi kelompok, bukan hanya membagi 72. Cara Hitung: 72 : 9 = 8 kelompok, cek 8 x 9 = 72, lalu tiap kelompok + 1 ketua = 10 orang per kelompok. Uji: hanya B yang kelompok dan isinya cocok. Pelajaran Nalar: aturan yang diubah harus dihitung ulang dari awal, bukan ditempel di akhir. Tips: bagi dulu, baru tambah ketua. Opsi A salah karena lupa ketua. Opsi C salah karena 9 x 9 = 81 bukan 72. Opsi D salah karena 12 x 9 = 108."
+      "pembahasan": "Aturan baru mengubah isi kelompok, bukan hanya membagi 72. 72 : 9 = 8 kelompok, cek 8 x 9 = 72, lalu tiap kelompok + 1 ketua = 10 orang per kelompok, jadi hanya B yang kelompok dan isinya cocok. Aturan yang diubah harus dihitung ulang dari awal, bukan ditempel di akhir. Bagi dulu, baru tambah ketua. Jebakannya di opsi A yang lupa ketuanya, padahal ketua dari luar tetap dihitung sebagai anggota kelompok. Cek cepat: setelah membagi, tanya apakah ketuanya sudah ditambahkan? Kalau belum, buang opsi itu. Opsi A salah karena lupa ketua, opsi C salah karena 9 x 9 = 81 bukan 72, opsi D salah karena 12 x 9 = 108."
     },
     {
       "no": 21,
@@ -461,16 +281,7 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: meter harus diubah ke cm dulu, baru dibagi skala, dan urutan panjang-lebar jangan tertukar. Cara Hitung: 12 m = 1.200 cm, 1.200 : 300 = 4 cm, 9 m = 900 cm, 900 : 300 = 3 cm. Uji: 4 cm x 3 cm. Pelajaran Nalar: skala tanpa ubah satuan menipu, dan tertukar urutan membuat denah terbalik. Tips: ubah ke cm dulu, baru bagi. Opsi A salah karena tidak membagi skala. Opsi B salah karena lebarnya tidak dibagi. Opsi D salah karena urutannya tertukar.",
-      "q": "Taman 12 m x 9 m mau digambar skala 1 : 300. Ukuran di kertas yang tepat adalah ...",
-      "o": [
-        "12 cm x 9 cm",
-        "4 cm x 9 cm",
-        "4 cm x 3 cm",
-        "3 cm x 4 cm"
-      ],
-      "a": 2,
-      "e": "Bedah: meter harus diubah ke cm dulu, baru dibagi skala, dan urutan panjang-lebar jangan tertukar. Cara Hitung: 12 m = 1.200 cm, 1.200 : 300 = 4 cm, 9 m = 900 cm, 900 : 300 = 3 cm. Uji: 4 cm x 3 cm. Pelajaran Nalar: skala tanpa ubah satuan menipu, dan tertukar urutan membuat denah terbalik. Tips: ubah ke cm dulu, baru bagi. Opsi A salah karena tidak membagi skala. Opsi B salah karena lebarnya tidak dibagi. Opsi D salah karena urutannya tertukar."
+      "pembahasan": "Meter harus diubah ke cm dulu, baru dibagi skala, dan urutan panjang-lebar jangan tertukar. 12 m = 1.200 cm, 1.200 : 300 = 4 cm, 9 m = 900 cm, 900 : 300 = 3 cm, jadi 4 cm x 3 cm. Skala tanpa ubah satuan menipu, dan tertukar urutan membuat denah terbalik. Ubah ke cm dulu, baru bagi. Jebakannya di opsi D yang angkanya benar tapi urutannya tertukar, sehingga denahnya terbalik. Cek cepat: cek dulu angka panjangnya, lalu angka lebarnya, jangan hanya cek angkanya saja. Opsi A salah karena tidak membagi skala, opsi B salah karena lebarnya tidak dibagi, opsi D salah karena urutannya tertukar."
     },
     {
       "no": 22,
@@ -483,16 +294,7 @@
       },
       "kunci": "D",
       "cog": "C6",
-      "pembahasan": "Bedah: harga jual = modal + untung, untung dihitung dari modal, bukan ditebak. Cara Hitung: 25% x 40.000 = 10.000, harga jual = 40.000 + 10.000 = 50.000. Uji: hanya D yang hitungan dan alasannya cocok. Pelajaran Nalar: jawaban benar harus dengan alasan yang benar, angka yang kebetulan sama belum membuktikan. Tips: hitung untungnya dulu, baru tambah ke modal. Opsi A salah karena tambah 5.000. Opsi B salah karena tambah 15.000. Opsi C salah alasan karena memakai 20%, bukan 25%.",
-      "q": "Bu Nia membuat 1 loyang kue lapis modal Rp40.000,00. Ia mau untung 25% dari modal. Harga jual yang tepat adalah ...",
-      "o": [
-        "Rp45.000,00, karena tambah Rp5.000,00",
-        "Rp55.000,00, karena tambah Rp15.000,00",
-        "Rp50.000,00, karena untungnya Rp10.000,00 dari 20%",
-        "Rp50.000,00, karena 25% x 40.000 = 10.000, lalu 40.000 + 10.000 = 50.000"
-      ],
-      "a": 3,
-      "e": "Bedah: harga jual = modal + untung, untung dihitung dari modal, bukan ditebak. Cara Hitung: 25% x 40.000 = 10.000, harga jual = 40.000 + 10.000 = 50.000. Uji: hanya D yang hitungan dan alasannya cocok. Pelajaran Nalar: jawaban benar harus dengan alasan yang benar, angka yang kebetulan sama belum membuktikan. Tips: hitung untungnya dulu, baru tambah ke modal. Opsi A salah karena tambah 5.000. Opsi B salah karena tambah 15.000. Opsi C salah alasan karena memakai 20%, bukan 25%."
+      "pembahasan": "Harga jual = modal + untung, untung dihitung dari modal, bukan ditebak. 25% x 40.000 = 10.000, harga jual = 40.000 + 10.000 = 50.000, jadi hanya D yang hitungan dan alasannya cocok. Jawaban benar harus dengan alasan yang benar, angka yang kebetulan sama belum membuktikan. Hitung untungnya dulu, baru tambah ke modal. Jebakannya di opsi C yang angkanya kebetulan sama 50.000, tapi alasannya memakai 20%, bukan 25%. Cek cepat: tanya, apakah persen di alasannya sama dengan persen di soal? Kalau beda, buang opsi itu. Opsi A salah karena tambah 5.000, opsi B salah karena tambah 15.000, opsi C salah alasan karena memakai 20%, bukan 25%."
     },
     {
       "no": 23,
@@ -505,16 +307,7 @@
       },
       "kunci": "A",
       "cog": "C6",
-      "pembahasan": "Bedah: tabel dicek hari demi hari dengan data, jangan percaya totalnya saja. Cara Hitung: data benar Senin 10, Selasa 15, Rabu 20, total benar = 10 + 15 + 20 = 45. Uji: tabel Sari Senin benar, Selasa dan Rabu tertukar, totalnya kebetulan benar. Pelajaran Nalar: total yang benar belum tentu tabelnya benar, isi tiap baris harus dicek. Tips: cek hari demi hari. Opsi B salah karena isi tabel tertukar. Opsi C salah karena Senin benar. Opsi D salah karena totalnya benar, yang salah isinya.",
-      "q": "Data: Senin 10 bungkus, Selasa 15 bungkus, Rabu 20 bungkus. Tabel yang dibuat Sari: Senin 10, Selasa 20, Rabu 15, total 45. Kesalahan tabel Sari terletak di ...",
-      "o": [
-        "Selasa dan Rabu tertukar",
-        "Tabel sudah benar",
-        "Senin salah",
-        "Total saja yang salah"
-      ],
-      "a": 0,
-      "e": "Bedah: tabel dicek hari demi hari dengan data, jangan percaya totalnya saja. Cara Hitung: data benar Senin 10, Selasa 15, Rabu 20, total benar = 10 + 15 + 20 = 45. Uji: tabel Sari Senin benar, Selasa dan Rabu tertukar, totalnya kebetulan benar. Pelajaran Nalar: total yang benar belum tentu tabelnya benar, isi tiap baris harus dicek. Tips: cek hari demi hari. Opsi B salah karena isi tabel tertukar. Opsi C salah karena Senin benar. Opsi D salah karena totalnya benar, yang salah isinya."
+      "pembahasan": "Tabel dicek hari demi hari dengan data, jangan percaya totalnya saja. Data benar Senin 10, Selasa 15, Rabu 20, total benar = 10 + 15 + 20 = 45, jadi tabel Sari Senin benar, Selasa dan Rabu tertukar, totalnya kebetulan benar. Total yang benar belum tentu tabelnya benar, isi tiap baris harus dicek. Cek hari demi hari. Jebakannya di total 45 yang kebetulan benar, sehingga tabelnya kelihatan benar padahal isinya tertukar. Cek cepat: cek dulu isi tiap baris, baru percaya totalnya. Opsi B salah karena isi tabel tertukar, opsi C salah karena Senin benar, opsi D salah karena totalnya benar, yang salah isinya."
     },
     {
       "no": 24,
@@ -523,20 +316,11 @@
         "A": "Total 35 liter, karena hanya memakai dua cara lama",
         "B": "Cara ketiga: siram tanaman pakai air bekas cucian beras, hemat 10 liter, total 15 + 20 + 10 = 45 liter",
         "C": "Cara ketiga: mandi 2 kali lebih lama, hemat 0 liter, total 35 liter",
-        "D": "Cara ketiga: cuci motor tiap hari, hemat -10 liter, total 25 liter"
+        "D": "Cara ketiga: cuci motor tiap hari, malah boros 10 liter, total 25 liter"
       },
       "kunci": "B",
       "cog": "C6",
-      "pembahasan": "Bedah: cara ketiga harus dibuat sendiri dan sumbernya beda, bukan mengulang cara lama atau menambah boros. Cara Hitung: 15 + 20 + 10 = 45 liter. Uji: hanya B yang cara ketiganya hemat dan totalnya cocok. Pelajaran Nalar: cara baru yang boros mengurangi total, bukan menambah. Tips: cek dulu cara ketiganya hemat atau boros, baru jumlahkan. Opsi A salah karena tidak memakai cara ketiga. Opsi C salah karena cara ketiganya tidak hemat. Opsi D salah karena cara ketiganya boros.",
-      "q": "Keluarga Zaki sudah hemat: perbaiki keran bocor hemat 15 liter per hari dan mandi lebih singkat hemat 20 liter per hari. Buat cara hemat ketiga sendiri dan hitung total hemat gabungan!",
-      "o": [
-        "Total 35 liter, karena hanya memakai dua cara lama",
-        "Cara ketiga: siram tanaman pakai air bekas cucian beras, hemat 10 liter, total 15 + 20 + 10 = 45 liter",
-        "Cara ketiga: mandi 2 kali lebih lama, hemat 0 liter, total 35 liter",
-        "Cara ketiga: cuci motor tiap hari, hemat -10 liter, total 25 liter"
-      ],
-      "a": 1,
-      "e": "Bedah: cara ketiga harus dibuat sendiri dan sumbernya beda, bukan mengulang cara lama atau menambah boros. Cara Hitung: 15 + 20 + 10 = 45 liter. Uji: hanya B yang cara ketiganya hemat dan totalnya cocok. Pelajaran Nalar: cara baru yang boros mengurangi total, bukan menambah. Tips: cek dulu cara ketiganya hemat atau boros, baru jumlahkan. Opsi A salah karena tidak memakai cara ketiga. Opsi C salah karena cara ketiganya tidak hemat. Opsi D salah karena cara ketiganya boros."
+      "pembahasan": "Cara ketiga harus dibuat sendiri dan sumbernya beda, bukan mengulang cara lama atau menambah boros. 15 + 20 + 10 = 45 liter, jadi hanya B yang cara ketiganya hemat dan totalnya cocok. Cara baru yang boros mengurangi total, bukan menambah. Cek dulu cara ketiganya hemat atau boros, baru jumlahkan. Jebakannya di opsi A yang kelihatan aman karena memakai dua cara lama, padahal perintahnya minta cara ketiga. Cek cepat: tanya, apakah ada cara ketiga yang hemat? Kalau tidak ada, buang opsi itu. Opsi A salah karena tidak memakai cara ketiga, opsi C salah karena cara ketiganya tidak hemat, opsi D salah karena cara ketiganya boros."
     },
     {
       "no": 25,
@@ -549,16 +333,7 @@
       },
       "kunci": "C",
       "cog": "C6",
-      "pembahasan": "Bedah: cek luas dulu, baru keliling, jangan pilih dari panjang saja. Cara Hitung: semua luas 36, keliling A = 30, B = 40, C = 24, D = 26. Uji: C paling kecil. Pelajaran Nalar: luas sama belum tentu keliling sama, bentuk mendekati persegi biasanya kelilingnya lebih kecil. Tips: hitung keliling semua pilihan. Opsi A salah karena memilih panjang paling besar. Opsi B salah karena kelilingnya paling besar. Opsi D salah karena kelilingnya 26, bukan paling kecil.",
-      "q": "Bazar SD Bintang mau buat lapak luas 36 m2. Pilih lapak dengan pagar paling hemat, yaitu keliling paling kecil!",
-      "o": [
-        "Panjang 12 m, lebar 3 m, keliling 30 m",
-        "Panjang 18 m, lebar 2 m, keliling 40 m",
-        "Panjang 6 m, lebar 6 m, keliling 24 m",
-        "Panjang 9 m, lebar 4 m, keliling 26 m"
-      ],
-      "a": 2,
-      "e": "Bedah: cek luas dulu, baru keliling, jangan pilih dari panjang saja. Cara Hitung: semua luas 36, keliling A = 30, B = 40, C = 24, D = 26. Uji: C paling kecil. Pelajaran Nalar: luas sama belum tentu keliling sama, bentuk mendekati persegi biasanya kelilingnya lebih kecil. Tips: hitung keliling semua pilihan. Opsi A salah karena memilih panjang paling besar. Opsi B salah karena kelilingnya paling besar. Opsi D salah karena kelilingnya 26, bukan paling kecil."
+      "pembahasan": "Cek luas dulu, baru keliling, jangan pilih dari panjang saja. Semua luas 36, keliling A = 30, B = 40, C = 24, D = 26, jadi C paling kecil. Luas sama belum tentu keliling sama, bentuk mendekati persegi biasanya kelilingnya lebih kecil. Hitung keliling semua pilihan. Jebakannya di opsi A yang panjangnya kelihatan pas, padahal kelilingnya 30, bukan paling kecil. Cek cepat: cari lapak yang paling mendekati persegi, itu biasanya kelilingnya paling kecil. Opsi A salah karena memilih panjang paling besar, opsi B salah karena kelilingnya paling besar, opsi D salah karena kelilingnya 26, bukan paling kecil."
     }
   ]
 }
