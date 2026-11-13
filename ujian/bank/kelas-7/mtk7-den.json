@@ -1,0 +1,564 @@
+{
+  "judul": "Matematika Kelas 7 — Transenden",
+  "mapel": "Matematika",
+  "kelas": 7,
+  "jenis": "Transenden",
+  "waktu": 50,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.1",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Di Jakarta, hari ini hujan. Seorang siswa mau berangkat sekolah. Dia punya 3 pilihan: naik bus, naik sepeda, atau naik ojek. Naik bus ongkosnya 5.000, waktunya 40 menit, pasti tepat waktu. Naik sepeda tidak bayar, waktunya 25 menit kalau tidak hujan, tapi kalau hujan jadi 50 menit. Naik ojek ongkosnya 15.000, waktunya 20 menit, pasti tepat waktu. Siswa itu harus sampai paling lambat 30 menit dan ongkosnya tidak boleh lebih dari 10.000. Pilihan mana yang paling tepat?",
+      "opsi": {
+        "A": "Naik bus, karena pasti tepat waktu",
+        "B": "Tidak ada pilihan yang memenuhi 2 syarat",
+        "C": "Naik ojek, karena paling cepat",
+        "D": "Naik sepeda, karena paling murah"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Mari kita cek satu-satu, Nak. Naik bus ongkosnya masuk, tapi waktunya 40 menit, jadi telat. Naik sepeda gratis, tapi kalau hujan jadi 50 menit, telat juga. Naik ojek cepat, tapi ongkosnya 15.000, lewat dari uangmu. Jadi yang lolos 2 syarat bareng-bareng, ternyata tidak ada. Di mana jebakannya: Banyak yang pilih sepeda karena murah, lupa kalau hujan bikin sepedanya jadi lama. Cara cek cepat: Coret dulu yang gagal 1 syarat, lihat sisanya, ternyata tidak ada yang lolos 2 syarat. Pelajaran nalarnya: Kalau 2 syarat harus dipenuhi bareng-bareng, 1 syarat gagal berarti gugur. Tipsnya: Jangan pilih yang 1 kelebihannya besar tapi syarat lain gagal.",
+      "q": "Di Jakarta, hari ini hujan. Seorang siswa mau berangkat sekolah. Dia punya 3 pilihan: naik bus, naik sepeda, atau naik ojek. Naik bus ongkosnya 5.000, waktunya 40 menit, pasti tepat waktu. Naik sepeda tidak bayar, waktunya 25 menit kalau tidak hujan, tapi kalau hujan jadi 50 menit. Naik ojek ongkosnya 15.000, waktunya 20 menit, pasti tepat waktu. Siswa itu harus sampai paling lambat 30 menit dan ongkosnya tidak boleh lebih dari 10.000. Pilihan mana yang paling tepat?",
+      "o": [
+        "Naik bus, karena pasti tepat waktu",
+        "Tidak ada pilihan yang memenuhi 2 syarat",
+        "Naik ojek, karena paling cepat",
+        "Naik sepeda, karena paling murah"
+      ],
+      "a": 1,
+      "e": "Mari kita cek satu-satu, Nak. Naik bus ongkosnya masuk, tapi waktunya 40 menit, jadi telat. Naik sepeda gratis, tapi kalau hujan jadi 50 menit, telat juga. Naik ojek cepat, tapi ongkosnya 15.000, lewat dari uangmu. Jadi yang lolos 2 syarat bareng-bareng, ternyata tidak ada. Di mana jebakannya: Banyak yang pilih sepeda karena murah, lupa kalau hujan bikin sepedanya jadi lama. Cara cek cepat: Coret dulu yang gagal 1 syarat, lihat sisanya, ternyata tidak ada yang lolos 2 syarat. Pelajaran nalarnya: Kalau 2 syarat harus dipenuhi bareng-bareng, 1 syarat gagal berarti gugur. Tipsnya: Jangan pilih yang 1 kelebihannya besar tapi syarat lain gagal."
+    },
+    {
+      "no": 2,
+      "soal": "Di Bandung, seorang siswa punya 2 jam belajar. Dia mau bagi untuk matematika dan bahasa. Matematika butuh minimal 70 menit supaya paham, bahasa butuh minimal 50 menit. Apakah 2 jam cukup untuk 2 syarat itu?",
+      "opsi": {
+        "A": "Cukup, karena 70 + 50 = 120 menit = 2 jam",
+        "B": "Tidak cukup, karena bahasa saja sudah 2 jam",
+        "C": "Tidak cukup, karena 70 + 50 lebih dari 2 jam",
+        "D": "Tidak bisa dinilai"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung bareng-bareng, Nak. 70 menit tambah 50 menit sama dengan 120 menit. 120 menit itu sama dengan 2 jam. Jadi pas cukup, tidak lebih, tidak kurang. Di mana jebakannya: Banyak yang kira 70 + 50 lebih dari 2 jam karena tidak ubah jam ke menit. Cara cek cepat: Ubah semua ke menit dulu, baru tambah. Pelajaran nalarnya: Satuan harus sama dulu sebelum dijumlah. Tipsnya: Kalau soal jam dan menit campur, ubah ke menit dulu.",
+      "q": "Di Bandung, seorang siswa punya 2 jam belajar. Dia mau bagi untuk matematika dan bahasa. Matematika butuh minimal 70 menit supaya paham, bahasa butuh minimal 50 menit. Apakah 2 jam cukup untuk 2 syarat itu?",
+      "o": [
+        "Cukup, karena 70 + 50 = 120 menit = 2 jam",
+        "Tidak cukup, karena bahasa saja sudah 2 jam",
+        "Tidak cukup, karena 70 + 50 lebih dari 2 jam",
+        "Tidak bisa dinilai"
+      ],
+      "a": 0,
+      "e": "Mari kita hitung bareng-bareng, Nak. 70 menit tambah 50 menit sama dengan 120 menit. 120 menit itu sama dengan 2 jam. Jadi pas cukup, tidak lebih, tidak kurang. Di mana jebakannya: Banyak yang kira 70 + 50 lebih dari 2 jam karena tidak ubah jam ke menit. Cara cek cepat: Ubah semua ke menit dulu, baru tambah. Pelajaran nalarnya: Satuan harus sama dulu sebelum dijumlah. Tipsnya: Kalau soal jam dan menit campur, ubah ke menit dulu."
+    },
+    {
+      "no": 3,
+      "soal": "Di Semarang, denah taman skala 1 : 200. Di denah, panjang taman 5 cm, lebar 3 cm. Seorang siswa bilang luas sebenarnya 3.000 cm². Apakah pernyataan itu benar?",
+      "opsi": {
+        "A": "Benar, karena 5 x 3 = 15, lalu dikali 200",
+        "B": "Benar, karena skala tidak ngaruh ke luas",
+        "C": "Salah, luas sebenarnya lebih besar",
+        "D": "Salah, karena luasnya 15 cm²"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita pikir bareng, Nak. Skala 1 : 200 itu untuk panjang, bukan untuk luas. Panjang sebenarnya 5 x 200 = 1.000 cm, lebar sebenarnya 3 x 200 = 600 cm. Luas sebenarnya 1.000 x 600 = 600.000 cm². Jadi pernyataan 3.000 cm² itu salah, jauh lebih kecil. Di mana jebakannya: Banyak yang kali luas denah dengan 200 sekali saja, lupa kalau panjang dan lebar masing-masing harus dikali 200. Cara cek cepat: Kali dulu panjang dan lebarnya, baru kali luasnya. Pelajaran nalarnya: Skala untuk luas itu kuadrat dari skala panjang. Tipsnya: Kalau soal skala dan luas, jangan langsung kali luasnya.",
+      "q": "Di Semarang, denah taman skala 1 : 200. Di denah, panjang taman 5 cm, lebar 3 cm. Seorang siswa bilang luas sebenarnya 3.000 cm². Apakah pernyataan itu benar?",
+      "o": [
+        "Benar, karena 5 x 3 = 15, lalu dikali 200",
+        "Benar, karena skala tidak ngaruh ke luas",
+        "Salah, luas sebenarnya lebih besar",
+        "Salah, karena luasnya 15 cm²"
+      ],
+      "a": 2,
+      "e": "Mari kita pikir bareng, Nak. Skala 1 : 200 itu untuk panjang, bukan untuk luas. Panjang sebenarnya 5 x 200 = 1.000 cm, lebar sebenarnya 3 x 200 = 600 cm. Luas sebenarnya 1.000 x 600 = 600.000 cm². Jadi pernyataan 3.000 cm² itu salah, jauh lebih kecil. Di mana jebakannya: Banyak yang kali luas denah dengan 200 sekali saja, lupa kalau panjang dan lebar masing-masing harus dikali 200. Cara cek cepat: Kali dulu panjang dan lebarnya, baru kali luasnya. Pelajaran nalarnya: Skala untuk luas itu kuadrat dari skala panjang. Tipsnya: Kalau soal skala dan luas, jangan langsung kali luasnya."
+    },
+    {
+      "no": 4,
+      "soal": "Di Yogyakarta, toko memberi diskon 20% untuk sepatu harga 200.000, lalu memberi diskon lagi 10% untuk harga setelah diskon. Seorang siswa bilang total diskon 30%. Apakah benar?",
+      "opsi": {
+        "A": "Benar, karena 20 + 10 = 30",
+        "B": "Benar, karena diskon ditambah",
+        "C": "Salah, karena total diskon 25%",
+        "D": "Salah, karena total diskon 28%"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung pelan-pelan, Nak. Setelah diskon pertama, harga jadi 160.000. Diskon kedua 10% dari 160.000 = 16.000, jadi harga akhir 144.000. Diskon total 200.000 - 144.000 = 56.000, dibagi 200.000 = 28%. Jadi bukan 30%. Di mana jebakannya: Banyak yang tambah persen diskonnya, lupa kalau diskon kedua dari harga yang sudah didiskon. Cara cek cepat: Hitung harga akhirnya, baru hitung diskon totalnya. Pelajaran nalarnya: Persen kedua tidak dari harga awal. Tipsnya: Kalau diskon berlapis, hitung satu-satu.",
+      "q": "Di Yogyakarta, toko memberi diskon 20% untuk sepatu harga 200.000, lalu memberi diskon lagi 10% untuk harga setelah diskon. Seorang siswa bilang total diskon 30%. Apakah benar?",
+      "o": [
+        "Benar, karena 20 + 10 = 30",
+        "Benar, karena diskon ditambah",
+        "Salah, karena total diskon 25%",
+        "Salah, karena total diskon 28%"
+      ],
+      "a": 3,
+      "e": "Mari kita hitung pelan-pelan, Nak. Setelah diskon pertama, harga jadi 160.000. Diskon kedua 10% dari 160.000 = 16.000, jadi harga akhir 144.000. Diskon total 200.000 - 144.000 = 56.000, dibagi 200.000 = 28%. Jadi bukan 30%. Di mana jebakannya: Banyak yang tambah persen diskonnya, lupa kalau diskon kedua dari harga yang sudah didiskon. Cara cek cepat: Hitung harga akhirnya, baru hitung diskon totalnya. Pelajaran nalarnya: Persen kedua tidak dari harga awal. Tipsnya: Kalau diskon berlapis, hitung satu-satu."
+    },
+    {
+      "no": 5,
+      "soal": "Di Medan, nilai 5 siswa: 6, 7, 8, 9, 20. Rata-rata 10, median 8. Guru mau pilih 1 angka yang mewakili kelas. Angka mana yang lebih adil?",
+      "opsi": {
+        "A": "Rata-rata, karena hitung semua nilai",
+        "B": "Median, karena 20 menarik rata-rata naik",
+        "C": "Rata-rata, karena lebih besar",
+        "D": "Tidak bisa dipilih"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Mari kita lihat datanya, Nak. Ada 1 nilai 20 yang jauh dari yang lain. Rata-rata jadi 10, padahal 4 siswa di bawah 10. Median 8 lebih dekat ke kebanyakan siswa. Jadi median lebih adil. Di mana jebakannya: Banyak yang pilih rata-rata karena biasa dipakai, lupa kalau ada nilai ekstrem. Cara cek cepat: Lihat apakah ada nilai yang jauh sendiri, kalau ada, median lebih aman. Pelajaran nalarnya: Angka wakil harus dekat ke kebanyakan data, bukan ditarik 1 nilai ekstrem. Tipsnya: Kalau ada 1 nilai jauh, curiga sama rata-rata.",
+      "q": "Di Medan, nilai 5 siswa: 6, 7, 8, 9, 20. Rata-rata 10, median 8. Guru mau pilih 1 angka yang mewakili kelas. Angka mana yang lebih adil?",
+      "o": [
+        "Rata-rata, karena hitung semua nilai",
+        "Median, karena 20 menarik rata-rata naik",
+        "Rata-rata, karena lebih besar",
+        "Tidak bisa dipilih"
+      ],
+      "a": 1,
+      "e": "Mari kita lihat datanya, Nak. Ada 1 nilai 20 yang jauh dari yang lain. Rata-rata jadi 10, padahal 4 siswa di bawah 10. Median 8 lebih dekat ke kebanyakan siswa. Jadi median lebih adil. Di mana jebakannya: Banyak yang pilih rata-rata karena biasa dipakai, lupa kalau ada nilai ekstrem. Cara cek cepat: Lihat apakah ada nilai yang jauh sendiri, kalau ada, median lebih aman. Pelajaran nalarnya: Angka wakil harus dekat ke kebanyakan data, bukan ditarik 1 nilai ekstrem. Tipsnya: Kalau ada 1 nilai jauh, curiga sama rata-rata."
+    },
+    {
+      "no": 6,
+      "soal": "Di Makassar, keran bocor menetes 1 liter per jam. Kalau dibiarkan 1 hari, berapa liter terbuang? Seorang siswa bilang 12 liter karena 1 hari = 12 jam. Apakah benar?",
+      "opsi": {
+        "A": "Benar, karena 1 hari = 12 jam",
+        "B": "Salah, karena 1 liter per jam itu kecil",
+        "C": "Benar, karena keran bocor pelan",
+        "D": "Salah, karena 1 hari = 24 jam, jadi 24 liter"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita ingat bareng, Nak. 1 hari itu 24 jam, bukan 12 jam. Jadi 1 liter dikali 24 jam = 24 liter. Pernyataan 12 liter itu salah karena salah ingat jam dalam 1 hari. Di mana jebakannya: Banyak yang kira 1 hari = 12 jam karena jam dinding 12 angka. Cara cek cepat: Tanya dulu, 1 hari berapa jam? Pelajaran nalarnya: Satuan waktu harus benar dulu sebelum hitung. Tipsnya: Kalau soal 1 hari, langsung ingat 24 jam.",
+      "q": "Di Makassar, keran bocor menetes 1 liter per jam. Kalau dibiarkan 1 hari, berapa liter terbuang? Seorang siswa bilang 12 liter karena 1 hari = 12 jam. Apakah benar?",
+      "o": [
+        "Benar, karena 1 hari = 12 jam",
+        "Salah, karena 1 liter per jam itu kecil",
+        "Benar, karena keran bocor pelan",
+        "Salah, karena 1 hari = 24 jam, jadi 24 liter"
+      ],
+      "a": 3,
+      "e": "Mari kita ingat bareng, Nak. 1 hari itu 24 jam, bukan 12 jam. Jadi 1 liter dikali 24 jam = 24 liter. Pernyataan 12 liter itu salah karena salah ingat jam dalam 1 hari. Di mana jebakannya: Banyak yang kira 1 hari = 12 jam karena jam dinding 12 angka. Cara cek cepat: Tanya dulu, 1 hari berapa jam? Pelajaran nalarnya: Satuan waktu harus benar dulu sebelum hitung. Tipsnya: Kalau soal 1 hari, langsung ingat 24 jam."
+    },
+    {
+      "no": 7,
+      "soal": "Di Palembang, 2 jembatan: Jembatan pendek 30 m, jembatan panjang 45 m. Seorang siswa bilang jembatan panjang 50% lebih panjang dari yang pendek. Apakah benar?",
+      "opsi": {
+        "A": "Benar, karena 45 - 30 = 15",
+        "B": "Salah, karena 15 dari 45",
+        "C": "Benar, karena 15 dibagi 30 = 50%",
+        "D": "Salah, karena 15 dibagi 100"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung, Nak. Selisihnya 15 m. Pembandingnya jembatan pendek 30 m, karena kalimatnya lebih panjang dari yang pendek. 15 dibagi 30 = 50%. Jadi pernyataan itu benar. Di mana jebakannya: Banyak yang bagi dengan 45, karena pilih pembanding yang salah. Cara cek cepat: Tanya, lebih panjang dari apa? Itu pembandingnya. Pelajaran nalarnya: Persen itu selalu butuh pembanding yang benar. Tipsnya: Baca kalimatnya, dari apa, itu pembandingnya.",
+      "q": "Di Palembang, 2 jembatan: Jembatan pendek 30 m, jembatan panjang 45 m. Seorang siswa bilang jembatan panjang 50% lebih panjang dari yang pendek. Apakah benar?",
+      "o": [
+        "Benar, karena 45 - 30 = 15",
+        "Salah, karena 15 dari 45",
+        "Benar, karena 15 dibagi 30 = 50%",
+        "Salah, karena 15 dibagi 100"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung, Nak. Selisihnya 15 m. Pembandingnya jembatan pendek 30 m, karena kalimatnya lebih panjang dari yang pendek. 15 dibagi 30 = 50%. Jadi pernyataan itu benar. Di mana jebakannya: Banyak yang bagi dengan 45, karena pilih pembanding yang salah. Cara cek cepat: Tanya, lebih panjang dari apa? Itu pembandingnya. Pelajaran nalarnya: Persen itu selalu butuh pembanding yang benar. Tipsnya: Baca kalimatnya, dari apa, itu pembandingnya."
+    },
+    {
+      "no": 8,
+      "soal": "Di Denpasar, lantai disusun pola: 1 ubin merah, 2 ubin putih, 1 ubin merah, 2 ubin putih, terus begitu. Ubin ke-10 warna apa?",
+      "opsi": {
+        "A": "Merah, karena pola 3 ubin, sisa 1 itu merah",
+        "B": "Putih, karena banyak putih",
+        "C": "Merah, karena 10 genap",
+        "D": "Putih, karena 10 dibagi 3 sisa 2"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "Mari kita urutkan bareng, Nak. Polanya 3 ubin: merah, putih, putih. 10 dibagi 3 = 3 pola sisa 1. Sisa 1 itu ubin pertama, yaitu merah. Jadi ubin ke-10 merah. Di mana jebakannya: Banyak yang kira genap = putih, lupa hitung pola. Cara cek cepat: Bagi dengan panjang pola, lihat sisanya. Pelajaran nalarnya: Pola itu diulang, bukan ditebak genap ganjil. Tipsnya: Kalau soal pola, cari panjang polanya dulu.",
+      "q": "Di Denpasar, lantai disusun pola: 1 ubin merah, 2 ubin putih, 1 ubin merah, 2 ubin putih, terus begitu. Ubin ke-10 warna apa?",
+      "o": [
+        "Merah, karena pola 3 ubin, sisa 1 itu merah",
+        "Putih, karena banyak putih",
+        "Merah, karena 10 genap",
+        "Putih, karena 10 dibagi 3 sisa 2"
+      ],
+      "a": 0,
+      "e": "Mari kita urutkan bareng, Nak. Polanya 3 ubin: merah, putih, putih. 10 dibagi 3 = 3 pola sisa 1. Sisa 1 itu ubin pertama, yaitu merah. Jadi ubin ke-10 merah. Di mana jebakannya: Banyak yang kira genap = putih, lupa hitung pola. Cara cek cepat: Bagi dengan panjang pola, lihat sisanya. Pelajaran nalarnya: Pola itu diulang, bukan ditebak genap ganjil. Tipsnya: Kalau soal pola, cari panjang polanya dulu."
+    },
+    {
+      "no": 9,
+      "soal": "Di Balikpapan, tangki 100 liter diisi 2 keran. Keran pertama 10 liter per menit, keran kedua 15 liter per menit. Kalau 2 keran dibuka bareng, berapa menit penuh?",
+      "opsi": {
+        "A": "10 menit",
+        "B": "4 menit",
+        "C": "6 menit",
+        "D": "2 menit"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Mari kita tambah dulu, Nak. 2 keran bareng = 10 + 15 = 25 liter per menit. 100 dibagi 25 = 4 menit. Jadi 4 menit penuh. Di mana jebakannya: Banyak yang hitung 1 keran saja, lupa 2 keran bareng. Cara cek cepat: Tambah dulu lajunya, baru bagi. Pelajaran nalarnya: Kalau kerja bareng, lajunya ditambah. Tipsnya: Kalau soal 2 keran, jangan hitung sendiri-sendiri.",
+      "q": "Di Balikpapan, tangki 100 liter diisi 2 keran. Keran pertama 10 liter per menit, keran kedua 15 liter per menit. Kalau 2 keran dibuka bareng, berapa menit penuh?",
+      "o": [
+        "10 menit",
+        "4 menit",
+        "6 menit",
+        "2 menit"
+      ],
+      "a": 1,
+      "e": "Mari kita tambah dulu, Nak. 2 keran bareng = 10 + 15 = 25 liter per menit. 100 dibagi 25 = 4 menit. Jadi 4 menit penuh. Di mana jebakannya: Banyak yang hitung 1 keran saja, lupa 2 keran bareng. Cara cek cepat: Tambah dulu lajunya, baru bagi. Pelajaran nalarnya: Kalau kerja bareng, lajunya ditambah. Tipsnya: Kalau soal 2 keran, jangan hitung sendiri-sendiri."
+    },
+    {
+      "no": 10,
+      "soal": "Di Surabaya, sewa sepeda 5.000 per jam pertama, 3.000 per jam berikutnya. Seorang siswa sewa 3 jam, dia bayar 11.000. Apakah benar?",
+      "opsi": {
+        "A": "Salah, karena 5.000 x 3 = 15.000",
+        "B": "Salah, karena 3.000 x 3 = 9.000",
+        "C": "Benar, karena 5.000 + 3.000 + 3.000 = 11.000",
+        "D": "Salah, karena 5.000 + 3.000 = 8.000"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung, Nak. Jam pertama 5.000, jam kedua 3.000, jam ketiga 3.000. Total 11.000. Jadi pernyataan itu benar. Di mana jebakannya: Banyak yang kali semua jam dengan harga pertama, lupa harga berikutnya beda. Cara cek cepat: Pisahkan jam pertama dan jam berikutnya. Pelajaran nalarnya: Harga bertingkat tidak boleh dikali rata. Tipsnya: Kalau harga beda per jam, hitung per jam.",
+      "q": "Di Surabaya, sewa sepeda 5.000 per jam pertama, 3.000 per jam berikutnya. Seorang siswa sewa 3 jam, dia bayar 11.000. Apakah benar?",
+      "o": [
+        "Salah, karena 5.000 x 3 = 15.000",
+        "Salah, karena 3.000 x 3 = 9.000",
+        "Benar, karena 5.000 + 3.000 + 3.000 = 11.000",
+        "Salah, karena 5.000 + 3.000 = 8.000"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung, Nak. Jam pertama 5.000, jam kedua 3.000, jam ketiga 3.000. Total 11.000. Jadi pernyataan itu benar. Di mana jebakannya: Banyak yang kali semua jam dengan harga pertama, lupa harga berikutnya beda. Cara cek cepat: Pisahkan jam pertama dan jam berikutnya. Pelajaran nalarnya: Harga bertingkat tidak boleh dikali rata. Tipsnya: Kalau harga beda per jam, hitung per jam."
+    },
+    {
+      "no": 11,
+      "soal": "Di Jakarta, ujian 20 soal, benar dapat 5, salah dapat -1, kosong 0. Siswa jawab 15 benar, 3 salah, 2 kosong. Nilainya?",
+      "opsi": {
+        "A": "70",
+        "B": "75",
+        "C": "72",
+        "D": "78"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung bareng, Nak. Benar 15 kali 5 = 75. Salah 3 kali -1 = -3. Kosong 0. Total 75 - 3 = 72. Jadi nilainya 72. Di mana jebakannya: Banyak yang lupa kurang nilai salah, atau hitung kosong juga. Cara cek cepat: Hitung benar dulu, baru kurang salahnya. Pelajaran nalarnya: Nilai salah itu mengurangi, bukan nol. Tipsnya: Kalau ada minus, jangan lupa kurang.",
+      "q": "Di Jakarta, ujian 20 soal, benar dapat 5, salah dapat -1, kosong 0. Siswa jawab 15 benar, 3 salah, 2 kosong. Nilainya?",
+      "o": [
+        "70",
+        "75",
+        "72",
+        "78"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung bareng, Nak. Benar 15 kali 5 = 75. Salah 3 kali -1 = -3. Kosong 0. Total 75 - 3 = 72. Jadi nilainya 72. Di mana jebakannya: Banyak yang lupa kurang nilai salah, atau hitung kosong juga. Cara cek cepat: Hitung benar dulu, baru kurang salahnya. Pelajaran nalarnya: Nilai salah itu mengurangi, bukan nol. Tipsnya: Kalau ada minus, jangan lupa kurang."
+    },
+    {
+      "no": 12,
+      "soal": "Di Bandung, kebun persegi panjang panjang 20 m, lebar 10 m. Kalau panjang ditambah 5 m, lebar tetap, luas bertambah berapa?",
+      "opsi": {
+        "A": "10 m²",
+        "B": "25 m²",
+        "C": "30 m²",
+        "D": "50 m²"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung, Nak. Luas awal 200 m². Luas baru 25 x 10 = 250 m². Tambahnya 50 m². Jadi jawabannya 50 m². Di mana jebakannya: Banyak yang tambah panjangnya saja, lupa itu bukan luas. Cara cek cepat: Hitung luas baru dikurangi luas lama. Pelajaran nalarnya: Tambah panjang itu tambah luas sebesar tambah panjang kali lebar. Tipsnya: Kalau soal tambah luas, hitung 2 luasnya.",
+      "q": "Di Bandung, kebun persegi panjang panjang 20 m, lebar 10 m. Kalau panjang ditambah 5 m, lebar tetap, luas bertambah berapa?",
+      "o": [
+        "10 m²",
+        "25 m²",
+        "30 m²",
+        "50 m²"
+      ],
+      "a": 3,
+      "e": "Mari kita hitung, Nak. Luas awal 200 m². Luas baru 25 x 10 = 250 m². Tambahnya 50 m². Jadi jawabannya 50 m². Di mana jebakannya: Banyak yang tambah panjangnya saja, lupa itu bukan luas. Cara cek cepat: Hitung luas baru dikurangi luas lama. Pelajaran nalarnya: Tambah panjang itu tambah luas sebesar tambah panjang kali lebar. Tipsnya: Kalau soal tambah luas, hitung 2 luasnya."
+    },
+    {
+      "no": 13,
+      "soal": "Di Semarang, suhu pagi 22 derajat, siang naik 8 derajat, sore turun 5 derajat. Suhu sore?",
+      "opsi": {
+        "A": "25 derajat",
+        "B": "30 derajat",
+        "C": "27 derajat",
+        "D": "35 derajat"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Mari kita urutkan, Nak. Pagi 22, siang 22 + 8 = 30, sore 30 - 5 = 25. Jadi suhu sore 25 derajat. Di mana jebakannya: Banyak yang tambah semua atau kurang semua, lupa urutan naik turun. Cara cek cepat: Ikuti urutan cerita, naik dulu baru turun. Pelajaran nalarnya: Cerita suhu itu urutan, bukan sekali hitung. Tipsnya: Kalau soal naik turun, tulis langkahnya.",
+      "q": "Di Semarang, suhu pagi 22 derajat, siang naik 8 derajat, sore turun 5 derajat. Suhu sore?",
+      "o": [
+        "25 derajat",
+        "30 derajat",
+        "27 derajat",
+        "35 derajat"
+      ],
+      "a": 0,
+      "e": "Mari kita urutkan, Nak. Pagi 22, siang 22 + 8 = 30, sore 30 - 5 = 25. Jadi suhu sore 25 derajat. Di mana jebakannya: Banyak yang tambah semua atau kurang semua, lupa urutan naik turun. Cara cek cepat: Ikuti urutan cerita, naik dulu baru turun. Pelajaran nalarnya: Cerita suhu itu urutan, bukan sekali hitung. Tipsnya: Kalau soal naik turun, tulis langkahnya."
+    },
+    {
+      "no": 14,
+      "soal": "Di Yogyakarta, buku 120 halaman dibaca 20 halaman per hari. Kalau siswa sudah baca 3 hari, sisa berapa halaman?",
+      "opsi": {
+        "A": "80",
+        "B": "60",
+        "C": "40",
+        "D": "20"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung, Nak. 3 hari x 20 = 60 halaman sudah dibaca. Sisa 120 - 60 = 60 halaman. Di mana jebakannya: Banyak yang jawab 60 halaman sudah dibaca, lupa yang ditanya sisa. Cara cek cepat: Tanya, yang ditanya sudah dibaca atau sisa? Pelajaran nalarnya: Sisa = total dikurangi yang sudah. Tipsnya: Baca pertanyaan terakhirnya dulu.",
+      "q": "Di Yogyakarta, buku 120 halaman dibaca 20 halaman per hari. Kalau siswa sudah baca 3 hari, sisa berapa halaman?",
+      "o": [
+        "80",
+        "60",
+        "40",
+        "20"
+      ],
+      "a": 1,
+      "e": "Mari kita hitung, Nak. 3 hari x 20 = 60 halaman sudah dibaca. Sisa 120 - 60 = 60 halaman. Di mana jebakannya: Banyak yang jawab 60 halaman sudah dibaca, lupa yang ditanya sisa. Cara cek cepat: Tanya, yang ditanya sudah dibaca atau sisa? Pelajaran nalarnya: Sisa = total dikurangi yang sudah. Tipsnya: Baca pertanyaan terakhirnya dulu."
+    },
+    {
+      "no": 15,
+      "soal": "Di Medan, gaji 2.000.000 per bulan. 1/4 untuk makan, 1/2 untuk sewa, sisa ditabung. Berapa tabungan?",
+      "opsi": {
+        "A": "1.000.000",
+        "B": "750.000",
+        "C": "500.000",
+        "D": "250.000"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung, Nak. Makan 500.000, sewa 1.000.000, total keluar 1.500.000. Sisa 500.000 ditabung. Di mana jebakannya: Banyak yang tambah pecahannya jadi 3/4 lalu bingung, lupa 1 - 3/4 = 1/4. Cara cek cepat: Sisa pecahannya 1 - 1/4 - 1/2 = 1/4, lalu kali gaji. Pelajaran nalarnya: Sisa itu 1 dikurangi yang dipakai. Tipsnya: Kalau soal pecahan gaji, cari sisa pecahannya dulu.",
+      "q": "Di Medan, gaji 2.000.000 per bulan. 1/4 untuk makan, 1/2 untuk sewa, sisa ditabung. Berapa tabungan?",
+      "o": [
+        "1.000.000",
+        "750.000",
+        "500.000",
+        "250.000"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung, Nak. Makan 500.000, sewa 1.000.000, total keluar 1.500.000. Sisa 500.000 ditabung. Di mana jebakannya: Banyak yang tambah pecahannya jadi 3/4 lalu bingung, lupa 1 - 3/4 = 1/4. Cara cek cepat: Sisa pecahannya 1 - 1/4 - 1/2 = 1/4, lalu kali gaji. Pelajaran nalarnya: Sisa itu 1 dikurangi yang dipakai. Tipsnya: Kalau soal pecahan gaji, cari sisa pecahannya dulu."
+    },
+    {
+      "no": 16,
+      "soal": "Di Makassar, 2 pelari: Pelari pertama 5 km dalam 30 menit, pelari kedua 6 km dalam 40 menit. Siapa lebih cepat?",
+      "opsi": {
+        "A": "Pelari kedua, karena jarak lebih jauh",
+        "B": "Sama, karena waktu beda",
+        "C": "Tidak bisa dinilai",
+        "D": "Pelari pertama, karena 10 km per jam lawan 9 km per jam"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita samakan ke 1 jam, Nak. Pelari pertama 5 km dalam 30 menit = 10 km per jam. Pelari kedua 6 km dalam 40 menit = 9 km per jam. Jadi pelari pertama lebih cepat. Di mana jebakannya: Banyak yang pilih jarak jauh, lupa kecepatan itu jarak dibagi waktu. Cara cek cepat: Samakan waktunya ke 1 jam dulu. Pelajaran nalarnya: Cepat itu bukan jarak jauh, tapi jarak per waktu. Tipsnya: Kalau bandingkan cepat, samakan waktunya.",
+      "q": "Di Makassar, 2 pelari: Pelari pertama 5 km dalam 30 menit, pelari kedua 6 km dalam 40 menit. Siapa lebih cepat?",
+      "o": [
+        "Pelari kedua, karena jarak lebih jauh",
+        "Sama, karena waktu beda",
+        "Tidak bisa dinilai",
+        "Pelari pertama, karena 10 km per jam lawan 9 km per jam"
+      ],
+      "a": 3,
+      "e": "Mari kita samakan ke 1 jam, Nak. Pelari pertama 5 km dalam 30 menit = 10 km per jam. Pelari kedua 6 km dalam 40 menit = 9 km per jam. Jadi pelari pertama lebih cepat. Di mana jebakannya: Banyak yang pilih jarak jauh, lupa kecepatan itu jarak dibagi waktu. Cara cek cepat: Samakan waktunya ke 1 jam dulu. Pelajaran nalarnya: Cepat itu bukan jarak jauh, tapi jarak per waktu. Tipsnya: Kalau bandingkan cepat, samakan waktunya."
+    },
+    {
+      "no": 17,
+      "soal": "Di Palembang, kubus rusuk 4 cm dan balok 8 cm x 2 cm x 4 cm. Volume mana lebih besar?",
+      "opsi": {
+        "A": "Sama, karena 64 = 64",
+        "B": "Kubus, karena rusuknya besar",
+        "C": "Balok, karena panjangnya 8",
+        "D": "Tidak bisa dibandingkan"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung, Nak. Kubus 4 x 4 x 4 = 64. Balok 8 x 2 x 4 = 64. Jadi sama. Di mana jebakannya: Banyak yang pilih yang panjangnya besar, lupa volume itu 3 sisi dikali. Cara cek cepat: Hitung 2 volumenya, baru bandingkan. Pelajaran nalarnya: Bentuk beda bisa volumenya sama. Tipsnya: Jangan tebak dari bentuknya, hitung dulu.",
+      "q": "Di Palembang, kubus rusuk 4 cm dan balok 8 cm x 2 cm x 4 cm. Volume mana lebih besar?",
+      "o": [
+        "Sama, karena 64 = 64",
+        "Kubus, karena rusuknya besar",
+        "Balok, karena panjangnya 8",
+        "Tidak bisa dibandingkan"
+      ],
+      "a": 0,
+      "e": "Mari kita hitung, Nak. Kubus 4 x 4 x 4 = 64. Balok 8 x 2 x 4 = 64. Jadi sama. Di mana jebakannya: Banyak yang pilih yang panjangnya besar, lupa volume itu 3 sisi dikali. Cara cek cepat: Hitung 2 volumenya, baru bandingkan. Pelajaran nalarnya: Bentuk beda bisa volumenya sama. Tipsnya: Jangan tebak dari bentuknya, hitung dulu."
+    },
+    {
+      "no": 18,
+      "soal": "Di Denpasar, 2 buku + 1 pensil = 15.000. 1 buku + 1 pensil = 10.000. Berapa harga 1 buku?",
+      "opsi": {
+        "A": "3.000",
+        "B": "5.000",
+        "C": "7.000",
+        "D": "10.000"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Mari kita kurangkan, Nak. Persamaan pertama dikurangi persamaan kedua, sisa 1 buku = 5.000. Jadi harga 1 buku 5.000. Di mana jebakannya: Banyak yang bagi 15.000 dengan 3, lupa ada 2 barang beda. Cara cek cepat: Kurangkan 2 persamaan, yang sama hilang. Pelajaran nalarnya: Kalau 2 persamaan, kurangkan biar 1 variabel hilang. Tipsnya: Kalau soal 2 barang 2 persamaan, kurangkan.",
+      "q": "Di Denpasar, 2 buku + 1 pensil = 15.000. 1 buku + 1 pensil = 10.000. Berapa harga 1 buku?",
+      "o": [
+        "3.000",
+        "5.000",
+        "7.000",
+        "10.000"
+      ],
+      "a": 1,
+      "e": "Mari kita kurangkan, Nak. Persamaan pertama dikurangi persamaan kedua, sisa 1 buku = 5.000. Jadi harga 1 buku 5.000. Di mana jebakannya: Banyak yang bagi 15.000 dengan 3, lupa ada 2 barang beda. Cara cek cepat: Kurangkan 2 persamaan, yang sama hilang. Pelajaran nalarnya: Kalau 2 persamaan, kurangkan biar 1 variabel hilang. Tipsnya: Kalau soal 2 barang 2 persamaan, kurangkan."
+    },
+    {
+      "no": 19,
+      "soal": "Di Balikpapan, bus berangkat jam 07.00, sampai jam 09.30, jarak 150 km. Kecepatan rata-rata?",
+      "opsi": {
+        "A": "50 km per jam",
+        "B": "55 km per jam",
+        "C": "60 km per jam",
+        "D": "75 km per jam"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung waktunya, Nak. Dari 07.00 ke 09.30 itu 2,5 jam. 150 dibagi 2,5 = 60 km per jam. Di mana jebakannya: Banyak yang kira waktunya 2 jam atau 3 jam, lupa 30 menit itu setengah jam. Cara cek cepat: Ubah 2 jam 30 menit jadi 2,5 jam dulu. Pelajaran nalarnya: Waktu harus dalam 1 satuan dulu. Tipsnya: Kalau waktu ada menit, ubah ke jam desimal.",
+      "q": "Di Balikpapan, bus berangkat jam 07.00, sampai jam 09.30, jarak 150 km. Kecepatan rata-rata?",
+      "o": [
+        "50 km per jam",
+        "55 km per jam",
+        "60 km per jam",
+        "75 km per jam"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung waktunya, Nak. Dari 07.00 ke 09.30 itu 2,5 jam. 150 dibagi 2,5 = 60 km per jam. Di mana jebakannya: Banyak yang kira waktunya 2 jam atau 3 jam, lupa 30 menit itu setengah jam. Cara cek cepat: Ubah 2 jam 30 menit jadi 2,5 jam dulu. Pelajaran nalarnya: Waktu harus dalam 1 satuan dulu. Tipsnya: Kalau waktu ada menit, ubah ke jam desimal."
+    },
+    {
+      "no": 20,
+      "soal": "Di Surabaya, uang saku 10.000 per hari. Senin sampai Jumat 5 hari, siswa jajan 8.000 per hari. Sisa uang 1 minggu?",
+      "opsi": {
+        "A": "5.000",
+        "B": "8.000",
+        "C": "9.000",
+        "D": "10.000"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung, Nak. Sisa per hari 2.000, dikali 5 hari = 10.000. Jadi sisa 1 minggu 10.000. Di mana jebakannya: Banyak yang hitung total uang saja, lupa kurang jajannya. Cara cek cepat: Cari sisa per hari dulu, baru kali hari. Pelajaran nalarnya: Sisa itu total dikurangi yang dipakai, per hari dulu. Tipsnya: Kalau soal per hari lalu per minggu, hitung per hari dulu.",
+      "q": "Di Surabaya, uang saku 10.000 per hari. Senin sampai Jumat 5 hari, siswa jajan 8.000 per hari. Sisa uang 1 minggu?",
+      "o": [
+        "5.000",
+        "8.000",
+        "9.000",
+        "10.000"
+      ],
+      "a": 3,
+      "e": "Mari kita hitung, Nak. Sisa per hari 2.000, dikali 5 hari = 10.000. Jadi sisa 1 minggu 10.000. Di mana jebakannya: Banyak yang hitung total uang saja, lupa kurang jajannya. Cara cek cepat: Cari sisa per hari dulu, baru kali hari. Pelajaran nalarnya: Sisa itu total dikurangi yang dipakai, per hari dulu. Tipsnya: Kalau soal per hari lalu per minggu, hitung per hari dulu."
+    },
+    {
+      "no": 21,
+      "soal": "Di Jakarta, persegi luas 81 cm². Kelilingnya?",
+      "opsi": {
+        "A": "36 cm",
+        "B": "27 cm",
+        "C": "18 cm",
+        "D": "9 cm"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Mari kita cari sisinya, Nak. Sisi x sisi = 81, jadi sisi = 9 cm. Keliling = 4 x 9 = 36 cm. Di mana jebakannya: Banyak yang jawab 9 cm, lupa yang ditanya keliling bukan sisi. Cara cek cepat: Cari sisi dulu, baru keliling. Pelajaran nalarnya: Luas dan keliling itu beda, jangan tertukar. Tipsnya: Kalau diketahui luas, cari sisi dulu.",
+      "q": "Di Jakarta, persegi luas 81 cm². Kelilingnya?",
+      "o": [
+        "36 cm",
+        "27 cm",
+        "18 cm",
+        "9 cm"
+      ],
+      "a": 0,
+      "e": "Mari kita cari sisinya, Nak. Sisi x sisi = 81, jadi sisi = 9 cm. Keliling = 4 x 9 = 36 cm. Di mana jebakannya: Banyak yang jawab 9 cm, lupa yang ditanya keliling bukan sisi. Cara cek cepat: Cari sisi dulu, baru keliling. Pelajaran nalarnya: Luas dan keliling itu beda, jangan tertukar. Tipsnya: Kalau diketahui luas, cari sisi dulu."
+    },
+    {
+      "no": 22,
+      "soal": "Di Bandung, nilai 4 siswa: 5, 6, 9, 10. Kalau 1 siswa baru nilai 10 ditambah, median jadi?",
+      "opsi": {
+        "A": "6",
+        "B": "9",
+        "C": "8",
+        "D": "10"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "pembahasan": "Mari kita urutkan, Nak. Data baru: 5, 6, 9, 10, 10. Tengahnya angka ke-3, yaitu 9. Jadi median 9. Di mana jebakannya: Banyak yang rata-rata, lupa median itu tengah. Cara cek cepat: Urutkan dulu, baru ambil tengah. Pelajaran nalarnya: Median itu tengah setelah diurutkan. Tipsnya: Kalau soal median, urutkan dulu.",
+      "q": "Di Bandung, nilai 4 siswa: 5, 6, 9, 10. Kalau 1 siswa baru nilai 10 ditambah, median jadi?",
+      "o": [
+        "6",
+        "9",
+        "8",
+        "10"
+      ],
+      "a": 1,
+      "e": "Mari kita urutkan, Nak. Data baru: 5, 6, 9, 10, 10. Tengahnya angka ke-3, yaitu 9. Jadi median 9. Di mana jebakannya: Banyak yang rata-rata, lupa median itu tengah. Cara cek cepat: Urutkan dulu, baru ambil tengah. Pelajaran nalarnya: Median itu tengah setelah diurutkan. Tipsnya: Kalau soal median, urutkan dulu."
+    },
+    {
+      "no": 23,
+      "soal": "Di Semarang, barang 100.000 diskon 10%, lalu kena pajak 10% dari harga setelah diskon. Harga akhir?",
+      "opsi": {
+        "A": "100.000",
+        "B": "90.000",
+        "C": "99.000",
+        "D": "110.000"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung satu-satu, Nak. Setelah diskon, harga 90.000. Pajak 10% dari 90.000 = 9.000. Harga akhir 99.000. Di mana jebakannya: Banyak yang kira diskon dan pajak saling hapus, jadi 100.000, lupa pajak dari harga setelah diskon. Cara cek cepat: Hitung harga setelah diskon dulu, baru pajak. Pelajaran nalarnya: Pajak itu dari harga setelah diskon, bukan harga awal. Tipsnya: Kalau diskon lalu pajak, hitung urut.",
+      "q": "Di Semarang, barang 100.000 diskon 10%, lalu kena pajak 10% dari harga setelah diskon. Harga akhir?",
+      "o": [
+        "100.000",
+        "90.000",
+        "99.000",
+        "110.000"
+      ],
+      "a": 2,
+      "e": "Mari kita hitung satu-satu, Nak. Setelah diskon, harga 90.000. Pajak 10% dari 90.000 = 9.000. Harga akhir 99.000. Di mana jebakannya: Banyak yang kira diskon dan pajak saling hapus, jadi 100.000, lupa pajak dari harga setelah diskon. Cara cek cepat: Hitung harga setelah diskon dulu, baru pajak. Pelajaran nalarnya: Pajak itu dari harga setelah diskon, bukan harga awal. Tipsnya: Kalau diskon lalu pajak, hitung urut."
+    },
+    {
+      "no": 24,
+      "soal": "Di Yogyakarta, tangga 5 m bersandar di tembok, kaki tangga 3 m dari tembok. Tinggi ujung tangga?",
+      "opsi": {
+        "A": "3 m",
+        "B": "5 m",
+        "C": "6 m",
+        "D": "4 m"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "Mari kita hitung, Nak. 5 kali 5 = 25, 3 kali 3 = 9, 25 - 9 = 16, akar 16 = 4 m. Jadi tinggi ujung tangga 4 m. Di mana jebakannya: Banyak yang tambah sisi, lupa segitiga siku-siku itu kurang. Cara cek cepat: Cari sisi miring atau sisi tegak, pakai kurang atau tambah yang benar. Pelajaran nalarnya: Pythagoras itu tambah kalau cari miring, kurang kalau cari tegak. Tipsnya: Gambar segitiganya dulu.",
+      "q": "Di Yogyakarta, tangga 5 m bersandar di tembok, kaki tangga 3 m dari tembok. Tinggi ujung tangga?",
+      "o": [
+        "3 m",
+        "5 m",
+        "6 m",
+        "4 m"
+      ],
+      "a": 3,
+      "e": "Mari kita hitung, Nak. 5 kali 5 = 25, 3 kali 3 = 9, 25 - 9 = 16, akar 16 = 4 m. Jadi tinggi ujung tangga 4 m. Di mana jebakannya: Banyak yang tambah sisi, lupa segitiga siku-siku itu kurang. Cara cek cepat: Cari sisi miring atau sisi tegak, pakai kurang atau tambah yang benar. Pelajaran nalarnya: Pythagoras itu tambah kalau cari miring, kurang kalau cari tegak. Tipsnya: Gambar segitiganya dulu."
+    },
+    {
+      "no": 25,
+      "soal": "Di Medan, Toko Sari jual 3 buku 30.000, Toko Jaya jual 5 buku 45.000. Toko mana lebih murah per buku?",
+      "opsi": {
+        "A": "Toko Jaya, karena 9.000 lawan 10.000 per buku",
+        "B": "Toko Sari, karena totalnya lebih kecil",
+        "C": "Sama, karena beda jumlah buku",
+        "D": "Tidak bisa dinilai"
+      },
+      "kunci": "A",
+      "cog": "C6",
+      "pembahasan": "Mari kita hitung per buku, Nak. Toko Sari 30.000 dibagi 3 = 10.000 per buku. Toko Jaya 45.000 dibagi 5 = 9.000 per buku. Jadi Toko Jaya lebih murah. Di mana jebakannya: Banyak yang pilih total kecil, lupa yang dibandingkan per buku. Cara cek cepat: Bagi total dengan jumlah buku dulu, baru bandingkan. Pelajaran nalarnya: Murah itu per satuan, bukan total. Tipsnya: Kalau bandingkan toko, hitung per 1 buku.",
+      "q": "Di Medan, Toko Sari jual 3 buku 30.000, Toko Jaya jual 5 buku 45.000. Toko mana lebih murah per buku?",
+      "o": [
+        "Toko Jaya, karena 9.000 lawan 10.000 per buku",
+        "Toko Sari, karena totalnya lebih kecil",
+        "Sama, karena beda jumlah buku",
+        "Tidak bisa dinilai"
+      ],
+      "a": 0,
+      "e": "Mari kita hitung per buku, Nak. Toko Sari 30.000 dibagi 3 = 10.000 per buku. Toko Jaya 45.000 dibagi 5 = 9.000 per buku. Jadi Toko Jaya lebih murah. Di mana jebakannya: Banyak yang pilih total kecil, lupa yang dibandingkan per buku. Cara cek cepat: Bagi total dengan jumlah buku dulu, baru bandingkan. Pelajaran nalarnya: Murah itu per satuan, bukan total. Tipsnya: Kalau bandingkan toko, hitung per 1 buku."
+    }
+  ]
+}

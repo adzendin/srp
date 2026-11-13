@@ -1,0 +1,589 @@
+{
+  "judul": "IPA Kelas 7 — Transisi",
+  "mapel": "IPA",
+  "kelas": 7,
+  "jenis": "Transisi",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.1",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Di Jakarta, daun diukur panjangnya 10 cm. Di bawah mikroskop, daun itu tersusun dari kotak-kotak kecil. Kotak kecil itu disebut?",
+      "opsi": {
+        "A": "Atom air",
+        "B": "Sel",
+        "C": "Zat campuran",
+        "D": "Batu kecil"
+      },
+      "kunci": "B",
+      "cog": "C1",
+      "level": "Mudah",
+      "pembahasan": "Kotak kecil penyusun makhluk hidup adalah sel. Pengukuran hanya melihat ukuran luarnya.",
+      "q": "Di Jakarta, daun diukur panjangnya 10 cm. Di bawah mikroskop, daun itu tersusun dari kotak-kotak kecil. Kotak kecil itu disebut?",
+      "o": [
+        "Atom air",
+        "Sel",
+        "Zat campuran",
+        "Batu kecil"
+      ],
+      "a": 1,
+      "e": "Kotak kecil penyusun makhluk hidup adalah sel. Pengukuran hanya melihat ukuran luarnya."
+    },
+    {
+      "no": 2,
+      "soal": "Di Bandung, kucing dan anjing sama-sama menyusui anaknya. Di tubuhnya, keduanya punya jaringan otot untuk bergerak. Pernyataan yang benar adalah?",
+      "opsi": {
+        "A": "Kucing dan anjing beda kingdom",
+        "B": "Kucing tidak punya sel",
+        "C": "Kucing dan anjing sama-sama tersusun dari sel dan jaringan",
+        "D": "Anjing tidak punya jaringan"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "level": "Mudah",
+      "pembahasan": "Semua hewan tersusun dari sel yang membentuk jaringan. Kucing dan anjing sama-sama hewan.",
+      "q": "Di Bandung, kucing dan anjing sama-sama menyusui anaknya. Di tubuhnya, keduanya punya jaringan otot untuk bergerak. Pernyataan yang benar adalah?",
+      "o": [
+        "Kucing dan anjing beda kingdom",
+        "Kucing tidak punya sel",
+        "Kucing dan anjing sama-sama tersusun dari sel dan jaringan",
+        "Anjing tidak punya jaringan"
+      ],
+      "a": 2,
+      "e": "Semua hewan tersusun dari sel yang membentuk jaringan. Kucing dan anjing sama-sama hewan."
+    },
+    {
+      "no": 3,
+      "soal": "Di Semarang, air panas 50 derajat diteteskan ke sel daun. Sel daun bisa rusak karena?",
+      "opsi": {
+        "A": "Suhu tinggi merusak bagian sel",
+        "B": "Sel suka air panas",
+        "C": "Air panas menambah sel",
+        "D": "Sel tidak kena suhu"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "level": "Mudah",
+      "pembahasan": "Suhu tinggi bisa merusak sel. Sel hidup hanya kuat pada suhu tertentu.",
+      "q": "Di Semarang, air panas 50 derajat diteteskan ke sel daun. Sel daun bisa rusak karena?",
+      "o": [
+        "Suhu tinggi merusak bagian sel",
+        "Sel suka air panas",
+        "Air panas menambah sel",
+        "Sel tidak kena suhu"
+      ],
+      "a": 0,
+      "e": "Suhu tinggi bisa merusak sel. Sel hidup hanya kuat pada suhu tertentu."
+    },
+    {
+      "no": 4,
+      "soal": "Di Yogyakarta, tangan bisa menekuk karena?",
+      "opsi": {
+        "A": "Tulang bergerak sendiri",
+        "B": "Kulit yang menarik tulang",
+        "C": "Otot berkontraksi dan menarik tulang",
+        "D": "Sel darah yang bergerak"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "level": "Mudah",
+      "pembahasan": "Otot yang berkontraksi menarik tulang. Itulah yang membuat tangan menekuk.",
+      "q": "Di Yogyakarta, tangan bisa menekuk karena?",
+      "o": [
+        "Tulang bergerak sendiri",
+        "Kulit yang menarik tulang",
+        "Otot berkontraksi dan menarik tulang",
+        "Sel darah yang bergerak"
+      ],
+      "a": 2,
+      "e": "Otot yang berkontraksi menarik tulang. Itulah yang membuat tangan menekuk."
+    },
+    {
+      "no": 5,
+      "soal": "Di Medan, air masuk ke dalam sel daun. Bagian sel yang mengatur keluar masuk zat adalah?",
+      "opsi": {
+        "A": "Membran sel",
+        "B": "Tulang daun",
+        "C": "Klorofil saja",
+        "D": "Akar saja"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "level": "Mudah",
+      "pembahasan": "Membran sel mengatur zat yang keluar masuk. Membran sel berfungsi sebagai penjaga pintu sel.",
+      "q": "Di Medan, air masuk ke dalam sel daun. Bagian sel yang mengatur keluar masuk zat adalah?",
+      "o": [
+        "Membran sel",
+        "Tulang daun",
+        "Klorofil saja",
+        "Akar saja"
+      ],
+      "a": 0,
+      "e": "Membran sel mengatur zat yang keluar masuk. Membran sel berfungsi sebagai penjaga pintu sel."
+    },
+    {
+      "no": 6,
+      "soal": "Di Makassar, tumbuhan butuh cahaya untuk membuat makanan. Tempat membuat makanan di dalam sel tumbuhan adalah?",
+      "opsi": {
+        "A": "Membran sel",
+        "B": "Inti sel",
+        "C": "Kloroplas yang berisi klorofil",
+        "D": "Dinding batu"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "level": "Mudah",
+      "pembahasan": "Kloroplas berisi klorofil yang menangkap cahaya. Di situlah makanan dibuat.",
+      "q": "Di Makassar, tumbuhan butuh cahaya untuk membuat makanan. Tempat membuat makanan di dalam sel tumbuhan adalah?",
+      "o": [
+        "Membran sel",
+        "Inti sel",
+        "Kloroplas yang berisi klorofil",
+        "Dinding batu"
+      ],
+      "a": 2,
+      "e": "Kloroplas berisi klorofil yang menangkap cahaya. Di situlah makanan dibuat."
+    },
+    {
+      "no": 7,
+      "soal": "Di Palembang, siang hari tumbuhan membuat makanan, malam hari tidak. Perbedaan ini terjadi karena?",
+      "opsi": {
+        "A": "Sel tumbuhan tidur siang",
+        "B": "Siang ada cahaya Matahari untuk fotosintesis, malam tidak ada",
+        "C": "Bumi berhenti berputar malam hari",
+        "D": "Sel tumbuhan hilang malam hari"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "level": "Mudah",
+      "pembahasan": "Fotosintesis membutuhkan cahaya. Siang ada cahaya, malam tidak ada, sehingga malam tidak membuat makanan.",
+      "q": "Di Palembang, siang hari tumbuhan membuat makanan, malam hari tidak. Perbedaan ini terjadi karena?",
+      "o": [
+        "Sel tumbuhan tidur siang",
+        "Siang ada cahaya Matahari untuk fotosintesis, malam tidak ada",
+        "Bumi berhenti berputar malam hari",
+        "Sel tumbuhan hilang malam hari"
+      ],
+      "a": 1,
+      "e": "Fotosintesis membutuhkan cahaya. Siang ada cahaya, malam tidak ada, sehingga malam tidak membuat makanan."
+    },
+    {
+      "no": 8,
+      "soal": "Di Denpasar, benda 2 mm dilihat dengan mikroskop perbesaran 100 kali. Ukuran bayangan yang terlihat adalah?",
+      "opsi": {
+        "A": "2 mm",
+        "B": "20 mm",
+        "C": "100 mm",
+        "D": "200 mm"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "level": "Sedang",
+      "pembahasan": "Ukuran bayangan adalah 2 dikali 100 sama dengan 200 mm. Mikroskop memperbesar bayangan, bukan bendanya.",
+      "q": "Di Denpasar, benda 2 mm dilihat dengan mikroskop perbesaran 100 kali. Ukuran bayangan yang terlihat adalah?",
+      "o": [
+        "2 mm",
+        "20 mm",
+        "100 mm",
+        "200 mm"
+      ],
+      "a": 3,
+      "e": "Ukuran bayangan adalah 2 dikali 100 sama dengan 200 mm. Mikroskop memperbesar bayangan, bukan bendanya."
+    },
+    {
+      "no": 9,
+      "soal": "Di Balikpapan, ikan dan katak sama-sama hewan. Ikan bernapas dengan insang, katak dewasa bernapas dengan paru-paru dan kulit. Perbedaan ini menunjukkan?",
+      "opsi": {
+        "A": "Struktur tubuh menyesuaikan tempat hidupnya",
+        "B": "Semua hewan bernapas sama",
+        "C": "Ikan tidak punya sel",
+        "D": "Katak bukan hewan"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "level": "Sedang",
+      "pembahasan": "Struktur tubuh menyesuaikan tempat hidup. Ikan di air memakai insang, katak di darat memakai paru-paru.",
+      "q": "Di Balikpapan, ikan dan katak sama-sama hewan. Ikan bernapas dengan insang, katak dewasa bernapas dengan paru-paru dan kulit. Perbedaan ini menunjukkan?",
+      "o": [
+        "Struktur tubuh menyesuaikan tempat hidupnya",
+        "Semua hewan bernapas sama",
+        "Ikan tidak punya sel",
+        "Katak bukan hewan"
+      ],
+      "a": 0,
+      "e": "Struktur tubuh menyesuaikan tempat hidup. Ikan di air memakai insang, katak di darat memakai paru-paru."
+    },
+    {
+      "no": 10,
+      "soal": "Di Surabaya, es batu dimasukkan ke gelas berisi sel daun yang masih hidup. Es mencair jadi air. Air itu masuk ke sel yang masih hidup lewat?",
+      "opsi": {
+        "A": "Tulang daun",
+        "B": "Dinding batu",
+        "C": "Membran sel",
+        "D": "Akar saja"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "level": "Sedang",
+      "pembahasan": "Air masuk lewat membran sel. Wujudnya berubah dari padat ke cair dulu, baru bisa masuk.",
+      "q": "Di Surabaya, es batu dimasukkan ke gelas berisi sel daun yang masih hidup. Es mencair jadi air. Air itu masuk ke sel yang masih hidup lewat?",
+      "o": [
+        "Tulang daun",
+        "Dinding batu",
+        "Membran sel",
+        "Akar saja"
+      ],
+      "a": 2,
+      "e": "Air masuk lewat membran sel. Wujudnya berubah dari padat ke cair dulu, baru bisa masuk."
+    },
+    {
+      "no": 11,
+      "soal": "Di Jakarta, siku bisa menekuk dan lurus. Bagian yang membuat tulang bisa bergerak bebas di siku adalah?",
+      "opsi": {
+        "A": "Otot saja",
+        "B": "Sendi",
+        "C": "Kulit saja",
+        "D": "Darah saja"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "level": "Sedang",
+      "pembahasan": "Sendi merupakan penghubung antar tulang yang bisa digerakkan. Tanpa sendi, tulang kaku.",
+      "q": "Di Jakarta, siku bisa menekuk dan lurus. Bagian yang membuat tulang bisa bergerak bebas di siku adalah?",
+      "o": [
+        "Otot saja",
+        "Sendi",
+        "Kulit saja",
+        "Darah saja"
+      ],
+      "a": 1,
+      "e": "Sendi merupakan penghubung antar tulang yang bisa digerakkan. Tanpa sendi, tulang kaku."
+    },
+    {
+      "no": 12,
+      "soal": "Di Bandung, badan terasa panas saat berlari. Panas itu berasal dari?",
+      "opsi": {
+        "A": "Matahari saja",
+        "B": "Baju yang dipakai",
+        "C": "Air yang diminum",
+        "D": "Otot yang bekerja menghasilkan kalor"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "level": "Sedang",
+      "pembahasan": "Otot yang bekerja menghasilkan kalor. Itulah yang menyebabkan badan panas setelah berlari.",
+      "q": "Di Bandung, badan terasa panas saat berlari. Panas itu berasal dari?",
+      "o": [
+        "Matahari saja",
+        "Baju yang dipakai",
+        "Air yang diminum",
+        "Otot yang bekerja menghasilkan kalor"
+      ],
+      "a": 3,
+      "e": "Otot yang bekerja menghasilkan kalor. Itulah yang menyebabkan badan panas setelah berlari."
+    },
+    {
+      "no": 13,
+      "soal": "Di Semarang, daun yang lebar dan tipis lebih cepat membuat makanan. Alasannya?",
+      "opsi": {
+        "A": "Permukaan lebar menangkap cahaya lebih banyak, jaringan daun tipis memudahkan cahaya masuk",
+        "B": "Daun lebar tidak punya sel",
+        "C": "Daun tipis tidak punya klorofil",
+        "D": "Daun lebar tidak butuh cahaya"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "level": "Sedang",
+      "pembahasan": "Daun lebar menangkap cahaya lebih banyak. Jaringan tipis memudahkan cahaya sampai ke kloroplas.",
+      "q": "Di Semarang, daun yang lebar dan tipis lebih cepat membuat makanan. Alasannya?",
+      "o": [
+        "Permukaan lebar menangkap cahaya lebih banyak, jaringan daun tipis memudahkan cahaya masuk",
+        "Daun lebar tidak punya sel",
+        "Daun tipis tidak punya klorofil",
+        "Daun lebar tidak butuh cahaya"
+      ],
+      "a": 0,
+      "e": "Daun lebar menangkap cahaya lebih banyak. Jaringan tipis memudahkan cahaya sampai ke kloroplas."
+    },
+    {
+      "no": 14,
+      "soal": "Di Yogyakarta, cairan asam kuat dituangkan ke sel daun. Sel rusak. Kesimpulan yang tepat adalah?",
+      "opsi": {
+        "A": "Sel suka asam kuat",
+        "B": "Asam kuat menambah sel",
+        "C": "Asam kuat merusak bagian sel",
+        "D": "Sel tidak kena asam"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "level": "Sedang",
+      "pembahasan": "Asam kuat bisa merusak sel. Sel hidup hanya kuat pada kondisi tidak terlalu asam.",
+      "q": "Di Yogyakarta, cairan asam kuat dituangkan ke sel daun. Sel rusak. Kesimpulan yang tepat adalah?",
+      "o": [
+        "Sel suka asam kuat",
+        "Asam kuat menambah sel",
+        "Asam kuat merusak bagian sel",
+        "Sel tidak kena asam"
+      ],
+      "a": 2,
+      "e": "Asam kuat bisa merusak sel. Sel hidup hanya kuat pada kondisi tidak terlalu asam."
+    },
+    {
+      "no": 15,
+      "soal": "Di Medan, logam dipanaskan memuai. Sel tumbuhan yang dipanaskan terlalu lama akan?",
+      "opsi": {
+        "A": "Makin kuat",
+        "B": "Rusak dan mati karena bagian sel tidak tahan panas berlebih",
+        "C": "Bertambah banyak",
+        "D": "Tidak berubah"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "level": "Sedang",
+      "pembahasan": "Panas berlebih merusak sel. Seperti logam yang berubah bentuk, sel juga berubah dan rusak.",
+      "q": "Di Medan, logam dipanaskan memuai. Sel tumbuhan yang dipanaskan terlalu lama akan?",
+      "o": [
+        "Makin kuat",
+        "Rusak dan mati karena bagian sel tidak tahan panas berlebih",
+        "Bertambah banyak",
+        "Tidak berubah"
+      ],
+      "a": 1,
+      "e": "Panas berlebih merusak sel. Seperti logam yang berubah bentuk, sel juga berubah dan rusak."
+    },
+    {
+      "no": 16,
+      "soal": "Di Makassar, air garam pekat diberikan ke sel daun. Air di dalam sel keluar. Sel menjadi layu. Peristiwa ini menunjukkan?",
+      "opsi": {
+        "A": "Sel tidak punya membran",
+        "B": "Garam masuk dan sel membesar",
+        "C": "Air tidak bisa keluar sel",
+        "D": "Membran sel membiarkan air keluar karena perbedaan kepekatan"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "level": "Sedang",
+      "pembahasan": "Air keluar lewat membran karena di luar lebih pekat. Itulah yang menyebabkan sel layu.",
+      "q": "Di Makassar, air garam pekat diberikan ke sel daun. Air di dalam sel keluar. Sel menjadi layu. Peristiwa ini menunjukkan?",
+      "o": [
+        "Sel tidak punya membran",
+        "Garam masuk dan sel membesar",
+        "Air tidak bisa keluar sel",
+        "Membran sel membiarkan air keluar karena perbedaan kepekatan"
+      ],
+      "a": 3,
+      "e": "Air keluar lewat membran karena di luar lebih pekat. Itulah yang menyebabkan sel layu."
+    },
+    {
+      "no": 17,
+      "soal": "Di Palembang, sel hewan dan sel tumbuhan sama-sama punya membran dan inti. Perbedaannya adalah?",
+      "opsi": {
+        "A": "Sel tumbuhan punya dinding sel dan kloroplas, sel hewan tidak",
+        "B": "Sel hewan punya dinding sel",
+        "C": "Sel tumbuhan tidak punya inti",
+        "D": "Dua sel tidak punya membran"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "level": "Sedang",
+      "pembahasan": "Sel tumbuhan punya dinding dan kloroplas. Sel hewan tidak punya keduanya.",
+      "q": "Di Palembang, sel hewan dan sel tumbuhan sama-sama punya membran dan inti. Perbedaannya adalah?",
+      "o": [
+        "Sel tumbuhan punya dinding sel dan kloroplas, sel hewan tidak",
+        "Sel hewan punya dinding sel",
+        "Sel tumbuhan tidak punya inti",
+        "Dua sel tidak punya membran"
+      ],
+      "a": 0,
+      "e": "Sel tumbuhan punya dinding dan kloroplas. Sel hewan tidak punya keduanya."
+    },
+    {
+      "no": 18,
+      "soal": "Di Denpasar, otot bisa berkontraksi karena sel otot?",
+      "opsi": {
+        "A": "Tidak punya energi",
+        "B": "Tidur terus",
+        "C": "Mendapat perintah dari saraf dan memakai energi",
+        "D": "Berubah jadi tulang"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "level": "Sedang",
+      "pembahasan": "Sel otot bekerja saat diperintah saraf dan memakai energi. Itulah yang membuat otot berkontraksi.",
+      "q": "Di Denpasar, otot bisa berkontraksi karena sel otot?",
+      "o": [
+        "Tidak punya energi",
+        "Tidur terus",
+        "Mendapat perintah dari saraf dan memakai energi",
+        "Berubah jadi tulang"
+      ],
+      "a": 2,
+      "e": "Sel otot bekerja saat diperintah saraf dan memakai energi. Itulah yang membuat otot berkontraksi."
+    },
+    {
+      "no": 19,
+      "soal": "Di Balikpapan, urutan yang benar dari kecil ke besar adalah?",
+      "opsi": {
+        "A": "Organ, jaringan, sel",
+        "B": "Jaringan, organ, sel",
+        "C": "Organ, sel, jaringan",
+        "D": "Sel, jaringan, organ"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "level": "Sulit",
+      "pembahasan": "Sel membentuk jaringan, jaringan membentuk organ. Urutannya dari kecil ke besar.",
+      "q": "Di Balikpapan, urutan yang benar dari kecil ke besar adalah?",
+      "o": [
+        "Organ, jaringan, sel",
+        "Jaringan, organ, sel",
+        "Organ, sel, jaringan",
+        "Sel, jaringan, organ"
+      ],
+      "a": 3,
+      "e": "Sel membentuk jaringan, jaringan membentuk organ. Urutannya dari kecil ke besar."
+    },
+    {
+      "no": 20,
+      "soal": "Di Surabaya, tumbuhan membuat makanan di daun, lalu makanan dibawa ke akar. Sistem yang membawa makanan itu adalah?",
+      "opsi": {
+        "A": "Sistem gerak saja",
+        "B": "Jaringan pengangkut di dalam tumbuhan",
+        "C": "Sistem saraf hewan",
+        "D": "Tulang daun saja"
+      },
+      "kunci": "B",
+      "cog": "C5",
+      "level": "Sulit",
+      "pembahasan": "Jaringan pengangkut membawa makanan dari daun ke seluruh tumbuhan, termasuk ke akar.",
+      "q": "Di Surabaya, tumbuhan membuat makanan di daun, lalu makanan dibawa ke akar. Sistem yang membawa makanan itu adalah?",
+      "o": [
+        "Sistem gerak saja",
+        "Jaringan pengangkut di dalam tumbuhan",
+        "Sistem saraf hewan",
+        "Tulang daun saja"
+      ],
+      "a": 1,
+      "e": "Jaringan pengangkut membawa makanan dari daun ke seluruh tumbuhan, termasuk ke akar."
+    },
+    {
+      "no": 21,
+      "soal": "Di Jakarta, sungai tercemar limbah membuat ikan mati. Penjelasan yang paling tepat di tingkat sel adalah?",
+      "opsi": {
+        "A": "Limbah membuat ikan lebih sehat",
+        "B": "Limbah menambah sel ikan",
+        "C": "Limbah tidak kena sel ikan",
+        "D": "Limbah merusak sel ikan sehingga ikan tidak bisa hidup"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "level": "Sulit",
+      "pembahasan": "Limbah merusak sel ikan. Jika sel rusak, ikan tidak bisa hidup.",
+      "q": "Di Jakarta, sungai tercemar limbah membuat ikan mati. Penjelasan yang paling tepat di tingkat sel adalah?",
+      "o": [
+        "Limbah membuat ikan lebih sehat",
+        "Limbah menambah sel ikan",
+        "Limbah tidak kena sel ikan",
+        "Limbah merusak sel ikan sehingga ikan tidak bisa hidup"
+      ],
+      "a": 3,
+      "e": "Limbah merusak sel ikan. Jika sel rusak, ikan tidak bisa hidup."
+    },
+    {
+      "no": 22,
+      "soal": "Di Bandung, dua sel diamati: sel daun puring panjang 20 mikron, sel daun jambu panjang 40 mikron. Jika keduanya dilihat dengan perbesaran yang sama, bayangan sel daun jambu akan?",
+      "opsi": {
+        "A": "Sama besar dengan sel daun puring",
+        "B": "Lebih kecil dari sel daun puring",
+        "C": "2 kali lebih besar dari sel daun puring",
+        "D": "4 kali lebih besar dari sel daun puring"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "level": "Sulit",
+      "pembahasan": "Panjang 40 dibagi 20 sama dengan 2. Jadi bayangan sel daun jambu 2 kali lebih besar dari sel daun puring pada perbesaran sama.",
+      "q": "Di Bandung, dua sel diamati: sel daun puring panjang 20 mikron, sel daun jambu panjang 40 mikron. Jika keduanya dilihat dengan perbesaran yang sama, bayangan sel daun jambu akan?",
+      "o": [
+        "Sama besar dengan sel daun puring",
+        "Lebih kecil dari sel daun puring",
+        "2 kali lebih besar dari sel daun puring",
+        "4 kali lebih besar dari sel daun puring"
+      ],
+      "a": 2,
+      "e": "Panjang 40 dibagi 20 sama dengan 2. Jadi bayangan sel daun jambu 2 kali lebih besar dari sel daun puring pada perbesaran sama."
+    },
+    {
+      "no": 23,
+      "soal": "Di Semarang, paru-paru punya banyak gelembung kecil. Fungsi gelembung itu adalah?",
+      "opsi": {
+        "A": "Membuat paru-paru berat",
+        "B": "Menyimpan makanan",
+        "C": "Membuat paru-paru berwarna merah",
+        "D": "Memperluas permukaan pertukaran udara sehingga oksigen cepat masuk"
+      },
+      "kunci": "D",
+      "cog": "C6",
+      "level": "Sulit",
+      "pembahasan": "Gelembung kecil memperluas permukaan. Makin luas, makin cepat oksigen masuk.",
+      "q": "Di Semarang, paru-paru punya banyak gelembung kecil. Fungsi gelembung itu adalah?",
+      "o": [
+        "Membuat paru-paru berat",
+        "Menyimpan makanan",
+        "Membuat paru-paru berwarna merah",
+        "Memperluas permukaan pertukaran udara sehingga oksigen cepat masuk"
+      ],
+      "a": 3,
+      "e": "Gelembung kecil memperluas permukaan. Makin luas, makin cepat oksigen masuk."
+    },
+    {
+      "no": 24,
+      "soal": "Di Yogyakarta, seseorang sakit karena sel tubuhnya diserang kuman. Cara tubuh melawan yang paling masuk akal adalah?",
+      "opsi": {
+        "A": "Sel tubuh diam saja",
+        "B": "Sel darah putih melawan kuman",
+        "C": "Sel tumbuhan membantu",
+        "D": "Sel tulang hilang"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "level": "Sulit",
+      "pembahasan": "Sel darah putih merupakan penjaga tubuh. Sel darah putih melawan kuman yang menyerang sel tubuh.",
+      "q": "Di Yogyakarta, seseorang sakit karena sel tubuhnya diserang kuman. Cara tubuh melawan yang paling masuk akal adalah?",
+      "o": [
+        "Sel tubuh diam saja",
+        "Sel darah putih melawan kuman",
+        "Sel tumbuhan membantu",
+        "Sel tulang hilang"
+      ],
+      "a": 1,
+      "e": "Sel darah putih merupakan penjaga tubuh. Sel darah putih melawan kuman yang menyerang sel tubuh."
+    },
+    {
+      "no": 25,
+      "soal": "Di Medan, tumbuhan di tempat terang tumbuh lebih cepat dari tumbuhan di tempat gelap. Kesimpulan yang paling tepat adalah?",
+      "opsi": {
+        "A": "Cahaya Matahari dibutuhkan sel tumbuhan untuk membuat makanan, sehingga tumbuhan terang tumbuh lebih cepat",
+        "B": "Gelap membuat tumbuhan lebih cepat tumbuh",
+        "C": "Cahaya tidak memengaruhi tumbuhan",
+        "D": "Tumbuhan gelap tidak punya sel"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "level": "Sulit",
+      "pembahasan": "Cahaya dibutuhkan untuk membuat makanan di sel. Tanpa cahaya, makanan sedikit, tumbuh lambat.",
+      "q": "Di Medan, tumbuhan di tempat terang tumbuh lebih cepat dari tumbuhan di tempat gelap. Kesimpulan yang paling tepat adalah?",
+      "o": [
+        "Cahaya Matahari dibutuhkan sel tumbuhan untuk membuat makanan, sehingga tumbuhan terang tumbuh lebih cepat",
+        "Gelap membuat tumbuhan lebih cepat tumbuh",
+        "Cahaya tidak memengaruhi tumbuhan",
+        "Tumbuhan gelap tidak punya sel"
+      ],
+      "a": 0,
+      "e": "Cahaya dibutuhkan untuk membuat makanan di sel. Tanpa cahaya, makanan sedikit, tumbuh lambat."
+    }
+  ]
+}

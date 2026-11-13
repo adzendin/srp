@@ -1,0 +1,564 @@
+{
+  "judul": "Matematika Kelas 7 — Reguler",
+  "mapel": "Matematika",
+  "kelas": 7,
+  "jenis": "Reguler",
+  "waktu": 40,
+  "poin_per_soal": 5,
+  "diujikan": 20,
+  "save_key": "",
+  "warna_kelas": "Hijau Daun",
+  "versi": "v1.1",
+  "soal": [
+    {
+      "no": 1,
+      "soal": "Di Jakarta, suhu pagi 24°C. Siang naik 7°C, malam turun 11°C. Berapa suhu malam?",
+      "opsi": {
+        "A": "18°C",
+        "B": "20°C",
+        "C": "22°C",
+        "D": "28°C"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "24 + 7 = 31, lalu 31 - 11 = 20. Jadi suhu malam 20°C. Opsi lain salah hitung naik / turunnya.",
+      "q": "Di Jakarta, suhu pagi 24°C. Siang naik 7°C, malam turun 11°C. Berapa suhu malam?",
+      "o": [
+        "18°C",
+        "20°C",
+        "22°C",
+        "28°C"
+      ],
+      "a": 1,
+      "e": "24 + 7 = 31, lalu 31 - 11 = 20. Jadi suhu malam 20°C. Opsi lain salah hitung naik / turunnya."
+    },
+    {
+      "no": 2,
+      "soal": "Di Bandung, sebuah toko menjual pensil dengan harga (2x + 3.000) rupiah per pak. Jika x = 2.000, berapa harga 1 pak?",
+      "opsi": {
+        "A": "5.000",
+        "B": "6.000",
+        "C": "7.000",
+        "D": "9.000"
+      },
+      "kunci": "C",
+      "cog": "C3",
+      "pembahasan": "Ganti x = 2.000, jadi 2 x 2.000 + 3.000 = 7.000. Opsi lain salah ganti nilai x atau salah kali.",
+      "q": "Di Bandung, sebuah toko menjual pensil dengan harga (2x + 3.000) rupiah per pak. Jika x = 2.000, berapa harga 1 pak?",
+      "o": [
+        "5.000",
+        "6.000",
+        "7.000",
+        "9.000"
+      ],
+      "a": 2,
+      "e": "Ganti x = 2.000, jadi 2 x 2.000 + 3.000 = 7.000. Opsi lain salah ganti nilai x atau salah kali."
+    },
+    {
+      "no": 3,
+      "soal": "Di Semarang, 3 kg beras untuk 12 porsi. Berapa kg beras untuk 20 porsi dengan takaran sama?",
+      "opsi": {
+        "A": "5 kg",
+        "B": "6 kg",
+        "C": "7 kg",
+        "D": "8 kg"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "1 porsi = 3 : 12 = 0,25 kg, jadi 20 x 0,25 = 5 kg. Opsi lain salah bagi atau salah kali.",
+      "q": "Di Semarang, 3 kg beras untuk 12 porsi. Berapa kg beras untuk 20 porsi dengan takaran sama?",
+      "o": [
+        "5 kg",
+        "6 kg",
+        "7 kg",
+        "8 kg"
+      ],
+      "a": 0,
+      "e": "1 porsi = 3 : 12 = 0,25 kg, jadi 20 x 0,25 = 5 kg. Opsi lain salah bagi atau salah kali."
+    },
+    {
+      "no": 4,
+      "soal": "Di Yogyakarta, harga 1 tiket + 5.000 biaya layanan = 35.000. Berapa harga tiketnya?",
+      "opsi": {
+        "A": "25.000",
+        "B": "28.000",
+        "C": "29.000",
+        "D": "30.000"
+      },
+      "kunci": "D",
+      "cog": "C3",
+      "pembahasan": "Harga tiket + 5.000 = 35.000, jadi harga tiket = 30.000. Opsi lain salah pindah ruas.",
+      "q": "Di Yogyakarta, harga 1 tiket + 5.000 biaya layanan = 35.000. Berapa harga tiketnya?",
+      "o": [
+        "25.000",
+        "28.000",
+        "29.000",
+        "30.000"
+      ],
+      "a": 3,
+      "e": "Harga tiket + 5.000 = 35.000, jadi harga tiket = 30.000. Opsi lain salah pindah ruas."
+    },
+    {
+      "no": 5,
+      "soal": "Di Medan, sebuah lapangan persegi panjang panjang 25 m, lebar 12 m. Berapa kelilingnya?",
+      "opsi": {
+        "A": "74 m",
+        "B": "100 m",
+        "C": "150 m",
+        "D": "300 m"
+      },
+      "kunci": "A",
+      "cog": "C2",
+      "pembahasan": "Keliling = 2 x (25 + 12) = 74 m. Opsi lain menghitung luas atau salah tambah.",
+      "q": "Di Medan, sebuah lapangan persegi panjang panjang 25 m, lebar 12 m. Berapa kelilingnya?",
+      "o": [
+        "74 m",
+        "100 m",
+        "150 m",
+        "300 m"
+      ],
+      "a": 0,
+      "e": "Keliling = 2 x (25 + 12) = 74 m. Opsi lain menghitung luas atau salah tambah."
+    },
+    {
+      "no": 6,
+      "soal": "Di Makassar, nilai ulangan 5 siswa: 6, 8, 7, 9, 10. Berapa mean-nya?",
+      "opsi": {
+        "A": "7",
+        "B": "7,5",
+        "C": "8",
+        "D": "9"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Jumlah = 40, dibagi 5 = 8. Opsi lain salah jumlah atau salah bagi.",
+      "q": "Di Makassar, nilai ulangan 5 siswa: 6, 8, 7, 9, 10. Berapa mean-nya?",
+      "o": [
+        "7",
+        "7,5",
+        "8",
+        "9"
+      ],
+      "a": 2,
+      "e": "Jumlah = 40, dibagi 5 = 8. Opsi lain salah jumlah atau salah bagi."
+    },
+    {
+      "no": 7,
+      "soal": "Di Palembang, pola bilangan: 3, 6, 9, 12, ... Bilangan ke-7 adalah?",
+      "opsi": {
+        "A": "18",
+        "B": "21",
+        "C": "24",
+        "D": "27"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "Pola tambah 3, jadi ke-5 = 15, ke-6 = 18, ke-7 = 21. Opsi lain salah lompat pola.",
+      "q": "Di Palembang, pola bilangan: 3, 6, 9, 12, ... Bilangan ke-7 adalah?",
+      "o": [
+        "18",
+        "21",
+        "24",
+        "27"
+      ],
+      "a": 1,
+      "e": "Pola tambah 3, jadi ke-5 = 15, ke-6 = 18, ke-7 = 21. Opsi lain salah lompat pola."
+    },
+    {
+      "no": 8,
+      "soal": "Di Denpasar, bentuk aljabar 3a + 5a = ?",
+      "opsi": {
+        "A": "8a²",
+        "B": "15a",
+        "C": "5a",
+        "D": "8a"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "3a + 5a = 8a karena suku sejenis. Opsi lain salah tambah koefisien atau salah pangkat.",
+      "q": "Di Denpasar, bentuk aljabar 3a + 5a = ?",
+      "o": [
+        "8a²",
+        "15a",
+        "5a",
+        "8a"
+      ],
+      "a": 3,
+      "e": "3a + 5a = 8a karena suku sejenis. Opsi lain salah tambah koefisien atau salah pangkat."
+    },
+    {
+      "no": 9,
+      "soal": "Di Balikpapan, 4 pekerja selesai 12 hari. Jika pekerja jadi 6 orang dengan kecepatan sama, berapa hari?",
+      "opsi": {
+        "A": "8 hari",
+        "B": "10 hari",
+        "C": "16 hari",
+        "D": "18 hari"
+      },
+      "kunci": "A",
+      "cog": "C4",
+      "pembahasan": "4 x 12 = 48, dibagi 6 = 8 hari. Makin banyak pekerja, makin cepat. Opsi lain pakai perbandingan senilai.",
+      "q": "Di Balikpapan, 4 pekerja selesai 12 hari. Jika pekerja jadi 6 orang dengan kecepatan sama, berapa hari?",
+      "o": [
+        "8 hari",
+        "10 hari",
+        "16 hari",
+        "18 hari"
+      ],
+      "a": 0,
+      "e": "4 x 12 = 48, dibagi 6 = 8 hari. Makin banyak pekerja, makin cepat. Opsi lain pakai perbandingan senilai."
+    },
+    {
+      "no": 10,
+      "soal": "Di Surabaya, sebuah kubus rusuk 5 cm. Berapa volumenya?",
+      "opsi": {
+        "A": "25 cm³",
+        "B": "75 cm³",
+        "C": "125 cm³",
+        "D": "150 cm³"
+      },
+      "kunci": "C",
+      "cog": "C2",
+      "pembahasan": "Volume = 5 x 5 x 5 = 125 cm³. Opsi lain menghitung luas atau salah pangkat.",
+      "q": "Di Surabaya, sebuah kubus rusuk 5 cm. Berapa volumenya?",
+      "o": [
+        "25 cm³",
+        "75 cm³",
+        "125 cm³",
+        "150 cm³"
+      ],
+      "a": 2,
+      "e": "Volume = 5 x 5 x 5 = 125 cm³. Opsi lain menghitung luas atau salah pangkat."
+    },
+    {
+      "no": 11,
+      "soal": "Di Jakarta, 3/4 + 1/2 = ?",
+      "opsi": {
+        "A": "4/6",
+        "B": "5/4",
+        "C": "3/2",
+        "D": "4/4"
+      },
+      "kunci": "B",
+      "cog": "C2",
+      "pembahasan": "Samakan penyebut 4, jadi 3/4 + 2/4 = 5/4. Opsi lain tambah pembilang dan penyebut langsung.",
+      "q": "Di Jakarta, 3/4 + 1/2 = ?",
+      "o": [
+        "4/6",
+        "5/4",
+        "3/2",
+        "4/4"
+      ],
+      "a": 1,
+      "e": "Samakan penyebut 4, jadi 3/4 + 2/4 = 5/4. Opsi lain tambah pembilang dan penyebut langsung."
+    },
+    {
+      "no": 12,
+      "soal": "Di Bandung, x + 4 > 10. Nilai x yang benar adalah?",
+      "opsi": {
+        "A": "x < 6",
+        "B": "x = 6",
+        "C": "x ≤ 6",
+        "D": "x > 6"
+      },
+      "kunci": "D",
+      "cog": "C4",
+      "pembahasan": "x > 10 - 4 = 6. Opsi lain salah arah tanda atau salah pindah ruas.",
+      "q": "Di Bandung, x + 4 > 10. Nilai x yang benar adalah?",
+      "o": [
+        "x < 6",
+        "x = 6",
+        "x ≤ 6",
+        "x > 6"
+      ],
+      "a": 3,
+      "e": "x > 10 - 4 = 6. Opsi lain salah arah tanda atau salah pindah ruas."
+    },
+    {
+      "no": 13,
+      "soal": "Di Semarang, segitiga alas 10 cm, tinggi 6 cm. Berapa luasnya?",
+      "opsi": {
+        "A": "30 cm²",
+        "B": "60 cm²",
+        "C": "16 cm²",
+        "D": "32 cm²"
+      },
+      "kunci": "A",
+      "cog": "C3",
+      "pembahasan": "Luas = 1/2 x 10 x 6 = 30 cm². Opsi lain lupa bagi 2.",
+      "q": "Di Semarang, segitiga alas 10 cm, tinggi 6 cm. Berapa luasnya?",
+      "o": [
+        "30 cm²",
+        "60 cm²",
+        "16 cm²",
+        "32 cm²"
+      ],
+      "a": 0,
+      "e": "Luas = 1/2 x 10 x 6 = 30 cm². Opsi lain lupa bagi 2."
+    },
+    {
+      "no": 14,
+      "soal": "Di Solo, data warna favorit: Merah 5, Biru 8, Hijau 3. Warna paling banyak?",
+      "opsi": {
+        "A": "Merah",
+        "B": "Hijau",
+        "C": "Biru",
+        "D": "Sama semua"
+      },
+      "kunci": "C",
+      "cog": "C1",
+      "pembahasan": "Biru 8 paling banyak. Opsi lain salah baca data.",
+      "q": "Di Solo, data warna favorit: Merah 5, Biru 8, Hijau 3. Warna paling banyak?",
+      "o": [
+        "Merah",
+        "Hijau",
+        "Biru",
+        "Sama semua"
+      ],
+      "a": 2,
+      "e": "Biru 8 paling banyak. Opsi lain salah baca data."
+    },
+    {
+      "no": 15,
+      "soal": "Di Medan, denah skala 1 : 200. Jarak di denah 4 cm. Jarak sebenarnya?",
+      "opsi": {
+        "A": "400 cm",
+        "B": "800 cm",
+        "C": "200 cm",
+        "D": "800 m"
+      },
+      "kunci": "B",
+      "cog": "C3",
+      "pembahasan": "4 x 200 = 800 cm. Opsi lain salah kali skala atau salah satuan.",
+      "q": "Di Medan, denah skala 1 : 200. Jarak di denah 4 cm. Jarak sebenarnya?",
+      "o": [
+        "400 cm",
+        "800 cm",
+        "200 cm",
+        "800 m"
+      ],
+      "a": 1,
+      "e": "4 x 200 = 800 cm. Opsi lain salah kali skala atau salah satuan."
+    },
+    {
+      "no": 16,
+      "soal": "Di Makassar, mana yang senilai dengan 2(x + 3)?",
+      "opsi": {
+        "A": "2x + 6",
+        "B": "2x + 3",
+        "C": "x + 6",
+        "D": "2x + 9"
+      },
+      "kunci": "A",
+      "cog": "C5",
+      "pembahasan": "2 dikali ke x dan ke 3, jadi 2x + 6. Opsi lain lupa kali salah satu suku.",
+      "q": "Di Makassar, mana yang senilai dengan 2(x + 3)?",
+      "o": [
+        "2x + 6",
+        "2x + 3",
+        "x + 6",
+        "2x + 9"
+      ],
+      "a": 0,
+      "e": "2 dikali ke x dan ke 3, jadi 2x + 6. Opsi lain lupa kali salah satu suku."
+    },
+    {
+      "no": 17,
+      "soal": "Di Palembang, 0,75 diubah ke persen adalah?",
+      "opsi": {
+        "A": "7,5%",
+        "B": "25%",
+        "C": "70%",
+        "D": "75%"
+      },
+      "kunci": "D",
+      "cog": "C2",
+      "pembahasan": "0,75 x 100% = 75%. Opsi lain salah pindah koma.",
+      "q": "Di Palembang, 0,75 diubah ke persen adalah?",
+      "o": [
+        "7,5%",
+        "25%",
+        "70%",
+        "75%"
+      ],
+      "a": 3,
+      "e": "0,75 x 100% = 75%. Opsi lain salah pindah koma."
+    },
+    {
+      "no": 18,
+      "soal": "Di Denpasar, balok panjang 6 cm, lebar 4 cm, tinggi 3 cm. Mana pernyataan yang benar tentang volumenya?",
+      "opsi": {
+        "A": "13 cm³",
+        "B": "36 cm³",
+        "C": "72 cm³",
+        "D": "144 cm³"
+      },
+      "kunci": "C",
+      "cog": "C4",
+      "pembahasan": "Volume = 6 x 4 x 3 = 72 cm³. Pernyataan lain salah hitung, bukan volume balok itu.",
+      "q": "Di Denpasar, balok panjang 6 cm, lebar 4 cm, tinggi 3 cm. Mana pernyataan yang benar tentang volumenya?",
+      "o": [
+        "13 cm³",
+        "36 cm³",
+        "72 cm³",
+        "144 cm³"
+      ],
+      "a": 2,
+      "e": "Volume = 6 x 4 x 3 = 72 cm³. Pernyataan lain salah hitung, bukan volume balok itu."
+    },
+    {
+      "no": 19,
+      "soal": "Di Balikpapan, lingkaran jari-jari 7 cm, pakai π = 22/7. Kelilingnya?",
+      "opsi": {
+        "A": "44 cm",
+        "B": "154 cm",
+        "C": "22 cm",
+        "D": "49 cm"
+      },
+      "kunci": "A",
+      "cog": "C1",
+      "pembahasan": "Keliling = 2 x 22/7 x 7 = 44 cm. Opsi lain menghitung luas atau salah rumus.",
+      "q": "Di Balikpapan, lingkaran jari-jari 7 cm, pakai π = 22/7. Kelilingnya?",
+      "o": [
+        "44 cm",
+        "154 cm",
+        "22 cm",
+        "49 cm"
+      ],
+      "a": 0,
+      "e": "Keliling = 2 x 22/7 x 7 = 44 cm. Opsi lain menghitung luas atau salah rumus."
+    },
+    {
+      "no": 20,
+      "soal": "Di Surabaya, kantong ada 3 bola merah, 2 bola biru. Peluang ambil biru?",
+      "opsi": {
+        "A": "3/5",
+        "B": "2/5",
+        "C": "1/5",
+        "D": "2/3"
+      },
+      "kunci": "B",
+      "cog": "C4",
+      "pembahasan": "Total 5, biru 2, jadi 2/5. Opsi lain terbalik merah / biru.",
+      "q": "Di Surabaya, kantong ada 3 bola merah, 2 bola biru. Peluang ambil biru?",
+      "o": [
+        "3/5",
+        "2/5",
+        "1/5",
+        "2/3"
+      ],
+      "a": 1,
+      "e": "Total 5, biru 2, jadi 2/5. Opsi lain terbalik merah / biru."
+    },
+    {
+      "no": 21,
+      "soal": "Di Jakarta, 2x - 3 = 11. Nilai x?",
+      "opsi": {
+        "A": "5",
+        "B": "6",
+        "C": "6,5",
+        "D": "7"
+      },
+      "kunci": "D",
+      "cog": "C5",
+      "pembahasan": "2x = 11 + 3 = 14, jadi x = 7. Opsi lain salah pindah ruas atau salah bagi.",
+      "q": "Di Jakarta, 2x - 3 = 11. Nilai x?",
+      "o": [
+        "5",
+        "6",
+        "6,5",
+        "7"
+      ],
+      "a": 3,
+      "e": "2x = 11 + 3 = 14, jadi x = 7. Opsi lain salah pindah ruas atau salah bagi."
+    },
+    {
+      "no": 22,
+      "soal": "Di Bandung, 2 motor tempuh 120 km: Motor Merah 2 jam, Motor Biru 3 jam. Mana yang lajunya lebih besar dan kenapa?",
+      "opsi": {
+        "A": "Motor Biru, karena waktunya lebih lama",
+        "B": "Sama, karena jaraknya sama",
+        "C": "Motor Merah, karena waktu lebih singkat untuk jarak sama",
+        "D": "Tidak bisa dinilai"
+      },
+      "kunci": "C",
+      "cog": "C6",
+      "pembahasan": "Laju Motor Merah = 60 km/jam, Motor Biru = 40 km/jam, jadi Motor Merah lebih besar karena waktu lebih singkat. Opsi lain salah nalar laju.",
+      "q": "Di Bandung, 2 motor tempuh 120 km: Motor Merah 2 jam, Motor Biru 3 jam. Mana yang lajunya lebih besar dan kenapa?",
+      "o": [
+        "Motor Biru, karena waktunya lebih lama",
+        "Sama, karena jaraknya sama",
+        "Motor Merah, karena waktu lebih singkat untuk jarak sama",
+        "Tidak bisa dinilai"
+      ],
+      "a": 2,
+      "e": "Laju Motor Merah = 60 km/jam, Motor Biru = 40 km/jam, jadi Motor Merah lebih besar karena waktu lebih singkat. Opsi lain salah nalar laju."
+    },
+    {
+      "no": 23,
+      "soal": "Di Semarang, (-5) + 8 = ?",
+      "opsi": {
+        "A": "-3",
+        "B": "13",
+        "C": "-13",
+        "D": "3"
+      },
+      "kunci": "D",
+      "cog": "C1",
+      "pembahasan": "-5 + 8 = 3 karena 8 lebih besar. Opsi lain salah tanda.",
+      "q": "Di Semarang, (-5) + 8 = ?",
+      "o": [
+        "-3",
+        "13",
+        "-13",
+        "3"
+      ],
+      "a": 3,
+      "e": "-5 + 8 = 3 karena 8 lebih besar. Opsi lain salah tanda."
+    },
+    {
+      "no": 24,
+      "soal": "Di Surabaya, persegi panjang luas 48 cm², panjang 8 cm. Lebarnya?",
+      "opsi": {
+        "A": "4 cm",
+        "B": "5 cm",
+        "C": "6 cm",
+        "D": "12 cm"
+      },
+      "kunci": "C",
+      "cog": "C5",
+      "pembahasan": "Lebar = 48 : 8 = 6 cm. Opsi lain salah bagi atau pakai keliling.",
+      "q": "Di Surabaya, persegi panjang luas 48 cm², panjang 8 cm. Lebarnya?",
+      "o": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "12 cm"
+      ],
+      "a": 2,
+      "e": "Lebar = 48 : 8 = 6 cm. Opsi lain salah bagi atau pakai keliling."
+    },
+    {
+      "no": 25,
+      "soal": "Di Yogyakarta, data terurut: 4, 5, 7, 8, 11. Bandingkan median dan mean, mana yang benar?",
+      "opsi": {
+        "A": "Median lebih besar",
+        "B": "Sama",
+        "C": "Tidak bisa dihitung",
+        "D": "Mean lebih besar"
+      },
+      "kunci": "B",
+      "cog": "C6",
+      "pembahasan": "Median = 7, mean = 35 : 5 = 7, jadi sama. Opsi lain salah hitung mean atau median.",
+      "q": "Di Yogyakarta, data terurut: 4, 5, 7, 8, 11. Bandingkan median dan mean, mana yang benar?",
+      "o": [
+        "Median lebih besar",
+        "Sama",
+        "Tidak bisa dihitung",
+        "Mean lebih besar"
+      ],
+      "a": 1,
+      "e": "Median = 7, mean = 35 : 5 = 7, jadi sama. Opsi lain salah hitung mean atau median."
+    }
+  ]
+}
