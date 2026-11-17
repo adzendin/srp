@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://surabayarp.my.id/sitemap.xml
