@@ -5,7 +5,7 @@
 Platform ekosistem digital mandiri berbasis web (*open-access*) yang dikembangkan oleh **adzendin (Kang Prabu)** untuk menyediakan karya sastra berbasis sains, bank soal ujian mandiri, serta aplikasi bantu administrasi lingkungan secara praktis dan ringan.
 
 ## 🔗 Akses Beranda & Aplikasi
-* **Beranda Utama (SRP):** [Surabaya Rumah Pahlawan](https://adzendin.github.io/srp/index.html)
+* **Beranda Utama (SRP):** [Surabaya Rumah Pahlawan](https://surabayarp.my.id)
 * **Ruang Ujian Terpadu:** [Menu Ujian Mandiri](https://adzendin.github.io/srp/ujian/index.html)
 
 ---
