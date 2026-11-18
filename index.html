@@ -1352,24 +1352,24 @@ Error generating stack: `+u.message+`
 #kangmas-sabdo-widget{position:fixed;right:16px;bottom:16px;z-index:9999;font-family:ui-sans-serif,system-ui,sans-serif}
 #ks-btn{width:72px;height:72px;border-radius:9999px;border:2px solid #8B5E3C;background:#FAF6F0;cursor:pointer;overflow:hidden;padding:0;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 #ks-btn img{width:100%;height:100%;object-fit:cover;display:block}
-#ks-panel{display:none;position:fixed;right:16px;bottom:96px;width:min(360px,calc(100vw - 32px));max-height:86vh;background:#fff;border:1px solid #E5DCCB;border-radius:20px;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.25);z-index:9999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif}
+#ks-panel{display:none;position:fixed;right:16px;bottom:96px;width:min(360px,calc(100vw - 32px));max-height:70vh;background:#fff;border:1px solid #E5DCCB;border-radius:20px;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.25);z-index:9999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif}
 #ks-panel.open{display:flex}
 #ks-head{background:#8B5E3C;color:#fff;padding:12px 14px}
 #ks-head b{display:block;font-size:15px}
 #ks-head span{font-size:12px;opacity:.9}
-#ks-msgs{padding:12px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:8px;min-height:120px}
+#ks-msgs{padding:12px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:8px;min-height:180px}
 .ks-m{max-width:85%;padding:9px 12px;border-radius:14px;font-size:14px;line-height:1.45}
-.ks-m.bot{background:#F3EBDD;color:#3B2A1A !important;align-self:flex-start}
+.ks-m.bot{background:#F3EBDD;color:#3B2A1A;align-self:flex-start}
 .ks-m.me{background:#8B5E3C;color:#fff;align-self:flex-end}
 #ks-chips{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 8px}
 #ks-chips button{border:1px solid #8B5E3C;background:#fff;color:#8B5E3C;border-radius:9999px;padding:6px 10px;font-size:12px;font-weight:700;cursor:pointer}
-#ks-form{display:flex;gap:6px;padding:10px;border-top:1px solid #E5DCCB}
-#ks-form input{flex:1;border:1px solid #E5DCCB;border-radius:9999px;padding:9px 12px;font-size:14px;outline:none;color:#3B2A1A !important;background:#fff !important;-webkit-text-fill-color:#3B2A1A !important}
-#ks-form button{background:#8B5E3C;color:#fff;border:0;border-radius:9999px;padding:9px 14px;font-weight:700;cursor:pointer}
-#ks-saran{display:none;padding:12px 12px 16px;border-top:1px solid #E5DCCB;gap:8px;flex-direction:column;max-height:42vh;overflow-y:auto}
+#ks-form{display:flex;gap:6px;padding:10px;border-top:1px solid #E5DCCB;background:#fff}
+#ks-form input{flex:1;border:1px solid #E5DCCB;border-radius:9999px;padding:9px 12px;font-size:14px;outline:none}
+#ks-form button{background:#8B5E3C !important;color:#fff !important;border:0;border-radius:9999px;padding:9px 16px;font-weight:700;cursor:pointer;min-width:64px;flex-shrink:0;white-space:nowrap}
+#ks-saran{display:none;padding:12px;border-top:1px solid #E5DCCB;gap:8px;flex-direction:column}
 #ks-saran.open{display:flex}
-#ks-saran input,#ks-saran textarea{width:100%;border:1px solid #E5DCCB;border-radius:12px;padding:9px 12px;font-size:14px;outline:none;color:#3B2A1A !important;background:#fff !important;-webkit-text-fill-color:#3B2A1A !important}
-#ks-saran button{background:#8B5E3C;color:#fff !important;border:0;border-radius:9999px;padding:12px;font-weight:700;cursor:pointer;min-height:46px;flex-shrink:0;position:sticky;bottom:0}
+#ks-saran input,#ks-saran textarea{width:100%;border:1px solid #E5DCCB;border-radius:12px;padding:9px 12px;font-size:14px;outline:none}
+#ks-saran button{background:#8B5E3C;color:#fff;border:0;border-radius:9999px;padding:10px;font-weight:700;cursor:pointer}
 </style>
 <div id="kangmas-sabdo-widget">
   <button id="ks-btn" aria-label="Buka Kangmas Sabdo"><img id="ks-img" src="kangmas_sabdo_diam.png" alt="Kangmas Sabdo"></button>
