@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v2026.11.20c - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v2026.11.20d - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -10,6 +10,8 @@
   st.textContent = `
     #kangmas-sabdo-widget, #kangmas-sabdo-widget *, #ks-panel, #ks-panel * { box-sizing: border-box; }
     #kangmas-sabdo-widget{position:fixed;right:20px;bottom:20px;z-index:99999;font-family:ui-sans-serif,system-ui,sans-serif;}
+    #kangmas-sabdo-widget.panel-open #ks-btn,
+    #kangmas-sabdo-widget.panel-open #ks-badge{display:none !important;}
     #ks-btn{width:68px;height:68px;border-radius:9999px;border:3px solid #8B5E3C;background:#FAF6F0;cursor:pointer;overflow:hidden;padding:0;box-shadow:0 10px 25px rgba(139,94,60,0.3);transition:transform 0.2s ease, box-shadow 0.2s ease;}
     #ks-btn:hover{transform:scale(1.05);box-shadow:0 14px 30px rgba(139,94,60,0.4);}
     #ks-btn img{width:100%;height:100%;object-fit:cover;display:block;}
@@ -20,7 +22,7 @@
     }
     #ks-badge.blink{animation:ksBadgeBlink 1.8s ease-in-out infinite;}
     #ks-badge.hidden{display:none;}
-    #ks-panel{display:none;position:fixed;right:20px;bottom:100px;width:min(380px,calc(100vw - 32px));height:min(540px,75vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
+    #ks-panel{display:none;position:fixed;right:20px;bottom:20px;width:min(380px,calc(100vw - 32px));height:min(540px,75vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
     #ks-panel.open{display:flex;transform:translateY(0);opacity:1;}
     #ks-head{background:#8B5E3C;color:#fff;padding:12px 16px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
     #ks-head-left{display:flex;align-items:center;gap:10px;min-width:0;}
@@ -93,6 +95,7 @@
   `;
   while (tmp.firstChild) document.body.appendChild(tmp.firstChild);
 
+  var widgetWrap = document.getElementById("kangmas-sabdo-widget");
   var btn = document.getElementById("ks-btn");
   var img = document.getElementById("ks-img");
   var headAvatar = document.getElementById("ks-head-avatar");
@@ -219,6 +222,7 @@
   function togglePanel(open) {
     opened = !!open;
     panel.classList.toggle("open", opened);
+    if (widgetWrap) widgetWrap.classList.toggle("panel-open", opened);
     if (badge) {
       badge.classList.toggle("hidden", opened);
       badge.classList.toggle("blink", !opened);
