@@ -1,23 +1,64 @@
 {
-  "version": "v2026.11.20b",
+  "version": "v2026.11.20c",
   "faqs": [
     {
       "keywords": [
+        "visi misi",
+        "visi dan misi",
+        "visi",
+        "misi",
+        "arah gerak",
+        "tujuan utama",
+        "kenapa dibuat"
+      ],
+      "answer": "Visinya sederhana tapi membumi: bikin hal-hal yang sering bikin mumet—mulai dari latihan soal, administrasi RT, sampai ruang berkarya—jadi lebih gampang diakses siapa saja. Misinya merawat ruang belajar mandiri, membantu pengurus warga bekerja lebih rapi, dan menjaga ruang sastra serta refleksi tetap hidup tanpa ribet."
+    },
+    {
+      "keywords": [
+        "slogan",
+        "motto",
+        "tagline",
+        "semboyan"
+      ],
+      "answer": "Slogannya 'Mudah didapat, untuk meMUDAhkan bersama.' Bukan sekadar pemanis—maksudnya alat dan bahan yang ada di sini bisa dipakai langsung dan saling meringankan kerja bareng."
+    },
+    {
+      "keywords": [
+        "apa itu srp",
+        "surabaya rumah pahlawan",
+        "tentang srp",
+        "kepanjangan srp",
+        "srp"
+      ],
+      "answer": "Surabaya Rumah Pahlawan (SRP) itu ibarat rumah singgah karya dan alat bantu. Di dalamnya ada ruang Sastra, latihan Ujian Mandiri Terpadu, sampai aplikasi bantu buat kerjaan sehari-hari dan urusan warga. Intinya: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+    },
+    {
+      "keywords": [
         "ujian mandiri",
-        "ujian",
-        "soal",
-        "reguler",
-        "transisi",
-        "transenden",
-        "cermin nalar",
+        "ujian mandiri terpadu",
+        "latihan soal",
+        "try out",
         "cpns",
-        "pns",
         "twk",
         "tiu",
         "tkp",
-        "cat"
+        "cermin nalar",
+        "reguler",
+        "transisi",
+        "transenden"
       ],
-      "answer": "Ujian Mandiri Terpadu SRP menyediakan soal dari Kelas 5 SD, Kelas 6 SD, SMP, SMA, hingga Kuliah dan Pejuang CPNS (TWK, TIU, TKP). Terdiri dari 3 tipe: Reguler, Transisi (naik kelas), dan Transenden (nalar murni & studi kasus) dilengkapi Cermin Nalar."
+      "answer": "Ujian Mandiri Terpadu disiapkan buat teman-teman dari SD, SMP, SMA, kuliah, sampai pejuang CPNS (TWK, TIU, TKP). Ada jalur Reguler, Transisi buat yang naik jenjang, dan Transenden yang melatih nalar serta studi kasus, lengkap dengan Cermin Nalar biar kelihatan pola berpikirnya."
+    },
+    {
+      "keywords": [
+        "rt terpadu",
+        "sekretariat rt",
+        "sekretariat rt terpadu",
+        "panduan rt",
+        "administrasi rt",
+        "administrasi warga"
+      ],
+      "answer": "Kalau urusan pendataan dan administrasi warga RT sering bikin keteteran, Panduan Sekretariat RT Terpadu bisa jadi pegangan awal. Baca panduannya di /panduan/rt-terpadu.html, atau langsung unduh aplikasinya di /apk/RT-TERPADU.apk."
     },
     {
       "keywords": [
@@ -26,7 +67,18 @@
         "download rt terpadu",
         "rt-terpadu.apk"
       ],
-      "answer": "Aplikasi APK RT Terpadu membantu pengelolaan administrasi warga secara praktis di perangkat Android. File APK tersedia di /apk/RT-TERPADU.apk."
+      "answer": "Untuk urusan administrasi RT di HP Android, Mas atau Mbak bisa langsung ambil file APK Sekretariat RT Terpadu di /apk/RT-TERPADU.apk."
+    },
+    {
+      "keywords": [
+        "bendahara",
+        "keuangan rt",
+        "panduan bendahara",
+        "iuran kas",
+        "kas rt",
+        "catatan keuangan"
+      ],
+      "answer": "Urusan kas dan iuran warga enaknya jelas dan gampang dicek ulang. Panduannya bisa dilihat di /panduan/bendahara.html, dan untuk aplikasi Android-nya tersedia di /apk/Bendahara-RT-Terpadu.apk."
     },
     {
       "keywords": [
@@ -35,17 +87,7 @@
         "download bendahara",
         "bendahara-rt-terpadu.apk"
       ],
-      "answer": "Aplikasi APK Bendahara RT Terpadu membantu pencatatan iuran, kas, dan keuangan warga secara tertib. File APK tersedia di /apk/Bendahara-RT-Terpadu.apk."
-    },
-    {
-      "keywords": [
-        "bendahara",
-        "keuangan rt",
-        "panduan bendahara",
-        "iuran kas",
-        "kas rt"
-      ],
-      "answer": "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan. Panduan lengkap ada di /panduan/bendahara.html dan APK tersedia di /apk/Bendahara-RT-Terpadu.apk."
+      "answer": "File APK Bendahara RT Terpadu untuk pencatatan kas dan keuangan warga bisa diunduh langsung lewat /apk/Bendahara-RT-Terpadu.apk."
     },
     {
       "keywords": [
@@ -54,7 +96,7 @@
         "aplikasi raka",
         "survei lapangan"
       ],
-      "answer": "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif, survei lapangan, dan keseharian. File APK tersedia di /apk/RAKA.apk."
+      "answer": "RAKA dipakai buat bantu pekerjaan administratif dan catatan lapangan biar lebih tertib. Kalau butuh file instalernya, silakan unduh di /apk/RAKA.apk."
     },
     {
       "keywords": [
@@ -65,18 +107,18 @@
         "invoice",
         "kwitansi"
       ],
-      "answer": "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP untuk kebutuhan administrasi dan dokumen kerja. File APK tersedia di /apk/raiki.apk."
+      "answer": "RAIKI disiapkan sebagai aplikasi bantu untuk kebutuhan administrasi dan dokumen kerja sehari-hari. File APK-nya bisa diambil di /apk/raiki.apk."
     },
     {
       "keywords": [
         "sastra",
         "cerita",
         "puisi",
-        "eskalasi",
-        "karya sastra",
-        "filsafat"
+        "kisah",
+        "filsafat",
+        "refleksi"
       ],
-      "answer": "Di Surabaya Rumah Pahlawan juga terdapat ruang Sastra berisi tulisan, kisah, dan refleksi bernuansa keseharian serta perenungan."
+      "answer": "Di SRP juga ada ruang Sastra—tempat menaruh cerita, potongan perenungan, dan kisah sehari-hari yang sering luput kalau buru-buru mengejar urusan teknis."
     },
     {
       "keywords": [
@@ -86,26 +128,7 @@
         "arsip saran",
         "asaran"
       ],
-      "answer": "Kotak Saran SRP menampung masukan dari para pejuang dan warga secara anonim tanpa perlu nama atau email. Arsip saran transparan dapat dilihat di /asaran.html."
-    },
-    {
-      "keywords": [
-        "slogan",
-        "motto",
-        "tujuan",
-        "visi"
-      ],
-      "answer": "Slogan utama Surabaya Rumah Pahlawan adalah: 'Mudah didapat, untuk meMUDAhkan bersama.'"
-    },
-    {
-      "keywords": [
-        "apa itu srp",
-        "surabaya rumah pahlawan",
-        "tentang srp",
-        "kepanjangan srp",
-        "srp"
-      ],
-      "answer": "Surabaya Rumah Pahlawan (SRP) adalah rumah karya dan aplikasi bantu. Ada Sastra, Ujian Mandiri Terpadu untuk Pejuang, dan alat digital untuk memudahkan pekerjaan sehari-hari. Slogan: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+      "answer": "Kalau ada unek-unek atau masukan buat perbaikan ke depan, silakan titip lewat Kotak Saran—tidak perlu isi nama atau kontak pribadi. Rekap masukannya juga bisa dilihat terbuka di /asaran.html."
     }
   ]
 }
