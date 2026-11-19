@@ -180,3 +180,113 @@
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
       if (!part) continue;
+      if (/^\/[a-zA-Z0-9._/-]+$/.test(part)) {
+        var link = document.createElement("a");
+        link.href = part;
+        link.textContent = part;
+        container.appendChild(link);
+      } else {
+        container.appendChild(document.createTextNode(part));
+      }
+    }
+  }
+
+  btn.addEventListener("click", function() { togglePanel(!opened); });
+  if (closeBtn) closeBtn.addEventListener("click", function() { togglePanel(false); });
+
+  function add(text, who) {
+    var d = document.createElement("div");
+    d.className = "ks-m " + who;
+    if (who === "bot") {
+      renderBotMessage(d, text);
+    } else {
+      d.textContent = text;
+    }
+    msgs.appendChild(d);
+    msgs.scrollTop = msgs.scrollHeight;
+    return d;
+  }
+
+  function sendChat(text) {
+    closeSaranBox();
+    add(text, "me");
+    input.value = "";
+
+    var localAns = getLocalAnswer(text);
+    if (localAns) {
+      setTimeout(function() {
+        add(localAns, "bot");
+      }, 250);
+      return;
+    }
+
+    var thinking = add("Kangmas Sabdo sedang mikir...", "bot");
+    fetch(WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      body: JSON.stringify({ message: text })
+    })
+      .then(function(r) {
+        if (!r.ok) throw new Error("worker " + r.status);
+        return r.json();
+      })
+      .then(function(j) {
+        var botReply = (j && (j.reply || j.text)) || "Matur nuwun, coba lagi ya.";
+        renderBotMessage(thinking, botReply);
+        msgs.scrollTop = msgs.scrollHeight;
+      })
+      .catch(function() {
+        renderBotMessage(thinking, "Kangmas Sabdo sedang istirahat sejenak karena trafik padat. Coba beberapa saat lagi ya.");
+        msgs.scrollTop = msgs.scrollHeight;
+      });
+  }
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var v = input.value.trim();
+    if (v) sendChat(v);
+  });
+
+  document.querySelectorAll("#ks-chips button[data-q]").forEach(function(b) {
+    b.addEventListener("click", function() {
+      sendChat(b.getAttribute("data-q"));
+    });
+  });
+
+  document.getElementById("ks-chip-saran").addEventListener("click", function() {
+    saranBox.classList.toggle("open");
+    if (saranBox.classList.contains("open")) {
+      saranBox.scrollTop = 0;
+      document.getElementById("ks-topik").focus();
+    }
+  });
+
+  document.getElementById("ks-kirim-saran").addEventListener("click", function() {
+    var topik = document.getElementById("ks-topik").value.trim();
+    var isi = document.getElementById("ks-isi").value.trim();
+    if (!isi) {
+      add("Isi saran-nya diisi dulu ya.", "bot");
+      return;
+    }
+    var btnSaran = document.getElementById("ks-kirim-saran");
+    btnSaran.disabled = true;
+    btnSaran.textContent = "Mengirim Saran...";
+
+    var url = APPS_SCRIPT_URL + "?action=add&topik=" + encodeURIComponent(topik) + "&isi=" + encodeURIComponent(isi);
+    fetch(url, { method: "GET", mode: "no-cors", redirect: "follow" })
+      .then(function() {
+        closeSaranBox();
+        document.getElementById("ks-isi").value = "";
+        document.getElementById("ks-topik").value = "";
+        btnSaran.disabled = false;
+        btnSaran.textContent = "Kirim Saran";
+        add("Matur nuwun, saran Kangmas / Mbak sudah masuk ke Arsip Saran SRP.", "bot");
+      })
+      .catch(function() {
+        closeSaranBox();
+        btnSaran.disabled = false;
+        btnSaran.textContent = "Kirim Saran";
+        add("Maaf, saran belum bisa masuk ke Arsip Saran SRP. Silakan coba lagi sebentar lagi ya.", "bot");
+      });
+  });
+})();
