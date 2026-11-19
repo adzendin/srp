@@ -159,6 +159,14 @@
     var lower = String(text || "").toLowerCase().trim();
     if (!lower) return null;
 
+    // Jika pertanyaan bernuansa kemampuan, kreasi, atau diskusi, biarkan masuk ke AI Worker
+    var creativeOrOpenPattern = /\b(bisa|coba|buatkan|bikinkan|puisi|pantun|cerita|kenapa|mengapa|bagaimana|gimana|menurutmu|pendapatmu)\b/;
+    var explicitSrpLookup = /\b(apk|download|unduh|panduan|link|url|slogan|motto|visi|misi|kotak saran|asaran|ujian mandiri|raka|raiki|rt terpadu|bendahara)\b/;
+
+    if (creativeOrOpenPattern.test(lower) && !explicitSrpLookup.test(lower)) {
+      return null;
+    }
+
     var bestAnswer = null;
     var bestScore = 0;
 
@@ -174,7 +182,6 @@
         if (lower === kw) {
           score += 20;
         } else if (lower.indexOf(kw) !== -1) {
-          // Frasa panjang mendapat bobot lebih besar daripada kata tunggal
           var wordCount = kw.split(/\s+/).length;
           score += wordCount > 1 ? 8 + wordCount * 2 : 3;
         }
@@ -186,7 +193,7 @@
       }
     }
 
-    return bestScore >= 3 ? bestAnswer : null;
+    return bestScore >= 6 ? bestAnswer : null;
   }
 
   function closeSaranBox() {
