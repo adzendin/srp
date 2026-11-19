@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arsip Saran SRP | Surabaya Rumah Pahlawan</title>
+<style>
+  body{margin:0;font-family:ui-sans-serif,system-ui,sans-serif;background:#FAF6F0;color:#3B2A1A}
+  header{background:#8B5E3C;color:#fff;padding:20px 16px}
+  header h1{margin:0;font-size:22px}
+  header p{margin:6px 0 0;opacity:.9;font-size:14px}
+  main{max-width:900px;margin:0 auto;padding:20px 16px 40px}
+  .back{display:inline-block;margin-bottom:16px;color:#8B5E3C;font-weight:700;text-decoration:none}
+  .card{background:#fff;border:1px solid #E5DCCB;border-radius:16px;padding:16px;margin-bottom:12px}
+  .card b{color:#8B5E3C;font-size:12px}
+  .card div{font-size:15px;line-height:1.6;margin-top:4px}
+  .muted{color:#6B4A2C;font-size:14px}
+  footer{text-align:center;font-size:12px;color:#6B4A2C;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Arsip Saran SRP</h1>
+  <p>Saran yang sudah disetujui untuk tampil. Kirim saran lewat Kotak Saran di Beranda.</p>
+</header>
+<main>
+  <a class="back" href="index.html">&larr; Kembali ke Beranda</a>
+  <div id="arsip-list"><div class="muted">Memuat Arsip Saran...</div></div>
+</main>
+<footer>mudah didapat, untuk meMUDAhkan bersama &bull; v2026.11.19.11</footer>
+<script>
+(function(){
+  var APPS="https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
+  var box=document.getElementById("arsip-list");
+  fetch(APPS+"?action=list").then(function(r){return r.json();}).then(function(j){
+    var items=j.items||j.data||[];
+    if(!items.length){ box.innerHTML="<div class='muted'>Belum ada saran yang boleh tampil.</div>"; return; }
+    box.innerHTML="";
+    items.forEach(function(it){
+      var d=document.createElement("div"); d.className="card";
+      var b=document.createElement("b"); b.textContent=(it.topik||"Saran")+" - "+(it.tanggal||"");
+      var p=document.createElement("div"); p.textContent=it.isi||"";
+      d.appendChild(b); d.appendChild(p); box.appendChild(d);
+    });
+  }).catch(function(){ box.innerHTML="<div class='muted'>Arsip belum bisa dimuat. Coba muat ulang ya.</div>"; });
+})();
+</script>
+</body>
+</html>
