@@ -143,17 +143,37 @@
   }
 
   function getLocalAnswer(text) {
-    var lower = String(text || "").toLowerCase();
+    var lower = String(text || "").toLowerCase().trim();
+    if (!lower) return null;
+
+    var bestAnswer = null;
+    var bestScore = 0;
+
     for (var i = 0; i < activeFaqs.length; i++) {
       var item = activeFaqs[i];
       var keys = item.keywords || item.keys || [];
+      var score = 0;
+
       for (var j = 0; j < keys.length; j++) {
-        if (lower.indexOf(String(keys[j]).toLowerCase()) !== -1) {
-          return item.answer || item.reply || "";
+        var kw = String(keys[j] || "").toLowerCase().trim();
+        if (!kw) continue;
+
+        if (lower === kw) {
+          score += 20;
+        } else if (lower.indexOf(kw) !== -1) {
+          // Frasa panjang mendapat bobot lebih besar daripada kata tunggal
+          var wordCount = kw.split(/\s+/).length;
+          score += wordCount > 1 ? 8 + wordCount * 2 : 3;
         }
       }
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestAnswer = item.answer || item.reply || "";
+      }
     }
-    return null;
+
+    return bestScore >= 3 ? bestAnswer : null;
   }
 
   function closeSaranBox() {
