@@ -1,5 +1,5 @@
 {
-  "version": "v2026.11.20",
+  "version": "v2026.11.20b",
   "faqs": [
     {
       "keywords": [
@@ -21,6 +21,15 @@
     },
     {
       "keywords": [
+        "apk rt terpadu",
+        "aplikasi rt terpadu",
+        "download rt terpadu",
+        "rt-terpadu.apk"
+      ],
+      "answer": "Aplikasi APK Sekretariat RT Terpadu membantu pengelolaan administrasi warga secara praktis di perangkat Android. File APK tersedia di /apk/RT-TERPADU.apk."
+    },
+    {
+      "keywords": [
         "rt terpadu",
         "sekretariat rt",
         "sekretariat rt terpadu",
@@ -28,7 +37,16 @@
         "administrasi rt",
         "administrasi warga"
       ],
-      "answer": "Panduan Sekretariat RT Terpadu dirancang untuk memudahkan pengurus RT mengelola administrasi warga secara digital dan terpadu. Panduan lengkap dapat dibaca di /panduan/rt-terpadu.html."
+      "answer": "Panduan Sekretariat RT Terpadu memudahkan pengurus RT mengelola administrasi warga secara digital dan terpadu. Panduan lengkap dapat dibaca di /panduan/rt-terpadu.html dan file APK tersedia di /apk/RT-TERPADU.apk."
+    },
+    {
+      "keywords": [
+        "apk bendahara",
+        "aplikasi bendahara",
+        "download bendahara",
+        "bendahara-rt-terpadu.apk"
+      ],
+      "answer": "Aplikasi APK Bendahara RT Terpadu membantu pencatatan iuran, kas, dan keuangan warga secara tertib. File APK tersedia di /apk/Bendahara-RT-Terpadu.apk."
     },
     {
       "keywords": [
@@ -38,7 +56,7 @@
         "iuran kas",
         "kas rt"
       ],
-      "answer": "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan. Panduan lengkap ada di /panduan/bendahara.html."
+      "answer": "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan. Panduan lengkap ada di /panduan/bendahara.html dan APK tersedia di /apk/Bendahara-RT-Terpadu.apk."
     },
     {
       "keywords": [
@@ -47,7 +65,7 @@
         "aplikasi raka",
         "survei lapangan"
       ],
-      "answer": "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif dan keseharian. File APK tersedia di /apk/RAKA.apk."
+      "answer": "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif, survei lapangan, dan keseharian. File APK tersedia di /apk/RAKA.apk."
     },
     {
       "keywords": [
@@ -58,7 +76,18 @@
         "invoice",
         "kwitansi"
       ],
-      "answer": "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP. File APK tersedia di /apk/raiki.apk."
+      "answer": "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP untuk kebutuhan administrasi dan dokumen kerja. File APK tersedia di /apk/raiki.apk."
+    },
+    {
+      "keywords": [
+        "sastra",
+        "cerita",
+        "puisi",
+        "eskalasi",
+        "karya sastra",
+        "filsafat"
+      ],
+      "answer": "Di Surabaya Rumah Pahlawan juga terdapat ruang Sastra berisi tulisan, kisah, dan refleksi bernuansa keseharian serta perenungan."
     },
     {
       "keywords": [
