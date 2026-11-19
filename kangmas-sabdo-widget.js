@@ -2,7 +2,7 @@
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
-  var KNOWLEDGE_URL = "/srp-knowledge.json?v=2026.11.20b";
+  var KNOWLEDGE_URL = "/srp-knowledge.json?v=2026.11.20c";
   var WORKER_URL = "https://kangmas-sabdo-proxy.adzendin.workers.dev/";
   var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
 
