@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v2026.11.20 - Auto Link Path, Knowledge JSON Sync & Mobile UX */
+/* Kangmas Sabdo Widget - v2026.11.20b - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -13,6 +13,13 @@
     #ks-btn{width:68px;height:68px;border-radius:9999px;border:3px solid #8B5E3C;background:#FAF6F0;cursor:pointer;overflow:hidden;padding:0;box-shadow:0 10px 25px rgba(139,94,60,0.3);transition:transform 0.2s ease, box-shadow 0.2s ease;}
     #ks-btn:hover{transform:scale(1.05);box-shadow:0 14px 30px rgba(139,94,60,0.4);}
     #ks-btn img{width:100%;height:100%;object-fit:cover;display:block;}
+    #ks-badge{position:absolute;top:-2px;right:-2px;min-width:18px;height:18px;padding:0 5px;border-radius:9999px;background:#DC2626;color:#fff;border:2px solid #FAF6F0;font-size:10px;font-weight:700;line-height:14px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.25);pointer-events:none;z-index:2;}
+    @keyframes ksBadgeBlink{
+      0%,70%,100%{opacity:1;transform:scale(1);}
+      85%{opacity:0.25;transform:scale(0.86);}
+    }
+    #ks-badge.blink{animation:ksBadgeBlink 1.8s ease-in-out infinite;}
+    #ks-badge.hidden{display:none;}
     #ks-panel{display:none;position:fixed;right:20px;bottom:100px;width:min(380px,calc(100vw - 32px));height:min(540px,75vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
     #ks-panel.open{display:flex;transform:translateY(0);opacity:1;}
     #ks-head{background:#8B5E3C;color:#fff;padding:14px 16px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
@@ -48,6 +55,7 @@
   tmp.innerHTML = `
     <div id="kangmas-sabdo-widget">
       <button id="ks-btn" type="button" aria-label="Buka Kangmas Sabdo"><img id="ks-img" src="/kangmas_sabdo_diam.png" alt="Kangmas Sabdo"></button>
+      <span id="ks-badge" class="blink" aria-hidden="true">?</span>
     </div>
     <div id="ks-panel" role="dialog" aria-label="Kangmas Sabdo">
       <div id="ks-head">
@@ -81,6 +89,7 @@
 
   var btn = document.getElementById("ks-btn");
   var img = document.getElementById("ks-img");
+  var badge = document.getElementById("ks-badge");
   var panel = document.getElementById("ks-panel");
   var msgs = document.getElementById("ks-msgs");
   var input = document.getElementById("ks-input");
@@ -203,6 +212,10 @@
   function togglePanel(open) {
     opened = !!open;
     panel.classList.toggle("open", opened);
+    if (badge) {
+      badge.classList.toggle("hidden", opened);
+      badge.classList.toggle("blink", !opened);
+    }
     img.src = opened ? "/kangmas_sabdo_tersenyum.png" : "/kangmas_sabdo_diam.png";
     if (opened && !msgs.children.length) {
       add("Sugeng rawuh. Saya Kangmas Sabdo, penjaga Rumah ini. Hendak ke mana? Saya hantarkan.", "bot");
