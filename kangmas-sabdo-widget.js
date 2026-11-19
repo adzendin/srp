@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v2026.11.20 - Knowledge JSON Sync, Mobile UX & Legacy Browser Safe */
+/* Kangmas Sabdo Widget - v2026.11.20 - Auto Link Path, Knowledge JSON Sync & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -25,6 +25,7 @@
     .ks-m{max-width:85%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.5;box-shadow:0 1px 2px rgba(0,0,0,0.05);word-wrap:break-word;}
     .ks-m.bot{background:#fff;color:#2B2118;align-self:flex-start;border-bottom-left-radius:4px;border:1px solid #EAE0D0;}
     .ks-m.me{background:#8B5E3C;color:#fff;align-self:flex-end;border-bottom-right-radius:4px;}
+    .ks-m.bot a{color:#8B5E3C;font-weight:700;text-decoration:underline;word-break:break-word;}
     #ks-chips{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px;background:#FAF6F0;border-top:1px solid #EEDFCF;flex-shrink:0;}
     #ks-chips button{border:1px solid #8B5E3C;background:#fff;color:#8B5E3C;border-radius:9999px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer;transition:all 0.2s;}
     #ks-chips button:hover{background:#8B5E3C;color:#fff;}
@@ -171,97 +172,11 @@
     }
   }
 
-  btn.addEventListener("click", function() { togglePanel(!opened); });
-  if (closeBtn) closeBtn.addEventListener("click", function() { togglePanel(false); });
-
-  function add(text, who) {
-    var d = document.createElement("div");
-    d.className = "ks-m " + who;
-    d.textContent = text;
-    msgs.appendChild(d);
-    msgs.scrollTop = msgs.scrollHeight;
-    return d;
-  }
-
-  function sendChat(text) {
-    closeSaranBox();
-    add(text, "me");
-    input.value = "";
-
-    var localAns = getLocalAnswer(text);
-    if (localAns) {
-      setTimeout(function() {
-        add(localAns, "bot");
-      }, 250);
-      return;
+  function renderBotMessage(container, text) {
+    while (container.firstChild) {
+      container.removeChild(container.firstChild);
     }
-
-    var thinking = add("Kangmas Sabdo sedang mikir...", "bot");
-    fetch(WORKER_URL, {
-      method: "POST",
-      headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      body: JSON.stringify({ message: text })
-    })
-      .then(function(r) {
-        if (!r.ok) throw new Error("worker " + r.status);
-        return r.json();
-      })
-      .then(function(j) {
-        thinking.textContent = (j && (j.reply || j.text)) || "Matur nuwun, coba lagi ya.";
-        msgs.scrollTop = msgs.scrollHeight;
-      })
-      .catch(function() {
-        thinking.textContent = "Kangmas Sabdo sedang istirahat sejenak karena trafik padat. Coba beberapa saat lagi ya.";
-        msgs.scrollTop = msgs.scrollHeight;
-      });
-  }
-
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    var v = input.value.trim();
-    if (v) sendChat(v);
-  });
-
-  document.querySelectorAll("#ks-chips button[data-q]").forEach(function(b) {
-    b.addEventListener("click", function() {
-      sendChat(b.getAttribute("data-q"));
-    });
-  });
-
-  document.getElementById("ks-chip-saran").addEventListener("click", function() {
-    saranBox.classList.toggle("open");
-    if (saranBox.classList.contains("open")) {
-      saranBox.scrollTop = 0;
-      document.getElementById("ks-topik").focus();
-    }
-  });
-
-  document.getElementById("ks-kirim-saran").addEventListener("click", function() {
-    var topik = document.getElementById("ks-topik").value.trim();
-    var isi = document.getElementById("ks-isi").value.trim();
-    if (!isi) {
-      add("Isi saran-nya diisi dulu ya.", "bot");
-      return;
-    }
-    var btnSaran = document.getElementById("ks-kirim-saran");
-    btnSaran.disabled = true;
-    btnSaran.textContent = "Mengirim Saran...";
-
-    var url = APPS_SCRIPT_URL + "?action=add&topik=" + encodeURIComponent(topik) + "&isi=" + encodeURIComponent(isi);
-    fetch(url, { method: "GET", mode: "no-cors", redirect: "follow" })
-      .then(function() {
-        closeSaranBox();
-        document.getElementById("ks-isi").value = "";
-        document.getElementById("ks-topik").value = "";
-        btnSaran.disabled = false;
-        btnSaran.textContent = "Kirim Saran";
-        add("Matur nuwun, saran Kangmas / Mbak sudah masuk ke Arsip Saran SRP.", "bot");
-      })
-      .catch(function() {
-        closeSaranBox();
-        btnSaran.disabled = false;
-        btnSaran.textContent = "Kirim Saran";
-        add("Maaf, saran belum bisa masuk ke Arsip Saran SRP. Silakan coba lagi sebentar lagi ya.", "bot");
-      });
-  });
-})();
+    var parts = String(text || "").split(/(\/[a-zA-Z0-9._/-]+)/g);
+    for (var i = 0; i < parts.length; i++) {
+      var part = parts[i];
+      if (!part) continue;
