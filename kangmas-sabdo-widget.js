@@ -89,6 +89,19 @@
   var saranBox = document.getElementById("ks-saran");
   var opened = false;
 
+  var chatHistory = [];
+
+  function pushHistory(role, content) {
+    if (!content) return;
+    chatHistory.push({
+      role: role,
+      content: String(content).slice(0, 400)
+    });
+    if (chatHistory.length > 6) {
+      chatHistory = chatHistory.slice(chatHistory.length - 6);
+    }
+  }
+
   // Fallback Knowledge Base (Zero-Token Instant)
   var activeFaqs = [
     {
@@ -256,7 +269,10 @@
     fetch(WORKER_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      body: JSON.stringify({ message: text })
+      body: JSON.stringify({
+        message: text,
+        history: chatHistory
+      })
     })
       .then(function(r) {
         if (!r.ok) throw new Error("worker " + r.status);
@@ -265,6 +281,8 @@
       .then(function(j) {
         var botReply = (j && (j.reply || j.text)) || "Matur nuwun, coba lagi ya.";
         renderBotMessage(thinking, botReply);
+        pushHistory("user", text);
+        pushHistory("assistant", botReply);
         msgs.scrollTop = msgs.scrollHeight;
       })
       .catch(function() {
