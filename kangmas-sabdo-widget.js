@@ -181,10 +181,22 @@
       var part = parts[i];
       if (!part) continue;
       if (/^\/[a-zA-Z0-9._/-]+$/.test(part)) {
-        var link = document.createElement("a");
-        link.href = part;
-        link.textContent = part;
-        container.appendChild(link);
+        var match = part.match(/^(.*?)([.,;:!?)\]]+)$/);
+        var cleanPath = match ? match[1] : part;
+        var trailing = match ? match[2] : "";
+
+        if (cleanPath && cleanPath.length > 1) {
+          var link = document.createElement("a");
+          link.href = cleanPath;
+          link.textContent = cleanPath;
+          container.appendChild(link);
+        } else {
+          container.appendChild(document.createTextNode(part));
+        }
+
+        if (trailing) {
+          container.appendChild(document.createTextNode(trailing));
+        }
       } else {
         container.appendChild(document.createTextNode(part));
       }
