@@ -1,8 +1,14 @@
-/* Kangmas Sabdo Widget - v2026.11.19.17 - Suggestion Box Auto-Close & Chat Greeting Success Flow */
+/* Kangmas Sabdo Widget - v2026.11.20 - Knowledge JSON Sync, Mobile UX & Legacy Browser Safe */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
-  var st=document.createElement("style"); 
-  st.textContent=`
+
+  var KNOWLEDGE_URL = "/srp-knowledge.json?v=2026.11.20";
+  var WORKER_URL = "https://kangmas-sabdo-proxy.adzendin.workers.dev/";
+  var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
+
+  var st = document.createElement("style");
+  st.textContent = `
+    #kangmas-sabdo-widget, #kangmas-sabdo-widget *, #ks-panel, #ks-panel * { box-sizing: border-box; }
     #kangmas-sabdo-widget{position:fixed;right:20px;bottom:20px;z-index:99999;font-family:ui-sans-serif,system-ui,sans-serif;}
     #ks-btn{width:68px;height:68px;border-radius:9999px;border:3px solid #8B5E3C;background:#FAF6F0;cursor:pointer;overflow:hidden;padding:0;box-shadow:0 10px 25px rgba(139,94,60,0.3);transition:transform 0.2s ease, box-shadow 0.2s ease;}
     #ks-btn:hover{transform:scale(1.05);box-shadow:0 14px 30px rgba(139,94,60,0.4);}
@@ -16,30 +22,31 @@
     #ks-close{background:rgba(255,255,255,0.2);color:#fff;border:0;width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s;}
     #ks-close:hover{background:rgba(255,255,255,0.35);}
     #ks-msgs{padding:16px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:10px;min-height:0;background:#FAF6F0;}
-    .ks-m{max-width:85%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.5;box-shadow:0 1px 2px rgba(0,0,0,0.05);}
+    .ks-m{max-width:85%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.5;box-shadow:0 1px 2px rgba(0,0,0,0.05);word-wrap:break-word;}
     .ks-m.bot{background:#fff;color:#2B2118;align-self:flex-start;border-bottom-left-radius:4px;border:1px solid #EAE0D0;}
     .ks-m.me{background:#8B5E3C;color:#fff;align-self:flex-end;border-bottom-right-radius:4px;}
     #ks-chips{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px;background:#FAF6F0;border-top:1px solid #EEDFCF;flex-shrink:0;}
     #ks-chips button{border:1px solid #8B5E3C;background:#fff;color:#8B5E3C;border-radius:9999px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer;transition:all 0.2s;}
     #ks-chips button:hover{background:#8B5E3C;color:#fff;}
-    #ks-form{display:flex;gap:8px;padding:12px 16px;border-top:1px solid #E5DCCB;background:#fff;flex-shrink:0;}
-    #ks-form input{flex:1;border:1px solid #D9C8B4;border-radius:9999px;padding:10px 16px;font-size:14px;outline:none;color:#2B2118;background:#FAF6F0;transition:border-color 0.2s;}
+    #ks-form{display:flex;gap:8px;padding:10px 16px 8px;border-top:1px solid #E5DCCB;background:#fff;flex-shrink:0;}
+    #ks-form input{flex:1;min-width:0;border:1px solid #D9C8B4;border-radius:9999px;padding:10px 16px;font-size:14px;outline:none;color:#2B2118;background:#FAF6F0;transition:border-color 0.2s;}
     #ks-form input:focus{border-color:#8B5E3C;background:#fff;}
-    #ks-form button{background:#8B5E3C !important;color:#fff !important;border:0;border-radius:9999px;padding:10px 20px;font-weight:700;cursor:pointer;flex-shrink:0;transition:opacity 0.2s;}
+    #ks-form button{background:#8B5E3C !important;color:#fff !important;border:0;border-radius:9999px;padding:10px 18px;font-weight:700;cursor:pointer;flex-shrink:0;transition:opacity 0.2s;}
     #ks-form button:hover{opacity:0.9;}
     #ks-saran{display:none;padding:14px 16px;border-top:1px solid #E5DCCB;gap:10px;flex-direction:column;max-height:240px;overflow-y:auto;flex-shrink:0;background:#fff;}
     #ks-saran.open{display:flex;}
-    #ks-saran input,#ks-saran textarea{width:100%;border:1px solid #D9C8B4;border-radius:12px;padding:10px 12px;font-size:14px;outline:none;color:#2B2118;background:#FAF6F0;}
+    #ks-saran input,#ks-saran textarea{width:100%;border:1px solid #D9C8B4;border-radius:12px;padding:10px 12px;font-size:14px;outline:none;color:#2B2118;background:#FAF6F0;font-family:inherit;}
     #ks-saran input:focus,#ks-saran textarea:focus{border-color:#8B5E3C;background:#fff;}
     #ks-saran button{background:#8B5E3C !important;color:#fff !important;border:0;border-radius:9999px;padding:10px;font-weight:700;cursor:pointer;flex-shrink:0;}
     #ks-saran button:disabled{background:#C8B9AA !important;cursor:not-allowed;opacity:0.7;}
+    #ks-foot{padding:4px 16px 10px;background:#fff;text-align:center;font-size:10px;color:#8A7968;letter-spacing:0.3px;flex-shrink:0;}
   `;
   document.head.appendChild(st);
 
-  var tmp=document.createElement("div"); 
-  tmp.innerHTML=`
+  var tmp = document.createElement("div");
+  tmp.innerHTML = `
     <div id="kangmas-sabdo-widget">
-      <button id="ks-btn" aria-label="Buka Kangmas Sabdo"><img id="ks-img" src="/kangmas_sabdo_diam.png" alt="Kangmas Sabdo"></button>
+      <button id="ks-btn" type="button" aria-label="Buka Kangmas Sabdo"><img id="ks-img" src="/kangmas_sabdo_diam.png" alt="Kangmas Sabdo"></button>
     </div>
     <div id="ks-panel" role="dialog" aria-label="Kangmas Sabdo">
       <div id="ks-head">
@@ -47,7 +54,7 @@
           <b>Kangmas Sabdo</b>
           <span>Penjaga Rumah Ini</span>
         </div>
-        <button id="ks-close" aria-label="Tutup">✕</button>
+        <button id="ks-close" type="button" aria-label="Tutup">✕</button>
       </div>
       <div id="ks-msgs"></div>
       <div id="ks-chips">
@@ -66,140 +73,173 @@
         <input id="ks-input" maxlength="300" placeholder="Tulis pesan ke Kangmas...">
         <button type="submit">Kirim</button>
       </form>
+      <div id="ks-foot">SURABAYA RUMAH PAHLAWAN @adzendin</div>
     </div>
   `;
-  while(tmp.firstChild) document.body.appendChild(tmp.firstChild);
-})();
+  while (tmp.firstChild) document.body.appendChild(tmp.firstChild);
 
-(function(){
-  var WORKER_URL="https://kangmas-sabdo-proxy.adzendin.workers.dev/";
-  var APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
-  var btn=document.getElementById("ks-btn"), img=document.getElementById("ks-img"), panel=document.getElementById("ks-panel"), msgs=document.getElementById("ks-msgs"), input=document.getElementById("ks-input"), form=document.getElementById("ks-form"), closeBtn=document.getElementById("ks-close");
-  var opened=false;
+  var btn = document.getElementById("ks-btn");
+  var img = document.getElementById("ks-img");
+  var panel = document.getElementById("ks-panel");
+  var msgs = document.getElementById("ks-msgs");
+  var input = document.getElementById("ks-input");
+  var form = document.getElementById("ks-form");
+  var closeBtn = document.getElementById("ks-close");
+  var saranBox = document.getElementById("ks-saran");
+  var opened = false;
 
-  // Local Zero-Token Knowledge Base (Instant & Free!)
-  var localKnowledge = [
+  // Fallback Knowledge Base (Zero-Token Instant)
+  var activeFaqs = [
     {
-      keys: ["apa itu srp", "surabaya rumah pahlawan", "srp", "tentang srp", "kepanjangan srp"],
-      reply: "Surabaya Rumah Pahlawan (SRP) adalah rumah karya dan aplikasi bantu. Ada Sastra, Ujian Mandiri Terpadu untuk Pejuang, dan alat digital untuk memudahkan pekerjaan sehari-hari. Slogan: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+      keywords: ["apa itu srp", "surabaya rumah pahlawan", "tentang srp", "kepanjangan srp", "srp"],
+      answer: "Surabaya Rumah Pahlawan (SRP) adalah rumah karya dan aplikasi bantu. Ada Sastra, Ujian Mandiri Terpadu untuk Pejuang, dan alat digital untuk memudahkan pekerjaan sehari-hari. Slogan: 'Mudah didapat, untuk meMUDAhkan bersama.'"
     },
     {
-      keys: ["ujian mandiri", "ujian", "soal", "reguler", "transisi", "transenden", "cermin nalar", "pns", "twk", "tiu", "tkp"],
-      reply: "Ujian Mandiri Terpadu SRP menyediakan soal dari Kelas 5 SD, Kelas 6 SD, SMP, SMA, hingga Kuliah dan Pejuang PNS (TWK, TIU, TKP). Terdiri dari 3 tipe: Reguler, Transisi, dan Transenden dilengkapi Cermin Nalar."
+      keywords: ["ujian mandiri", "ujian", "soal", "reguler", "transisi", "transenden", "cermin nalar", "cpns", "pns", "twk", "tiu", "tkp"],
+      answer: "Ujian Mandiri Terpadu SRP menyediakan soal dari Kelas 5 SD, Kelas 6 SD, SMP, SMA, hingga Kuliah dan Pejuang CPNS (TWK, TIU, TKP). Terdiri dari 3 tipe: Reguler, Transisi (naik kelas), dan Transenden (nalar murni & studi kasus) dilengkapi Cermin Nalar."
     },
     {
-      keys: ["rt terpadu", "sekretariat rt", "panduan rt", "rt"],
-      reply: "Panduan Sekretariat RT Terpadu dirancang untuk memudahkan pengurus RT mengelola administrasi warga. Baca selengkapnya di menu Panduan RT Terpadu (/panduan/rt-terpadu.html)."
+      keywords: ["rt terpadu", "sekretariat rt", "sekretariat rt terpadu", "panduan rt", "administrasi warga"],
+      answer: "Panduan Sekretariat RT Terpadu dirancang untuk memudahkan pengurus RT mengelola administrasi warga secara digital dan terpadu. Panduan lengkap dapat dibaca di /panduan/rt-terpadu.html."
     },
     {
-      keys: ["bendahara", "keuangan rt", "panduan bendahara", "iuran kas"],
-      reply: "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan (/panduan/bendahara.html)."
+      keywords: ["bendahara", "keuangan rt", "panduan bendahara", "iuran kas", "kas rt"],
+      answer: "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan. Panduan lengkap ada di /panduan/bendahara.html."
     },
     {
-      keys: ["raka", "apk raka", "aplikasi raka"],
-      reply: "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif. APK dapat diunduh di /apk/RAKA.apk."
+      keywords: ["raka", "apk raka", "aplikasi raka"],
+      answer: "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif dan keseharian. File APK tersedia di /apk/RAKA.apk."
     },
     {
-      keys: ["raiki", "apk raiki", "aplikasi raiki"],
-      reply: "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP. APK dapat diunduh di /apk/raiki.apk."
+      keywords: ["raiki", "apk raiki", "aplikasi raiki"],
+      answer: "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP. File APK tersedia di /apk/raiki.apk."
     },
     {
-      keys: ["kotak saran", "saran", "masukan", "arsip saran", "asaran"],
-      reply: "Kotak Saran SRP menampung masukan dari para pejuang dan warga secara anonim. Arsip saran dapat dilihat di asaran.html."
+      keywords: ["kotak saran", "saran", "masukan", "arsip saran", "asaran"],
+      answer: "Kotak Saran SRP menampung masukan dari para pejuang dan warga secara anonim tanpa perlu nama atau email. Arsip saran transparan dapat dilihat di /asaran.html."
     },
     {
-      keys: ["slogan", "motto", "tujuan", "visi"],
-      reply: "Slogan utama Surabaya Rumah Pahlawan adalah: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+      keywords: ["slogan", "motto", "tujuan", "visi"],
+      answer: "Slogan utama Surabaya Rumah Pahlawan adalah: 'Mudah didapat, untuk meMUDAhkan bersama.'"
     }
   ];
 
+  // Muat srp-knowledge.json jika tersedia
+  if (typeof fetch === "function") {
+    fetch(KNOWLEDGE_URL, { cache: "no-store" })
+      .then(function(res) {
+        if (!res.ok) throw new Error("json " + res.status);
+        return res.json();
+      })
+      .then(function(data) {
+        if (data && Array.isArray(data.faqs) && data.faqs.length > 0) {
+          activeFaqs = data.faqs;
+        }
+      })
+      .catch(function() {
+        // Tetap gunakan activeFaqs bawaan bila JSON tidak terjangkau
+      });
+  }
+
   function getLocalAnswer(text) {
-    var lower = text.toLowerCase();
-    for (var i = 0; i < localKnowledge.length; i++) {
-      var item = localKnowledge[i];
-      for (var j = 0; j < item.keys.length; j++) {
-        if (lower.indexOf(item.keys[j]) !== -1) {
-          return item.reply;
+    var lower = String(text || "").toLowerCase();
+    for (var i = 0; i < activeFaqs.length; i++) {
+      var item = activeFaqs[i];
+      var keys = item.keywords || item.keys || [];
+      for (var j = 0; j < keys.length; j++) {
+        if (lower.indexOf(String(keys[j]).toLowerCase()) !== -1) {
+          return item.answer || item.reply || "";
         }
       }
     }
     return null;
   }
 
-  function togglePanel(open){
-    opened=open;
+  function closeSaranBox() {
+    if (saranBox) saranBox.classList.remove("open");
+  }
+
+  function togglePanel(open) {
+    opened = !!open;
     panel.classList.toggle("open", opened);
     img.src = opened ? "/kangmas_sabdo_tersenyum.png" : "/kangmas_sabdo_diam.png";
-    if(opened && !msgs.children.length){
+    if (opened && !msgs.children.length) {
       add("Sugeng rawuh. Saya Kangmas Sabdo, penjaga Rumah ini. Hendak ke mana? Saya hantarkan.", "bot");
     }
-    if(opened) {
-      setTimeout(function(){ input.focus(); }, 150);
+    if (opened) {
+      setTimeout(function() { input.focus(); }, 150);
     }
   }
 
-  btn.addEventListener("click", function(){ togglePanel(!opened); });
-  if(closeBtn) closeBtn.addEventListener("click", function(){ togglePanel(false); });
+  btn.addEventListener("click", function() { togglePanel(!opened); });
+  if (closeBtn) closeBtn.addEventListener("click", function() { togglePanel(false); });
 
-  function add(text, who){
-    var d=document.createElement("div");
-    d.className="ks-m "+who;
-    d.textContent=text;
+  function add(text, who) {
+    var d = document.createElement("div");
+    d.className = "ks-m " + who;
+    d.textContent = text;
     msgs.appendChild(d);
-    msgs.scrollTop=msgs.scrollHeight;
+    msgs.scrollTop = msgs.scrollHeight;
     return d;
   }
 
-  async function sendChat(text){
+  function sendChat(text) {
+    closeSaranBox();
     add(text, "me");
-    input.value="";
+    input.value = "";
 
-    // 1. Check local knowledge base FIRST (Zero token, 0ms instant reply!)
     var localAns = getLocalAnswer(text);
     if (localAns) {
-      setTimeout(function(){
+      setTimeout(function() {
         add(localAns, "bot");
       }, 250);
       return;
     }
 
-    // 2. Fallback to Cloudflare Worker (Gemini AI) for general/complex questions
-    var thinking=add("Kangmas Sabdo sedang mikir...", "bot");
-    try{
-      var r=await fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"text/plain;charset=UTF-8"},body:JSON.stringify({message:text})});
-      if(!r.ok) throw new Error("worker "+r.status);
-      var j=await r.json();
-      thinking.textContent = (j.reply||j.text||"Matur nuwun, coba lagi ya.");
-    }catch(e){
-      thinking.textContent="Kangmas Sabdo sedang istirahat sejenak karena trafik padat. Coba beberapa saat lagi ya.";
-    }
+    var thinking = add("Kangmas Sabdo sedang mikir...", "bot");
+    fetch(WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      body: JSON.stringify({ message: text })
+    })
+      .then(function(r) {
+        if (!r.ok) throw new Error("worker " + r.status);
+        return r.json();
+      })
+      .then(function(j) {
+        thinking.textContent = (j && (j.reply || j.text)) || "Matur nuwun, coba lagi ya.";
+        msgs.scrollTop = msgs.scrollHeight;
+      })
+      .catch(function() {
+        thinking.textContent = "Kangmas Sabdo sedang istirahat sejenak karena trafik padat. Coba beberapa saat lagi ya.";
+        msgs.scrollTop = msgs.scrollHeight;
+      });
   }
 
-  form.addEventListener("submit", function(e){
+  form.addEventListener("submit", function(e) {
     e.preventDefault();
-    var v=input.value.trim();
-    if(v) sendChat(v);
+    var v = input.value.trim();
+    if (v) sendChat(v);
   });
 
-  document.querySelectorAll("#ks-chips button[data-q]").forEach(function(b){
-    b.addEventListener("click", function(){
+  document.querySelectorAll("#ks-chips button[data-q]").forEach(function(b) {
+    b.addEventListener("click", function() {
       sendChat(b.getAttribute("data-q"));
     });
   });
 
-  var saranBox=document.getElementById("ks-saran");
-  document.getElementById("ks-chip-saran").addEventListener("click", function(){
+  document.getElementById("ks-chip-saran").addEventListener("click", function() {
     saranBox.classList.toggle("open");
-    if(saranBox.classList.contains("open")){
-      saranBox.scrollTop=0;
+    if (saranBox.classList.contains("open")) {
+      saranBox.scrollTop = 0;
       document.getElementById("ks-topik").focus();
     }
   });
 
-  document.getElementById("ks-kirim-saran").addEventListener("click", function(){
-    var topik=document.getElementById("ks-topik").value.trim();
-    var isi=document.getElementById("ks-isi").value.trim();
-    if(!isi){
+  document.getElementById("ks-kirim-saran").addEventListener("click", function() {
+    var topik = document.getElementById("ks-topik").value.trim();
+    var isi = document.getElementById("ks-isi").value.trim();
+    if (!isi) {
       add("Isi saran-nya diisi dulu ya.", "bot");
       return;
     }
@@ -207,21 +247,21 @@
     btnSaran.disabled = true;
     btnSaran.textContent = "Mengirim Saran...";
 
-    var url=APPS_SCRIPT_URL+"?action=add&topik="+encodeURIComponent(topik)+"&isi="+encodeURIComponent(isi);
-    fetch(url,{method:"GET",mode:"no-cors",redirect:"follow"}).then(function(){
-      // Close suggestion box and greet visitor with success message in chat feed
-      saranBox.classList.remove("open");
-      document.getElementById("ks-isi").value="";
-      document.getElementById("ks-topik").value="";
-      btnSaran.disabled = false;
-      btnSaran.textContent = "Kirim Saran";
-
-      add("Matur nuwun, saran Kangmas / Mbak sudah masuk ke Arsip Saran SRP.", "bot");
-    }).catch(function(){
-      saranBox.classList.remove("open");
-      btnSaran.disabled = false;
-      btnSaran.textContent = "Kirim Saran";
-      add("Maaf, saran belum bisa masuk ke Arsip Saran SRP. Silakan coba lagi sebentar lagi ya.", "bot");
-    });
+    var url = APPS_SCRIPT_URL + "?action=add&topik=" + encodeURIComponent(topik) + "&isi=" + encodeURIComponent(isi);
+    fetch(url, { method: "GET", mode: "no-cors", redirect: "follow" })
+      .then(function() {
+        closeSaranBox();
+        document.getElementById("ks-isi").value = "";
+        document.getElementById("ks-topik").value = "";
+        btnSaran.disabled = false;
+        btnSaran.textContent = "Kirim Saran";
+        add("Matur nuwun, saran Kangmas / Mbak sudah masuk ke Arsip Saran SRP.", "bot");
+      })
+      .catch(function() {
+        closeSaranBox();
+        btnSaran.disabled = false;
+        btnSaran.textContent = "Kirim Saran";
+        add("Maaf, saran belum bisa masuk ke Arsip Saran SRP. Silakan coba lagi sebentar lagi ya.", "bot");
+      });
   });
 })();
