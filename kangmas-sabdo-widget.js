@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v2026.11.20b - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink & Mobile UX */
+/* Kangmas Sabdo Widget - v2026.11.20c - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -22,11 +22,14 @@
     #ks-badge.hidden{display:none;}
     #ks-panel{display:none;position:fixed;right:20px;bottom:100px;width:min(380px,calc(100vw - 32px));height:min(540px,75vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
     #ks-panel.open{display:flex;transform:translateY(0);opacity:1;}
-    #ks-head{background:#8B5E3C;color:#fff;padding:14px 16px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
-    #ks-head-info b{display:block;font-size:16px;font-weight:700;}
-    #ks-head-info span{font-size:12px;opacity:0.9;display:flex;align-items:center;gap:6px;}
-    #ks-head-info span::before{content:"";width:8px;height:8px;background:#4ADE80;border-radius:50%;display:inline-block;}
-    #ks-close{background:rgba(255,255,255,0.2);color:#fff;border:0;width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background 0.2s;}
+    #ks-head{background:#8B5E3C;color:#fff;padding:12px 16px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+    #ks-head-left{display:flex;align-items:center;gap:10px;min-width:0;}
+    #ks-head-avatar{width:42px;height:42px;border-radius:9999px;border:2px solid #FAF6F0;background:#FAF6F0;object-fit:cover;flex-shrink:0;display:block;}
+    #ks-head-info{min-width:0;}
+    #ks-head-info b{display:block;font-size:16px;font-weight:700;line-height:1.2;}
+    #ks-head-info span{font-size:12px;opacity:0.9;display:flex;align-items:center;gap:6px;margin-top:2px;}
+    #ks-head-info span::before{content:"";width:8px;height:8px;background:#4ADE80;border-radius:50%;display:inline-block;flex-shrink:0;}
+    #ks-close{background:rgba(255,255,255,0.2);color:#fff;border:0;width:32px;height:32px;border-radius:50%;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s;}
     #ks-close:hover{background:rgba(255,255,255,0.35);}
     #ks-msgs{padding:16px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:10px;min-height:0;background:#FAF6F0;}
     .ks-m{max-width:85%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.5;box-shadow:0 1px 2px rgba(0,0,0,0.05);word-wrap:break-word;}
@@ -59,9 +62,12 @@
     </div>
     <div id="ks-panel" role="dialog" aria-label="Kangmas Sabdo">
       <div id="ks-head">
-        <div id="ks-head-info">
-          <b>Kangmas Sabdo</b>
-          <span>Penjaga Rumah Ini</span>
+        <div id="ks-head-left">
+          <img id="ks-head-avatar" src="/kangmas_sabdo_tersenyum.png" alt="Kangmas Sabdo Tersenyum">
+          <div id="ks-head-info">
+            <b>Kangmas Sabdo</b>
+            <span>Penjaga Rumah Ini</span>
+          </div>
         </div>
         <button id="ks-close" type="button" aria-label="Tutup">✕</button>
       </div>
@@ -89,6 +95,7 @@
 
   var btn = document.getElementById("ks-btn");
   var img = document.getElementById("ks-img");
+  var headAvatar = document.getElementById("ks-head-avatar");
   var badge = document.getElementById("ks-badge");
   var panel = document.getElementById("ks-panel");
   var msgs = document.getElementById("ks-msgs");
@@ -216,7 +223,8 @@
       badge.classList.toggle("hidden", opened);
       badge.classList.toggle("blink", !opened);
     }
-    img.src = opened ? "/kangmas_sabdo_tersenyum.png" : "/kangmas_sabdo_diam.png";
+    if (img) img.src = "/kangmas_sabdo_diam.png";
+    if (opened && headAvatar) headAvatar.src = "/kangmas_sabdo_tersenyum.png";
     if (opened && !msgs.children.length) {
       add("Sugeng rawuh. Saya Kangmas Sabdo, penjaga Rumah ini. Hendak ke mana? Saya hantarkan.", "bot");
     }
