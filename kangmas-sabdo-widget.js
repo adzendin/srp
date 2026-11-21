@@ -1,8 +1,8 @@
-/* Kangmas Sabdo Widget - v2026.11.20d - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v1.0.1 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
-  var KNOWLEDGE_URL = "/srp-knowledge.json?v=2026.11.20c";
+  var KNOWLEDGE_URL = "/srp-knowledge.json?v=v1.0.1";
   var WORKER_URL = "https://kangmas-sabdo-proxy.adzendin.workers.dev/";
   var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
 
@@ -78,7 +78,7 @@
         <button type="button" data-q="Apa itu SRP?">Apa itu SRP?</button>
         <button type="button" data-q="Apa itu Ujian Mandiri Terpadu?">Ujian Mandiri</button>
         <button type="button" data-q="Panduan RT Terpadu">RT Terpadu</button>
-        <button type="button" id="ks-chip-saran">Kotak Saran</button>
+        <button type="button" id="ks-chip-saran">Kotak Saran & Ide</button>
       </div>
       <div id="ks-saran">
         <input id="ks-topik" maxlength="100" placeholder="Topik (opsional)">
@@ -149,7 +149,7 @@
     },
     {
       keywords: ["kotak saran", "saran", "masukan", "arsip saran", "asaran"],
-      answer: "Kotak Saran SRP menampung masukan dari para pejuang dan warga secara anonim tanpa perlu nama atau email. Arsip saran transparan dapat dilihat di /asaran.html."
+      answer: "Kotak Saran & Ide SRP menampung masukan dari para pejuang dan warga secara anonim tanpa perlu nama atau email. Arsip saran transparan dapat dilihat di /asaran.html."
     },
     {
       keywords: ["slogan", "motto", "tujuan", "visi"],
