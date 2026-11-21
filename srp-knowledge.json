@@ -1,17 +1,14 @@
 {
-  "version": "v2026.11.20c",
+  "version": "v1.0.2",
   "faqs": [
     {
       "keywords": [
-        "visi misi",
-        "visi dan misi",
         "visi",
         "misi",
-        "arah gerak",
         "tujuan utama",
         "kenapa dibuat"
       ],
-      "answer": "Visinya sederhana tapi membumi: bikin hal-hal yang sering bikin mumet—mulai dari latihan soal, administrasi RT, sampai ruang berkarya—jadi lebih gampang diakses siapa saja. Misinya merawat ruang belajar mandiri, membantu pengurus warga bekerja lebih rapi, dan menjaga ruang sastra serta refleksi tetap hidup tanpa ribet."
+      "answer": "Surabaya Rumah Pahlawan (SRP) adalah rumah bersama, di mana semua karya kembali ke rumah Pengguna, untuk memudahkan pekerjaan siapa pun, tanpa bayar, tanpa ribet, tanpa menara gading."
     },
     {
       "keywords": [
@@ -20,17 +17,16 @@
         "tagline",
         "semboyan"
       ],
-      "answer": "Slogannya 'Mudah didapat, untuk meMUDAhkan bersama.' Bukan sekadar pemanis—maksudnya alat dan bahan yang ada di sini bisa dipakai langsung dan saling meringankan kerja bareng."
+      "answer": "Mudah didapat, untuk meMUDAhkan bersama. Alat dan bahan di sini bisa dipakai langsung dan saling meringankan kerja bareng."
     },
     {
       "keywords": [
         "apa itu srp",
         "surabaya rumah pahlawan",
         "tentang srp",
-        "kepanjangan srp",
-        "srp"
+        "kepanjangan srp"
       ],
-      "answer": "Surabaya Rumah Pahlawan (SRP) itu ibarat rumah singgah karya dan alat bantu. Di dalamnya ada ruang Sastra, latihan Ujian Mandiri Terpadu, sampai aplikasi bantu buat kerjaan sehari-hari dan urusan warga. Intinya: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+      "answer": "SRP itu rumah karya dan alat bantu. Di dalamnya ada Sastra, Ujian Mandiri Terpadu, dan Aplikasi Bantu untuk kerja sehari-hari. Slogan: Mudah didapat, untuk meMUDAhkan bersama."
     },
     {
       "keywords": [
@@ -42,92 +38,192 @@
         "twk",
         "tiu",
         "tkp",
-        "cermin nalar",
         "reguler",
         "transisi",
         "transenden"
       ],
-      "answer": "Ujian Mandiri Terpadu disiapkan buat teman-teman dari SD, SMP, SMA, kuliah, sampai pejuang CPNS (TWK, TIU, TKP). Ada jalur Reguler, Transisi buat yang naik jenjang, dan Transenden yang melatih nalar serta studi kasus, lengkap dengan Cermin Nalar biar kelihatan pola berpikirnya."
+      "answer": "Ujian Mandiri Terpadu untuk pelajar (Pejuang) serta wali murid dan Guru, dari Kelas 5 SD sampai Kuliah / PNS. Ada Reguler, Transisi, dan Transenden. ujian bukan sekadar menguji. Ujian ini menguji sambil belajar, dan cara belajarnya ada di pembahasan soal."
     },
     {
       "keywords": [
         "rt terpadu",
         "sekretariat rt",
-        "sekretariat rt terpadu",
-        "panduan rt",
         "administrasi rt",
-        "administrasi warga"
-      ],
-      "answer": "Kalau urusan pendataan dan administrasi warga RT sering bikin keteteran, Panduan Sekretariat RT Terpadu bisa jadi pegangan awal. Baca panduannya di /panduan/rt-terpadu.html, atau langsung unduh aplikasinya di /apk/RT-TERPADU.apk."
-    },
-    {
-      "keywords": [
+        "panduan rt",
         "apk rt terpadu",
-        "aplikasi rt terpadu",
-        "download rt terpadu",
-        "rt-terpadu.apk"
+        "download rt terpadu"
       ],
-      "answer": "Untuk urusan administrasi RT di HP Android, Mas atau Mbak bisa langsung ambil file APK Sekretariat RT Terpadu di /apk/RT-TERPADU.apk."
+      "answer": "Panduan Sekretariat RT Terpadu: /panduan/rt-terpadu.html. APK Android: /apk/RT-TERPADU.apk."
     },
     {
       "keywords": [
         "bendahara",
         "keuangan rt",
-        "panduan bendahara",
-        "iuran kas",
         "kas rt",
-        "catatan keuangan"
+        "iuran kas",
+        "panduan bendahara",
+        "apk bendahara"
       ],
-      "answer": "Urusan kas dan iuran warga enaknya jelas dan gampang dicek ulang. Panduannya bisa dilihat di /panduan/bendahara.html, dan untuk aplikasi Android-nya tersedia di /apk/Bendahara-RT-Terpadu.apk."
-    },
-    {
-      "keywords": [
-        "apk bendahara",
-        "aplikasi bendahara",
-        "download bendahara",
-        "bendahara-rt-terpadu.apk"
-      ],
-      "answer": "File APK Bendahara RT Terpadu untuk pencatatan kas dan keuangan warga bisa diunduh langsung lewat /apk/Bendahara-RT-Terpadu.apk."
+      "answer": "Panduan Bendahara: /panduan/bendahara.html. APK Android: /apk/Bendahara-RT-Terpadu.apk. Untuk pencatatan kas dan iuran warga."
     },
     {
       "keywords": [
         "raka",
         "apk raka",
-        "aplikasi raka",
         "survei lapangan"
       ],
-      "answer": "RAKA dipakai buat bantu pekerjaan administratif dan catatan lapangan biar lebih tertib. Kalau butuh file instalernya, silakan unduh di /apk/RAKA.apk."
+      "answer": "RAKA: Survey Lapangan — Catat Material. APK: /apk/RAKA.apk."
     },
     {
       "keywords": [
         "raiki",
         "apk raiki",
-        "aplikasi raiki",
         "rab",
         "invoice",
         "kwitansi"
       ],
-      "answer": "RAIKI disiapkan sebagai aplikasi bantu untuk kebutuhan administrasi dan dokumen kerja sehari-hari. File APK-nya bisa diambil di /apk/raiki.apk."
+      "answer": "RAIKI: RAB • Invoice • Kwitansi. APK: /apk/raiki.apk."
     },
     {
       "keywords": [
         "sastra",
         "cerita",
         "kisah",
-        "filsafat",
-        "refleksi"
+        "kimo"
       ],
-      "answer": "Di SRP juga ada ruang Sastra—tempat menaruh cerita, potongan perenungan, dan kisah sehari-hari yang sering luput kalau buru-buru mengejar urusan teknis."
+      "answer": "Sastra Novella KIMO: Fiksi berbasis Sains. Tokoh: Prabu, Sabdo dan Kimo. 24 edisi + Adventure + Fisika Natural."
     },
     {
       "keywords": [
         "kotak saran",
+        "kotak saran & ide",
         "saran",
+        "ide",
         "masukan",
         "arsip saran",
         "asaran"
       ],
-      "answer": "Kalau ada unek-unek atau masukan buat perbaikan ke depan, silakan titip lewat Kotak Saran—tidak perlu isi nama atau kontak pribadi. Rekap masukannya juga bisa dilihat terbuka di /asaran.html."
+      "answer": "Jika mau kirim saran dan ide, hubungi Kangmas Sabdo di pojok kanan bawah. Saran masuk ke Arsip Saran SRP, tanpa nama / HP / email. Lihat arsip: /asaran.html."
+    },
+    {
+      "keywords": [
+        "cara ujian",
+        "masuk ujian",
+        "mulai ujian",
+        "daftar ujian",
+        "ikut ujian",
+        "link ujian",
+        "ujian online"
+      ],
+      "answer": "Masuk Ujian dari Beranda, tombol Masuk Ujian ke ujian/index.html. Pilih kelas, pilih mapel, pilih type Reguler, Transisi, atau Transenden. Ujian online langsung di web, tanpa install."
+    },
+    {
+      "keywords": [
+        "cara download",
+        "cara unduh",
+        "download apk",
+        "unduh apk",
+        "install apk",
+        "cara install",
+        "apk"
+      ],
+      "answer": "APK yang sudah siap: RAKA, RAIKI, RT TERPADU, BENDAHARA RT TERPADU. Buka bagian Aplikasi Bantu di Beranda, klik Unduh APK. APK untuk Android, tanpa bayar."
+    },
+    {
+      "keywords": [
+        "panduan",
+        "cara pakai",
+        "cara menggunakan",
+        "tutorial",
+        "petunjuk"
+      ],
+      "answer": "Panduan ada di Beranda, bagian Aplikasi Bantu, tombol Lihat Panduan. Panduan RT Terpadu: /panduan/rt-terpadu.html. Panduan Bendahara: /panduan/bendahara.html."
+    },
+    {
+      "keywords": [
+        "kontak",
+        "hubungi",
+        "nomor wa",
+        "whatsapp",
+        "wa",
+        "email",
+        "alamat"
+      ],
+      "answer": "Kontak SRP lewat Kotak Saran & Ide. Jika mau kirim saran dan ide, hubungi Kangmas Sabdo di pojok kanan bawah. SRP tidak minta nama, HP, atau email."
+    },
+    {
+      "keywords": [
+        "aplikasi bantu",
+        "daftar aplikasi",
+        "aplikasi apa saja",
+        "app"
+      ],
+      "answer": "Aplikasi Bantu: RAKA, RAIKI, RT TERPADU, BENDAHARA RT TERPADU sudah ada APK. Segera: SEKRETARIAT RT, SEKRETARIAT RW, BANK SAMPAH, TAKMIR MASJID. Butuh dukungan: MANDALA WIRA & MANDALA WARGA."
+    },
+    {
+      "keywords": [
+        "karya",
+        "judul karya",
+        "daftar karya",
+        "novella",
+        "kimo",
+        "buku"
+      ],
+      "answer": "Karya Sastra: Sastra Novella KIMO, Fiksi berbasis Sains. Tokoh: Prabu, Sabdo dan Kimo. 24 edisi + Adventure + Fisika Natural. Judul: Buah Pari, Pohon Pari Sakit, Akar Sampai Ke Laut, Hero SSS, Jembatan Merah, dan lainnya di Beranda."
+    },
+    {
+      "keywords": [
+        "mandala",
+        "mandala wira",
+        "mandala warga",
+        "wira",
+        "warga"
+      ],
+      "answer": "MANDALA WIRA & MANDALA WARGA: Platform digital mempertemukan Wira dan Warga. Status: Butuh dukungan, belum tersedia. Pengembangan masih proses."
+    },
+    {
+      "keywords": [
+        "bank sampah",
+        "sampah",
+        "takmir",
+        "masjid",
+        "bendahara masjid",
+        "sekretariat rw",
+        "sekretariat rt"
+      ],
+      "answer": "BANK SAMPAH: Pencatatan bank sampah lingkungan, status Segera. TAKMIR MASJID & BENDAHARA MASJID: Pengelolaan masjid, status Segera Hadir. SEKRETARIAT RT / RW TERPADU: Administrasi sekretariat, status Segera."
+    },
+    {
+      "keywords": [
+        "gratis",
+        "bayar",
+        "harga",
+        "biaya",
+        "bayar berapa",
+        "berbayar"
+      ],
+      "answer": "SRP tanpa bayar. Kebaikan tidak bayar uang, bayarnya dengan jadi pahlawan bagi sesama. Semua karya kembali ke rumah Pengguna. Mudah didapat, untuk meMUDAhkan bersama."
+    },
+    {
+      "keywords": [
+        "kang prabu",
+        "adzendin",
+        "siapa prabu",
+        "pembuat srp",
+        "pemilik srp",
+        "oyoborus",
+        "surabaya"
+      ],
+      "answer": "SRP oleh adzendin / Kang Prabu. Oyoborus dibalik = Suroboyo. Satu nama, satu rumah, satu kerja bersama. Kenali Tentang SRP di Beranda, tombol Tentang SRP."
+    },
+    {
+      "keywords": [
+        "arsip saran",
+        "lihat saran",
+        "saran sudah",
+        "daftar saran"
+      ],
+      "answer": "Arsip Saran SRP: saran yang sudah disetujui untuk tampil. Lihat di Beranda, tombol Lihat Arsip Saran SRP, atau /asaran.html. Jika mau kirim saran dan ide, hubungi Kangmas Sabdo."
     }
   ]
 }
