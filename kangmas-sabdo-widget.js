@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v1.0.2 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v1.0.4 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -22,7 +22,7 @@
     }
     #ks-badge.blink{animation:ksBadgeBlink 1.8s ease-in-out infinite;}
     #ks-badge.hidden{display:none;}
-    #ks-panel{display:none;position:fixed;right:20px;bottom:20px;width:min(380px,calc(100vw - 32px));height:min(540px,75vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
+    #ks-panel{display:none;position:fixed;right:20px;bottom:20px;width:min(380px,calc(100vw - 32px));height:min(680px,88vh);background:#fff;border:1px solid #E5DCCB;border-radius:24px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.2);z-index:99999;flex-direction:column;font-family:ui-sans-serif,system-ui,sans-serif;transform:translateY(10px);opacity:0;transition:transform 0.25s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;}
     #ks-panel.open{display:flex;transform:translateY(0);opacity:1;}
     #ks-head{background:#8B5E3C;color:#fff;padding:12px 16px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
     #ks-head-left{display:flex;align-items:center;gap:10px;min-width:0;}
@@ -109,6 +109,7 @@
   var opened = false;
 
   var chatHistory = [];
+  var isSending = false; // Anti-duplikasi: cegah kirim ganda saat worker masih mikir
 
   function pushHistory(role, content) {
     if (!content) return;
@@ -292,6 +293,10 @@
   }
 
   function sendChat(text) {
+    if (isSending) return; // Anti-duplikasi: sedang mengirim, jangan kirim lagi
+    isSending = true;
+    var sendBtn = form.querySelector('button[type="submit"]');
+    if (sendBtn) sendBtn.disabled = true;
     closeSaranBox();
     add(text, "me");
     input.value = "";
@@ -300,6 +305,8 @@
     if (localAns) {
       setTimeout(function() {
         add(localAns, "bot");
+        isSending = false;
+        if (sendBtn) sendBtn.disabled = false;
       }, 250);
       return;
     }
@@ -323,17 +330,23 @@
         pushHistory("user", text);
         pushHistory("assistant", botReply);
         msgs.scrollTop = msgs.scrollHeight;
+        isSending = false;
+        if (sendBtn) sendBtn.disabled = false;
       })
       .catch(function() {
         renderBotMessage(thinking, "Kangmas Sabdo sedang istirahat sejenak karena trafik padat. Coba beberapa saat lagi ya.");
         msgs.scrollTop = msgs.scrollHeight;
+        isSending = false;
+        if (sendBtn) sendBtn.disabled = false;
       });
   }
 
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     var v = input.value.trim();
-    if (v) sendChat(v);
+    if (!v) return;
+    if (v.length < 2) { add("Pesan-nya minimal 2 huruf ya.", "bot"); return; }
+    sendChat(v);
   });
 
   document.querySelectorAll("#ks-chips button[data-q]").forEach(function(b) {
@@ -355,6 +368,14 @@
     var isi = document.getElementById("ks-isi").value.trim();
     if (!isi) {
       add("Isi saran-nya diisi dulu ya.", "bot");
+      return;
+    }
+    if (isi.length < 10) {
+      add("Saran-nya minimal 10 huruf ya, biar jelas maksudnya.", "bot");
+      return;
+    }
+    if (/https?:\/\/|www\./i.test(isi) || /https?:\/\/|www\./i.test(topik)) {
+      add("Saran tidak boleh berisi link ya, biar Arsip tetap bersih.", "bot");
       return;
     }
     var btnSaran = document.getElementById("ks-kirim-saran");
