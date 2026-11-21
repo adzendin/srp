@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v1.0.6 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v1.0.7 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -274,17 +274,38 @@
     return false;
   }
 
+  function cleanContinue(extra, fullText) {
+    var s = String(extra || "").trim();
+    // Buang titik-titik di depan: "...ahkah" -> "ahkah"
+    s = s.replace(/^(\.{2,}|\u2026)+\s*/, "");
+    // Buang potongan kata ganda: "ahkah" itu ekor kata "Sudahkah" yang sudah ada di jawaban lama
+    var firstWord = (s.split(/\s+/)[0] || "").replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, "");
+    if (firstWord && firstWord.length >= 3 && firstWord.length <= 8) {
+      var words = String(fullText || "").split(/\s+/);
+      for (var i = 0; i < words.length; i++) {
+        var oldWord = words[i].replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, "");
+        if (oldWord.length > firstWord.length && oldWord.toLowerCase().slice(-firstWord.length) === firstWord.toLowerCase()) {
+          s = s.slice(s.indexOf(" ") + 1).trim();
+          break;
+        }
+      }
+    }
+    return s;
+  }
+
   function requestContinue(container, fullText, btn) {
     if (!container || !btn) return;
     if (btn.disabled) return; // Anti-duplikasi Lanjutkan
     btn.disabled = true;
     btn.textContent = "Melanjutkan...";
-    var lastPart = String(fullText || "").slice(-300);
+    var full = String(fullText || "");
+    var lastPart = full.slice(-300);
+    var lastWord = (full.trim().split(/\s+/).pop() || "").replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, "");
     fetch(WORKER_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
       body: JSON.stringify({
-        message: "Lanjutkan jawaban tadi, sambung dari kalimat yang kepotong, jangan ulang dari awal: " + lastPart,
+        message: "Sambung persis huruf terakhir yang kepotong, tanpa ulang, tanpa titik-titik, tanpa kalimat baru. Huruf terakhir: \"" + lastWord + "\". Lanjutkan kata itu sampai selesai, lalu lanjutkan kalimatnya. Konteks: " + lastPart,
         history: chatHistory
       })
     })
@@ -301,10 +322,14 @@
         }
         // Hapus tombol lama, sambung di pesan yang sama
         if (btn.parentNode) btn.parentNode.removeChild(btn);
-        var combined = String(fullText || "") + " " + String(extra).trim();
+        var cleaned = cleanContinue(extra, full);
+        // Kalau jawaban lama berhenti di tengah kata (misal "meringa") dan sambungan adalah lanjutannya ("ngkan..."), tempel tanpa spasi biar jadi "meringankan"
+        var endsMidWord = /[A-Za-z]$/.test(full.trim());
+        var startsLower = /^[a-z]/.test(cleaned);
+        var combined = (endsMidWord && startsLower && cleaned.indexOf(" ") !== -1 && cleaned.split(/\s+/)[0].length <= 8) ? full + cleaned : full + " " + cleaned;
         // Render ulang gabungan, lalu cek lagi: kalau masih kepotong, tombol muncul lagi
         renderBotMessage(container, combined, true);
-        pushHistory("assistant", extra);
+        pushHistory("assistant", cleaned);
         msgs.scrollTop = msgs.scrollHeight;
       })
       .catch(function() {
