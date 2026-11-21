@@ -1,4 +1,4 @@
-/* Kangmas Sabdo Widget - v1.0.4 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v1.0.5 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
@@ -109,7 +109,8 @@
   var opened = false;
 
   var chatHistory = [];
-  var isSending = false; // Anti-duplikasi: cegah kirim ganda saat worker masih mikir
+  var isSending = false; // Anti-duplikasi
+  var lastTopic = ""; // Konteks sesi: ingat topik terakhir, hilang kalau refresh (privasi): cegah kirim ganda saat worker masih mikir
 
   function pushHistory(role, content) {
     if (!content) return;
@@ -178,10 +179,14 @@
   function getLocalAnswer(text) {
     var lower = String(text || "").toLowerCase().trim();
     if (!lower) return null;
+    // Konteks sesi: 'cara download-nya', 'panduan-nya', 'apk-nya' -> pakai topik terakhir
+    if (/\b(download-nya|unduh-nya|panduan-nya|apk-nya|link-nya|cara-nya)\b/.test(lower) && lastTopic) {
+      lower = lastTopic + " " + lower;
+    }
 
     // Jika pertanyaan bernuansa kemampuan, kreasi, atau diskusi, biarkan masuk ke AI Worker
     var creativeOrOpenPattern = /\b(bisa|coba|buatkan|bikinkan|puisi|pantun|cerita|kenapa|mengapa|bagaimana|gimana|menurutmu|pendapatmu)\b/;
-    var explicitSrpLookup = /\b(apk|download|unduh|panduan|link|url|slogan|motto|visi|misi|kotak saran|asaran|ujian mandiri|raka|raiki|rt terpadu|bendahara)\b/;
+    var explicitSrpLookup = /\b(apk|download|unduh|panduan|link|url|slogan|motto|visi|misi|kotak saran|asaran|ujian mandiri|raka|raiki|rt terpadu|bendahara|buku kas|duit kas|uang kas|survei|rab|kwitansi|invoice|kas|iuran)\b/;
 
     if (creativeOrOpenPattern.test(lower) && !explicitSrpLookup.test(lower)) {
       return null;
@@ -203,13 +208,25 @@
           score += 20;
         } else if (lower.indexOf(kw) !== -1) {
           var wordCount = kw.split(/\s+/).length;
-          score += wordCount > 1 ? 8 + wordCount * 2 : 3;
+          // Kata panjang lebih berat, biar tidak ketukar: 'rt terpadu' > 'rt', 'apa itu srp' > 'apa itu'
+          if (wordCount >= 3) score += 16 + wordCount * 2;
+          else if (wordCount === 2) score += 10 + wordCount * 2;
+          else if (kw.length >= 6) score += 5;
+          else if (kw === "apa itu" || kw === "saran" || kw === "ide" || kw === "apk" || kw === "ujian") score += 1;
+          else score += 3;
         }
       }
 
       if (score > bestScore) {
         bestScore = score;
         bestAnswer = item.answer || item.reply || "";
+        // Simpan topik: keyword terpanjang yang cocok jadi konteks sesi berikutnya
+        var bestKw = "";
+        for (var k = 0; k < keys.length; k++) {
+          var kk = String(keys[k] || "").toLowerCase();
+          if (lower.indexOf(kk) !== -1 && kk.length > bestKw.length) bestKw = kk;
+        }
+        if (bestKw) lastTopic = bestKw;
       }
     }
 
