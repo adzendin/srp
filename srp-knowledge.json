@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "faqs": [
     {
       "keywords": [
@@ -40,7 +40,12 @@
         "tkp",
         "reguler",
         "transisi",
-        "transenden"
+        "transenden",
+        "soal kelas 5",
+        "soal cpns",
+        "soal pns",
+        "tryout",
+        "latihan ujian"
       ],
       "answer": "Ujian Mandiri Terpadu untuk pelajar (Pejuang) serta wali murid dan Guru, dari Kelas 5 SD sampai Kuliah / PNS. Ada Reguler, Transisi, dan Transenden. ujian bukan sekadar menguji. Ujian ini menguji sambil belajar, dan cara belajarnya ada di pembahasan soal."
     },
@@ -51,7 +56,11 @@
         "administrasi rt",
         "panduan rt",
         "apk rt terpadu",
-        "download rt terpadu"
+        "download rt terpadu",
+        "aplikasi rt",
+        "pengurus rt",
+        "surat rt",
+        "urus rt"
       ],
       "answer": "Panduan Sekretariat RT Terpadu: /panduan/rt-terpadu.html. APK Android: /apk/RT-TERPADU.apk."
     },
@@ -62,7 +71,13 @@
         "kas rt",
         "iuran kas",
         "panduan bendahara",
-        "apk bendahara"
+        "apk bendahara",
+        "buku kas",
+        "duit kas",
+        "uang kas",
+        "catat iuran",
+        "laporan kas",
+        "catat kas"
       ],
       "answer": "Panduan Bendahara: /panduan/bendahara.html. APK Android: /apk/Bendahara-RT-Terpadu.apk. Untuk pencatatan kas dan iuran warga."
     },
@@ -70,7 +85,12 @@
       "keywords": [
         "raka",
         "apk raka",
-        "survei lapangan"
+        "survei lapangan",
+        "survei tanah",
+        "catat material",
+        "proyek",
+        "lapangan",
+        "tukang"
       ],
       "answer": "RAKA: Survey Lapangan — Catat Material. APK: /apk/RAKA.apk."
     },
@@ -80,7 +100,12 @@
         "apk raiki",
         "rab",
         "invoice",
-        "kwitansi"
+        "kwitansi",
+        "bikin rab",
+        "buat invoice",
+        "buat kwitansi",
+        "anggaran",
+        "hitungan rab"
       ],
       "answer": "RAIKI: RAB • Invoice • Kwitansi. APK: /apk/raiki.apk."
     },
@@ -101,7 +126,10 @@
         "ide",
         "masukan",
         "arsip saran",
-        "asaran"
+        "asaran",
+        "kasih saran",
+        "kasih ide",
+        "kritik saran"
       ],
       "answer": "Jika mau kirim saran dan ide, hubungi Kangmas Sabdo di pojok kanan bawah. Saran masuk ke Arsip Saran SRP, tanpa nama / HP / email. Lihat arsip: /asaran.html."
     },
@@ -113,7 +141,9 @@
         "daftar ujian",
         "ikut ujian",
         "link ujian",
-        "ujian online"
+        "ujian online",
+        "cara ikut ujian",
+        "buka ujian"
       ],
       "answer": "Masuk Ujian dari Beranda, tombol Masuk Ujian ke ujian/index.html. Pilih kelas, pilih mapel, pilih type Reguler, Transisi, atau Transenden. Ujian online langsung di web, tanpa install."
     },
@@ -125,7 +155,13 @@
         "unduh apk",
         "install apk",
         "cara install",
-        "apk"
+        "apk",
+        "download raka",
+        "download raiki",
+        "download rt",
+        "download bendahara",
+        "instal apk",
+        "pasang apk"
       ],
       "answer": "APK yang sudah siap: RAKA, RAIKI, RT TERPADU, BENDAHARA RT TERPADU. Buka bagian Aplikasi Bantu di Beranda, klik Unduh APK. APK untuk Android, tanpa bayar."
     },
@@ -135,7 +171,10 @@
         "cara pakai",
         "cara menggunakan",
         "tutorial",
-        "petunjuk"
+        "petunjuk",
+        "cara pakai apk",
+        "cara download apk",
+        "panduan apk"
       ],
       "answer": "Panduan ada di Beranda, bagian Aplikasi Bantu, tombol Lihat Panduan. Panduan RT Terpadu: /panduan/rt-terpadu.html. Panduan Bendahara: /panduan/bendahara.html."
     },
@@ -147,7 +186,10 @@
         "whatsapp",
         "wa",
         "email",
-        "alamat"
+        "alamat",
+        "nomor hp",
+        "kontak srp",
+        "hubungi kangmas"
       ],
       "answer": "Kontak SRP lewat Kotak Saran & Ide. Jika mau kirim saran dan ide, hubungi Kangmas Sabdo di pojok kanan bawah. SRP tidak minta nama, HP, atau email."
     },
@@ -156,7 +198,10 @@
         "aplikasi bantu",
         "daftar aplikasi",
         "aplikasi apa saja",
-        "app"
+        "app",
+        "aplikasi apa aja",
+        "daftar apk",
+        "apk apa saja"
       ],
       "answer": "Aplikasi Bantu: RAKA, RAIKI, RT TERPADU, BENDAHARA RT TERPADU sudah ada APK. Segera: SEKRETARIAT RT, SEKRETARIAT RW, BANK SAMPAH, TAKMIR MASJID. Butuh dukungan: MANDALA WIRA & MANDALA WARGA."
     },
@@ -200,7 +245,10 @@
         "harga",
         "biaya",
         "bayar berapa",
-        "berbayar"
+        "berbayar",
+        "gratis kah",
+        "bayar kah",
+        "tanpa bayar"
       ],
       "answer": "SRP tanpa bayar. Kebaikan tidak bayar uang, bayarnya dengan jadi pahlawan bagi sesama. Semua karya kembali ke rumah Pengguna. Mudah didapat, untuk meMUDAhkan bersama."
     },
@@ -221,7 +269,9 @@
         "arsip saran",
         "lihat saran",
         "saran sudah",
-        "daftar saran"
+        "daftar saran",
+        "baca saran",
+        "saran orang"
       ],
       "answer": "Arsip Saran SRP: saran yang sudah disetujui untuk tampil. Lihat di Beranda, tombol Lihat Arsip Saran SRP, atau /asaran.html. Jika mau kirim saran dan ide, hubungi Kangmas Sabdo."
     }
