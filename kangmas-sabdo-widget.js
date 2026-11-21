@@ -116,16 +116,44 @@
       role: role,
       content: String(content).slice(0, 400)
     });
-    if (chatHistory.length > 4) {
-      chatHistory = chatHistory.slice(chatHistory.length - 4);
+    if (chatHistory.length > 6) {
+      chatHistory = chatHistory.slice(chatHistory.length - 6);
     }
   }
 
-  // Darurat saja: 1 jawaban. Sumber utama = srp-knowledge.json, biar tidak dobel.
+  // Fallback Knowledge Base (Zero-Token Instant)
   var activeFaqs = [
     {
-      keywords: ["slogan", "motto", "srp", "ujian", "kotak saran", "saran", "ide", "raka", "raiki", "rt terpadu", "bendahara", "sastra", "karya", "kimo", "kontak", "gratis", "aplikasi bantu", "panduan", "apk", "mandala", "bank sampah"],
-      answer: "Mudah didapat, untuk meMUDAhkan bersama. Jika mau kirim saran dan ide, hubungi Kangmas Sabdo di pojok kanan bawah."
+      keywords: ["apa itu srp", "surabaya rumah pahlawan", "tentang srp", "kepanjangan srp", "srp"],
+      answer: "Surabaya Rumah Pahlawan (SRP) adalah rumah karya dan aplikasi bantu. Ada Sastra, Ujian Mandiri Terpadu untuk Pejuang, dan alat digital untuk memudahkan pekerjaan sehari-hari. Slogan: 'Mudah didapat, untuk meMUDAhkan bersama.'"
+    },
+    {
+      keywords: ["ujian mandiri", "ujian", "soal", "reguler", "transisi", "transenden", "cermin nalar", "cpns", "pns", "twk", "tiu", "tkp"],
+      answer: "Ujian Mandiri Terpadu SRP menyediakan soal dari Kelas 5 SD, Kelas 6 SD, SMP, SMA, hingga Kuliah dan Pejuang CPNS (TWK, TIU, TKP). Terdiri dari 3 tipe: Reguler, Transisi (naik kelas), dan Transenden (nalar murni & studi kasus) dilengkapi Cermin Nalar."
+    },
+    {
+      keywords: ["rt terpadu", "sekretariat rt", "sekretariat rt terpadu", "panduan rt", "administrasi warga"],
+      answer: "Panduan Sekretariat RT Terpadu dirancang untuk memudahkan pengurus RT mengelola administrasi warga secara digital dan terpadu. Panduan lengkap dapat dibaca di /panduan/rt-terpadu.html."
+    },
+    {
+      keywords: ["bendahara", "keuangan rt", "panduan bendahara", "iuran kas", "kas rt"],
+      answer: "Panduan Bendahara membantu pencatatan keuangan warga, iuran, dan kas RT dengan rapi dan transparan. Panduan lengkap ada di /panduan/bendahara.html."
+    },
+    {
+      keywords: ["raka", "apk raka", "aplikasi raka"],
+      answer: "RAKA adalah aplikasi bantu digital dalam ekosistem SRP untuk memudahkan pekerjaan administratif dan keseharian. File APK tersedia di /apk/RAKA.apk."
+    },
+    {
+      keywords: ["raiki", "apk raiki", "aplikasi raiki"],
+      answer: "RAIKI adalah aplikasi bantu digital pendamping dalam ekosistem SRP. File APK tersedia di /apk/raiki.apk."
+    },
+    {
+      keywords: ["kotak saran", "saran", "masukan", "arsip saran", "asaran"],
+      answer: "Kotak Saran & Ide SRP menampung masukan dari para pejuang dan warga secara anonim tanpa perlu nama atau email. Arsip saran transparan dapat dilihat di /asaran.html."
+    },
+    {
+      keywords: ["slogan", "motto", "tujuan", "visi"],
+      answer: "Slogan utama Surabaya Rumah Pahlawan adalah: 'Mudah didapat, untuk meMUDAhkan bersama.'"
     }
   ];
 
@@ -152,7 +180,7 @@
 
     // Jika pertanyaan bernuansa kemampuan, kreasi, atau diskusi, biarkan masuk ke AI Worker
     var creativeOrOpenPattern = /\b(bisa|coba|buatkan|bikinkan|puisi|pantun|cerita|kenapa|mengapa|bagaimana|gimana|menurutmu|pendapatmu)\b/;
-    var explicitSrpLookup = /\b(apk|download|unduh|install|panduan|link|url|slogan|motto|visi|misi|kotak saran|asaran|saran|ide|ujian mandiri|ujian|cara ujian|masuk ujian|raka|raiki|rt terpadu|bendahara|mandala|bank sampah|takmir|masjid|sekretariat|karya|kimo|sastra|kontak|hubungi|gratis|bayar|harga|aplikasi bantu|kang prabu|adzendin|oyoborus|surabaya)\b/;
+    var explicitSrpLookup = /\b(apk|download|unduh|panduan|link|url|slogan|motto|visi|misi|kotak saran|asaran|ujian mandiri|raka|raiki|rt terpadu|bendahara)\b/;
 
     if (creativeOrOpenPattern.test(lower) && !explicitSrpLookup.test(lower)) {
       return null;
