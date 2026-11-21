@@ -225,7 +225,14 @@
         if (cleanPath && cleanPath.length > 1) {
           var link = document.createElement("a");
           link.href = cleanPath;
-          link.textContent = cleanPath;
+          // ETALASE: yang tampil label manusia, bukan kode jalur bengkel.
+          // Bengkel (href) tetap jalur mentah, biar bisa diklik.
+          var label = "Pergi";
+          if (cleanPath.indexOf("/apk/") === 0) label = "Klik Download";
+          else if (cleanPath === "/asaran.html") label = "Pergi ke Arsip Saran SRP";
+          else if (cleanPath.indexOf("/panduan/") === 0) label = "Pergi ke Panduan";
+          else if (cleanPath.indexOf("ujian") !== -1) label = "Pergi ke Ujian";
+          link.textContent = label;
           container.appendChild(link);
         } else {
           container.appendChild(document.createTextNode(part));
