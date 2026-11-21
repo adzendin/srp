@@ -1,8 +1,8 @@
-/* Kangmas Sabdo Widget - v1.0.5 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
+/* Kangmas Sabdo Widget - v1.0.6 - Auto Link Path, Knowledge JSON Sync, Corner Badge Blink, Header Smile Avatar & Mobile UX */
 (function(){
   if (document.getElementById("kangmas-sabdo-widget")) return;
 
-  var KNOWLEDGE_URL = "/srp-knowledge.json?v=v1.0.2";
+  var KNOWLEDGE_URL = "/srp-knowledge.json?v=v1.0.3";
   var WORKER_URL = "https://kangmas-sabdo-proxy.adzendin.workers.dev/";
   var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5ebPEOqFmIMPmTR08Nv-vgSEyM_QjFqkWRls2Kt2GYjemN5anqrg_cPFvY27z1EaI/exec";
 
@@ -52,6 +52,8 @@
     #ks-saran input:focus,#ks-saran textarea:focus{border-color:#8B5E3C;background:#fff;}
     #ks-saran button{background:#8B5E3C !important;color:#fff !important;border:0;border-radius:9999px;padding:10px;font-weight:700;cursor:pointer;flex-shrink:0;}
     #ks-saran button:disabled{background:#C8B9AA !important;cursor:not-allowed;opacity:0.7;}
+    .ks-lanjutkan{display:inline-block;margin-top:8px;padding:6px 12px;border:1px solid #C9B896;background:#FAF6F0;color:#5B4A2E;border-radius:999px;font-size:12px;cursor:pointer;font-family:inherit;}
+    .ks-lanjutkan:disabled{opacity:0.6;cursor:wait;}
     #ks-foot{padding:4px 16px 10px;background:#fff;text-align:center;font-size:10px;color:#8A7968;letter-spacing:0.3px;flex-shrink:0;}
   `;
   document.head.appendChild(st);
@@ -255,10 +257,68 @@
     }
   }
 
-  function renderBotMessage(container, text) {
+  // Opsi B — Tombol Lanjutkan: cuma untuk jawaban Gemini yang kepotong di tengah kalimat.
+  function isTruncated(text) {
+    var t = String(text || "").trim();
+    if (!t) return false;
+    if (t.length < 80) return false; // Pendek, anggap selesai
+    var last = t.slice(-1);
+    if (last === "." || last === "!" || last === "?" || last === ":" || last === '"') return false;
+    // Berhenti di kata sambung / koma / kata belum selesai -> kepotong
+    if (/\b(di|dan|yang|ke|dari|untuk|dengan|atau|agar|supaya|karena|bahwa)\s*$/i.test(t)) return true;
+    if (/[,;\u2014\u2013]$/.test(t)) return true;
+    // Kalimat terakhir tidak ada titiknya sama sekali -> kepotong
+    var lastDot = t.lastIndexOf(".");
+    var tail = lastDot === -1 ? t : t.slice(lastDot + 1);
+    if (tail.trim().split(/\s+/).length >= 8) return true;
+    return false;
+  }
+
+  function requestContinue(container, fullText, btn) {
+    if (!container || !btn) return;
+    if (btn.disabled) return; // Anti-duplikasi Lanjutkan
+    btn.disabled = true;
+    btn.textContent = "Melanjutkan...";
+    var lastPart = String(fullText || "").slice(-300);
+    fetch(WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      body: JSON.stringify({
+        message: "Lanjutkan jawaban tadi, sambung dari kalimat yang kepotong, jangan ulang dari awal: " + lastPart,
+        history: chatHistory
+      })
+    })
+      .then(function(r) {
+        if (!r.ok) throw new Error("worker " + r.status);
+        return r.json();
+      })
+      .then(function(j) {
+        var extra = (j && (j.reply || j.text)) || "";
+        if (!extra) {
+          btn.disabled = false;
+          btn.textContent = "Lanjutkan";
+          return;
+        }
+        // Hapus tombol lama, sambung di pesan yang sama
+        if (btn.parentNode) btn.parentNode.removeChild(btn);
+        var combined = String(fullText || "") + " " + String(extra).trim();
+        // Render ulang gabungan, lalu cek lagi: kalau masih kepotong, tombol muncul lagi
+        renderBotMessage(container, combined, true);
+        pushHistory("assistant", extra);
+        msgs.scrollTop = msgs.scrollHeight;
+      })
+      .catch(function() {
+        btn.disabled = false;
+        btn.textContent = "Lanjutkan";
+        add("Maaf, sambungan belum bisa dimuat. Coba klik Lanjutkan lagi sebentar lagi ya.", "bot");
+      });
+  }
+
+  function renderBotMessage(container, text, allowContinue) {
     while (container.firstChild) {
       container.removeChild(container.firstChild);
     }
+    container.setAttribute("data-ks-full", String(text || ""));
     var parts = String(text || "").split(/(\/[a-zA-Z0-9._/-]+)/g);
     for (var i = 0; i < parts.length; i++) {
       var part = parts[i];
@@ -290,6 +350,19 @@
       } else {
         container.appendChild(document.createTextNode(part));
       }
+    }
+    // Opsi B: tombol Lanjutkan cuma untuk jawaban Worker yang kepotong, bukan jawaban lokal
+    if (allowContinue && isTruncated(text)) {
+      var btnLanjut = document.createElement("button");
+      btnLanjut.type = "button";
+      btnLanjut.className = "ks-lanjutkan";
+      btnLanjut.textContent = "Lanjutkan";
+      btnLanjut.addEventListener("click", function() {
+        var full = container.getAttribute("data-ks-full") || text;
+        requestContinue(container, full, btnLanjut);
+      });
+      container.appendChild(document.createElement("br"));
+      container.appendChild(btnLanjut);
     }
   }
 
@@ -343,7 +416,7 @@
       })
       .then(function(j) {
         var botReply = (j && (j.reply || j.text)) || "Matur nuwun, coba lagi ya.";
-        renderBotMessage(thinking, botReply);
+        renderBotMessage(thinking, botReply, true);
         pushHistory("user", text);
         pushHistory("assistant", botReply);
         msgs.scrollTop = msgs.scrollHeight;
