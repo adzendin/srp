@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://surabayarp.my.id/sitemap.xml
+Sitemap: https://surabayarp.my.id/sitemap-ujian.xml
